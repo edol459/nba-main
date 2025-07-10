@@ -1,0 +1,17 @@
+NBA API
+  ↓
+(fetch_game_data.py)
+  ↓
+Raw CSVs (game logs)
+  ↓
+(compute_averages.py)
+  ↓
+Season averages (CSV)
+  ↓
+(compute_outliers.py)
+  ↓
+Game-specific outlier summaries (JSON)
+  ↓
+Frontend (JS + HTML)
+  ↓
+Interactive visualization for users

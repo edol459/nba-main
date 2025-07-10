@@ -1,0 +1,91 @@
+{
+  "game_id": "22401168",
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Craig Porter Jr.",
+          "stat": "Craig Porter Jr. - PTS",
+          "score": 10.008,
+          "actual": 16,
+          "avg": 3.69
+        },
+        {
+          "type": "player",
+          "name": "Tristan Thompson",
+          "stat": "Tristan Thompson - PTS",
+          "score": 9.209,
+          "actual": 7,
+          "avg": 1.72
+        },
+        {
+          "type": "player",
+          "name": "Dean Wade",
+          "stat": "Dean Wade - AST",
+          "score": 5.252,
+          "actual": 4,
+          "avg": 1.29
+        },
+        {
+          "type": "player",
+          "name": "Tristan Thompson",
+          "stat": "Tristan Thompson - REB",
+          "score": 5.164,
+          "actual": 12,
+          "avg": 3.35
+        },
+        {
+          "type": "player",
+          "name": "Craig Porter Jr.",
+          "stat": "Craig Porter Jr. - FGA",
+          "score": 5,
+          "actual": 17,
+          "avg": 2.75
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "De'Andre Hunter",
+          "stat": "De'Andre Hunter - TOV",
+          "score": -2.688,
+          "actual": 3,
+          "avg": 1.28
+        },
+        {
+          "type": "player",
+          "name": "Jarrett Allen",
+          "stat": "Jarrett Allen - PTS",
+          "score": -2.331,
+          "actual": 3,
+          "avg": 13.45
+        },
+        {
+          "type": "player",
+          "name": "Isaac Okoro",
+          "stat": "Isaac Okoro - PF",
+          "score": -1.675,
+          "actual": 4,
+          "avg": 1.89
+        },
+        {
+          "type": "player",
+          "name": "Pascal Siakam",
+          "stat": "Pascal Siakam - PTS",
+          "score": -1.517,
+          "actual": 10,
+          "avg": 20.23
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - STL",
+          "score": -1.291,
+          "actual": 3,
+          "avg": 8.46
+        }
+      ]
+    }
+  ]
+}
