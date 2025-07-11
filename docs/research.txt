@@ -2,3 +2,11 @@
 
 - SAVE queries
 - READABILITY
+
+
+
+-pop ups when hovering bars:
+
+      <div class="stat-label">${out.stat}</div>
+        <div class="stat-numbers">actual: ${out.actual}, avg: ${out.avg}</div>
+        </div>
