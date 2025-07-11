@@ -1,5 +1,9 @@
 {
   "game_id": "22401186",
+  "teams": [
+    "ATL",
+    "ORL"
+  ],
   "outliers": [
     {
       "positive": [

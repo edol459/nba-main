@@ -1,5 +1,11 @@
 {
   "game_id": "22401168",
+  "teams": [
+    [
+      "IND",
+      "CLE"
+    ]
+  ],
   "outliers": [
     {
       "positive": [

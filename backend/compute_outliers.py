@@ -11,10 +11,13 @@ def main(game_id: str):
     player_avg  = load_csv("player_averages.csv").set_index("PLAYER_ID")
 
     #dict
-    game_out = {"game_id": game_id, "outliers": []}
+    #game_out = {"game_id": game_id, "teams": [], "outliers": []}
 
     team_logs["GAME_ID"] = team_logs["GAME_ID"].astype(str)
     teams_in_game = team_logs[team_logs["GAME_ID"] == str(game_id)]
+
+    game_out = {"game_id": game_id, "teams": teams_in_game["TEAM_ABBREVIATION"].tolist(), "outliers": []}
+
     print(f"🧪 Found {len(teams_in_game)} teams for GAME_ID {game_id}")
     print("🧪 Sample GAME_IDs from CSV:", team_logs["GAME_ID"].unique()[:5])
 
@@ -90,10 +93,9 @@ def main(game_id: str):
         ],
     }
 
-
-
-
+    
     game_out["outliers"].append(payload)
+
 
     save_json(game_out, OUT_DIR / f"{game_id}.json")
     print("✅ saved", OUT_DIR / f"{game_id}.json")

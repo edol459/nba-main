@@ -14,7 +14,7 @@ function renderOutliers(data) {
   const negBars = outliers.negative.map((out, i) => makeBar(out, true, i)).join('');
 
   document.getElementById("output").innerHTML = `
-    <h2>Outliers for Game ${data.game_id}</h2>
+    <h2>Outliers for ${data.teams[0]} vs. ${data.teams[1]}</h2>
     <div class="timeline-container">
       <div class="outlier-column negative">${negBars}</div>
       <div class="timeline-center"></div>
