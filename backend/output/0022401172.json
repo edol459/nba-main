@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401172",
+  "teams": [
+    "IND",
+    "ORL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Johnny Furphy",
+          "team": "Indiana Pacers",
+          "stat": "Johnny Furphy - PTS",
+          "score": 15.0,
+          "actual": 17,
+          "avg": 2.06
+        },
+        {
+          "type": "player",
+          "name": "Trevelin Queen",
+          "team": "Orlando Magic",
+          "stat": "Trevelin Queen - PTS",
+          "score": 12.306,
+          "actual": 25,
+          "avg": 4.9
+        },
+        {
+          "type": "player",
+          "name": "Jett Howard",
+          "team": "Orlando Magic",
+          "stat": "Jett Howard - PTS",
+          "score": 8.461,
+          "actual": 17,
+          "avg": 4.45
+        },
+        {
+          "type": "player",
+          "name": "RayJ Dennis",
+          "team": "Indiana Pacers",
+          "stat": "RayJ Dennis - PTS",
+          "score": 7.989,
+          "actual": 10,
+          "avg": 2.73
+        },
+        {
+          "type": "player",
+          "name": "Gary Harris",
+          "team": "Orlando Magic",
+          "stat": "Gary Harris - PTS",
+          "score": 6.934,
+          "actual": 10,
+          "avg": 3.02
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jarace Walker",
+          "team": "Indiana Pacers",
+          "stat": "Jarace Walker - TOV",
+          "score": -7.615,
+          "actual": 5,
+          "avg": 1.04
+        },
+        {
+          "type": "player",
+          "name": "Anthony Black",
+          "team": "Orlando Magic",
+          "stat": "Anthony Black - TOV",
+          "score": -3.618,
+          "actual": 5,
+          "avg": 1.78
+        },
+        {
+          "type": "player",
+          "name": "Bennedict Mathurin",
+          "team": "Indiana Pacers",
+          "stat": "Bennedict Mathurin - TOV",
+          "score": -3.319,
+          "actual": 5,
+          "avg": 1.88
+        },
+        {
+          "type": "player",
+          "name": "Jett Howard",
+          "team": "Orlando Magic",
+          "stat": "Jett Howard - PF",
+          "score": -2.155,
+          "actual": 6,
+          "avg": 1.13
+        },
+        {
+          "type": "player",
+          "name": "Cole Anthony",
+          "team": "Orlando Magic",
+          "stat": "Cole Anthony - TOV",
+          "score": -1.896,
+          "actual": 3,
+          "avg": 1.54
+        }
+      ]
+    }
+  ]
+}

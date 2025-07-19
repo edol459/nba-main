@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401052",
+  "teams": [
+    "OKC",
+    "SAC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Kenrich Williams",
+          "stat": "Kenrich Williams - AST",
+          "score": 6.511,
+          "actual": 6,
+          "avg": 1.41
+        },
+        {
+          "type": "player",
+          "name": "Doug McDermott",
+          "stat": "Doug McDermott - PTS",
+          "score": 3.929,
+          "actual": 9,
+          "avg": 3.5
+        },
+        {
+          "type": "player",
+          "name": "Keegan Murray",
+          "stat": "Keegan Murray - FG3M",
+          "score": 3.433,
+          "actual": 9,
+          "avg": 2.03
+        },
+        {
+          "type": "player",
+          "name": "Keon Ellis",
+          "stat": "Keon Ellis - AST",
+          "score": 3.333,
+          "actual": 4,
+          "avg": 1.5
+        },
+        {
+          "type": "player",
+          "name": "Keegan Murray",
+          "stat": "Keegan Murray - PTS",
+          "score": 3.15,
+          "actual": 28,
+          "avg": 12.39
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Shai Gilgeous-Alexander",
+          "stat": "Shai Gilgeous-Alexander - TOV",
+          "score": -1.612,
+          "actual": 5,
+          "avg": 2.41
+        },
+        {
+          "type": "player",
+          "name": "Isaiah Hartenstein",
+          "stat": "Isaiah Hartenstein - PTS",
+          "score": -1.606,
+          "actual": 4,
+          "avg": 11.18
+        },
+        {
+          "type": "player",
+          "name": "Domantas Sabonis",
+          "stat": "Domantas Sabonis - PTS",
+          "score": -1.453,
+          "actual": 8,
+          "avg": 19.1
+        },
+        {
+          "type": "player",
+          "name": "DeMar DeRozan",
+          "stat": "DeMar DeRozan - PTS",
+          "score": -1.374,
+          "actual": 10,
+          "avg": 22.21
+        },
+        {
+          "type": "player",
+          "name": "Isaiah Hartenstein",
+          "stat": "Isaiah Hartenstein - TOV",
+          "score": -1.179,
+          "actual": 3,
+          "avg": 1.68
+        }
+      ]
+    }
+  ]
+}

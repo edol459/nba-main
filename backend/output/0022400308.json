@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400308",
+  "teams": [
+    "NOP",
+    "NYK"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Matt Ryan",
+          "stat": "Matt Ryan - PTS",
+          "score": 13.327,
+          "actual": 8,
+          "avg": 1.47
+        },
+        {
+          "type": "player",
+          "name": "Jericho Sims",
+          "stat": "Jericho Sims - REB",
+          "score": 4.989,
+          "actual": 13,
+          "avg": 3.72
+        },
+        {
+          "type": "player",
+          "name": "Matt Ryan",
+          "stat": "Matt Ryan - FG3A",
+          "score": 4.0,
+          "actual": 5,
+          "avg": 1.0
+        },
+        {
+          "type": "player",
+          "name": "Jericho Sims",
+          "stat": "Jericho Sims - PTS",
+          "score": 3.486,
+          "actual": 4,
+          "avg": 1.85
+        },
+        {
+          "type": "player",
+          "name": "Javonte Green",
+          "stat": "Javonte Green - FTA",
+          "score": 3.464,
+          "actual": 5,
+          "avg": 1.12
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "OG Anunoby",
+          "stat": "OG Anunoby - PTS",
+          "score": -1.833,
+          "actual": 7,
+          "avg": 18.0
+        },
+        {
+          "type": "player",
+          "name": "Dejounte Murray",
+          "stat": "Dejounte Murray - PF",
+          "score": -1.546,
+          "actual": 4,
+          "avg": 1.97
+        },
+        {
+          "type": "player",
+          "name": "Trey Murphy III",
+          "stat": "Trey Murphy III - PTS",
+          "score": -1.444,
+          "actual": 11,
+          "avg": 21.21
+        },
+        {
+          "type": "player",
+          "name": "Dejounte Murray",
+          "stat": "Dejounte Murray - PTS",
+          "score": -1.284,
+          "actual": 10,
+          "avg": 17.48
+        },
+        {
+          "type": "player",
+          "name": "Karl-Anthony Towns",
+          "stat": "Karl-Anthony Towns - PTS",
+          "score": -1.281,
+          "actual": 14,
+          "avg": 24.43
+        }
+      ]
+    }
+  ]
+}

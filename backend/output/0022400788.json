@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400788",
+  "teams": [
+    "IND",
+    "MEM"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Ja Morant",
+          "stat": "Ja Morant - BLKA",
+          "score": 2.922,
+          "actual": 4,
+          "avg": 1.02
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - BLK",
+          "score": 2.5,
+          "actual": 7,
+          "avg": 2.0
+        },
+        {
+          "type": "player",
+          "name": "Jaylen Wells",
+          "stat": "Jaylen Wells - FTM",
+          "score": 1.87,
+          "actual": 8,
+          "avg": 1.41
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - BLK",
+          "score": 1.198,
+          "actual": 12,
+          "avg": 5.46
+        },
+        {
+          "type": "team",
+          "name": "Memphis Grizzlies",
+          "stat": "Memphis Grizzlies - BLKA",
+          "score": 1.186,
+          "actual": 12,
+          "avg": 5.49
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "T.J. McConnell",
+          "stat": "T.J. McConnell - PF",
+          "score": -1.0,
+          "actual": 3,
+          "avg": 1.0
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - PF",
+          "score": -0.69,
+          "actual": 3,
+          "avg": 1.26
+        },
+        {
+          "type": "player",
+          "name": "Brandon Clarke",
+          "stat": "Brandon Clarke - PTS",
+          "score": -0.52,
+          "actual": 4,
+          "avg": 8.34
+        },
+        {
+          "type": "player",
+          "name": "Ja Morant",
+          "stat": "Ja Morant - FGM",
+          "score": -0.505,
+          "actual": 4,
+          "avg": 8.08
+        },
+        {
+          "type": "player",
+          "name": "Ja Morant",
+          "stat": "Ja Morant - PTS",
+          "score": -0.482,
+          "actual": 12,
+          "avg": 23.18
+        }
+      ]
+    }
+  ]
+}

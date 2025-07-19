@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401175",
+  "teams": [
+    "CLE",
+    "NYK"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Craig Porter Jr.",
+          "team": "Cleveland Cavaliers",
+          "stat": "Craig Porter Jr. - PTS",
+          "score": 5.943,
+          "actual": 11,
+          "avg": 3.69
+        },
+        {
+          "type": "player",
+          "name": "Craig Porter Jr.",
+          "team": "Cleveland Cavaliers",
+          "stat": "Craig Porter Jr. - REB",
+          "score": 5.634,
+          "actual": 5,
+          "avg": 1.31
+        },
+        {
+          "type": "player",
+          "name": "Landry Shamet",
+          "team": "New York Knicks",
+          "stat": "Landry Shamet - PTS",
+          "score": 4.867,
+          "actual": 15,
+          "avg": 5.72
+        },
+        {
+          "type": "player",
+          "name": "Isaac Okoro",
+          "team": "Cleveland Cavaliers",
+          "stat": "Isaac Okoro - PTS",
+          "score": 4.341,
+          "actual": 15,
+          "avg": 6.13
+        },
+        {
+          "type": "player",
+          "name": "Max Strus",
+          "team": "Cleveland Cavaliers",
+          "stat": "Max Strus - PTS",
+          "score": 3.051,
+          "actual": 19,
+          "avg": 9.42
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Max Strus",
+          "team": "Cleveland Cavaliers",
+          "stat": "Max Strus - TOV",
+          "score": -7.259,
+          "actual": 5,
+          "avg": 1.08
+        },
+        {
+          "type": "player",
+          "name": "Jaylon Tyson",
+          "team": "Cleveland Cavaliers",
+          "stat": "Jaylon Tyson - PF",
+          "score": -1.83,
+          "actual": 3,
+          "avg": 1.06
+        },
+        {
+          "type": "player",
+          "name": "Josh Hart",
+          "team": "New York Knicks",
+          "stat": "Josh Hart - PTS",
+          "score": -1.242,
+          "actual": 8,
+          "avg": 13.65
+        },
+        {
+          "type": "player",
+          "name": "Isaac Okoro",
+          "team": "Cleveland Cavaliers",
+          "stat": "Isaac Okoro - PF",
+          "score": -1.116,
+          "actual": 4,
+          "avg": 1.89
+        },
+        {
+          "type": "player",
+          "name": "Mitchell Robinson",
+          "team": "New York Knicks",
+          "stat": "Mitchell Robinson - PF",
+          "score": -0.961,
+          "actual": 3,
+          "avg": 1.53
+        }
+      ]
+    }
+  ]
+}

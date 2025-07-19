@@ -1,22 +1,26 @@
 from pathlib import Path
 
 STATS_TO_TRACK = [
-    'FGM','FGA','FG_PCT','FG3M','FG3A','FG3_PCT',
-    'FTM','FTA','FT_PCT','OREB','DREB','REB','AST','TOV',
-    'STL','BLK','BLKA','PF','PFD','PTS','PLUS_MINUS'
+    'FGM', 'FG_PCT','FG3M','FG3_PCT',
+    'FTM','FT_PCT','OREB','DREB','AST','TOV',
+    'STL','BLK','PF','PFD','PTS'
 ]
 
 WEIGHTS = {
-    "PTS":      3.0,   # more is good
-    "AST":      2.5,
-    "REB":      2.0,
-    "STL":      2.0,
-    "BLK":      2.0,
-    "FG_PCT":   3.0,
-    "FG3_PCT":  3.0,
-    "TOV":     -2.0,   # more is bad → negative weight
-    "FOUL":    -1.5,
-    "PF":      -1.5,
+            "PTS": 1.0,
+            "AST": 0.8,
+            "OREB": 0.5,
+            "DREB": 0.3,
+            "FG_PCT": 0.8,
+            "FG3M": 0.9,
+            "FG3_PCT": 1.0,
+            "FTM": 0.4,
+            "FT_PCT": 0.7,
+            "STL": 1.2,
+            "BLK": 1.0,
+            "TOV": -0.5,
+            "PF": -0.2,
+            "PFD": 0.5,
 }
 
 N_BARS   = 5

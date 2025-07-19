@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401148",
+  "teams": [
+    "IND",
+    "WAS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Obi Toppin",
+          "stat": "Obi Toppin - FTM",
+          "score": 2.54,
+          "actual": 4,
+          "avg": 1.13
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - FTM",
+          "score": 2.475,
+          "actual": 9,
+          "avg": 2.59
+        },
+        {
+          "type": "player",
+          "name": "Justin Champagnie",
+          "stat": "Justin Champagnie - FG3M",
+          "score": 2.361,
+          "actual": 4,
+          "avg": 1.19
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - BLK",
+          "score": 2.25,
+          "actual": 5,
+          "avg": 2.0
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - OREB",
+          "score": 2.2,
+          "actual": 4,
+          "avg": 1.25
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "AJ Johnson",
+          "stat": "AJ Johnson - PF",
+          "score": -0.953,
+          "actual": 5,
+          "avg": 1.72
+        },
+        {
+          "type": "player",
+          "name": "Andrew Nembhard",
+          "stat": "Andrew Nembhard - PTS",
+          "score": -0.421,
+          "actual": 4,
+          "avg": 10.05
+        },
+        {
+          "type": "player",
+          "name": "Alex Sarr",
+          "stat": "Alex Sarr - TOV",
+          "score": -0.382,
+          "actual": 3,
+          "avg": 1.7
+        },
+        {
+          "type": "player",
+          "name": "Bub Carrington",
+          "stat": "Bub Carrington - TOV",
+          "score": -0.372,
+          "actual": 3,
+          "avg": 1.72
+        },
+        {
+          "type": "player",
+          "name": "Bub Carrington",
+          "stat": "Bub Carrington - PF",
+          "score": -0.362,
+          "actual": 4,
+          "avg": 2.32
+        }
+      ]
+    }
+  ]
+}

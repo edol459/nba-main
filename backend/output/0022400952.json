@@ -1,0 +1,105 @@
+{
+  "game_id": "0022400952",
+  "teams": [
+    "DEN",
+    "MIN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Hunter Tyson",
+          "team": "Denver Nuggets",
+          "stat": "Hunter Tyson - PTS",
+          "score": 6.125,
+          "actual": 8,
+          "avg": 2.63
+        },
+        {
+          "type": "player",
+          "name": "Josh Minott",
+          "team": "Minnesota Timberwolves",
+          "stat": "Josh Minott - REB",
+          "score": 3.882,
+          "actual": 3,
+          "avg": 1.02
+        },
+        {
+          "type": "player",
+          "name": "Russell Westbrook",
+          "team": "Denver Nuggets",
+          "stat": "Russell Westbrook - STL",
+          "score": 2.255,
+          "actual": 3,
+          "avg": 1.41
+        },
+        {
+          "type": "player",
+          "name": "Zeke Nnaji",
+          "team": "Denver Nuggets",
+          "stat": "Zeke Nnaji - REB",
+          "score": 1.797,
+          "actual": 3,
+          "avg": 1.58
+        },
+        {
+          "type": "player",
+          "name": "Rudy Gobert",
+          "team": "Minnesota Timberwolves",
+          "stat": "Rudy Gobert - AST",
+          "score": 1.761,
+          "actual": 3,
+          "avg": 1.76
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Naz Reid",
+          "team": "Minnesota Timberwolves",
+          "stat": "Naz Reid - TOV",
+          "score": -2.444,
+          "actual": 3,
+          "avg": 1.35
+        },
+        {
+          "type": "player",
+          "name": "Nickeil Alexander-Walker",
+          "team": "Minnesota Timberwolves",
+          "stat": "Nickeil Alexander-Walker - PTS",
+          "score": -2.046,
+          "actual": 3,
+          "avg": 9.43
+        },
+        {
+          "type": "player",
+          "name": "Christian Braun",
+          "team": "Denver Nuggets",
+          "stat": "Christian Braun - PTS",
+          "score": -1.833,
+          "actual": 6,
+          "avg": 15.42
+        },
+        {
+          "type": "player",
+          "name": "Nikola Joki\u0107",
+          "team": "Denver Nuggets",
+          "stat": "Nikola Joki\u0107 - AST",
+          "score": -1.522,
+          "actual": 4,
+          "avg": 10.23
+        },
+        {
+          "type": "player",
+          "name": "Michael Porter Jr.",
+          "team": "Denver Nuggets",
+          "stat": "Michael Porter Jr. - PTS",
+          "score": -1.348,
+          "actual": 10,
+          "avg": 18.16
+        }
+      ]
+    }
+  ]
+}

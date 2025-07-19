@@ -1,0 +1,105 @@
+{
+  "game_id": "0022400831",
+  "teams": [
+    "HOU",
+    "MIL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Taurean Prince",
+          "team": "Milwaukee Bucks",
+          "stat": "Taurean Prince - AST",
+          "score": 3.943,
+          "actual": 5,
+          "avg": 1.94
+        },
+        {
+          "type": "player",
+          "name": "Kevin Porter Jr.",
+          "team": "Milwaukee Bucks",
+          "stat": "Kevin Porter Jr. - STL",
+          "score": 3.556,
+          "actual": 3,
+          "avg": 1.08
+        },
+        {
+          "type": "player",
+          "name": "Dillon Brooks",
+          "team": "Houston Rockets",
+          "stat": "Dillon Brooks - AST",
+          "score": 3.348,
+          "actual": 4,
+          "avg": 1.71
+        },
+        {
+          "type": "player",
+          "name": "Dillon Brooks",
+          "team": "Houston Rockets",
+          "stat": "Dillon Brooks - REB",
+          "score": 2.36,
+          "actual": 8,
+          "avg": 3.67
+        },
+        {
+          "type": "player",
+          "name": "Jabari Smith Jr.",
+          "team": "Houston Rockets",
+          "stat": "Jabari Smith Jr. - OREB",
+          "score": 2.261,
+          "actual": 6,
+          "avg": 1.84
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jabari Smith Jr.",
+          "team": "Houston Rockets",
+          "stat": "Jabari Smith Jr. - TOV",
+          "score": -3.607,
+          "actual": 3,
+          "avg": 1.07
+        },
+        {
+          "type": "player",
+          "name": "Tari Eason",
+          "team": "Houston Rockets",
+          "stat": "Tari Eason - TOV",
+          "score": -3.263,
+          "actual": 3,
+          "avg": 1.14
+        },
+        {
+          "type": "player",
+          "name": "Kevin Porter Jr.",
+          "team": "Milwaukee Bucks",
+          "stat": "Kevin Porter Jr. - TOV",
+          "score": -2.42,
+          "actual": 4,
+          "avg": 1.81
+        },
+        {
+          "type": "player",
+          "name": "Kevin Porter Jr.",
+          "team": "Milwaukee Bucks",
+          "stat": "Kevin Porter Jr. - PTS",
+          "score": -1.833,
+          "actual": 4,
+          "avg": 10.28
+        },
+        {
+          "type": "player",
+          "name": "Gary Trent Jr.",
+          "team": "Milwaukee Bucks",
+          "stat": "Gary Trent Jr. - PTS",
+          "score": -1.654,
+          "actual": 5,
+          "avg": 11.14
+        }
+      ]
+    }
+  ]
+}

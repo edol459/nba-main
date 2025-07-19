@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401191",
+  "teams": [
+    "CHI",
+    "PHI"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Talen Horton-Tucker",
+          "team": "Chicago Bulls",
+          "stat": "Talen Horton-Tucker - AST",
+          "score": 7.99,
+          "actual": 6,
+          "avg": 1.43
+        },
+        {
+          "type": "player",
+          "name": "Emanuel Miller",
+          "team": "Chicago Bulls",
+          "stat": "Emanuel Miller - PTS",
+          "score": 7.778,
+          "actual": 6,
+          "avg": 1.67
+        },
+        {
+          "type": "player",
+          "name": "Emanuel Miller",
+          "team": "Chicago Bulls",
+          "stat": "Emanuel Miller - REB",
+          "score": 5.519,
+          "actual": 5,
+          "avg": 1.33
+        },
+        {
+          "type": "player",
+          "name": "Jevon Carter",
+          "team": "Chicago Bulls",
+          "stat": "Jevon Carter - REB",
+          "score": 5.407,
+          "actual": 4,
+          "avg": 1.08
+        },
+        {
+          "type": "player",
+          "name": "Adem Bona",
+          "team": "Philadelphia 76ers",
+          "stat": "Adem Bona - PTS",
+          "score": 5.262,
+          "actual": 16,
+          "avg": 5.81
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jared Butler",
+          "team": "Philadelphia 76ers",
+          "stat": "Jared Butler - TOV",
+          "score": -4.015,
+          "actual": 4,
+          "avg": 1.33
+        },
+        {
+          "type": "player",
+          "name": "Patrick Williams",
+          "team": "Chicago Bulls",
+          "stat": "Patrick Williams - TOV",
+          "score": -2.38,
+          "actual": 3,
+          "avg": 1.37
+        },
+        {
+          "type": "player",
+          "name": "Quentin Grimes",
+          "team": "Philadelphia 76ers",
+          "stat": "Quentin Grimes - TOV",
+          "score": -2.255,
+          "actual": 4,
+          "avg": 1.88
+        },
+        {
+          "type": "player",
+          "name": "Nikola Vu\u010devi\u0107",
+          "team": "Chicago Bulls",
+          "stat": "Nikola Vu\u010devi\u0107 - PTS",
+          "score": -1.701,
+          "actual": 8,
+          "avg": 18.48
+        },
+        {
+          "type": "player",
+          "name": "Quentin Grimes",
+          "team": "Philadelphia 76ers",
+          "stat": "Quentin Grimes - PTS",
+          "score": -1.352,
+          "actual": 8,
+          "avg": 14.56
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401061",
+  "teams": [
+    "WAS",
+    "IND"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Johnny Furphy",
+          "stat": "Johnny Furphy - FG3_PCT",
+          "score": 6.692,
+          "actual": 1.0,
+          "avg": 0.13
+        },
+        {
+          "type": "player",
+          "name": "Quenton Jackson",
+          "stat": "Quenton Jackson - FG3_PCT",
+          "score": 4.263,
+          "actual": 1.0,
+          "avg": 0.19
+        },
+        {
+          "type": "player",
+          "name": "Colby Jones",
+          "stat": "Colby Jones - STL",
+          "score": 4.173,
+          "actual": 3,
+          "avg": 0.67
+        },
+        {
+          "type": "player",
+          "name": "Quenton Jackson",
+          "stat": "Quenton Jackson - STL",
+          "score": 3.6,
+          "actual": 3,
+          "avg": 0.75
+        },
+        {
+          "type": "player",
+          "name": "Colby Jones",
+          "stat": "Colby Jones - FG3M",
+          "score": 3.49,
+          "actual": 2,
+          "avg": 0.41
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Tristan Vukcevic",
+          "stat": "Tristan Vukcevic - TOV",
+          "score": -2.8,
+          "actual": 4,
+          "avg": 1.2
+        },
+        {
+          "type": "player",
+          "name": "Tony Bradley",
+          "stat": "Tony Bradley - TOV",
+          "score": -2.133,
+          "actual": 1,
+          "avg": 0.36
+        },
+        {
+          "type": "player",
+          "name": "Aaron Nesmith",
+          "stat": "Aaron Nesmith - TOV",
+          "score": -1.727,
+          "actual": 2,
+          "avg": 0.82
+        },
+        {
+          "type": "player",
+          "name": "Justin Champagnie",
+          "stat": "Justin Champagnie - TOV",
+          "score": -1.559,
+          "actual": 2,
+          "avg": 0.87
+        },
+        {
+          "type": "player",
+          "name": "Jarace Walker",
+          "stat": "Jarace Walker - PF",
+          "score": -1.292,
+          "actual": 4,
+          "avg": 1.53
+        }
+      ]
+    }
+  ]
+}

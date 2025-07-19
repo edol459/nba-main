@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401055",
+  "teams": [
+    "IND",
+    "LAL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jarred Vanderbilt",
+          "stat": "Jarred Vanderbilt - AST",
+          "score": 1.632,
+          "actual": 3,
+          "avg": 1.14
+        },
+        {
+          "type": "player",
+          "name": "Rui Hachimura",
+          "stat": "Rui Hachimura - FG3M",
+          "score": 1.181,
+          "actual": 4,
+          "avg": 1.73
+        },
+        {
+          "type": "player",
+          "name": "LeBron James",
+          "stat": "LeBron James - OREB",
+          "score": 1.148,
+          "actual": 3,
+          "avg": 1.03
+        },
+        {
+          "type": "player",
+          "name": "Jaxson Hayes",
+          "stat": "Jaxson Hayes - FGM",
+          "score": 1.083,
+          "actual": 6,
+          "avg": 2.88
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - AST",
+          "score": 0.952,
+          "actual": 18,
+          "avg": 9.22
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Austin Reaves",
+          "stat": "Austin Reaves - TOV",
+          "score": -0.783,
+          "actual": 4,
+          "avg": 2.42
+        },
+        {
+          "type": "player",
+          "name": "Dalton Knecht",
+          "stat": "Dalton Knecht - PTS",
+          "score": -0.669,
+          "actual": 3,
+          "avg": 9.05
+        },
+        {
+          "type": "player",
+          "name": "Jarred Vanderbilt",
+          "stat": "Jarred Vanderbilt - PF",
+          "score": -0.575,
+          "actual": 4,
+          "avg": 1.86
+        },
+        {
+          "type": "player",
+          "name": "LeBron James",
+          "stat": "LeBron James - FGM",
+          "score": -0.57,
+          "actual": 4,
+          "avg": 9.3
+        },
+        {
+          "type": "player",
+          "name": "LeBron James",
+          "stat": "LeBron James - PTS",
+          "score": -0.468,
+          "actual": 13,
+          "avg": 24.43
+        }
+      ]
+    }
+  ]
+}

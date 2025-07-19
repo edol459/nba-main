@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401196",
+  "teams": [
+    "NOP",
+    "OKC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Branden Carlson",
+          "stat": "Branden Carlson - FGM",
+          "score": 6.463,
+          "actual": 10,
+          "avg": 1.34
+        },
+        {
+          "type": "player",
+          "name": "Branden Carlson",
+          "stat": "Branden Carlson - PTS",
+          "score": 5.824,
+          "actual": 26,
+          "avg": 3.81
+        },
+        {
+          "type": "player",
+          "name": "Dillon Jones",
+          "stat": "Dillon Jones - PTS",
+          "score": 4.2,
+          "actual": 13,
+          "avg": 2.5
+        },
+        {
+          "type": "player",
+          "name": "Jamal Cain",
+          "stat": "Jamal Cain - PTS",
+          "score": 2.396,
+          "actual": 18,
+          "avg": 5.3
+        },
+        {
+          "type": "player",
+          "name": "Aaron Wiggins",
+          "stat": "Aaron Wiggins - AST",
+          "score": 2.382,
+          "actual": 7,
+          "avg": 1.76
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jose Alvarado",
+          "stat": "Jose Alvarado - TOV",
+          "score": -1.448,
+          "actual": 6,
+          "avg": 1.54
+        },
+        {
+          "type": "player",
+          "name": "Dillon Jones",
+          "stat": "Dillon Jones - PF",
+          "score": -0.8,
+          "actual": 5,
+          "avg": 1.0
+        },
+        {
+          "type": "player",
+          "name": "Elfrid Payton",
+          "stat": "Elfrid Payton - AST",
+          "score": -0.453,
+          "actual": 3,
+          "avg": 6.92
+        },
+        {
+          "type": "player",
+          "name": "Jamal Cain",
+          "stat": "Jamal Cain - PF",
+          "score": -0.445,
+          "actual": 4,
+          "avg": 1.24
+        },
+        {
+          "type": "player",
+          "name": "Aaron Wiggins",
+          "stat": "Aaron Wiggins - PF",
+          "score": -0.402,
+          "actual": 4,
+          "avg": 1.33
+        }
+      ]
+    }
+  ]
+}

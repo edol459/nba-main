@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401185",
+  "teams": [
+    "HOU",
+    "LAL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Nate Williams",
+          "stat": "Nate Williams - PTS",
+          "score": 8.077,
+          "actual": 12,
+          "avg": 3.25
+        },
+        {
+          "type": "player",
+          "name": "Cam Whitmore",
+          "stat": "Cam Whitmore - PTS",
+          "score": 7.909,
+          "actual": 34,
+          "avg": 9.35
+        },
+        {
+          "type": "player",
+          "name": "Reed Sheppard",
+          "stat": "Reed Sheppard - PTS",
+          "score": 6.545,
+          "actual": 14,
+          "avg": 4.4
+        },
+        {
+          "type": "player",
+          "name": "Reed Sheppard",
+          "stat": "Reed Sheppard - AST",
+          "score": 6.181,
+          "actual": 5,
+          "avg": 1.44
+        },
+        {
+          "type": "player",
+          "name": "Aaron Holiday",
+          "stat": "Aaron Holiday - AST",
+          "score": 4.963,
+          "actual": 4,
+          "avg": 1.34
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jock Landale",
+          "stat": "Jock Landale - PF",
+          "score": -2.419,
+          "actual": 4,
+          "avg": 1.17
+        },
+        {
+          "type": "player",
+          "name": "Austin Reaves",
+          "stat": "Austin Reaves - TOV",
+          "score": -2.132,
+          "actual": 5,
+          "avg": 2.42
+        },
+        {
+          "type": "player",
+          "name": "Jalen Green",
+          "stat": "Jalen Green - PTS",
+          "score": -2.0,
+          "actual": 7,
+          "avg": 21.01
+        },
+        {
+          "type": "player",
+          "name": "Reed Sheppard",
+          "stat": "Reed Sheppard - PF",
+          "score": -1.941,
+          "actual": 3,
+          "avg": 1.02
+        },
+        {
+          "type": "player",
+          "name": "Jordan Goodwin",
+          "stat": "Jordan Goodwin - PTS",
+          "score": -1.378,
+          "actual": 3,
+          "avg": 5.55
+        }
+      ]
+    }
+  ]
+}

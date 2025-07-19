@@ -1,10 +1,8 @@
 {
-  "game_id": "22401168",
+  "game_id": "0022401168",
   "teams": [
-    [
-      "IND",
-      "CLE"
-    ]
+    "IND",
+    "CLE"
   ],
   "outliers": [
     {
@@ -69,14 +67,6 @@
         },
         {
           "type": "player",
-          "name": "Isaac Okoro",
-          "stat": "Isaac Okoro - PF",
-          "score": -1.675,
-          "actual": 4,
-          "avg": 1.89
-        },
-        {
-          "type": "player",
           "name": "Pascal Siakam",
           "stat": "Pascal Siakam - PTS",
           "score": -1.517,
@@ -90,6 +80,14 @@
           "score": -1.291,
           "actual": 3,
           "avg": 8.46
+        },
+        {
+          "type": "player",
+          "name": "Javonte Green",
+          "stat": "Javonte Green - PTS",
+          "score": -1.235,
+          "actual": 3,
+          "avg": 5.1
         }
       ]
     }

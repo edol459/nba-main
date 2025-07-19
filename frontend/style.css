@@ -17,11 +17,27 @@ body {
 }
 
 
+.team-logo {
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.team-header {
+  background-color: lightgrey;
+  border-bottom: 5px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 .timeline-container {
   display: flex;
   justify-content: center;
   gap: 200px;
-  margin-top: 40px;
 }
 
 .outlier-column {
@@ -36,28 +52,51 @@ body {
 
 .bar {
   width: 40px;
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
   background-color: steelblue;
-  border-radius: 4px 4px 0 0;
+  border-radius: 4px;
   transition: height 0.3s ease;
 }
 
-.bar.negative {
-  background-color: crimson;
+.bar:hover{
+  transform: scale(1.1);
 }
 
-.bar.positive {
-  background-color: #2a9d8f;
+.bar.positive{
+  background-color: #5cb85c;
 }
+
+.bar.positive:hover{
+  background-color: #009200;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.87);
+}
+
+.bar.negative{
+  background-color: #d9534f;
+}
+
+.bar.negative:hover{
+  background-color: #ce0902;
+  box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.87);
+}
+
 
 .bar-label {
   display: none;
-  margin-top: 8px;
-  font-size: 12px;
   text-align: center;
-  max-width: 100px;
-  word-wrap: break-word;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-top: 20px;
+  transform: translateX(-50%);
+  font-size: 12px;
+  pointer-events: none;
+  white-space: nowrap;
+  max-width: 500px;
 }
 
-.bar-wrapper:hover .bar-label{
-  display: inline-block;
+.bar:hover .bar-label{
+  display: block;
 }

@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401187",
+  "teams": [
+    "CHA",
+    "BOS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jordan Walsh",
+          "team": "Boston Celtics",
+          "stat": "Jordan Walsh - PTS",
+          "score": 15.0,
+          "actual": 10,
+          "avg": 1.58
+        },
+        {
+          "type": "player",
+          "name": "JD Davison",
+          "team": "Boston Celtics",
+          "stat": "JD Davison - PTS",
+          "score": 10.107,
+          "actual": 9,
+          "avg": 2.06
+        },
+        {
+          "type": "player",
+          "name": "Jordan Walsh",
+          "team": "Boston Celtics",
+          "stat": "Jordan Walsh - REB",
+          "score": 10.0,
+          "actual": 8,
+          "avg": 1.33
+        },
+        {
+          "type": "player",
+          "name": "Baylor Scheierman",
+          "team": "Boston Celtics",
+          "stat": "Baylor Scheierman - REB",
+          "score": 4.667,
+          "actual": 7,
+          "avg": 2.1
+        },
+        {
+          "type": "player",
+          "name": "JD Davison",
+          "team": "Boston Celtics",
+          "stat": "JD Davison - FGA",
+          "score": 4.189,
+          "actual": 11,
+          "avg": 2.12
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "team": "Boston Celtics",
+          "stat": "Payton Pritchard - TOV",
+          "score": -5.692,
+          "actual": 4,
+          "avg": 1.04
+        },
+        {
+          "type": "player",
+          "name": "Damion Baugh",
+          "team": "Charlotte Hornets",
+          "stat": "Damion Baugh - TOV",
+          "score": -1.865,
+          "actual": 4,
+          "avg": 2.07
+        },
+        {
+          "type": "player",
+          "name": "Tidjane Sala\u00fcn",
+          "team": "Charlotte Hornets",
+          "stat": "Tidjane Sala\u00fcn - PF",
+          "score": -1.714,
+          "actual": 3,
+          "avg": 1.4
+        },
+        {
+          "type": "player",
+          "name": "Jaylen Sims",
+          "team": "Charlotte Hornets",
+          "stat": "Jaylen Sims - PF",
+          "score": -1.195,
+          "actual": 3,
+          "avg": 1.67
+        },
+        {
+          "type": "player",
+          "name": "Neemias Queta",
+          "team": "Boston Celtics",
+          "stat": "Neemias Queta - PF",
+          "score": -1.132,
+          "actual": 3,
+          "avg": 1.71
+        }
+      ]
+    }
+  ]
+}

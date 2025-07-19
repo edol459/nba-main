@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401195",
+  "teams": [
+    "MIN",
+    "UTA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Oscar Tshiebwe",
+          "team": "Utah Jazz",
+          "stat": "Oscar Tshiebwe - PTS",
+          "score": 4.068,
+          "actual": 18,
+          "avg": 7.64
+        },
+        {
+          "type": "player",
+          "name": "Nickeil Alexander-Walker",
+          "team": "Minnesota Timberwolves",
+          "stat": "Nickeil Alexander-Walker - AST",
+          "score": 3.934,
+          "actual": 7,
+          "avg": 2.72
+        },
+        {
+          "type": "player",
+          "name": "Keyonte George",
+          "team": "Utah Jazz",
+          "stat": "Keyonte George - BLKA",
+          "score": 3.717,
+          "actual": 5,
+          "avg": 1.06
+        },
+        {
+          "type": "player",
+          "name": "Rudy Gobert",
+          "team": "Minnesota Timberwolves",
+          "stat": "Rudy Gobert - BLK",
+          "score": 3.556,
+          "actual": 4,
+          "avg": 1.44
+        },
+        {
+          "type": "player",
+          "name": "Anthony Edwards",
+          "team": "Minnesota Timberwolves",
+          "stat": "Anthony Edwards - STL",
+          "score": 3.217,
+          "actual": 3,
+          "avg": 1.15
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jaden McDaniels",
+          "team": "Minnesota Timberwolves",
+          "stat": "Jaden McDaniels - TOV",
+          "score": -4.897,
+          "actual": 4,
+          "avg": 1.16
+        },
+        {
+          "type": "player",
+          "name": "Brice Sensabaugh",
+          "team": "Utah Jazz",
+          "stat": "Brice Sensabaugh - TOV",
+          "score": -1.974,
+          "actual": 3,
+          "avg": 1.51
+        },
+        {
+          "type": "player",
+          "name": "Julius Randle",
+          "team": "Minnesota Timberwolves",
+          "stat": "Julius Randle - PTS",
+          "score": -1.393,
+          "actual": 10,
+          "avg": 18.67
+        },
+        {
+          "type": "player",
+          "name": "Jaden McDaniels",
+          "team": "Minnesota Timberwolves",
+          "stat": "Jaden McDaniels - PTS",
+          "score": -1.033,
+          "actual": 8,
+          "avg": 12.2
+        },
+        {
+          "type": "player",
+          "name": "Kyle Filipowski",
+          "team": "Utah Jazz",
+          "stat": "Kyle Filipowski - REB",
+          "score": -1.018,
+          "actual": 3,
+          "avg": 6.11
+        }
+      ]
+    }
+  ]
+}

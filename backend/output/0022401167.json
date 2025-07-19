@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401167",
+  "teams": [
+    "NYK",
+    "DET"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Precious Achiuwa",
+          "stat": "Precious Achiuwa - PTS",
+          "score": 4.267,
+          "actual": 18,
+          "avg": 6.65
+        },
+        {
+          "type": "player",
+          "name": "Miles McBride",
+          "stat": "Miles McBride - STL",
+          "score": 4.214,
+          "actual": 4,
+          "avg": 1.05
+        },
+        {
+          "type": "player",
+          "name": "Ronald Holland II",
+          "stat": "Ronald Holland II - PTS",
+          "score": 2.547,
+          "actual": 13,
+          "avg": 6.44
+        },
+        {
+          "type": "player",
+          "name": "P.J. Tucker",
+          "stat": "P.J. Tucker - REB",
+          "score": 2.494,
+          "actual": 6,
+          "avg": 2.67
+        },
+        {
+          "type": "player",
+          "name": "Miles McBride",
+          "stat": "Miles McBride - AST",
+          "score": 2.11,
+          "actual": 6,
+          "avg": 2.92
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Tobias Harris",
+          "stat": "Tobias Harris - TOV",
+          "score": -4.897,
+          "actual": 4,
+          "avg": 1.16
+        },
+        {
+          "type": "player",
+          "name": "Karl-Anthony Towns",
+          "stat": "Karl-Anthony Towns - TOV",
+          "score": -3.243,
+          "actual": 7,
+          "avg": 2.67
+        },
+        {
+          "type": "player",
+          "name": "Ausar Thompson",
+          "stat": "Ausar Thompson - PTS",
+          "score": -1.755,
+          "actual": 3,
+          "avg": 10.07
+        },
+        {
+          "type": "player",
+          "name": "Mikal Bridges",
+          "stat": "Mikal Bridges - TOV",
+          "score": -1.727,
+          "actual": 3,
+          "avg": 1.61
+        },
+        {
+          "type": "player",
+          "name": "Jalen Duren",
+          "stat": "Jalen Duren - TOV",
+          "score": -1.448,
+          "actual": 3,
+          "avg": 1.74
+        }
+      ]
+    }
+  ]
+}

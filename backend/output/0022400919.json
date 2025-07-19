@@ -1,0 +1,105 @@
+{
+  "game_id": "0022400919",
+  "teams": [
+    "GSW",
+    "DET"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Gui Santos",
+          "team": "Golden State Warriors",
+          "stat": "Gui Santos - PTS",
+          "score": 8.111,
+          "actual": 15,
+          "avg": 4.05
+        },
+        {
+          "type": "player",
+          "name": "Moses Moody",
+          "team": "Golden State Warriors",
+          "stat": "Moses Moody - REB",
+          "score": 3.49,
+          "actual": 7,
+          "avg": 2.55
+        },
+        {
+          "type": "player",
+          "name": "Moses Moody",
+          "team": "Golden State Warriors",
+          "stat": "Moses Moody - AST",
+          "score": 3.269,
+          "actual": 3,
+          "avg": 1.3
+        },
+        {
+          "type": "player",
+          "name": "Tobias Harris",
+          "team": "Detroit Pistons",
+          "stat": "Tobias Harris - FTM",
+          "score": 2.571,
+          "actual": 7,
+          "avg": 1.96
+        },
+        {
+          "type": "player",
+          "name": "Tobias Harris",
+          "team": "Detroit Pistons",
+          "stat": "Tobias Harris - FTA",
+          "score": 2.524,
+          "actual": 8,
+          "avg": 2.27
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jimmy Butler III",
+          "team": "Golden State Warriors",
+          "stat": "Jimmy Butler III - TOV",
+          "score": -3.926,
+          "actual": 4,
+          "avg": 1.35
+        },
+        {
+          "type": "player",
+          "name": "Ausar Thompson",
+          "team": "Detroit Pistons",
+          "stat": "Ausar Thompson - TOV",
+          "score": -3.882,
+          "actual": 4,
+          "avg": 1.36
+        },
+        {
+          "type": "player",
+          "name": "Gui Santos",
+          "team": "Golden State Warriors",
+          "stat": "Gui Santos - PF",
+          "score": -2.704,
+          "actual": 6,
+          "avg": 1.62
+        },
+        {
+          "type": "player",
+          "name": "Cade Cunningham",
+          "team": "Detroit Pistons",
+          "stat": "Cade Cunningham - TOV",
+          "score": -2.082,
+          "actual": 9,
+          "avg": 4.41
+        },
+        {
+          "type": "player",
+          "name": "Gary Payton II",
+          "team": "Golden State Warriors",
+          "stat": "Gary Payton II - PF",
+          "score": -1.874,
+          "actual": 5,
+          "avg": 1.74
+        }
+      ]
+    }
+  ]
+}

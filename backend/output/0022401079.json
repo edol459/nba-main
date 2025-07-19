@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401079",
+  "teams": [
+    "IND",
+    "OKC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Kenrich Williams",
+          "team": "Oklahoma City Thunder",
+          "stat": "Kenrich Williams - AST",
+          "score": 6.365,
+          "actual": 5,
+          "avg": 1.41
+        },
+        {
+          "type": "player",
+          "name": "Obi Toppin",
+          "team": "Indiana Pacers",
+          "stat": "Obi Toppin - AST",
+          "score": 5.216,
+          "actual": 5,
+          "avg": 1.62
+        },
+        {
+          "type": "player",
+          "name": "Jarace Walker",
+          "team": "Indiana Pacers",
+          "stat": "Jarace Walker - AST",
+          "score": 4.303,
+          "actual": 4,
+          "avg": 1.47
+        },
+        {
+          "type": "player",
+          "name": "Luguentz Dort",
+          "team": "Oklahoma City Thunder",
+          "stat": "Luguentz Dort - PTS",
+          "score": 3.515,
+          "actual": 22,
+          "avg": 10.13
+        },
+        {
+          "type": "player",
+          "name": "Ben Sheppard",
+          "team": "Indiana Pacers",
+          "stat": "Ben Sheppard - PTS",
+          "score": 2.693,
+          "actual": 10,
+          "avg": 5.27
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Isaiah Hartenstein",
+          "team": "Oklahoma City Thunder",
+          "stat": "Isaiah Hartenstein - PTS",
+          "score": -1.927,
+          "actual": 4,
+          "avg": 11.18
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "team": "Indiana Pacers",
+          "stat": "Tyrese Haliburton - AST",
+          "score": -1.687,
+          "actual": 3,
+          "avg": 9.22
+        },
+        {
+          "type": "player",
+          "name": "Alex Caruso",
+          "team": "Oklahoma City Thunder",
+          "stat": "Alex Caruso - PF",
+          "score": -1.675,
+          "actual": 4,
+          "avg": 1.89
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "team": "Indiana Pacers",
+          "stat": "Myles Turner - TOV",
+          "score": -1.509,
+          "actual": 3,
+          "avg": 1.71
+        },
+        {
+          "type": "player",
+          "name": "Pascal Siakam",
+          "team": "Indiana Pacers",
+          "stat": "Pascal Siakam - PTS",
+          "score": -1.369,
+          "actual": 11,
+          "avg": 20.23
+        }
+      ]
+    }
+  ]
+}

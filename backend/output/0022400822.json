@@ -1,0 +1,105 @@
+{
+  "game_id": "0022400822",
+  "teams": [
+    "DEN",
+    "IND"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Zeke Nnaji",
+          "team": "Denver Nuggets",
+          "stat": "Zeke Nnaji - PTS",
+          "score": 10.003,
+          "actual": 14,
+          "avg": 3.23
+        },
+        {
+          "type": "player",
+          "name": "Zeke Nnaji",
+          "team": "Denver Nuggets",
+          "stat": "Zeke Nnaji - FGM",
+          "score": 3.878,
+          "actual": 6,
+          "avg": 1.23
+        },
+        {
+          "type": "player",
+          "name": "Ben Sheppard",
+          "team": "Indiana Pacers",
+          "stat": "Ben Sheppard - REB",
+          "score": 2.982,
+          "actual": 7,
+          "avg": 2.81
+        },
+        {
+          "type": "player",
+          "name": "Zeke Nnaji",
+          "team": "Denver Nuggets",
+          "stat": "Zeke Nnaji - FGA",
+          "score": 2.239,
+          "actual": 8,
+          "avg": 2.47
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "team": "Indiana Pacers",
+          "stat": "Tyrese Haliburton - STL",
+          "score": 2.167,
+          "actual": 3,
+          "avg": 1.44
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Andrew Nembhard",
+          "team": "Indiana Pacers",
+          "stat": "Andrew Nembhard - TOV",
+          "score": -2.651,
+          "actual": 4,
+          "avg": 1.72
+        },
+        {
+          "type": "player",
+          "name": "Zeke Nnaji",
+          "team": "Denver Nuggets",
+          "stat": "Zeke Nnaji - PF",
+          "score": -2.628,
+          "actual": 3,
+          "avg": 1.09
+        },
+        {
+          "type": "player",
+          "name": "Aaron Gordon",
+          "team": "Denver Nuggets",
+          "stat": "Aaron Gordon - PF",
+          "score": -2.227,
+          "actual": 4,
+          "avg": 1.61
+        },
+        {
+          "type": "player",
+          "name": "Julian Strawther",
+          "team": "Denver Nuggets",
+          "stat": "Julian Strawther - PTS",
+          "score": -1.674,
+          "actual": 4,
+          "avg": 9.05
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "team": "Indiana Pacers",
+          "stat": "Myles Turner - TOV",
+          "score": -1.509,
+          "actual": 3,
+          "avg": 1.71
+        }
+      ]
+    }
+  ]
+}

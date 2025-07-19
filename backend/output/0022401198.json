@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401198",
+  "teams": [
+    "GSW",
+    "LAC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Gary Payton II",
+          "team": "Golden State Warriors",
+          "stat": "Gary Payton II - AST",
+          "score": 3.097,
+          "actual": 3,
+          "avg": 1.34
+        },
+        {
+          "type": "player",
+          "name": "Kawhi Leonard",
+          "team": "LA Clippers",
+          "stat": "Kawhi Leonard - AST",
+          "score": 3.073,
+          "actual": 7,
+          "avg": 3.14
+        },
+        {
+          "type": "player",
+          "name": "Kris Dunn",
+          "team": "LA Clippers",
+          "stat": "Kris Dunn - AST",
+          "score": 2.782,
+          "actual": 6,
+          "avg": 2.84
+        },
+        {
+          "type": "player",
+          "name": "Draymond Green",
+          "team": "Golden State Warriors",
+          "stat": "Draymond Green - FG3M",
+          "score": 2.39,
+          "actual": 4,
+          "avg": 1.18
+        },
+        {
+          "type": "player",
+          "name": "Brandin Podziemski",
+          "team": "Golden State Warriors",
+          "stat": "Brandin Podziemski - FTA",
+          "score": 2.378,
+          "actual": 5,
+          "avg": 1.48
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Stephen Curry",
+          "team": "Golden State Warriors",
+          "stat": "Stephen Curry - TOV",
+          "score": -3.594,
+          "actual": 8,
+          "avg": 2.86
+        },
+        {
+          "type": "player",
+          "name": "Kawhi Leonard",
+          "team": "LA Clippers",
+          "stat": "Kawhi Leonard - TOV",
+          "score": -3.128,
+          "actual": 5,
+          "avg": 1.95
+        },
+        {
+          "type": "player",
+          "name": "Brandin Podziemski",
+          "team": "Golden State Warriors",
+          "stat": "Brandin Podziemski - PF",
+          "score": -2.554,
+          "actual": 4,
+          "avg": 1.48
+        },
+        {
+          "type": "player",
+          "name": "Moses Moody",
+          "team": "Golden State Warriors",
+          "stat": "Moses Moody - PF",
+          "score": -2.322,
+          "actual": 4,
+          "avg": 1.57
+        },
+        {
+          "type": "player",
+          "name": "Derrick Jones Jr.",
+          "team": "LA Clippers",
+          "stat": "Derrick Jones Jr. - PTS",
+          "score": -2.112,
+          "actual": 3,
+          "avg": 10.14
+        }
+      ]
+    }
+  ]
+}

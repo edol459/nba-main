@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401150",
+  "teams": [
+    "NOP",
+    "BKN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - AST",
+          "score": 4.714,
+          "actual": 10,
+          "avg": 1.75
+        },
+        {
+          "type": "player",
+          "name": "Jamal Cain",
+          "stat": "Jamal Cain - FGM",
+          "score": 2.804,
+          "actual": 7,
+          "avg": 1.84
+        },
+        {
+          "type": "player",
+          "name": "Antonio Reeves",
+          "stat": "Antonio Reeves - FG3M",
+          "score": 2.203,
+          "actual": 4,
+          "avg": 1.16
+        },
+        {
+          "type": "player",
+          "name": "Maxwell Lewis",
+          "stat": "Maxwell Lewis - FGM",
+          "score": 2.106,
+          "actual": 5,
+          "avg": 1.61
+        },
+        {
+          "type": "player",
+          "name": "Maxwell Lewis",
+          "stat": "Maxwell Lewis - PTS",
+          "score": 1.899,
+          "actual": 12,
+          "avg": 4.14
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Karlo Matkovi\u0107",
+          "stat": "Karlo Matkovi\u0107 - TOV",
+          "score": -2.329,
+          "actual": 3,
+          "avg": 1.02
+        },
+        {
+          "type": "player",
+          "name": "Jose Alvarado",
+          "stat": "Jose Alvarado - TOV",
+          "score": -1.917,
+          "actual": 4,
+          "avg": 1.54
+        },
+        {
+          "type": "player",
+          "name": "Maxwell Lewis",
+          "stat": "Maxwell Lewis - PF",
+          "score": -1.423,
+          "actual": 4,
+          "avg": 1.04
+        },
+        {
+          "type": "player",
+          "name": "Tosan Evbuomwan",
+          "stat": "Tosan Evbuomwan - TOV",
+          "score": -1.39,
+          "actual": 3,
+          "avg": 1.39
+        },
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - PF",
+          "score": -1.0,
+          "actual": 3,
+          "avg": 1.0
+        }
+      ]
+    }
+  ]
+}

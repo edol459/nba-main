@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401126",
+  "teams": [
+    "LAL",
+    "NOP"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jose Alvarado",
+          "stat": "Jose Alvarado - PTS",
+          "score": 4.834,
+          "actual": 27,
+          "avg": 10.34
+        },
+        {
+          "type": "player",
+          "name": "Jamal Cain",
+          "stat": "Jamal Cain - PTS",
+          "score": 3.226,
+          "actual": 11,
+          "avg": 5.3
+        },
+        {
+          "type": "player",
+          "name": "Jaxson Hayes",
+          "stat": "Jaxson Hayes - REB",
+          "score": 3.0,
+          "actual": 12,
+          "avg": 4.8
+        },
+        {
+          "type": "player",
+          "name": "Karlo Matkovi\u0107",
+          "stat": "Karlo Matkovi\u0107 - PTS",
+          "score": 2.814,
+          "actual": 15,
+          "avg": 7.74
+        },
+        {
+          "type": "player",
+          "name": "Gabe Vincent",
+          "stat": "Gabe Vincent - REB",
+          "score": 2.688,
+          "actual": 3,
+          "avg": 1.28
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jamal Cain",
+          "stat": "Jamal Cain - PF",
+          "score": -3.339,
+          "actual": 4,
+          "avg": 1.24
+        },
+        {
+          "type": "player",
+          "name": "Jose Alvarado",
+          "stat": "Jose Alvarado - TOV",
+          "score": -3.195,
+          "actual": 4,
+          "avg": 1.54
+        },
+        {
+          "type": "player",
+          "name": "Jordan Goodwin",
+          "stat": "Jordan Goodwin - PF",
+          "score": -2.554,
+          "actual": 4,
+          "avg": 1.48
+        },
+        {
+          "type": "player",
+          "name": "Elfrid Payton",
+          "stat": "Elfrid Payton - TOV",
+          "score": -2.065,
+          "actual": 5,
+          "avg": 2.46
+        },
+        {
+          "type": "player",
+          "name": "Keion Brooks Jr.",
+          "stat": "Keion Brooks Jr. - PF",
+          "score": -1.304,
+          "actual": 4,
+          "avg": 2.14
+        }
+      ]
+    }
+  ]
+}

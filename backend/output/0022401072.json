@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401072",
+  "teams": [
+    "GSW",
+    "NOP"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Yves Missi",
+          "stat": "Yves Missi - FTM",
+          "score": 2.448,
+          "actual": 6,
+          "avg": 1.74
+        },
+        {
+          "type": "player",
+          "name": "Kelly Olynyk",
+          "stat": "Kelly Olynyk - FTM",
+          "score": 2.175,
+          "actual": 6,
+          "avg": 1.89
+        },
+        {
+          "type": "player",
+          "name": "Bruce Brown",
+          "stat": "Bruce Brown - FTM",
+          "score": 2.101,
+          "actual": 4,
+          "avg": 1.29
+        },
+        {
+          "type": "player",
+          "name": "Yves Missi",
+          "stat": "Yves Missi - PFD",
+          "score": 2.084,
+          "actual": 7,
+          "avg": 2.27
+        },
+        {
+          "type": "player",
+          "name": "Jimmy Butler III",
+          "stat": "Jimmy Butler III - OREB",
+          "score": 2.084,
+          "actual": 7,
+          "avg": 2.27
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Bruce Brown",
+          "stat": "Bruce Brown - PF",
+          "score": -0.656,
+          "actual": 4,
+          "avg": 1.73
+        },
+        {
+          "type": "player",
+          "name": "Kelly Olynyk",
+          "stat": "Kelly Olynyk - PF",
+          "score": -0.571,
+          "actual": 6,
+          "avg": 2.8
+        },
+        {
+          "type": "player",
+          "name": "Brandin Podziemski",
+          "stat": "Brandin Podziemski - PF",
+          "score": -0.514,
+          "actual": 3,
+          "avg": 1.48
+        },
+        {
+          "type": "player",
+          "name": "Draymond Green",
+          "stat": "Draymond Green - PF",
+          "score": -0.432,
+          "actual": 6,
+          "avg": 3.22
+        },
+        {
+          "type": "team",
+          "name": "New Orleans Pelicans",
+          "stat": "New Orleans Pelicans - FG3M",
+          "score": -0.418,
+          "actual": 7,
+          "avg": 12.02
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 import sys
 from pathlib import Path
-from config import OUT_DIR, N_BARS
-from utils import load_csv, save_json
-from scoring import compute_scores, rank_scores
+from backend.config import OUT_DIR, N_BARS
+from backend.utils import load_csv, save_json
+from backend.scoring import compute_scores, rank_scores
 
-def main(game_id: str):
+def compute_outliers(game_id: str):
     team_logs   = load_csv("team_game_logs.csv")
     player_logs = load_csv("player_game_logs.csv")
     team_avg    = load_csv("team_averages.csv").set_index("TEAM_NAME")
@@ -13,8 +13,10 @@ def main(game_id: str):
     #dict
     #game_out = {"game_id": game_id, "teams": [], "outliers": []}
 
-    team_logs["GAME_ID"] = team_logs["GAME_ID"].astype(str)
+    team_logs["GAME_ID"] = team_logs["GAME_ID"].astype(str).str.zfill(10)
     teams_in_game = team_logs[team_logs["GAME_ID"] == str(game_id)]
+    print("Sample GAME_IDs in team logs:", team_logs["GAME_ID"].unique()[:5])
+    print("Requested GAME_ID:", game_id)
 
     game_out = {"game_id": game_id, "teams": teams_in_game["TEAM_ABBREVIATION"].tolist(), "outliers": []}
 
@@ -42,13 +44,14 @@ def main(game_id: str):
                 "avg": team_avg_row[stat]
             }
         
-    player_logs["GAME_ID"] = player_logs["GAME_ID"].astype(str)
+    player_logs["GAME_ID"] = player_logs["GAME_ID"].astype(str).str.zfill(10)
     players_in_game = player_logs[player_logs["GAME_ID"] == str(game_id)]
     player_scores = {}
 
     for _, player_row in players_in_game.iterrows():
         name = player_row["PLAYER_NAME"]
         pid = player_row["PLAYER_ID"]
+        player_team = player_row["TEAM_NAME"]
         player_avg_row = player_avg.loc[pid]
         p_scores = compute_scores(player_row,player_avg_row)
 
@@ -57,6 +60,7 @@ def main(game_id: str):
             player_scores[key] = {
                 "type": "player",
                 "id": name,
+                "team": player_team,
                 "score": score,
                 "actual": player_row[stat],
                 "avg": player_avg_row[stat]
@@ -92,7 +96,6 @@ def main(game_id: str):
                 for stat,info in neg
         ],
     }
-
     
     game_out["outliers"].append(payload)
 
@@ -100,8 +103,4 @@ def main(game_id: str):
     save_json(game_out, OUT_DIR / f"{game_id}.json")
     print("✅ saved", OUT_DIR / f"{game_id}.json")
 
-if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python backend/compute_outliers.py <GAME_ID>")
-        sys.exit(1)
-    main(sys.argv[1])
+    return game_out

@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401011",
+  "teams": [
+    "BKN",
+    "IND"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Bennedict Mathurin",
+          "team": "Indiana Pacers",
+          "stat": "Bennedict Mathurin - REB",
+          "score": 4.015,
+          "actual": 16,
+          "avg": 5.32
+        },
+        {
+          "type": "player",
+          "name": "Ben Sheppard",
+          "team": "Indiana Pacers",
+          "stat": "Ben Sheppard - REB",
+          "score": 3.694,
+          "actual": 8,
+          "avg": 2.81
+        },
+        {
+          "type": "player",
+          "name": "Ziaire Williams",
+          "team": "Brooklyn Nets",
+          "stat": "Ziaire Williams - PTS",
+          "score": 3.58,
+          "actual": 22,
+          "avg": 10.03
+        },
+        {
+          "type": "player",
+          "name": "Bennedict Mathurin",
+          "team": "Indiana Pacers",
+          "stat": "Bennedict Mathurin - OREB",
+          "score": 3.132,
+          "actual": 5,
+          "avg": 1.21
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "team": "Indiana Pacers",
+          "stat": "Myles Turner - BLK",
+          "score": 3.0,
+          "actual": 5,
+          "avg": 2.0
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Nic Claxton",
+          "team": "Brooklyn Nets",
+          "stat": "Nic Claxton - TOV",
+          "score": -6.065,
+          "actual": 5,
+          "avg": 1.24
+        },
+        {
+          "type": "player",
+          "name": "Andrew Nembhard",
+          "team": "Indiana Pacers",
+          "stat": "Andrew Nembhard - TOV",
+          "score": -4.977,
+          "actual": 6,
+          "avg": 1.72
+        },
+        {
+          "type": "player",
+          "name": "Pascal Siakam",
+          "team": "Indiana Pacers",
+          "stat": "Pascal Siakam - TOV",
+          "score": -3.714,
+          "actual": 4,
+          "avg": 1.4
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Martin",
+          "team": "Brooklyn Nets",
+          "stat": "Tyrese Martin - TOV",
+          "score": -2.878,
+          "actual": 3,
+          "avg": 1.23
+        },
+        {
+          "type": "player",
+          "name": "Pascal Siakam",
+          "team": "Indiana Pacers",
+          "stat": "Pascal Siakam - PTS",
+          "score": -2.11,
+          "actual": 6,
+          "avg": 20.23
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401189",
+  "teams": [
+    "CLE",
+    "IND"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jaylon Tyson",
+          "stat": "Jaylon Tyson - FGM",
+          "score": 7.824,
+          "actual": 12,
+          "avg": 1.36
+        },
+        {
+          "type": "player",
+          "name": "Jaylon Tyson",
+          "stat": "Jaylon Tyson - PTS",
+          "score": 7.732,
+          "actual": 31,
+          "avg": 3.55
+        },
+        {
+          "type": "player",
+          "name": "Johnny Furphy",
+          "stat": "Johnny Furphy - PTS",
+          "score": 6.282,
+          "actual": 15,
+          "avg": 2.06
+        },
+        {
+          "type": "player",
+          "name": "Emoni Bates",
+          "stat": "Emoni Bates - FGM",
+          "score": 5.923,
+          "actual": 9,
+          "avg": 1.3
+        },
+        {
+          "type": "player",
+          "name": "Emoni Bates",
+          "stat": "Emoni Bates - PTS",
+          "score": 5.757,
+          "actual": 25,
+          "avg": 3.7
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Javonte Green",
+          "stat": "Javonte Green - PF",
+          "score": -1.978,
+          "actual": 5,
+          "avg": 1.44
+        },
+        {
+          "type": "player",
+          "name": "Nae'Qwan Tomlin",
+          "stat": "Nae'Qwan Tomlin - PF",
+          "score": -1.867,
+          "actual": 6,
+          "avg": 1.8
+        },
+        {
+          "type": "player",
+          "name": "Jaylon Tyson",
+          "stat": "Jaylon Tyson - PF",
+          "score": -1.464,
+          "actual": 3,
+          "avg": 1.06
+        },
+        {
+          "type": "team",
+          "name": "Cleveland Cavaliers",
+          "stat": "Cleveland Cavaliers - TOV",
+          "score": -0.8,
+          "actual": 22.0,
+          "avg": 13.2
+        },
+        {
+          "type": "player",
+          "name": "Andrew Nembhard",
+          "stat": "Andrew Nembhard - PTS",
+          "score": -0.701,
+          "actual": 3,
+          "avg": 10.05
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 import pandas as pd
-from config import STATS_TO_TRACK, WEIGHTS
+from backend.config import STATS_TO_TRACK, WEIGHTS
 
-def percent_diff(actual, avg, threshold=0.15):
+def percent_diff(actual, avg, threshold=0.07):
     if avg == 0:
         return 0
     
     diff_ratio = (actual - avg) / avg
     if abs(diff_ratio) < threshold:
         return 0
-    return max(min(diff_ratio, 5), -5)
+    return max(min(diff_ratio, 10), -10)
 
 def compute_scores(row: pd.Series, avg_row: pd.Series) -> dict:
     scores = {}
@@ -16,7 +16,7 @@ def compute_scores(row: pd.Series, avg_row: pd.Series) -> dict:
         x, mu = row.get(stat), avg_row.get(stat)
         if pd.isna(x) or pd.isna(mu):
             continue
-        if abs(x) < 3 or mu < 1:  # Ignore performances with too small actual value
+        elif abs(x) < 3 or mu < 1:  # Ignore performances with too small actual value
             continue
         scores[stat] = WEIGHTS.get(stat, 1) * percent_diff(x, mu)
     return scores

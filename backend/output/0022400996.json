@@ -1,0 +1,105 @@
+{
+  "game_id": "0022400996",
+  "teams": [
+    "MIL",
+    "LAL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Alex Len",
+          "team": "Los Angeles Lakers",
+          "stat": "Alex Len - PTS",
+          "score": 15.0,
+          "actual": 10,
+          "avg": 1.61
+        },
+        {
+          "type": "player",
+          "name": "Bronny James",
+          "team": "Los Angeles Lakers",
+          "stat": "Bronny James - PTS",
+          "score": 15.0,
+          "actual": 17,
+          "avg": 2.3
+        },
+        {
+          "type": "player",
+          "name": "Alex Len",
+          "team": "Los Angeles Lakers",
+          "stat": "Alex Len - REB",
+          "score": 6.696,
+          "actual": 9,
+          "avg": 2.07
+        },
+        {
+          "type": "player",
+          "name": "Jordan Goodwin",
+          "team": "Los Angeles Lakers",
+          "stat": "Jordan Goodwin - AST",
+          "score": 6.121,
+          "actual": 5,
+          "avg": 1.45
+        },
+        {
+          "type": "player",
+          "name": "Chris Livingston",
+          "team": "Milwaukee Bucks",
+          "stat": "Chris Livingston - PTS",
+          "score": 5.392,
+          "actual": 4,
+          "avg": 1.43
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Shake Milton",
+          "team": "Los Angeles Lakers",
+          "stat": "Shake Milton - PF",
+          "score": -6.127,
+          "actual": 6,
+          "avg": 1.18
+        },
+        {
+          "type": "player",
+          "name": "Alex Len",
+          "team": "Los Angeles Lakers",
+          "stat": "Alex Len - PF",
+          "score": -3.418,
+          "actual": 4,
+          "avg": 1.22
+        },
+        {
+          "type": "player",
+          "name": "Kevin Porter Jr.",
+          "team": "Milwaukee Bucks",
+          "stat": "Kevin Porter Jr. - PTS",
+          "score": -2.125,
+          "actual": 3,
+          "avg": 10.28
+        },
+        {
+          "type": "player",
+          "name": "Ryan Rollins",
+          "team": "Milwaukee Bucks",
+          "stat": "Ryan Rollins - PF",
+          "score": -1.366,
+          "actual": 3,
+          "avg": 1.57
+        },
+        {
+          "type": "player",
+          "name": "Gabe Vincent",
+          "team": "Los Angeles Lakers",
+          "stat": "Gabe Vincent - PF",
+          "score": -1.344,
+          "actual": 4,
+          "avg": 2.11
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400707",
+  "teams": [
+    "UTA",
+    "IND"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Kyle Filipowski",
+          "stat": "Kyle Filipowski - FTM",
+          "score": 2.876,
+          "actual": 5,
+          "avg": 1.29
+        },
+        {
+          "type": "player",
+          "name": "Kyle Filipowski",
+          "stat": "Kyle Filipowski - FTA",
+          "score": 2.015,
+          "actual": 6,
+          "avg": 1.99
+        },
+        {
+          "type": "player",
+          "name": "Ben Sheppard",
+          "stat": "Ben Sheppard - AST",
+          "score": 1.963,
+          "actual": 4,
+          "avg": 1.35
+        },
+        {
+          "type": "player",
+          "name": "Aaron Nesmith",
+          "stat": "Aaron Nesmith - FTA",
+          "score": 1.809,
+          "actual": 5,
+          "avg": 1.78
+        },
+        {
+          "type": "player",
+          "name": "Walker Kessler",
+          "stat": "Walker Kessler - FTA",
+          "score": 1.672,
+          "actual": 7,
+          "avg": 2.62
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Lauri Markkanen",
+          "stat": "Lauri Markkanen - FG3A",
+          "score": -0.411,
+          "actual": 5,
+          "avg": 8.49
+        },
+        {
+          "type": "player",
+          "name": "T.J. McConnell",
+          "stat": "T.J. McConnell - PTS",
+          "score": -0.393,
+          "actual": 4,
+          "avg": 9.11
+        },
+        {
+          "type": "player",
+          "name": "Walker Kessler",
+          "stat": "Walker Kessler - FGM",
+          "score": -0.374,
+          "actual": 3,
+          "avg": 4.79
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - AST",
+          "score": -0.349,
+          "actual": 6,
+          "avg": 9.22
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - OREB",
+          "score": -0.346,
+          "actual": 6,
+          "avg": 9.17
+        }
+      ]
+    }
+  ]
+}

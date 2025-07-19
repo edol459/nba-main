@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401199",
+  "teams": [
+    "POR",
+    "LAL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Rayan Rupert",
+          "stat": "Rayan Rupert - REB",
+          "score": 10.0,
+          "actual": 10,
+          "avg": 1.35
+        },
+        {
+          "type": "player",
+          "name": "Sidy Cissoko",
+          "stat": "Sidy Cissoko - PTS",
+          "score": 9.569,
+          "actual": 7,
+          "avg": 1.45
+        },
+        {
+          "type": "player",
+          "name": "Rayan Rupert",
+          "stat": "Rayan Rupert - PTS",
+          "score": 8.406,
+          "actual": 13,
+          "avg": 2.98
+        },
+        {
+          "type": "player",
+          "name": "Markieff Morris",
+          "stat": "Markieff Morris - AST",
+          "score": 6.571,
+          "actual": 6,
+          "avg": 1.4
+        },
+        {
+          "type": "player",
+          "name": "Kris Murray",
+          "stat": "Kris Murray - REB",
+          "score": 6.333,
+          "actual": 11,
+          "avg": 2.64
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Dalano Banton",
+          "stat": "Dalano Banton - TOV",
+          "score": -2.688,
+          "actual": 3,
+          "avg": 1.28
+        },
+        {
+          "type": "player",
+          "name": "Alex Len",
+          "stat": "Alex Len - PF",
+          "score": -1.959,
+          "actual": 6,
+          "avg": 1.22
+        },
+        {
+          "type": "player",
+          "name": "Markieff Morris",
+          "stat": "Markieff Morris - PF",
+          "score": -1.369,
+          "actual": 4,
+          "avg": 1.07
+        },
+        {
+          "type": "team",
+          "name": "Los Angeles Lakers",
+          "stat": "Los Angeles Lakers - TOV",
+          "score": -1.009,
+          "actual": 21.0,
+          "avg": 13.96
+        },
+        {
+          "type": "player",
+          "name": "Christian Koloko",
+          "stat": "Christian Koloko - PF",
+          "score": -0.761,
+          "actual": 3,
+          "avg": 1.19
+        }
+      ]
+    }
+  ]
+}
