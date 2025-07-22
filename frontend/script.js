@@ -72,7 +72,7 @@ function renderOutliers(data) {
 function makeBar(outlier, isNegative, index) {
   const height = 500 - index * 100; // top bar tallest
   const bar = isNegative ? 'bar negative' : 'bar positive';
-  const label = `<b>${outlier.name}</b><br> ${outlier.stat.split(" - ")[1]} <br> Actual: ${outlier.actual} ${outlier.stat.split(" - ")[1]} <br> Average: ${outlier.avg} ${outlier.stat.split(" - ")[1]}`;
+  const label = `<b>${outlier.name}</b><br> ${outlier.stat.split(" - ")[1]} <br>Actual: ${outlier.actual} ${outlier.stat.split(" - ")[1]} <br> Average: ${outlier.avg} ${outlier.stat.split(" - ")[1]}`;
 
   return `
     <div class="${bar}" style="height:${height}px;">

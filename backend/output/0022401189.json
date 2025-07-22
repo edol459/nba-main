@@ -51,43 +51,43 @@
       "negative": [
         {
           "type": "player",
-          "name": "Javonte Green",
-          "stat": "Javonte Green - PF",
-          "score": -1.978,
-          "actual": 5,
-          "avg": 1.44
-        },
-        {
-          "type": "player",
-          "name": "Nae'Qwan Tomlin",
-          "stat": "Nae'Qwan Tomlin - PF",
-          "score": -1.867,
-          "actual": 6,
-          "avg": 1.8
-        },
-        {
-          "type": "player",
-          "name": "Jaylon Tyson",
-          "stat": "Jaylon Tyson - PF",
-          "score": -1.464,
-          "actual": 3,
-          "avg": 1.06
-        },
-        {
-          "type": "team",
-          "name": "Cleveland Cavaliers",
-          "stat": "Cleveland Cavaliers - TOV",
-          "score": -0.8,
-          "actual": 22.0,
-          "avg": 13.2
-        },
-        {
-          "type": "player",
           "name": "Andrew Nembhard",
           "stat": "Andrew Nembhard - PTS",
           "score": -0.701,
           "actual": 3,
           "avg": 10.05
+        },
+        {
+          "type": "player",
+          "name": "Javonte Green",
+          "stat": "Javonte Green - PF",
+          "score": -0.494,
+          "actual": 5,
+          "avg": 1.44
+        },
+        {
+          "type": "player",
+          "name": "Chuma Okeke",
+          "stat": "Chuma Okeke - PTS",
+          "score": -0.491,
+          "actual": 3,
+          "avg": 5.89
+        },
+        {
+          "type": "player",
+          "name": "Nae'Qwan Tomlin",
+          "stat": "Nae'Qwan Tomlin - PF",
+          "score": -0.467,
+          "actual": 6,
+          "avg": 1.8
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - FGM",
+          "score": -0.446,
+          "actual": 3,
+          "avg": 5.42
         }
       ]
     }
