@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401166",
+  "teams": [
+    "HOU",
+    "LAC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Reed Sheppard",
+          "stat": "Reed Sheppard - PTS",
+          "score": 2.836,
+          "actual": 20,
+          "avg": 4.4
+        },
+        {
+          "type": "player",
+          "name": "Ivica Zubac",
+          "stat": "Ivica Zubac - AST",
+          "score": 2.731,
+          "actual": 10,
+          "avg": 2.68
+        },
+        {
+          "type": "player",
+          "name": "Nicolas Batum",
+          "stat": "Nicolas Batum - PTS",
+          "score": 2.193,
+          "actual": 15,
+          "avg": 4.01
+        },
+        {
+          "type": "player",
+          "name": "Jeff Green",
+          "stat": "Jeff Green - PTS",
+          "score": 2.025,
+          "actual": 19,
+          "avg": 5.38
+        },
+        {
+          "type": "player",
+          "name": "Aaron Holiday",
+          "stat": "Aaron Holiday - PTS",
+          "score": 1.536,
+          "actual": 16,
+          "avg": 5.48
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "David Roddy",
+          "stat": "David Roddy - TS%",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.56
+        },
+        {
+          "type": "player",
+          "name": "Trentyn Flowers",
+          "stat": "Trentyn Flowers - TS%",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.45
+        },
+        {
+          "type": "player",
+          "name": "Cam Christie",
+          "stat": "Cam Christie - TS%",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.35
+        },
+        {
+          "type": "player",
+          "name": "Jordan Miller",
+          "stat": "Jordan Miller - TS%",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.51
+        },
+        {
+          "type": "player",
+          "name": "Jack McVeigh",
+          "stat": "Jack McVeigh - TS%",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.41
+        }
+      ]
+    }
+  ]
+}

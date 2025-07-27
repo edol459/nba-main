@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401154",
+  "teams": [
+    "GSW",
+    "PHX"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Brandin Podziemski",
+          "stat": "Brandin Podziemski - FG3_PCT",
+          "score": 0.962,
+          "actual": 0.667,
+          "avg": 0.34,
+          "player_id": 1641764,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Brandin Podziemski",
+          "stat": "Brandin Podziemski - TS%",
+          "score": 0.429,
+          "actual": 0.8,
+          "avg": 0.56,
+          "player_id": 1641764,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Brandin Podziemski",
+          "stat": "Brandin Podziemski - FG_PCT",
+          "score": 0.422,
+          "actual": 0.583,
+          "avg": 0.41,
+          "player_id": 1641764,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Devin Booker",
+          "stat": "Devin Booker - FG3_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.3,
+          "player_id": 1626164,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Devin Booker",
+          "stat": "Devin Booker - FG3_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.3,
+          "player_id": 1626164,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Brandin Podziemski",
+          "stat": "Brandin Podziemski - FG_PCT",
+          "score": 0.422,
+          "actual": 0.583,
+          "avg": 0.41,
+          "player_id": 1641764,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Brandin Podziemski",
+          "stat": "Brandin Podziemski - TS%",
+          "score": 0.429,
+          "actual": 0.8,
+          "avg": 0.56,
+          "player_id": 1641764,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Brandin Podziemski",
+          "stat": "Brandin Podziemski - FG3_PCT",
+          "score": 0.962,
+          "actual": 0.667,
+          "avg": 0.34,
+          "player_id": 1641764,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

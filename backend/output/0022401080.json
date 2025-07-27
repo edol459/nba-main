@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401080",
+  "teams": [
+    "SAS",
+    "BOS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jeremy Sochan",
+          "stat": "Jeremy Sochan - FTM",
+          "score": 2.606,
+          "actual": 10,
+          "avg": 1.61,
+          "player_id": 1631110,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jeremy Sochan",
+          "stat": "Jeremy Sochan - FT_PCT",
+          "score": 0.937,
+          "actual": 0.833,
+          "avg": 0.43,
+          "player_id": 1631110,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jrue Holiday",
+          "stat": "Jrue Holiday - FG3_PCT",
+          "score": 0.616,
+          "actual": 0.714,
+          "avg": 0.32,
+          "player_id": 201950,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Devin Vassell",
+          "stat": "Devin Vassell - FG3_PCT",
+          "score": 0.426,
+          "actual": 0.667,
+          "avg": 0.36,
+          "player_id": 1630170,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Devin Vassell",
+          "stat": "Devin Vassell - FG3_PCT",
+          "score": 0.426,
+          "actual": 0.667,
+          "avg": 0.36,
+          "player_id": 1630170,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jrue Holiday",
+          "stat": "Jrue Holiday - FG3_PCT",
+          "score": 0.616,
+          "actual": 0.714,
+          "avg": 0.32,
+          "player_id": 201950,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jeremy Sochan",
+          "stat": "Jeremy Sochan - FT_PCT",
+          "score": 0.937,
+          "actual": 0.833,
+          "avg": 0.43,
+          "player_id": 1631110,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jeremy Sochan",
+          "stat": "Jeremy Sochan - FTM",
+          "score": 2.606,
+          "actual": 10,
+          "avg": 1.61,
+          "player_id": 1631110,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

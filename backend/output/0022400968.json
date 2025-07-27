@@ -1,0 +1,115 @@
+{
+  "game_id": "0022400968",
+  "teams": [
+    "BOS",
+    "BKN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jaylen Brown",
+          "stat": "Jaylen Brown - BLK",
+          "score": 5.667,
+          "actual": 2,
+          "avg": 0.3,
+          "player_id": 1627759,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jrue Holiday",
+          "stat": "Jrue Holiday - BLK",
+          "score": 3.545,
+          "actual": 2,
+          "avg": 0.44,
+          "player_id": 201950,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Maxwell Lewis",
+          "stat": "Maxwell Lewis - FG3M",
+          "score": 3.412,
+          "actual": 3,
+          "avg": 0.68,
+          "player_id": 1641721,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Maxwell Lewis",
+          "stat": "Maxwell Lewis - BLK",
+          "score": 3.0,
+          "actual": 1,
+          "avg": 0.25,
+          "player_id": 1641721,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Maxwell Lewis",
+          "stat": "Maxwell Lewis - FG3_PCT",
+          "score": 2.704,
+          "actual": 1.0,
+          "avg": 0.27,
+          "player_id": 1641721,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - TS%",
+          "score": -1.5,
+          "actual": 0.0,
+          "avg": 0.4,
+          "player_id": 1641736,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Martin",
+          "stat": "Tyrese Martin - FT_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.27,
+          "player_id": 1631213,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - FG_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.25,
+          "player_id": 1641736,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - FG3_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.11,
+          "player_id": 1641736,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - FT_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.18,
+          "player_id": 1641736,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

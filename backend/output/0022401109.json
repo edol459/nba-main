@@ -1,0 +1,114 @@
+{
+  "game_id": "0022401109",
+  "teams": [
+    "ATL",
+    "DAL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Naji Marshall",
+          "stat": "Naji Marshall - AST",
+          "score": 3.32,
+          "actual": 8,
+          "avg": 3.01,
+          "player_id": 1630230,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Spencer Dinwiddie",
+          "stat": "Spencer Dinwiddie - AST",
+          "score": 2.939,
+          "actual": 10,
+          "avg": 4.42,
+          "player_id": 203915,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - DREB",
+          "score": 1.566,
+          "actual": 11,
+          "avg": 5.95,
+          "player_id": 1630168,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Mouhamed Gueye",
+          "stat": "Mouhamed Gueye - PTS",
+          "score": 1.335,
+          "actual": 11,
+          "avg": 5.97,
+          "player_id": 1631243,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Anthony Davis",
+          "stat": "Anthony Davis - PTS",
+          "score": 1.141,
+          "actual": 34,
+          "avg": 24.73,
+          "player_id": 203076,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Dallas Mavericks",
+          "stat": "Dallas Mavericks - OREB",
+          "score": -2.012,
+          "actual": 4,
+          "avg": 10.1,
+          "team_abbr": "DAL"
+        },
+        {
+          "type": "player",
+          "name": "Naji Marshall",
+          "stat": "Naji Marshall - PTS",
+          "score": -1.239,
+          "actual": 6,
+          "avg": 13.25,
+          "player_id": 1630230,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Zaccharie Risacher",
+          "stat": "Zaccharie Risacher - TS%",
+          "score": -0.401,
+          "actual": 0.41,
+          "avg": 0.56,
+          "player_id": 1642258,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Naji Marshall",
+          "stat": "Naji Marshall - TS%",
+          "score": -0.364,
+          "actual": 0.44,
+          "avg": 0.58,
+          "player_id": 1630230,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Mouhamed Gueye",
+          "stat": "Mouhamed Gueye - TS%",
+          "score": -0.285,
+          "actual": 0.42,
+          "avg": 0.52,
+          "player_id": 1631243,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

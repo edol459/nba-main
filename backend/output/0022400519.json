@@ -1,0 +1,113 @@
+{
+  "game_id": "0022400519",
+  "teams": [
+    "ORL",
+    "MIN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Caleb Houstan",
+          "stat": "Caleb Houstan - PTS",
+          "score": 3.256,
+          "actual": 14,
+          "avg": 4.12,
+          "player_id": 1631216,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Goga Bitadze",
+          "stat": "Goga Bitadze - PTS",
+          "score": 1.873,
+          "actual": 15,
+          "avg": 7.17,
+          "player_id": 1629048,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Orlando Magic",
+          "stat": "Orlando Magic - BLK",
+          "score": 1.794,
+          "actual": 10,
+          "avg": 5.95,
+          "team_abbr": "ORL"
+        },
+        {
+          "type": "player",
+          "name": "Jett Howard",
+          "stat": "Jett Howard - PTS",
+          "score": 1.747,
+          "actual": 10,
+          "avg": 4.45,
+          "player_id": 1641724,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Kentavious Caldwell-Pope",
+          "stat": "Kentavious Caldwell-Pope - PTS",
+          "score": 0.913,
+          "actual": 13,
+          "avg": 8.74,
+          "player_id": 203484,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Orlando Magic",
+          "stat": "Orlando Magic - STL",
+          "score": -2.076,
+          "actual": 4,
+          "avg": 8.89,
+          "team_abbr": "ORL"
+        },
+        {
+          "type": "player",
+          "name": "Anthony Black",
+          "stat": "Anthony Black - PTS",
+          "score": -1.323,
+          "actual": 3,
+          "avg": 9.44,
+          "player_id": 1641710,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jaden McDaniels",
+          "stat": "Jaden McDaniels - PTS",
+          "score": -0.929,
+          "actual": 7,
+          "avg": 12.2,
+          "player_id": 1630183,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Nickeil Alexander-Walker",
+          "stat": "Nickeil Alexander-Walker - TS%",
+          "score": -0.824,
+          "actual": 0.2,
+          "avg": 0.58,
+          "player_id": 1629638,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Trevelin Queen",
+          "stat": "Trevelin Queen - TS%",
+          "score": -0.797,
+          "actual": 0.17,
+          "avg": 0.49,
+          "player_id": 1630243,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

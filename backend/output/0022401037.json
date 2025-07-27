@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401037",
+  "teams": [
+    "IND",
+    "MIN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Obi Toppin",
+          "stat": "Obi Toppin - FG3M",
+          "score": 2.985,
+          "actual": 6,
+          "avg": 1.39
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - AST/TOV",
+          "score": 1.148,
+          "actual": 11.0,
+          "avg": 5.622
+        },
+        {
+          "type": "player",
+          "name": "Donte DiVincenzo",
+          "stat": "Donte DiVincenzo - DREB",
+          "score": 0.766,
+          "actual": 8,
+          "avg": 3.16
+        },
+        {
+          "type": "player",
+          "name": "Obi Toppin",
+          "stat": "Obi Toppin - PTS",
+          "score": 0.718,
+          "actual": 20,
+          "avg": 10.54
+        },
+        {
+          "type": "player",
+          "name": "Obi Toppin",
+          "stat": "Obi Toppin - TS%",
+          "score": 0.562,
+          "actual": 1.0,
+          "avg": 0.64
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - PTS",
+          "score": -0.44,
+          "actual": 7,
+          "avg": 15.56
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - TS%",
+          "score": -0.426,
+          "actual": 0.35,
+          "avg": 0.61
+        },
+        {
+          "type": "player",
+          "name": "Julius Randle",
+          "stat": "Julius Randle - PTS",
+          "score": -0.414,
+          "actual": 9,
+          "avg": 18.67
+        },
+        {
+          "type": "player",
+          "name": "Jaden McDaniels",
+          "stat": "Jaden McDaniels - PTS",
+          "score": -0.407,
+          "actual": 6,
+          "avg": 12.2
+        },
+        {
+          "type": "player",
+          "name": "Donte DiVincenzo",
+          "stat": "Donte DiVincenzo - TS%",
+          "score": -0.397,
+          "actual": 0.35,
+          "avg": 0.58
+        }
+      ]
+    }
+  ]
+}

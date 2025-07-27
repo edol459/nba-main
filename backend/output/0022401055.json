@@ -9,9 +9,25 @@
       "positive": [
         {
           "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - AST/TOV",
+          "score": 2.642,
+          "actual": 18.0,
+          "avg": 5.622
+        },
+        {
+          "type": "player",
+          "name": "LeBron James",
+          "stat": "LeBron James - AST/TOV",
+          "score": 2.596,
+          "actual": 7.0,
+          "avg": 2.213
+        },
+        {
+          "type": "player",
           "name": "Jarred Vanderbilt",
           "stat": "Jarred Vanderbilt - AST",
-          "score": 1.632,
+          "score": 1.305,
           "actual": 3,
           "avg": 1.14
         },
@@ -25,38 +41,14 @@
         },
         {
           "type": "player",
-          "name": "LeBron James",
-          "stat": "LeBron James - OREB",
-          "score": 1.148,
-          "actual": 3,
-          "avg": 1.03
-        },
-        {
-          "type": "player",
           "name": "Jaxson Hayes",
           "stat": "Jaxson Hayes - FGM",
           "score": 1.083,
           "actual": 6,
           "avg": 2.88
-        },
-        {
-          "type": "player",
-          "name": "Tyrese Haliburton",
-          "stat": "Tyrese Haliburton - AST",
-          "score": 0.952,
-          "actual": 18,
-          "avg": 9.22
         }
       ],
       "negative": [
-        {
-          "type": "player",
-          "name": "Austin Reaves",
-          "stat": "Austin Reaves - TOV",
-          "score": -0.783,
-          "actual": 4,
-          "avg": 2.42
-        },
         {
           "type": "player",
           "name": "Dalton Knecht",
@@ -64,14 +56,6 @@
           "score": -0.669,
           "actual": 3,
           "avg": 9.05
-        },
-        {
-          "type": "player",
-          "name": "Jarred Vanderbilt",
-          "stat": "Jarred Vanderbilt - PF",
-          "score": -0.575,
-          "actual": 4,
-          "avg": 1.86
         },
         {
           "type": "player",
@@ -88,6 +72,22 @@
           "score": -0.468,
           "actual": 13,
           "avg": 24.43
+        },
+        {
+          "type": "player",
+          "name": "T.J. McConnell",
+          "stat": "T.J. McConnell - PTS",
+          "score": -0.451,
+          "actual": 5,
+          "avg": 9.11
+        },
+        {
+          "type": "team",
+          "name": "Los Angeles Lakers",
+          "stat": "Los Angeles Lakers - STL",
+          "score": -0.423,
+          "actual": 5,
+          "avg": 7.72
         }
       ]
     }

@@ -1,0 +1,113 @@
+{
+  "game_id": "0022400960",
+  "teams": [
+    "ATL",
+    "LAC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Nicolas Batum",
+          "stat": "Nicolas Batum - PTS",
+          "score": 2.341,
+          "actual": 11,
+          "avg": 4.01,
+          "player_id": 201587,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Dominick Barlow",
+          "stat": "Dominick Barlow - PTS",
+          "score": 1.872,
+          "actual": 10,
+          "avg": 4.23,
+          "player_id": 1631230,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "LA Clippers",
+          "stat": "LA Clippers - STL",
+          "score": 1.565,
+          "actual": 14,
+          "avg": 9.43,
+          "team_abbr": "LAC"
+        },
+        {
+          "type": "player",
+          "name": "Bogdan Bogdanovi\u0107",
+          "stat": "Bogdan Bogdanovi\u0107 - TS%",
+          "score": 0.83,
+          "actual": 0.87,
+          "avg": 0.56,
+          "player_id": 203992,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - PTS",
+          "score": 0.792,
+          "actual": 18,
+          "avg": 13.35,
+          "player_id": 1630168,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - PTS",
+          "score": -1.983,
+          "actual": 0,
+          "avg": 9.92,
+          "player_id": 1627777,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - TS%",
+          "score": -1.523,
+          "actual": 0.0,
+          "avg": 0.61,
+          "player_id": 1627777,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Trae Young",
+          "stat": "Trae Young - AST",
+          "score": -1.403,
+          "actual": 7,
+          "avg": 11.58,
+          "player_id": 1629027,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FG3M",
+          "score": -1.396,
+          "actual": 9,
+          "avg": 13.5,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "player",
+          "name": "Dyson Daniels",
+          "stat": "Dyson Daniels - PTS",
+          "score": -1.342,
+          "actual": 6,
+          "avg": 14.12,
+          "player_id": 1630700,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

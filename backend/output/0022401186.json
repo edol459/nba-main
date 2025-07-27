@@ -11,83 +11,101 @@
           "type": "player",
           "name": "Jacob Toppin",
           "stat": "Jacob Toppin - PTS",
-          "score": 10.0,
+          "score": 12.264,
           "actual": 17,
-          "avg": 1.35
+          "avg": 1.35,
+          "player_id": 1631210,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jacob Toppin",
+          "stat": "Jacob Toppin - FG3M",
+          "score": 11.358,
+          "actual": 5,
+          "avg": 0.29,
+          "player_id": 1631210,
+          "team_abbr": null
         },
         {
           "type": "player",
           "name": "Keaton Wallace",
           "stat": "Keaton Wallace - AST",
-          "score": 3.798,
+          "score": 9.02,
           "actual": 15,
-          "avg": 2.61
+          "avg": 2.61,
+          "player_id": 1630811,
+          "team_abbr": null
         },
         {
           "type": "player",
-          "name": "Jett Howard",
-          "stat": "Jett Howard - FGM",
-          "score": 3.294,
-          "actual": 7,
-          "avg": 1.63
+          "name": "Keaton Wallace",
+          "stat": "Keaton Wallace - DREB",
+          "score": 6.413,
+          "actual": 11,
+          "avg": 1.39,
+          "player_id": 1630811,
+          "team_abbr": null
         },
         {
           "type": "player",
-          "name": "Gary Harris",
-          "stat": "Gary Harris - PTS",
-          "score": 2.974,
-          "actual": 12,
-          "avg": 3.02
-        },
-        {
-          "type": "player",
-          "name": "Gary Harris",
-          "stat": "Gary Harris - FGM",
-          "score": 2.774,
-          "actual": 4,
-          "avg": 1.06
+          "name": "Keaton Wallace",
+          "stat": "Keaton Wallace - STL",
+          "score": 6.279,
+          "actual": 5,
+          "avg": 0.9,
+          "player_id": 1630811,
+          "team_abbr": null
         }
       ],
       "negative": [
         {
           "type": "player",
-          "name": "Keaton Wallace",
-          "stat": "Keaton Wallace - TOV",
-          "score": -0.915,
-          "actual": 3,
-          "avg": 1.06
-        },
-        {
-          "type": "player",
-          "name": "Wendell Carter Jr.",
-          "stat": "Wendell Carter Jr. - PTS",
-          "score": -0.56,
-          "actual": 4,
-          "avg": 9.09
+          "name": "Jett Howard",
+          "stat": "Jett Howard - TOV",
+          "score": -5.692,
+          "actual": 6,
+          "avg": 0.6,
+          "player_id": 1641724,
+          "team_abbr": null
         },
         {
           "type": "player",
           "name": "Zaccharie Risacher",
           "stat": "Zaccharie Risacher - PTS",
-          "score": -0.522,
+          "score": -1.539,
           "actual": 6,
-          "avg": 12.56
+          "avg": 12.56,
+          "player_id": 1642258,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FTM",
+          "score": -1.449,
+          "actual": 6,
+          "avg": 17.95,
+          "team_abbr": "ATL"
         },
         {
           "type": "player",
-          "name": "Mouhamed Gueye",
-          "stat": "Mouhamed Gueye - PTS",
-          "score": -0.497,
-          "actual": 3,
-          "avg": 5.97
-        },
-        {
-          "type": "player",
-          "name": "Dominick Barlow",
-          "stat": "Dominick Barlow - PF",
-          "score": -0.397,
+          "name": "Wendell Carter Jr.",
+          "stat": "Wendell Carter Jr. - PTS",
+          "score": -1.423,
           "actual": 4,
-          "avg": 1.34
+          "avg": 9.09,
+          "player_id": 1628976,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - PFD",
+          "score": -1.299,
+          "actual": 8,
+          "avg": 19.06,
+          "team_abbr": "ATL"
         }
       ]
     }

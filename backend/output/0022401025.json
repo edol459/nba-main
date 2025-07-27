@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401025",
+  "teams": [
+    "GSW",
+    "ATL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Moses Moody",
+          "stat": "Moses Moody - PFD",
+          "score": 1.628,
+          "actual": 6,
+          "avg": 1.41
+        },
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - PTS",
+          "score": 1.319,
+          "actual": 23,
+          "avg": 9.92
+        },
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - FGM",
+          "score": 1.21,
+          "actual": 8,
+          "avg": 3.62
+        },
+        {
+          "type": "player",
+          "name": "Moses Moody",
+          "stat": "Moses Moody - PTS",
+          "score": 1.045,
+          "actual": 20,
+          "avg": 9.78
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - FGM",
+          "score": 0.908,
+          "actual": 10,
+          "avg": 5.24
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "V\u00edt Krej\u010d\u00ed",
+          "stat": "V\u00edt Krej\u010d\u00ed - PTS",
+          "score": -0.585,
+          "actual": 3,
+          "avg": 7.23
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - STL",
+          "score": -0.583,
+          "actual": 5,
+          "avg": 9.73
+        },
+        {
+          "type": "player",
+          "name": "Buddy Hield",
+          "stat": "Buddy Hield - PTS",
+          "score": -0.55,
+          "actual": 5,
+          "avg": 11.12
+        },
+        {
+          "type": "player",
+          "name": "Draymond Green",
+          "stat": "Draymond Green - PTS",
+          "score": -0.445,
+          "actual": 5,
+          "avg": 9.01
+        },
+        {
+          "type": "team",
+          "name": "Golden State Warriors",
+          "stat": "Golden State Warriors - OREB",
+          "score": -0.261,
+          "actual": 6,
+          "avg": 12.55
+        }
+      ]
+    }
+  ]
+}

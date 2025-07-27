@@ -1,28 +1,26 @@
 header{
+  display: flex;
+  flex-wrap: nowrap;
   position: absolute;
   top: 0px; 
   width: 100%;
+  margin-bottom: 50px;
   text-align: center;
+  justify-content: center;
 }
-
-
 
 body {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
   font-family: sans-serif;
-  padding: 10em;
+  padding: 5em;
   background: whitesmoke;
 }
 
 
-.team-logo {
-  width: 150px;
-  height: 150px;
-  vertical-align: middle;
-  margin: 0 10px;
-}
+
 
 .team-header {
   background-color: lightgrey;
@@ -32,12 +30,27 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin-top: 10px;
+}
+
+.team-logo {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+
+#output{
+  text-align: center;
+  margin-top: 50px;
 }
 
 .timeline-container {
   display: flex;
+  text-align: center;
   justify-content: center;
-  gap: 200px;
+  gap: 300px;
 }
 
 .outlier-column {
@@ -61,7 +74,7 @@ body {
 }
 
 .bar:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .bar.positive{
@@ -99,4 +112,22 @@ body {
 
 .bar:hover .bar-label{
   display: block;
+}
+
+
+.player-headshot {
+  width: 60px;
+  height: auto;
+  display: block;
+  margin: 0 auto 5px auto;
+  border-radius: 8px;
+}
+
+
+.team-logo-mini {
+  width: 60px;
+  height: auto;
+  display: block;
+  margin: 0 auto 5px auto;
+  border-radius: 8px;
 }

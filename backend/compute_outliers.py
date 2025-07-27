@@ -1,4 +1,5 @@
 import sys
+from backend.advanced_stats import add_all_adv
 from pathlib import Path
 from backend.config import OUT_DIR, N_BARS
 from backend.utils import load_csv, save_json
@@ -10,8 +11,9 @@ def compute_outliers(game_id: str):
     team_avg    = load_csv("team_averages.csv").set_index("TEAM_NAME")
     player_avg  = load_csv("player_averages.csv").set_index("PLAYER_ID")
 
-    #dict
-    #game_out = {"game_id": game_id, "teams": [], "outliers": []}
+
+    player_logs = add_all_adv(player_logs)
+    player_avg = add_all_adv(player_avg)
 
     team_logs["GAME_ID"] = team_logs["GAME_ID"].astype(str).str.zfill(10)
     teams_in_game = team_logs[team_logs["GAME_ID"] == str(game_id)]
@@ -31,6 +33,7 @@ def compute_outliers(game_id: str):
         tname = team_row["TEAM_NAME"]
         team_avg_row = team_avg.loc[tname]
         t_scores = compute_scores(team_row, team_avg_row)
+        team_abbr = team_row["TEAM_ABBREVIATION"]
 
     
 
@@ -41,7 +44,8 @@ def compute_outliers(game_id: str):
                 "id": tname,
                 "score": score,
                 "actual": team_row[stat],
-                "avg": team_avg_row[stat]
+                "avg": team_avg_row[stat],
+                "team_abbr": team_abbr
             }
         
     player_logs["GAME_ID"] = player_logs["GAME_ID"].astype(str).str.zfill(10)
@@ -63,7 +67,8 @@ def compute_outliers(game_id: str):
                 "team": player_team,
                 "score": score,
                 "actual": player_row[stat],
-                "avg": player_avg_row[stat]
+                "avg": player_avg_row[stat],
+                "player_id": pid,
             }
 
 
@@ -81,6 +86,8 @@ def compute_outliers(game_id: str):
                     "score": round(info["score"], 3),
                     "actual": info["actual"],
                     "avg": round(info["avg"], 3),
+                    **({"player_id": info["player_id"]} if info["type"] == "player" else {}),
+                    "team_abbr": info.get("team_abbr") 
                 }
                 for stat,info in pos
         ],
@@ -92,10 +99,15 @@ def compute_outliers(game_id: str):
                     "score": round(info["score"], 3),
                     "actual": info["actual"],
                     "avg": round(info["avg"], 3),
+                    **({"player_id": info["player_id"]} if info["type"] == "player" else {}),
+                    "team_abbr": info.get("team_abbr") 
                 }
                 for stat,info in neg
         ],
     }
+
+
+    
     
     game_out["outliers"].append(payload)
 

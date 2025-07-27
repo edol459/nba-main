@@ -1,0 +1,112 @@
+{
+  "game_id": "0022401049",
+  "teams": [
+    "HOU",
+    "ATL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jalen Green",
+          "stat": "Jalen Green - DREB",
+          "score": 3.085,
+          "actual": 11,
+          "avg": 4.05,
+          "player_id": 1630224,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Dyson Daniels",
+          "stat": "Dyson Daniels - AST",
+          "score": 2.976,
+          "actual": 10,
+          "avg": 4.38,
+          "player_id": 1630700,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Fred VanVleet",
+          "stat": "Fred VanVleet - FTM",
+          "score": 2.245,
+          "actual": 8,
+          "avg": 1.85,
+          "player_id": 1627832,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Tari Eason",
+          "stat": "Tari Eason - DREB",
+          "score": 2.152,
+          "actual": 9,
+          "avg": 4.11,
+          "player_id": 1631106,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Terance Mann",
+          "stat": "Terance Mann - PTS",
+          "score": 1.9,
+          "actual": 16,
+          "avg": 7.72,
+          "player_id": 1629611,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Houston Rockets",
+          "stat": "Houston Rockets - AST",
+          "score": -1.34,
+          "actual": 17,
+          "avg": 23.34,
+          "team_abbr": "HOU"
+        },
+        {
+          "type": "player",
+          "name": "Caris LeVert",
+          "stat": "Caris LeVert - PTS",
+          "score": -1.277,
+          "actual": 5,
+          "avg": 12.12,
+          "player_id": 1627747,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - DREB",
+          "score": -1.226,
+          "actual": 24,
+          "avg": 32.62,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - PFD",
+          "score": -0.83,
+          "actual": 12,
+          "avg": 19.06,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "player",
+          "name": "Dillon Brooks",
+          "stat": "Dillon Brooks - PTS",
+          "score": -0.67,
+          "actual": 10,
+          "avg": 14.04,
+          "player_id": 1628415,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

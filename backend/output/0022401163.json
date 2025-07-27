@@ -1,0 +1,115 @@
+{
+  "game_id": "0022401163",
+  "teams": [
+    "SAS",
+    "GSW"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Harrison Barnes",
+          "stat": "Harrison Barnes - FG3M",
+          "score": 3.675,
+          "actual": 6,
+          "avg": 1.9,
+          "player_id": 203084,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jimmy Butler III",
+          "stat": "Jimmy Butler III - FTM",
+          "score": 2.205,
+          "actual": 16,
+          "avg": 6.0,
+          "player_id": 202710,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jimmy Butler III",
+          "stat": "Jimmy Butler III - PTS",
+          "score": 2.057,
+          "actual": 28,
+          "avg": 17.53,
+          "player_id": 202710,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Keldon Johnson",
+          "stat": "Keldon Johnson - PTS",
+          "score": 1.932,
+          "actual": 21,
+          "avg": 12.71,
+          "player_id": 1629640,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Harrison Barnes",
+          "stat": "Harrison Barnes - PTS",
+          "score": 1.817,
+          "actual": 20,
+          "avg": 12.33,
+          "player_id": 203084,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Brandin Podziemski",
+          "stat": "Brandin Podziemski - PTS",
+          "score": -1.14,
+          "actual": 7,
+          "avg": 11.67,
+          "player_id": 1641764,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Devin Vassell",
+          "stat": "Devin Vassell - PTS",
+          "score": -1.077,
+          "actual": 11,
+          "avg": 16.27,
+          "player_id": 1630170,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Moses Moody",
+          "stat": "Moses Moody - TS%",
+          "score": -0.845,
+          "actual": 0.32,
+          "avg": 0.58,
+          "player_id": 1630541,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Brandin Podziemski",
+          "stat": "Brandin Podziemski - TS%",
+          "score": -0.803,
+          "actual": 0.32,
+          "avg": 0.56,
+          "player_id": 1641764,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Sandro Mamukelashvili",
+          "stat": "Sandro Mamukelashvili - TS%",
+          "score": -0.365,
+          "actual": 0.51,
+          "avg": 0.63,
+          "player_id": 1630572,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

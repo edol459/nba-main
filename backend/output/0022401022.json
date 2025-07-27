@@ -1,0 +1,115 @@
+{
+  "game_id": "0022401022",
+  "teams": [
+    "POR",
+    "DEN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Dalano Banton",
+          "stat": "Dalano Banton - FG_PCT",
+          "score": 0.765,
+          "actual": 0.6,
+          "avg": 0.34,
+          "player_id": 1630625,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Deni Avdija",
+          "stat": "Deni Avdija - FG_PCT",
+          "score": 0.63,
+          "actual": 0.75,
+          "avg": 0.46,
+          "player_id": 1630166,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Deni Avdija",
+          "stat": "Deni Avdija - TS%",
+          "score": 0.5,
+          "actual": 0.9,
+          "avg": 0.6,
+          "player_id": 1630166,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Dalano Banton",
+          "stat": "Dalano Banton - TS%",
+          "score": 0.5,
+          "actual": 0.75,
+          "avg": 0.5,
+          "player_id": 1630625,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Michael Porter Jr.",
+          "stat": "Michael Porter Jr. - TS%",
+          "score": 0.161,
+          "actual": 0.72,
+          "avg": 0.62,
+          "player_id": 1629008,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Shaedon Sharpe",
+          "stat": "Shaedon Sharpe - FG3_PCT",
+          "score": -0.339,
+          "actual": 0.1,
+          "avg": 0.31,
+          "player_id": 1631101,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jamal Murray",
+          "stat": "Jamal Murray - TS%",
+          "score": -0.138,
+          "actual": 0.5,
+          "avg": 0.58,
+          "player_id": 1627750,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Toumani Camara",
+          "stat": "Toumani Camara - TS%",
+          "score": 0.105,
+          "actual": 0.63,
+          "avg": 0.57,
+          "player_id": 1641739,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Aaron Gordon",
+          "stat": "Aaron Gordon - TS%",
+          "score": 0.154,
+          "actual": 0.75,
+          "avg": 0.65,
+          "player_id": 203932,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Michael Porter Jr.",
+          "stat": "Michael Porter Jr. - TS%",
+          "score": 0.161,
+          "actual": 0.72,
+          "avg": 0.62,
+          "player_id": 1629008,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

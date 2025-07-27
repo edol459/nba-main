@@ -1,0 +1,114 @@
+{
+  "game_id": "0022401010",
+  "teams": [
+    "NYK",
+    "CHA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Mikal Bridges",
+          "stat": "Mikal Bridges - FTM",
+          "score": 3.041,
+          "actual": 6,
+          "avg": 1.17,
+          "player_id": 1628969,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Mark Williams",
+          "stat": "Mark Williams - OREB",
+          "score": 2.667,
+          "actual": 7,
+          "avg": 3.0,
+          "player_id": 1631109,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "DaQuan Jeffries",
+          "stat": "DaQuan Jeffries - PTS",
+          "score": 2.419,
+          "actual": 14,
+          "avg": 6.7,
+          "player_id": 1629610,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Mikal Bridges",
+          "stat": "Mikal Bridges - PFD",
+          "score": 2.232,
+          "actual": 6,
+          "avg": 1.59,
+          "player_id": 1628969,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "OG Anunoby",
+          "stat": "OG Anunoby - FTM",
+          "score": 2.085,
+          "actual": 8,
+          "avg": 2.47,
+          "player_id": 1628384,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Miles McBride",
+          "stat": "Miles McBride - AST/TOV",
+          "score": -2.83,
+          "actual": 0.0,
+          "avg": 4.562,
+          "player_id": 1630540,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Charlotte Hornets",
+          "stat": "Charlotte Hornets - STL",
+          "score": -2.507,
+          "actual": 1,
+          "avg": 7.4,
+          "team_abbr": "CHA"
+        },
+        {
+          "type": "player",
+          "name": "Precious Achiuwa",
+          "stat": "Precious Achiuwa - PTS",
+          "score": -1.547,
+          "actual": 2,
+          "avg": 6.65,
+          "player_id": 1630173,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Josh Hart",
+          "stat": "Josh Hart - DREB",
+          "score": -1.28,
+          "actual": 2,
+          "avg": 7.48,
+          "player_id": 1628404,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Precious Achiuwa",
+          "stat": "Precious Achiuwa - TS%",
+          "score": -1.26,
+          "actual": 0.17,
+          "avg": 0.53,
+          "player_id": 1630173,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

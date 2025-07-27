@@ -1,0 +1,112 @@
+{
+  "game_id": "0022400063",
+  "teams": [
+    "IND",
+    "DET"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Pascal Siakam",
+          "stat": "Pascal Siakam - AST",
+          "score": 3.492,
+          "actual": 9,
+          "avg": 3.37,
+          "player_id": 1627783,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jaden Ivey",
+          "stat": "Jaden Ivey - FTM",
+          "score": 1.442,
+          "actual": 7,
+          "avg": 2.83,
+          "player_id": 1631093,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "T.J. McConnell",
+          "stat": "T.J. McConnell - PTS",
+          "score": 1.024,
+          "actual": 14,
+          "avg": 9.11,
+          "player_id": 204456,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "T.J. McConnell",
+          "stat": "T.J. McConnell - TS%",
+          "score": 0.896,
+          "actual": 0.88,
+          "avg": 0.55,
+          "player_id": 204456,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Detroit Pistons",
+          "stat": "Detroit Pistons - FTM",
+          "score": 0.837,
+          "actual": 24,
+          "avg": 17.24,
+          "team_abbr": "DET"
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - AST/TOV",
+          "score": -2.356,
+          "actual": 1.3333333333333333,
+          "avg": 5.622,
+          "player_id": 1630169,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - AST",
+          "score": -1.81,
+          "actual": 4,
+          "avg": 9.22,
+          "player_id": 1630169,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Tobias Harris",
+          "stat": "Tobias Harris - DREB",
+          "score": -1.377,
+          "actual": 1,
+          "avg": 5.03,
+          "player_id": 202699,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - FG3M",
+          "score": -1.314,
+          "actual": 9,
+          "avg": 13.18,
+          "team_abbr": "IND"
+        },
+        {
+          "type": "team",
+          "name": "Detroit Pistons",
+          "stat": "Detroit Pistons - DREB",
+          "score": -0.91,
+          "actual": 26,
+          "avg": 33.4,
+          "team_abbr": "DET"
+        }
+      ]
+    }
+  ]
+}

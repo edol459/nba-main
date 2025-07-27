@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400094",
+  "teams": [
+    "HOU",
+    "SAS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jock Landale",
+          "stat": "Jock Landale - PTS",
+          "score": 1.731,
+          "actual": 13,
+          "avg": 4.76
+        },
+        {
+          "type": "player",
+          "name": "Jeremy Sochan",
+          "stat": "Jeremy Sochan - PTS",
+          "score": 0.487,
+          "actual": 17,
+          "avg": 11.43
+        },
+        {
+          "type": "player",
+          "name": "Jalen Green",
+          "stat": "Jalen Green - PTS",
+          "score": 0.38,
+          "actual": 29,
+          "avg": 21.01
+        },
+        {
+          "type": "player",
+          "name": "Jeremy Sochan",
+          "stat": "Jeremy Sochan - DREB",
+          "score": 0.347,
+          "actual": 9,
+          "avg": 4.17
+        },
+        {
+          "type": "team",
+          "name": "San Antonio Spurs",
+          "stat": "San Antonio Spurs - PFD",
+          "score": 0.189,
+          "actual": 24,
+          "avg": 17.41
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Alperen Sengun",
+          "stat": "Alperen Sengun - PTS",
+          "score": -0.686,
+          "actual": 6,
+          "avg": 19.09
+        },
+        {
+          "type": "player",
+          "name": "Chris Paul",
+          "stat": "Chris Paul - PTS",
+          "score": -0.66,
+          "actual": 3,
+          "avg": 8.82
+        },
+        {
+          "type": "player",
+          "name": "Tari Eason",
+          "stat": "Tari Eason - PTS",
+          "score": -0.502,
+          "actual": 6,
+          "avg": 12.04
+        },
+        {
+          "type": "player",
+          "name": "Stephon Castle",
+          "stat": "Stephon Castle - PTS",
+          "score": -0.455,
+          "actual": 8,
+          "avg": 14.69
+        },
+        {
+          "type": "player",
+          "name": "Jabari Smith Jr.",
+          "stat": "Jabari Smith Jr. - PTS",
+          "score": -0.429,
+          "actual": 7,
+          "avg": 12.25
+        }
+      ]
+    }
+  ]
+}

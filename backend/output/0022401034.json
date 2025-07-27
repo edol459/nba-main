@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401034",
+  "teams": [
+    "BOS",
+    "POR"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "JD Davison",
+          "stat": "JD Davison - TS%",
+          "score": 2.779,
+          "actual": 1.0638297872340425,
+          "avg": 0.445
+        },
+        {
+          "type": "player",
+          "name": "Sam Hauser",
+          "stat": "Sam Hauser - FG3M",
+          "score": 2.177,
+          "actual": 8,
+          "avg": 2.34
+        },
+        {
+          "type": "player",
+          "name": "Sam Hauser",
+          "stat": "Sam Hauser - PTS",
+          "score": 1.817,
+          "actual": 24,
+          "avg": 8.52
+        },
+        {
+          "type": "player",
+          "name": "Duop Reath",
+          "stat": "Duop Reath - TS%",
+          "score": 1.622,
+          "actual": 1.0,
+          "avg": 0.552
+        },
+        {
+          "type": "player",
+          "name": "Jabari Walker",
+          "stat": "Jabari Walker - TS%",
+          "score": 1.464,
+          "actual": 1.0416666666666667,
+          "avg": 0.601
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Kris Murray",
+          "stat": "Kris Murray - TS%",
+          "score": -2.0,
+          "actual": 0.0,
+          "avg": 0.472
+        },
+        {
+          "type": "player",
+          "name": "Scoot Henderson",
+          "stat": "Scoot Henderson - TS%",
+          "score": -0.632,
+          "actual": 0.36885245901639346,
+          "avg": 0.539
+        },
+        {
+          "type": "player",
+          "name": "Deni Avdija",
+          "stat": "Deni Avdija - TS%",
+          "score": -0.377,
+          "actual": 0.4907621247113164,
+          "avg": 0.605
+        },
+        {
+          "type": "player",
+          "name": "Anfernee Simons",
+          "stat": "Anfernee Simons - PTS",
+          "score": -0.221,
+          "actual": 15,
+          "avg": 19.26
+        },
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "stat": "Payton Pritchard - TS%",
+          "score": -0.197,
+          "actual": 0.5714285714285714,
+          "avg": 0.634
+        }
+      ]
+    }
+  ]
+}

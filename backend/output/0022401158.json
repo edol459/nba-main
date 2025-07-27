@@ -1,0 +1,115 @@
+{
+  "game_id": "0022401158",
+  "teams": [
+    "TOR",
+    "CHA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "A.J. Lawson",
+          "stat": "A.J. Lawson - AST",
+          "score": 4.882,
+          "actual": 7,
+          "avg": 1.19,
+          "player_id": 1630639,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jonathan Mogbo",
+          "stat": "Jonathan Mogbo - AST",
+          "score": 3.741,
+          "actual": 11,
+          "avg": 2.32,
+          "player_id": 1642367,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Nick Smith Jr.",
+          "stat": "Nick Smith Jr. - AST",
+          "score": 3.132,
+          "actual": 10,
+          "avg": 2.42,
+          "player_id": 1641733,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jared Rhoden",
+          "stat": "Jared Rhoden - FG3_PCT",
+          "score": 2.158,
+          "actual": 0.6,
+          "avg": 0.19,
+          "player_id": 1631197,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Scottie Barnes",
+          "stat": "Scottie Barnes - FG3_PCT",
+          "score": 1.222,
+          "actual": 0.6,
+          "avg": 0.27,
+          "player_id": 1630567,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jusuf Nurki\u0107",
+          "stat": "Jusuf Nurki\u0107 - FG3_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.25,
+          "player_id": 203994,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Orlando Robinson",
+          "stat": "Orlando Robinson - FG3_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.21,
+          "player_id": 1631115,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jamison Battle",
+          "stat": "Jamison Battle - PF",
+          "score": -0.441,
+          "actual": 5,
+          "avg": 1.56,
+          "player_id": 1642419,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Tidjane Sala\u00fcn",
+          "stat": "Tidjane Sala\u00fcn - FG3_PCT",
+          "score": -0.404,
+          "actual": 0.167,
+          "avg": 0.28,
+          "player_id": 1642275,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "KJ Simpson",
+          "stat": "KJ Simpson - FG_PCT",
+          "score": -0.375,
+          "actual": 0.2,
+          "avg": 0.32,
+          "player_id": 1642354,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

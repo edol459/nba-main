@@ -9,85 +9,85 @@
       "positive": [
         {
           "type": "player",
-          "name": "Johnny Furphy",
-          "stat": "Johnny Furphy - FG3_PCT",
-          "score": 6.692,
-          "actual": 1.0,
-          "avg": 0.13
+          "name": "Quenton Jackson",
+          "stat": "Quenton Jackson - AST",
+          "score": 2.704,
+          "actual": 7,
+          "avg": 1.89
         },
         {
           "type": "player",
-          "name": "Quenton Jackson",
-          "stat": "Quenton Jackson - FG3_PCT",
-          "score": 4.263,
-          "actual": 1.0,
-          "avg": 0.19
+          "name": "Andrew Nembhard",
+          "stat": "Andrew Nembhard - AST/TOV",
+          "score": 2.089,
+          "actual": 8.0,
+          "avg": 2.919
+        },
+        {
+          "type": "player",
+          "name": "T.J. McConnell",
+          "stat": "T.J. McConnell - AST/TOV",
+          "score": 1.784,
+          "actual": 8.0,
+          "avg": 3.217
         },
         {
           "type": "player",
           "name": "Colby Jones",
-          "stat": "Colby Jones - STL",
-          "score": 4.173,
-          "actual": 3,
-          "avg": 0.67
+          "stat": "Colby Jones - PTS",
+          "score": 1.582,
+          "actual": 12,
+          "avg": 4.03
         },
         {
           "type": "player",
-          "name": "Quenton Jackson",
-          "stat": "Quenton Jackson - STL",
-          "score": 3.6,
-          "actual": 3,
-          "avg": 0.75
-        },
-        {
-          "type": "player",
-          "name": "Colby Jones",
-          "stat": "Colby Jones - FG3M",
-          "score": 3.49,
-          "actual": 2,
-          "avg": 0.41
+          "name": "Jarace Walker",
+          "stat": "Jarace Walker - PTS",
+          "score": 1.281,
+          "actual": 16,
+          "avg": 6.15
         }
       ],
       "negative": [
         {
           "type": "player",
+          "name": "AJ Johnson",
+          "stat": "AJ Johnson - TS%",
+          "score": -0.708,
+          "actual": 0.14,
+          "avg": 0.48
+        },
+        {
+          "type": "player",
           "name": "Tristan Vukcevic",
-          "stat": "Tristan Vukcevic - TOV",
-          "score": -2.8,
+          "stat": "Tristan Vukcevic - TS%",
+          "score": -0.525,
+          "actual": 0.29,
+          "avg": 0.61
+        },
+        {
+          "type": "player",
+          "name": "Tristan Vukcevic",
+          "stat": "Tristan Vukcevic - PTS",
+          "score": -0.461,
           "actual": 4,
-          "avg": 1.2
+          "avg": 9.43
         },
         {
           "type": "player",
-          "name": "Tony Bradley",
-          "stat": "Tony Bradley - TOV",
-          "score": -2.133,
-          "actual": 1,
-          "avg": 0.36
+          "name": "Bennedict Mathurin",
+          "stat": "Bennedict Mathurin - PTS",
+          "score": -0.302,
+          "actual": 10,
+          "avg": 16.06
         },
         {
           "type": "player",
-          "name": "Aaron Nesmith",
-          "stat": "Aaron Nesmith - TOV",
-          "score": -1.727,
-          "actual": 2,
-          "avg": 0.82
-        },
-        {
-          "type": "player",
-          "name": "Justin Champagnie",
-          "stat": "Justin Champagnie - TOV",
-          "score": -1.559,
-          "actual": 2,
-          "avg": 0.87
-        },
-        {
-          "type": "player",
-          "name": "Jarace Walker",
-          "stat": "Jarace Walker - PF",
-          "score": -1.292,
-          "actual": 4,
-          "avg": 1.53
+          "name": "Pascal Siakam",
+          "stat": "Pascal Siakam - PTS",
+          "score": -0.286,
+          "actual": 13,
+          "avg": 20.23
         }
       ]
     }

@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400235",
+  "teams": [
+    "MIA",
+    "IND"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - FGM",
+          "score": 1.583,
+          "actual": 14,
+          "avg": 5.42
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - PTS",
+          "score": 1.185,
+          "actual": 34,
+          "avg": 15.56
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - FG3M",
+          "score": 1.174,
+          "actual": 5,
+          "avg": 2.17
+        },
+        {
+          "type": "player",
+          "name": "Nikola Jovi\u0107",
+          "stat": "Nikola Jovi\u0107 - FTM",
+          "score": 1.129,
+          "actual": 6,
+          "avg": 1.57
+        },
+        {
+          "type": "player",
+          "name": "Tyler Herro",
+          "stat": "Tyler Herro - FG3M",
+          "score": 1.033,
+          "actual": 7,
+          "avg": 3.26
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jarace Walker",
+          "stat": "Jarace Walker - TOV",
+          "score": -0.942,
+          "actual": 3,
+          "avg": 1.04
+        },
+        {
+          "type": "team",
+          "name": "Miami Heat",
+          "stat": "Miami Heat - STL",
+          "score": -0.611,
+          "actual": 4,
+          "avg": 8.15
+        },
+        {
+          "type": "player",
+          "name": "Ben Sheppard",
+          "stat": "Ben Sheppard - PTS",
+          "score": -0.431,
+          "actual": 3,
+          "avg": 5.27
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - FGM",
+          "score": -0.387,
+          "actual": 4,
+          "avg": 6.52
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - STL",
+          "score": -0.349,
+          "actual": 6,
+          "avg": 8.46
+        }
+      ]
+    }
+  ]
+}

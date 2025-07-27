@@ -11,83 +11,83 @@
           "type": "player",
           "name": "Precious Achiuwa",
           "stat": "Precious Achiuwa - PTS",
-          "score": 4.267,
+          "score": 1.707,
           "actual": 18,
           "avg": 6.65
         },
         {
           "type": "player",
-          "name": "Miles McBride",
-          "stat": "Miles McBride - STL",
-          "score": 4.214,
-          "actual": 4,
-          "avg": 1.05
-        },
-        {
-          "type": "player",
           "name": "Ronald Holland II",
           "stat": "Ronald Holland II - PTS",
-          "score": 2.547,
+          "score": 1.019,
           "actual": 13,
           "avg": 6.44
         },
         {
           "type": "player",
-          "name": "P.J. Tucker",
-          "stat": "P.J. Tucker - REB",
-          "score": 2.494,
-          "actual": 6,
-          "avg": 2.67
+          "name": "Jalen Duren",
+          "stat": "Jalen Duren - PTS",
+          "score": 0.529,
+          "actual": 18,
+          "avg": 11.77
         },
         {
           "type": "player",
-          "name": "Miles McBride",
-          "stat": "Miles McBride - AST",
-          "score": 2.11,
-          "actual": 6,
-          "avg": 2.92
+          "name": "Precious Achiuwa",
+          "stat": "Precious Achiuwa - DREB",
+          "score": 0.412,
+          "actual": 9,
+          "avg": 3.79
+        },
+        {
+          "type": "player",
+          "name": "Cade Cunningham",
+          "stat": "Cade Cunningham - PTS",
+          "score": 0.377,
+          "actual": 36,
+          "avg": 26.14
         }
       ],
       "negative": [
         {
           "type": "player",
-          "name": "Tobias Harris",
-          "stat": "Tobias Harris - TOV",
-          "score": -4.897,
-          "actual": 4,
-          "avg": 1.16
-        },
-        {
-          "type": "player",
-          "name": "Karl-Anthony Towns",
-          "stat": "Karl-Anthony Towns - TOV",
-          "score": -3.243,
-          "actual": 7,
-          "avg": 2.67
-        },
-        {
-          "type": "player",
           "name": "Ausar Thompson",
           "stat": "Ausar Thompson - PTS",
-          "score": -1.755,
+          "score": -0.702,
           "actual": 3,
           "avg": 10.07
         },
         {
           "type": "player",
-          "name": "Mikal Bridges",
-          "stat": "Mikal Bridges - TOV",
-          "score": -1.727,
-          "actual": 3,
-          "avg": 1.61
+          "name": "Jalen Brunson",
+          "stat": "Jalen Brunson - PTS",
+          "score": -0.423,
+          "actual": 15,
+          "avg": 26.0
         },
         {
           "type": "player",
-          "name": "Jalen Duren",
-          "stat": "Jalen Duren - TOV",
-          "score": -1.448,
-          "actual": 3,
-          "avg": 1.74
+          "name": "Dennis Schr\u00f6der",
+          "stat": "Dennis Schr\u00f6der - PTS",
+          "score": -0.388,
+          "actual": 8,
+          "avg": 13.07
+        },
+        {
+          "type": "player",
+          "name": "Malik Beasley",
+          "stat": "Malik Beasley - PTS",
+          "score": -0.386,
+          "actual": 10,
+          "avg": 16.29
+        },
+        {
+          "type": "team",
+          "name": "Detroit Pistons",
+          "stat": "Detroit Pistons - FG3M",
+          "score": -0.338,
+          "actual": 8,
+          "avg": 12.82
         }
       ]
     }

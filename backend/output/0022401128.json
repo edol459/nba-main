@@ -1,0 +1,115 @@
+{
+  "game_id": "0022401128",
+  "teams": [
+    "ATL",
+    "NYK"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Mikal Bridges",
+          "stat": "Mikal Bridges - FG3_PCT",
+          "score": 1.021,
+          "actual": 0.667,
+          "avg": 0.33,
+          "player_id": 1628969,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - PFD",
+          "score": 0.606,
+          "actual": 5,
+          "avg": 2.26,
+          "player_id": 1630168,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Karl-Anthony Towns",
+          "stat": "Karl-Anthony Towns - FG3_PCT",
+          "score": 0.588,
+          "actual": 0.667,
+          "avg": 0.42,
+          "player_id": 1626157,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Josh Hart",
+          "stat": "Josh Hart - FTM",
+          "score": 0.471,
+          "actual": 4,
+          "avg": 2.06,
+          "player_id": 1628404,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Karl-Anthony Towns",
+          "stat": "Karl-Anthony Towns - PFD",
+          "score": 0.439,
+          "actual": 9,
+          "avg": 4.79,
+          "player_id": 1626157,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - FG3_PCT",
+          "score": -0.422,
+          "actual": 0.231,
+          "avg": 0.4,
+          "player_id": 1627777,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - TS%",
+          "score": -0.328,
+          "actual": 0.41,
+          "avg": 0.61,
+          "player_id": 1627777,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - FG_PCT",
+          "score": -0.32,
+          "actual": 0.313,
+          "avg": 0.46,
+          "player_id": 1627777,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Caris LeVert",
+          "stat": "Caris LeVert - FG3_PCT",
+          "score": -0.286,
+          "actual": 0.25,
+          "avg": 0.35,
+          "player_id": 1627747,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Trae Young",
+          "stat": "Trae Young - FTM",
+          "score": -0.268,
+          "actual": 3,
+          "avg": 6.46,
+          "player_id": 1629027,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

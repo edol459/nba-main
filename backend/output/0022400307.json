@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400307",
+  "teams": [
+    "CLE",
+    "BOS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Drew Peterson",
+          "stat": "Drew Peterson - PTS",
+          "score": 2.704,
+          "actual": 8,
+          "avg": 2.16
+        },
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "stat": "Payton Pritchard - PTS",
+          "score": 0.678,
+          "actual": 24,
+          "avg": 14.3
+        },
+        {
+          "type": "player",
+          "name": "Darius Garland",
+          "stat": "Darius Garland - FTM",
+          "score": 0.67,
+          "actual": 8,
+          "avg": 2.99
+        },
+        {
+          "type": "player",
+          "name": "Sam Hauser",
+          "stat": "Sam Hauser - PTS",
+          "score": 0.526,
+          "actual": 13,
+          "avg": 8.52
+        },
+        {
+          "type": "player",
+          "name": "Donovan Mitchell",
+          "stat": "Donovan Mitchell - PTS",
+          "score": 0.461,
+          "actual": 35,
+          "avg": 23.96
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Sam Hauser",
+          "stat": "Sam Hauser - PF",
+          "score": -0.776,
+          "actual": 6,
+          "avg": 1.23
+        },
+        {
+          "type": "player",
+          "name": "Jrue Holiday",
+          "stat": "Jrue Holiday - PTS",
+          "score": -0.638,
+          "actual": 4,
+          "avg": 11.06
+        },
+        {
+          "type": "player",
+          "name": "Sam Merrill",
+          "stat": "Sam Merrill - PTS",
+          "score": -0.582,
+          "actual": 3,
+          "avg": 7.17
+        },
+        {
+          "type": "player",
+          "name": "Ty Jerome",
+          "stat": "Ty Jerome - PTS",
+          "score": -0.522,
+          "actual": 6,
+          "avg": 12.54
+        },
+        {
+          "type": "player",
+          "name": "Evan Mobley",
+          "stat": "Evan Mobley - PTS",
+          "score": -0.515,
+          "actual": 9,
+          "avg": 18.54
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "game_id": "0022400306",
+  "teams": [
+    "IND",
+    "MEM"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Marcus Smart",
+          "stat": "Marcus Smart - FTM",
+          "score": 1.361,
+          "actual": 7,
+          "avg": 1.59,
+          "player_id": 203935
+        },
+        {
+          "type": "player",
+          "name": "Jarace Walker",
+          "stat": "Jarace Walker - DREB",
+          "score": 0.787,
+          "actual": 7,
+          "avg": 2.72,
+          "player_id": 1641716
+        },
+        {
+          "type": "player",
+          "name": "Obi Toppin",
+          "stat": "Obi Toppin - DREB",
+          "score": 0.705,
+          "actual": 8,
+          "avg": 3.32,
+          "player_id": 1630167
+        },
+        {
+          "type": "player",
+          "name": "Marcus Smart",
+          "stat": "Marcus Smart - PTS",
+          "score": 0.627,
+          "actual": 16,
+          "avg": 8.97,
+          "player_id": 203935
+        },
+        {
+          "type": "player",
+          "name": "T.J. McConnell",
+          "stat": "T.J. McConnell - PTS",
+          "score": 0.517,
+          "actual": 15,
+          "avg": 9.11,
+          "player_id": 204456
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Scotty Pippen Jr.",
+          "stat": "Scotty Pippen Jr. - TS%",
+          "score": -0.5,
+          "actual": 0.29,
+          "avg": 0.58,
+          "player_id": 1630590
+        },
+        {
+          "type": "player",
+          "name": "Scotty Pippen Jr.",
+          "stat": "Scotty Pippen Jr. - PTS",
+          "score": -0.475,
+          "actual": 4,
+          "avg": 9.86,
+          "player_id": 1630590
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - PTS",
+          "score": -0.456,
+          "actual": 8,
+          "avg": 18.62,
+          "player_id": 1630169
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - TS%",
+          "score": -0.355,
+          "actual": 0.4,
+          "avg": 0.62,
+          "player_id": 1630169
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - TS%",
+          "score": -0.23,
+          "actual": 0.47,
+          "avg": 0.61,
+          "player_id": 1626167
+        }
+      ]
+    }
+  ]
+}

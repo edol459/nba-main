@@ -1,0 +1,113 @@
+{
+  "game_id": "0022401146",
+  "teams": [
+    "MEM",
+    "CHA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Zach Edey",
+          "stat": "Zach Edey - DREB",
+          "score": 3.239,
+          "actual": 14,
+          "avg": 4.79,
+          "player_id": 1641744,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Tidjane Sala\u00fcn",
+          "stat": "Tidjane Sala\u00fcn - PFD",
+          "score": 2.7,
+          "actual": 6,
+          "avg": 1.32,
+          "player_id": 1642275,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Tidjane Sala\u00fcn",
+          "stat": "Tidjane Sala\u00fcn - DREB",
+          "score": 2.333,
+          "actual": 9,
+          "avg": 3.5,
+          "player_id": 1642275,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Tidjane Sala\u00fcn",
+          "stat": "Tidjane Sala\u00fcn - PTS",
+          "score": 1.906,
+          "actual": 13,
+          "avg": 5.88,
+          "player_id": 1642275,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Zach Edey",
+          "stat": "Zach Edey - PTS",
+          "score": 1.612,
+          "actual": 17,
+          "avg": 9.24,
+          "player_id": 1641744,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Charlotte Hornets",
+          "stat": "Charlotte Hornets - OREB",
+          "score": -1.853,
+          "actual": 6,
+          "avg": 12.23,
+          "team_abbr": "CHA"
+        },
+        {
+          "type": "team",
+          "name": "Charlotte Hornets",
+          "stat": "Charlotte Hornets - STL",
+          "score": -1.723,
+          "actual": 3,
+          "avg": 7.4,
+          "team_abbr": "CHA"
+        },
+        {
+          "type": "player",
+          "name": "Mark Williams",
+          "stat": "Mark Williams - PTS",
+          "score": -1.15,
+          "actual": 8,
+          "avg": 15.25,
+          "player_id": 1631109,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jaren Jackson Jr.",
+          "stat": "Jaren Jackson Jr. - PTS",
+          "score": -1.065,
+          "actual": 14,
+          "avg": 22.18,
+          "player_id": 1628991,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Miles Bridges",
+          "stat": "Miles Bridges - PTS",
+          "score": -0.861,
+          "actual": 14,
+          "avg": 20.31,
+          "player_id": 1628970,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

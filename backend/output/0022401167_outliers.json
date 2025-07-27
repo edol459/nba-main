@@ -1,0 +1,116 @@
+{
+  "game_id": "0022401167",
+  "teams": [
+    "NYK",
+    "DET"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Precious Achiuwa",
+          "stat": "Precious Achiuwa - PTS",
+          "score": 2.832,
+          "actual": 18,
+          "avg": 6.65,
+          "player_id": 1630173,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Precious Achiuwa",
+          "stat": "Precious Achiuwa - DREB",
+          "score": 2.407,
+          "actual": 9,
+          "avg": 3.79,
+          "player_id": 1630173,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Ronald Holland II",
+          "stat": "Ronald Holland II - PTS",
+          "score": 1.667,
+          "actual": 13,
+          "avg": 6.44,
+          "player_id": 1641842,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Cade Cunningham",
+          "stat": "Cade Cunningham - PTS",
+          "score": 1.179,
+          "actual": 36,
+          "avg": 26.14,
+          "player_id": 1630595,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jalen Duren",
+          "stat": "Jalen Duren - PTS",
+          "score": 1.135,
+          "actual": 18,
+          "avg": 11.77,
+          "player_id": 1631105,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Karl-Anthony Towns",
+          "stat": "Karl-Anthony Towns - TOV",
+          "score": -1.553,
+          "actual": 7,
+          "avg": 2.67,
+          "player_id": 1626157,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Ausar Thompson",
+          "stat": "Ausar Thompson - PTS",
+          "score": -1.402,
+          "actual": 3,
+          "avg": 10.07,
+          "player_id": 1641709,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jalen Brunson",
+          "stat": "Jalen Brunson - PTS",
+          "score": -1.319,
+          "actual": 15,
+          "avg": 26.0,
+          "player_id": 1628973,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Detroit Pistons",
+          "stat": "Detroit Pistons - AST",
+          "score": -1.269,
+          "actual": 20,
+          "avg": 26.4,
+          "team_abbr": "DET"
+        },
+        {
+          "type": "team",
+          "name": "New York Knicks",
+          "stat": "New York Knicks - DREB",
+          "score": -1.267,
+          "actual": 23,
+          "avg": 31.79,
+          "team_abbr": "NYK"
+        }
+      ]
+    }
+  ],
+  "game_summary": {
+    "winner": "Detroit Pistons",
+    "winner_logo": "static/logos/DET.png",
+    "winner_score": 

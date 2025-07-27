@@ -1,0 +1,115 @@
+{
+  "game_id": "0022401103",
+  "teams": [
+    "CLE",
+    "NYK"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jarrett Allen",
+          "stat": "Jarrett Allen - TS%",
+          "score": 0.222,
+          "actual": 0.88,
+          "avg": 0.72,
+          "player_id": 1628386,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Donovan Mitchell",
+          "stat": "Donovan Mitchell - TS%",
+          "score": 0.172,
+          "actual": 0.68,
+          "avg": 0.58,
+          "player_id": 1628378,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "OG Anunoby",
+          "stat": "OG Anunoby - TS%",
+          "score": 0.153,
+          "actual": 0.68,
+          "avg": 0.59,
+          "player_id": 1628384,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Josh Hart",
+          "stat": "Josh Hart - TS%",
+          "score": -0.18,
+          "actual": 0.5,
+          "avg": 0.61,
+          "player_id": 1628404,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Evan Mobley",
+          "stat": "Evan Mobley - TS%",
+          "score": -0.19,
+          "actual": 0.51,
+          "avg": 0.63,
+          "player_id": 1630596,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Evan Mobley",
+          "stat": "Evan Mobley - FG_PCT",
+          "score": -0.338,
+          "actual": 0.364,
+          "avg": 0.55,
+          "player_id": 1630596,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Evan Mobley",
+          "stat": "Evan Mobley - TS%",
+          "score": -0.19,
+          "actual": 0.51,
+          "avg": 0.63,
+          "player_id": 1630596,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Josh Hart",
+          "stat": "Josh Hart - TS%",
+          "score": -0.18,
+          "actual": 0.5,
+          "avg": 0.61,
+          "player_id": 1628404,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "OG Anunoby",
+          "stat": "OG Anunoby - TS%",
+          "score": 0.153,
+          "actual": 0.68,
+          "avg": 0.59,
+          "player_id": 1628384,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Donovan Mitchell",
+          "stat": "Donovan Mitchell - TS%",
+          "score": 0.172,
+          "actual": 0.68,
+          "avg": 0.58,
+          "player_id": 1628378,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

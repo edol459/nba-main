@@ -1,0 +1,100 @@
+{
+  "game_id": "0022401176",
+  "teams": [
+    "CHI",
+    "WAS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Nikola Vu\u010devi\u0107",
+          "stat": "Nikola Vu\u010devi\u0107 - AST/TOV",
+          "score": 3.258,
+          "actual": 8.0,
+          "avg": 2.153,
+          "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202696.png"
+        },
+        {
+          "type": "player",
+          "name": "Julian Phillips",
+          "stat": "Julian Phillips - PTS",
+          "score": 3.174,
+          "actual": 23,
+          "avg": 4.63,
+          "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641763.png"
+        },
+        {
+          "type": "player",
+          "name": "Julian Phillips",
+          "stat": "Julian Phillips - DREB",
+          "score": 1.826,
+          "actual": 6,
+          "avg": 1.29,
+          "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641763.png"
+        },
+        {
+          "type": "player",
+          "name": "Talen Horton-Tucker",
+          "stat": "Talen Horton-Tucker - FTM",
+          "score": 1.535,
+          "actual": 6,
+          "avg": 1.24,
+          "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629659.png"
+        },
+        {
+          "type": "player",
+          "name": "Bub Carrington",
+          "stat": "Bub Carrington - AST",
+          "score": 1.477,
+          "actual": 11,
+          "avg": 4.44,
+          "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642267.png"
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Alex Sarr",
+          "stat": "Alex Sarr - TS%",
+          "score": -0.521,
+          "actual": 0.23,
+          "avg": 0.48
+        },
+        {
+          "type": "player",
+          "name": "Colby Jones",
+          "stat": "Colby Jones - TS%",
+          "score": -0.519,
+          "actual": 0.26,
+          "avg": 0.54
+        },
+        {
+          "type": "player",
+          "name": "AJ Johnson",
+          "stat": "AJ Johnson - TS%",
+          "score": -0.396,
+          "actual": 0.29,
+          "avg": 0.48
+        },
+        {
+          "type": "player",
+          "name": "Alex Sarr",
+          "stat": "Alex Sarr - PTS",
+          "score": -0.368,
+          "actual": 7,
+          "avg": 12.97
+        },
+        {
+          "type": "player",
+          "name": "Patrick Williams",
+          "stat": "Patrick Williams - TS%",
+          "score": -0.294,
+          "actual": 0.36,
+          "avg": 0.51
+        }
+      ]
+    }
+  ]
+}

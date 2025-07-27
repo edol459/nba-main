@@ -1,0 +1,112 @@
+{
+  "game_id": "0022401073",
+  "teams": [
+    "UTA",
+    "DEN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "team",
+          "name": "Denver Nuggets",
+          "stat": "Denver Nuggets - BLK",
+          "score": 8.1,
+          "actual": 13,
+          "avg": 4.9,
+          "team_abbr": "DEN"
+        },
+        {
+          "type": "team",
+          "name": "Denver Nuggets",
+          "stat": "Denver Nuggets - AST",
+          "score": 7.0,
+          "actual": 38,
+          "avg": 31.0,
+          "team_abbr": "DEN"
+        },
+        {
+          "type": "player",
+          "name": "Kyle Filipowski",
+          "stat": "Kyle Filipowski - PTS",
+          "score": 6.736,
+          "actual": 18,
+          "avg": 9.58,
+          "player_id": 1642271,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Isaiah Collier",
+          "stat": "Isaiah Collier - AST/TOV",
+          "score": 5.828,
+          "actual": 7.0,
+          "avg": 2.143,
+          "player_id": 1642268,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "DeAndre Jordan",
+          "stat": "DeAndre Jordan - PTS",
+          "score": 5.816,
+          "actual": 11,
+          "avg": 3.73,
+          "player_id": 201599,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Aaron Gordon",
+          "stat": "Aaron Gordon - PTS",
+          "score": -6.936,
+          "actual": 6,
+          "avg": 14.67,
+          "player_id": 203932,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Utah Jazz",
+          "stat": "Utah Jazz - FG3M",
+          "score": -6.255,
+          "actual": 7,
+          "avg": 13.95,
+          "team_abbr": "UTA"
+        },
+        {
+          "type": "player",
+          "name": "Svi Mykhailiuk",
+          "stat": "Svi Mykhailiuk - PTS",
+          "score": -4.632,
+          "actual": 3,
+          "avg": 8.79,
+          "player_id": 1629004,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Isaiah Collier",
+          "stat": "Isaiah Collier - PTS",
+          "score": -4.528,
+          "actual": 3,
+          "avg": 8.66,
+          "player_id": 1642268,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Nikola Joki\u0107",
+          "stat": "Nikola Joki\u0107 - AST",
+          "score": -4.23,
+          "actual": 6,
+          "avg": 10.23,
+          "player_id": 203999,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "game_id": "0022401136",
+  "teams": [
+    "UTA",
+    "ATL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Keyonte George",
+          "stat": "Keyonte George - PTS",
+          "score": 3.66,
+          "actual": 35,
+          "avg": 16.79,
+          "player_id": 1641718,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "V\u00edt Krej\u010d\u00ed",
+          "stat": "V\u00edt Krej\u010d\u00ed - PTS",
+          "score": 3.101,
+          "actual": 17,
+          "avg": 7.23,
+          "player_id": 1630249,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - PTS",
+          "score": 3.099,
+          "actual": 27,
+          "avg": 13.35,
+          "player_id": 1630168,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - AST",
+          "score": 2.507,
+          "actual": 43,
+          "avg": 29.59,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "player",
+          "name": "Isaiah Collier",
+          "stat": "Isaiah Collier - AST",
+          "score": 2.458,
+          "actual": 12,
+          "avg": 6.28,
+          "player_id": 1642268,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Utah Jazz",
+          "stat": "Utah Jazz - DREB",
+          "score": -0.888,
+          "actual": 25,
+          "avg": 33.43,
+          "team_abbr": "UTA"
+        },
+        {
+          "type": "team",
+          "name": "Utah Jazz",
+          "stat": "Utah Jazz - FG_PCT",
+          "score": 0.0,
+          "actual": 0.517,
+          "avg": 0.46,
+          "team_abbr": "UTA"
+        },
+        {
+          "type": "team",
+          "name": "Utah Jazz",
+          "stat": "Utah Jazz - FG3_PCT",
+          "score": 0.0,
+          "actual": 0.426,
+          "avg": 0.35,
+          "team_abbr": "UTA"
+        },
+        {
+          "type": "team",
+          "name": "Utah Jazz",
+          "stat": "Utah Jazz - FT_PCT",
+          "score": 0.0,
+          "actual": 0.857,
+          "avg": 0.77,
+          "team_abbr": "UTA"
+        },
+        {
+          "type": "team",
+          "name": "Utah Jazz",
+          "stat": "Utah Jazz - OREB",
+          "score": 0.0,
+          "actual": 7,
+          "avg": 11.99,
+          "team_abbr": "UTA"
+        }
+      ]
+    }
+  ]
+}

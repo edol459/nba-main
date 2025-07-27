@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400198",
+  "teams": [
+    "ATL",
+    "CHI"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Clint Capela",
+          "stat": "Clint Capela - PTS",
+          "score": 1.255,
+          "actual": 20,
+          "avg": 8.87
+        },
+        {
+          "type": "player",
+          "name": "Julian Phillips",
+          "stat": "Julian Phillips - PTS",
+          "score": 1.16,
+          "actual": 10,
+          "avg": 4.63
+        },
+        {
+          "type": "player",
+          "name": "Clint Capela",
+          "stat": "Clint Capela - FGM",
+          "score": 1.02,
+          "actual": 8,
+          "avg": 3.96
+        },
+        {
+          "type": "player",
+          "name": "Dalen Terry",
+          "stat": "Dalen Terry - PTS",
+          "score": 1.013,
+          "actual": 9,
+          "avg": 4.47
+        },
+        {
+          "type": "team",
+          "name": "Chicago Bulls",
+          "stat": "Chicago Bulls - STL",
+          "score": 0.702,
+          "actual": 12,
+          "avg": 7.57
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Trae Young",
+          "stat": "Trae Young - PTS",
+          "score": -0.422,
+          "actual": 14,
+          "avg": 24.22
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - PTS",
+          "score": -0.401,
+          "actual": 8,
+          "avg": 13.35
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FG3M",
+          "score": -0.3,
+          "actual": 9,
+          "avg": 13.5
+        },
+        {
+          "type": "player",
+          "name": "Zach LaVine",
+          "stat": "Zach LaVine - PTS",
+          "score": -0.227,
+          "actual": 18,
+          "avg": 23.3
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FGM",
+          "score": 0,
+          "actual": 41,
+          "avg": 43.37
+        }
+      ]
+    }
+  ]
+}

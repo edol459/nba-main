@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400607",
+  "teams": [
+    "MIA",
+    "POR"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Nikola Jovi\u0107",
+          "stat": "Nikola Jovi\u0107 - AST/TOV",
+          "score": 3.179,
+          "actual": 8.0,
+          "avg": 2.192
+        },
+        {
+          "type": "player",
+          "name": "Nikola Jovi\u0107",
+          "stat": "Nikola Jovi\u0107 - AST",
+          "score": 1.446,
+          "actual": 8,
+          "avg": 2.85
+        },
+        {
+          "type": "player",
+          "name": "Pelle Larsson",
+          "stat": "Pelle Larsson - PTS",
+          "score": 1.412,
+          "actual": 11,
+          "avg": 4.56
+        },
+        {
+          "type": "player",
+          "name": "Kel'el Ware",
+          "stat": "Kel'el Ware - PTS",
+          "score": 1.151,
+          "actual": 20,
+          "avg": 9.3
+        },
+        {
+          "type": "player",
+          "name": "Duncan Robinson",
+          "stat": "Duncan Robinson - PTS",
+          "score": 0.993,
+          "actual": 22,
+          "avg": 11.04
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Portland Trail Blazers",
+          "stat": "Portland Trail Blazers - STL",
+          "score": -0.765,
+          "actual": 3,
+          "avg": 8.27
+        },
+        {
+          "type": "player",
+          "name": "Shaedon Sharpe",
+          "stat": "Shaedon Sharpe - PTS",
+          "score": -0.353,
+          "actual": 12,
+          "avg": 18.54
+        },
+        {
+          "type": "player",
+          "name": "Bam Adebayo",
+          "stat": "Bam Adebayo - PTS",
+          "score": -0.336,
+          "actual": 12,
+          "avg": 18.08
+        },
+        {
+          "type": "player",
+          "name": "Jimmy Butler III",
+          "stat": "Jimmy Butler III - PTS",
+          "score": -0.258,
+          "actual": 13,
+          "avg": 17.53
+        },
+        {
+          "type": "team",
+          "name": "Portland Trail Blazers",
+          "stat": "Portland Trail Blazers - PFD",
+          "score": -0.137,
+          "actual": 14,
+          "avg": 19.28
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "game_id": "0022401147",
+  "teams": [
+    "CHI",
+    "CLE"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Matas Buzelis",
+          "stat": "Matas Buzelis - FTM",
+          "score": 1.773,
+          "actual": 5,
+          "avg": 1.1,
+          "player_id": 1641824,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Patrick Williams",
+          "stat": "Patrick Williams - FG3_PCT",
+          "score": 1.524,
+          "actual": 0.833,
+          "avg": 0.33,
+          "player_id": 1630172,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Matas Buzelis",
+          "stat": "Matas Buzelis - PFD",
+          "score": 1.5,
+          "actual": 4,
+          "avg": 1.0,
+          "player_id": 1641824,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jalen Smith",
+          "stat": "Jalen Smith - FTM",
+          "score": 1.286,
+          "actual": 4,
+          "avg": 1.12,
+          "player_id": 1630188,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Patrick Williams",
+          "stat": "Patrick Williams - TS%",
+          "score": 1.088,
+          "actual": 0.88,
+          "avg": 0.51,
+          "player_id": 1630172,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jevon Carter",
+          "stat": "Jevon Carter - TS%",
+          "score": -0.529,
+          "actual": 0.33,
+          "avg": 0.51,
+          "player_id": 1628975,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "De'Andre Hunter",
+          "stat": "De'Andre Hunter - FG3_PCT",
+          "score": -0.375,
+          "actual": 0.25,
+          "avg": 0.4,
+          "player_id": 1629631,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jalen Smith",
+          "stat": "Jalen Smith - FG3_PCT",
+          "score": -0.333,
+          "actual": 0.2,
+          "avg": 0.3,
+          "player_id": 1630188,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Cleveland Cavaliers",
+          "stat": "Cleveland Cavaliers - FTM",
+          "score": -0.264,
+          "actual": 8,
+          "avg": 16.98,
+          "team_abbr": "CLE"
+        },
+        {
+          "type": "player",
+          "name": "Jevon Carter",
+          "stat": "Jevon Carter - FG_PCT",
+          "score": -0.215,
+          "actual": 0.267,
+          "avg": 0.34,
+          "player_id": 1628975,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

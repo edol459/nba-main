@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400135",
+  "teams": [
+    "ATL",
+    "SAC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Garrison Mathews",
+          "stat": "Garrison Mathews - FG3M",
+          "score": 2.581,
+          "actual": 7,
+          "avg": 1.81
+        },
+        {
+          "type": "player",
+          "name": "Garrison Mathews",
+          "stat": "Garrison Mathews - PTS",
+          "score": 2.063,
+          "actual": 23,
+          "avg": 7.51
+        },
+        {
+          "type": "player",
+          "name": "Keaton Wallace",
+          "stat": "Keaton Wallace - PTS",
+          "score": 1.583,
+          "actual": 14,
+          "avg": 5.42
+        },
+        {
+          "type": "player",
+          "name": "David Roddy",
+          "stat": "David Roddy - DREB",
+          "score": 0.816,
+          "actual": 8,
+          "avg": 2.15
+        },
+        {
+          "type": "player",
+          "name": "Clint Capela",
+          "stat": "Clint Capela - PTS",
+          "score": 0.691,
+          "actual": 15,
+          "avg": 8.87
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Zaccharie Risacher",
+          "stat": "Zaccharie Risacher - PTS",
+          "score": -0.761,
+          "actual": 3,
+          "avg": 12.56
+        },
+        {
+          "type": "player",
+          "name": "Malik Monk",
+          "stat": "Malik Monk - PTS",
+          "score": -0.476,
+          "actual": 9,
+          "avg": 17.18
+        },
+        {
+          "type": "player",
+          "name": "Jalen Johnson",
+          "stat": "Jalen Johnson - PTS",
+          "score": -0.259,
+          "actual": 14,
+          "avg": 18.89
+        },
+        {
+          "type": "player",
+          "name": "Domantas Sabonis",
+          "stat": "Domantas Sabonis - PTS",
+          "score": -0.215,
+          "actual": 15,
+          "avg": 19.1
+        },
+        {
+          "type": "player",
+          "name": "Jalen Johnson",
+          "stat": "Jalen Johnson - DREB",
+          "score": -0.155,
+          "actual": 4,
+          "avg": 8.25
+        }
+      ]
+    }
+  ]
+}

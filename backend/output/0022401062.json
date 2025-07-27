@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401062",
+  "teams": [
+    "ATL",
+    "MIA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Davion Mitchell",
+          "stat": "Davion Mitchell - PTS",
+          "score": 1.013,
+          "actual": 16,
+          "avg": 7.95
+        },
+        {
+          "type": "player",
+          "name": "V\u00edt Krej\u010d\u00ed",
+          "stat": "V\u00edt Krej\u010d\u00ed - PTS",
+          "score": 0.936,
+          "actual": 14,
+          "avg": 7.23
+        },
+        {
+          "type": "player",
+          "name": "Terance Mann",
+          "stat": "Terance Mann - PTS",
+          "score": 0.813,
+          "actual": 14,
+          "avg": 7.72
+        },
+        {
+          "type": "player",
+          "name": "Kyle Anderson",
+          "stat": "Kyle Anderson - PTS",
+          "score": 0.709,
+          "actual": 10,
+          "avg": 5.85
+        },
+        {
+          "type": "player",
+          "name": "Haywood Highsmith",
+          "stat": "Haywood Highsmith - PTS",
+          "score": 0.703,
+          "actual": 11,
+          "avg": 6.46
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Zaccharie Risacher",
+          "stat": "Zaccharie Risacher - PTS",
+          "score": -0.602,
+          "actual": 5,
+          "avg": 12.56
+        },
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - PTS",
+          "score": -0.496,
+          "actual": 5,
+          "avg": 9.92
+        },
+        {
+          "type": "player",
+          "name": "Dyson Daniels",
+          "stat": "Dyson Daniels - PTS",
+          "score": -0.363,
+          "actual": 9,
+          "avg": 14.12
+        },
+        {
+          "type": "player",
+          "name": "Bam Adebayo",
+          "stat": "Bam Adebayo - PTS",
+          "score": -0.336,
+          "actual": 12,
+          "avg": 18.08
+        },
+        {
+          "type": "player",
+          "name": "Kel'el Ware",
+          "stat": "Kel'el Ware - TS%",
+          "score": -0.267,
+          "actual": 0.44,
+          "avg": 0.6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "game_id": "0022401051",
+  "teams": [
+    "POR",
+    "CLE"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Anfernee Simons",
+          "stat": "Anfernee Simons - AST/TOV",
+          "score": 5.262,
+          "actual": 8.0,
+          "avg": 2.358,
+          "player_id": 1629014,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Donovan Clingan",
+          "stat": "Donovan Clingan - PTS",
+          "score": 3.869,
+          "actual": 18,
+          "avg": 6.51,
+          "player_id": 1642270,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Donovan Clingan",
+          "stat": "Donovan Clingan - OREB",
+          "score": 3.025,
+          "actual": 8,
+          "avg": 3.24,
+          "player_id": 1642270,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Ty Jerome",
+          "stat": "Ty Jerome - PTS",
+          "score": 2.925,
+          "actual": 25,
+          "avg": 12.54,
+          "player_id": 1629660,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Matisse Thybulle",
+          "stat": "Matisse Thybulle - PTS",
+          "score": 2.347,
+          "actual": 15,
+          "avg": 7.47,
+          "player_id": 1629680,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Anfernee Simons",
+          "stat": "Anfernee Simons - PTS",
+          "score": -2.292,
+          "actual": 7,
+          "avg": 19.26,
+          "player_id": 1629014,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Dalano Banton",
+          "stat": "Dalano Banton - PTS",
+          "score": -1.565,
+          "actual": 3,
+          "avg": 8.34,
+          "player_id": 1630625,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Cleveland Cavaliers",
+          "stat": "Cleveland Cavaliers - STL",
+          "score": -1.546,
+          "actual": 4,
+          "avg": 8.17,
+          "team_abbr": "CLE"
+        },
+        {
+          "type": "player",
+          "name": "Max Strus",
+          "stat": "Max Strus - PTS",
+          "score": -1.212,
+          "actual": 5,
+          "avg": 9.42,
+          "player_id": 1629622,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "De'Andre Hunter",
+          "stat": "De'Andre Hunter - PTS",
+          "score": -1.198,
+          "actual": 11,
+          "avg": 17.0,
+          "player_id": 1629631,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

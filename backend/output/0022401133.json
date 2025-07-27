@@ -1,0 +1,114 @@
+{
+  "game_id": "0022401133",
+  "teams": [
+    "CHI",
+    "CHA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "KJ Simpson",
+          "stat": "KJ Simpson - PTS",
+          "score": 3.088,
+          "actual": 18,
+          "avg": 7.83,
+          "player_id": 1642354,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Coby White",
+          "stat": "Coby White - PTS",
+          "score": 3.014,
+          "actual": 37,
+          "avg": 20.39,
+          "player_id": 1629632,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jusuf Nurki\u0107",
+          "stat": "Jusuf Nurki\u0107 - PTS",
+          "score": 2.583,
+          "actual": 18,
+          "avg": 8.88,
+          "player_id": 203994,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Josh Giddey",
+          "stat": "Josh Giddey - PTS",
+          "score": 1.818,
+          "actual": 23,
+          "avg": 14.6,
+          "player_id": 1630581,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Patrick Williams",
+          "stat": "Patrick Williams - PTS",
+          "score": 1.694,
+          "actual": 15,
+          "avg": 8.98,
+          "player_id": 1630172,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Miles Bridges",
+          "stat": "Miles Bridges - PTS",
+          "score": -2.238,
+          "actual": 8,
+          "avg": 20.31,
+          "player_id": 1628970,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Charlotte Hornets",
+          "stat": "Charlotte Hornets - FG3M",
+          "score": -1.437,
+          "actual": 8,
+          "avg": 12.99,
+          "team_abbr": "CHA"
+        },
+        {
+          "type": "player",
+          "name": "Dalen Terry",
+          "stat": "Dalen Terry - TS%",
+          "score": -1.188,
+          "actual": 0.2,
+          "avg": 0.55,
+          "player_id": 1631207,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jusuf Nurki\u0107",
+          "stat": "Jusuf Nurki\u0107 - DREB",
+          "score": -1.081,
+          "actual": 2,
+          "avg": 6.14,
+          "player_id": 203994,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Miles Bridges",
+          "stat": "Miles Bridges - TS%",
+          "score": -0.862,
+          "actual": 0.29,
+          "avg": 0.54,
+          "player_id": 1628970,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

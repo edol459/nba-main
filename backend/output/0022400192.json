@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400192",
+  "teams": [
+    "OKC",
+    "HOU"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Ajay Mitchell",
+          "stat": "Ajay Mitchell - AST",
+          "score": 2.346,
+          "actual": 7,
+          "avg": 1.78
+        },
+        {
+          "type": "player",
+          "name": "Chet Holmgren",
+          "stat": "Chet Holmgren - PTS",
+          "score": 0.937,
+          "actual": 29,
+          "avg": 14.97
+        },
+        {
+          "type": "player",
+          "name": "Ajay Mitchell",
+          "stat": "Ajay Mitchell - PTS",
+          "score": 0.846,
+          "actual": 12,
+          "avg": 6.5
+        },
+        {
+          "type": "player",
+          "name": "Chet Holmgren",
+          "stat": "Chet Holmgren - FTM",
+          "score": 0.739,
+          "actual": 9,
+          "avg": 3.16
+        },
+        {
+          "type": "player",
+          "name": "Alperen Sengun",
+          "stat": "Alperen Sengun - AST/TOV",
+          "score": 0.0,
+          "actual": 3.0,
+          "avg": 1.918
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Luguentz Dort",
+          "stat": "Luguentz Dort - PTS",
+          "score": -0.704,
+          "actual": 3,
+          "avg": 10.13
+        },
+        {
+          "type": "player",
+          "name": "Jabari Smith Jr.",
+          "stat": "Jabari Smith Jr. - PTS",
+          "score": -0.673,
+          "actual": 4,
+          "avg": 12.25
+        },
+        {
+          "type": "player",
+          "name": "Cason Wallace",
+          "stat": "Cason Wallace - PTS",
+          "score": -0.521,
+          "actual": 4,
+          "avg": 8.35
+        },
+        {
+          "type": "player",
+          "name": "Alperen Sengun",
+          "stat": "Alperen Sengun - PTS",
+          "score": -0.424,
+          "actual": 11,
+          "avg": 19.09
+        },
+        {
+          "type": "player",
+          "name": "Jalen Williams",
+          "stat": "Jalen Williams - PTS",
+          "score": -0.352,
+          "actual": 14,
+          "avg": 21.59
+        }
+      ]
+    }
+  ]
+}

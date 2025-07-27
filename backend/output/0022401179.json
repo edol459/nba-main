@@ -1,0 +1,115 @@
+{
+  "game_id": "0022401179",
+  "teams": [
+    "MIN",
+    "BKN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jalen Wilson",
+          "stat": "Jalen Wilson - BLK",
+          "score": 10.0,
+          "actual": 1,
+          "avg": 0.06,
+          "player_id": 1630592,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - FT_PCT",
+          "score": 4.556,
+          "actual": 1.0,
+          "avg": 0.18,
+          "player_id": 1641736,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - FG3M",
+          "score": 4.263,
+          "actual": 1,
+          "avg": 0.19,
+          "player_id": 1641736,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - FG3_PCT",
+          "score": 3.545,
+          "actual": 0.5,
+          "avg": 0.11,
+          "player_id": 1641736,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Keon Johnson",
+          "stat": "Keon Johnson - FTM",
+          "score": 2.463,
+          "actual": 8,
+          "avg": 1.35,
+          "player_id": 1630553,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Anthony Edwards",
+          "stat": "Anthony Edwards - FT_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.78,
+          "player_id": 1630162,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Jaden McDaniels",
+          "stat": "Jaden McDaniels - FG3_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.34,
+          "player_id": 1630183,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Donte DiVincenzo",
+          "stat": "Donte DiVincenzo - FT_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.33,
+          "player_id": 1628978,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Tosan Evbuomwan",
+          "stat": "Tosan Evbuomwan - FG3_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.29,
+          "player_id": 1641787,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Dariq Whitehead",
+          "stat": "Dariq Whitehead - FT_PCT",
+          "score": -1.0,
+          "actual": 0.0,
+          "avg": 0.07,
+          "player_id": 1641727,
+          "team_abbr": null
+        }
+      ]
+    }
+  ]
+}

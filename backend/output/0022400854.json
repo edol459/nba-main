@@ -11,59 +11,59 @@
           "type": "player",
           "name": "Pascal Siakam",
           "stat": "Pascal Siakam - FG3M",
-          "score": 3.938,
+          "score": 3.544,
           "actual": 8,
           "avg": 1.62
         },
         {
           "type": "player",
-          "name": "Kel'el Ware",
-          "stat": "Kel'el Ware - FTA",
-          "score": 2.81,
-          "actual": 4,
-          "avg": 1.05
-        },
-        {
-          "type": "player",
-          "name": "Thomas Bryant",
-          "stat": "Thomas Bryant - OREB",
-          "score": 2.175,
-          "actual": 4,
-          "avg": 1.26
+          "name": "Tyler Herro",
+          "stat": "Tyler Herro - AST/TOV",
+          "score": 2.265,
+          "actual": 7.0,
+          "avg": 2.144
         },
         {
           "type": "player",
           "name": "Tyrese Haliburton",
           "stat": "Tyrese Haliburton - STL",
-          "score": 1.778,
+          "score": 2.133,
           "actual": 4,
           "avg": 1.44
         },
         {
           "type": "player",
-          "name": "Pascal Siakam",
-          "stat": "Pascal Siakam - FG3A",
-          "score": 1.651,
-          "actual": 11,
-          "avg": 4.15
+          "name": "Myles Turner",
+          "stat": "Myles Turner - FG3M",
+          "score": 1.174,
+          "actual": 5,
+          "avg": 2.17
+        },
+        {
+          "type": "player",
+          "name": "Alec Burks",
+          "stat": "Alec Burks - FGM",
+          "score": 1.128,
+          "actual": 5,
+          "avg": 2.35
         }
       ],
       "negative": [
         {
-          "type": "team",
-          "name": "Indiana Pacers",
-          "stat": "Indiana Pacers - FTM",
-          "score": -0.706,
-          "actual": 5,
-          "avg": 17.01
+          "type": "player",
+          "name": "Terry Rozier",
+          "stat": "Terry Rozier - PTS",
+          "score": -0.623,
+          "actual": 4,
+          "avg": 10.61
         },
         {
-          "type": "team",
-          "name": "Indiana Pacers",
-          "stat": "Indiana Pacers - FTA",
-          "score": -0.629,
-          "actual": 8,
-          "avg": 21.56
+          "type": "player",
+          "name": "Kyle Anderson",
+          "stat": "Kyle Anderson - PTS",
+          "score": -0.487,
+          "actual": 3,
+          "avg": 5.85
         },
         {
           "type": "team",
@@ -75,19 +75,19 @@
         },
         {
           "type": "player",
-          "name": "Terry Rozier",
-          "stat": "Terry Rozier - PTS",
-          "score": -0.436,
-          "actual": 4,
-          "avg": 10.61
+          "name": "Aaron Nesmith",
+          "stat": "Aaron Nesmith - PTS",
+          "score": -0.418,
+          "actual": 7,
+          "avg": 12.02
         },
         {
           "type": "player",
-          "name": "Myles Turner",
-          "stat": "Myles Turner - DREB",
-          "score": -0.433,
+          "name": "Davion Mitchell",
+          "stat": "Davion Mitchell - TOV",
+          "score": -0.367,
           "actual": 3,
-          "avg": 5.29
+          "avg": 1.73
         }
       ]
     }

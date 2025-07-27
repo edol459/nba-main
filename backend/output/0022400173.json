@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400173",
+  "teams": [
+    "SAS",
+    "HOU"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jock Landale",
+          "stat": "Jock Landale - PTS",
+          "score": 1.311,
+          "actual": 11,
+          "avg": 4.76
+        },
+        {
+          "type": "player",
+          "name": "Fred VanVleet",
+          "stat": "Fred VanVleet - FGM",
+          "score": 1.092,
+          "actual": 10,
+          "avg": 4.78
+        },
+        {
+          "type": "player",
+          "name": "Malaki Branham",
+          "stat": "Malaki Branham - PTS",
+          "score": 1.0,
+          "actual": 10,
+          "avg": 5.0
+        },
+        {
+          "type": "player",
+          "name": "Fred VanVleet",
+          "stat": "Fred VanVleet - AST",
+          "score": 0.641,
+          "actual": 10,
+          "avg": 5.55
+        },
+        {
+          "type": "player",
+          "name": "Fred VanVleet",
+          "stat": "Fred VanVleet - PTS",
+          "score": 0.493,
+          "actual": 21,
+          "avg": 14.07
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Stephon Castle",
+          "stat": "Stephon Castle - PTS",
+          "score": -0.66,
+          "actual": 5,
+          "avg": 14.69
+        },
+        {
+          "type": "player",
+          "name": "Cam Whitmore",
+          "stat": "Cam Whitmore - PTS",
+          "score": -0.572,
+          "actual": 4,
+          "avg": 9.35
+        },
+        {
+          "type": "player",
+          "name": "Amen Thompson",
+          "stat": "Amen Thompson - PTS",
+          "score": -0.431,
+          "actual": 8,
+          "avg": 14.06
+        },
+        {
+          "type": "player",
+          "name": "Victor Wembanyama",
+          "stat": "Victor Wembanyama - PTS",
+          "score": -0.382,
+          "actual": 15,
+          "avg": 24.26
+        },
+        {
+          "type": "player",
+          "name": "Dillon Brooks",
+          "stat": "Dillon Brooks - PTS",
+          "score": -0.288,
+          "actual": 10,
+          "avg": 14.04
+        }
+      ]
+    }
+  ]
+}

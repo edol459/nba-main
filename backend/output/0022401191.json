@@ -10,45 +10,40 @@
         {
           "type": "player",
           "name": "Talen Horton-Tucker",
-          "team": "Chicago Bulls",
           "stat": "Talen Horton-Tucker - AST",
-          "score": 7.99,
+          "score": 3.196,
           "actual": 6,
           "avg": 1.43
         },
         {
           "type": "player",
+          "name": "Lonnie Walker IV",
+          "stat": "Lonnie Walker IV - FG3M",
+          "score": 2.3,
+          "actual": 8,
+          "avg": 2.25
+        },
+        {
+          "type": "player",
           "name": "Emanuel Miller",
-          "team": "Chicago Bulls",
           "stat": "Emanuel Miller - PTS",
-          "score": 7.778,
+          "score": 2.074,
           "actual": 6,
           "avg": 1.67
         },
         {
           "type": "player",
-          "name": "Emanuel Miller",
-          "team": "Chicago Bulls",
-          "stat": "Emanuel Miller - REB",
-          "score": 5.519,
-          "actual": 5,
-          "avg": 1.33
-        },
-        {
-          "type": "player",
-          "name": "Jevon Carter",
-          "team": "Chicago Bulls",
-          "stat": "Jevon Carter - REB",
-          "score": 5.407,
-          "actual": 4,
-          "avg": 1.08
+          "name": "Julian Phillips",
+          "stat": "Julian Phillips - DREB",
+          "score": 1.826,
+          "actual": 6,
+          "avg": 1.29
         },
         {
           "type": "player",
           "name": "Adem Bona",
-          "team": "Philadelphia 76ers",
           "stat": "Adem Bona - PTS",
-          "score": 5.262,
+          "score": 1.403,
           "actual": 16,
           "avg": 5.81
         }
@@ -56,48 +51,43 @@
       "negative": [
         {
           "type": "player",
-          "name": "Jared Butler",
-          "team": "Philadelphia 76ers",
-          "stat": "Jared Butler - TOV",
-          "score": -4.015,
-          "actual": 4,
-          "avg": 1.33
-        },
-        {
-          "type": "player",
-          "name": "Patrick Williams",
-          "team": "Chicago Bulls",
-          "stat": "Patrick Williams - TOV",
-          "score": -2.38,
-          "actual": 3,
-          "avg": 1.37
+          "name": "Coby White",
+          "stat": "Coby White - TS%",
+          "score": -0.717,
+          "actual": 0.17,
+          "avg": 0.6
         },
         {
           "type": "player",
           "name": "Quentin Grimes",
-          "team": "Philadelphia 76ers",
-          "stat": "Quentin Grimes - TOV",
-          "score": -2.255,
-          "actual": 4,
-          "avg": 1.88
+          "stat": "Quentin Grimes - TS%",
+          "score": -0.55,
+          "actual": 0.27,
+          "avg": 0.6
         },
         {
           "type": "player",
           "name": "Nikola Vu\u010devi\u0107",
-          "team": "Chicago Bulls",
           "stat": "Nikola Vu\u010devi\u0107 - PTS",
-          "score": -1.701,
+          "score": -0.454,
           "actual": 8,
           "avg": 18.48
         },
         {
           "type": "player",
-          "name": "Quentin Grimes",
-          "team": "Philadelphia 76ers",
-          "stat": "Quentin Grimes - PTS",
-          "score": -1.352,
-          "actual": 8,
-          "avg": 14.56
+          "name": "Jevon Carter",
+          "stat": "Jevon Carter - TS%",
+          "score": -0.451,
+          "actual": 0.28,
+          "avg": 0.51
+        },
+        {
+          "type": "player",
+          "name": "Dalen Terry",
+          "stat": "Dalen Terry - TS%",
+          "score": -0.4,
+          "actual": 0.33,
+          "avg": 0.55
         }
       ]
     }

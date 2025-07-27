@@ -1,0 +1,112 @@
+{
+  "game_id": "0022400978",
+  "teams": [
+    "ATL",
+    "BKN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jalen Wilson",
+          "stat": "Jalen Wilson - AST",
+          "score": 3.81,
+          "actual": 6,
+          "avg": 1.84,
+          "player_id": 1630592,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Keon Johnson",
+          "stat": "Keon Johnson - PTS",
+          "score": 2.922,
+          "actual": 22,
+          "avg": 10.62,
+          "player_id": 1630553,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - BLK",
+          "score": 2.849,
+          "actual": 11,
+          "avg": 5.11,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "player",
+          "name": "Maxwell Lewis",
+          "stat": "Maxwell Lewis - PTS",
+          "score": 2.567,
+          "actual": 10,
+          "avg": 4.14,
+          "player_id": 1641721,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Martin",
+          "stat": "Tyrese Martin - PTS",
+          "score": 2.082,
+          "actual": 16,
+          "avg": 8.72,
+          "player_id": 1631213,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - TS%",
+          "score": -0.655,
+          "actual": 0.4,
+          "avg": 0.61,
+          "player_id": 1627777,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Nic Claxton",
+          "stat": "Nic Claxton - TS%",
+          "score": -0.396,
+          "actual": 0.45,
+          "avg": 0.57,
+          "player_id": 1629651,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Terance Mann",
+          "stat": "Terance Mann - TS%",
+          "score": -0.293,
+          "actual": 0.49,
+          "avg": 0.58,
+          "player_id": 1629611,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FG_PCT",
+          "score": 0.0,
+          "actual": 0.467,
+          "avg": 0.47,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FG3M",
+          "score": 0.0,
+          "actual": 11,
+          "avg": 13.5,
+          "team_abbr": "ATL"
+        }
+      ]
+    }
+  ]
+}

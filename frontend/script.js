@@ -1,32 +1,41 @@
-// Fetch game list and populate dropdown when page loads
 window.addEventListener("DOMContentLoaded", () => {
-  fetch('/api/games')
-    .then(res => res.json())
-    .then(games => {
-      const dropdown = document.getElementById("gameDropdown");
-      dropdown.innerHTML = ""; // Clear loading option
-      games.forEach(game => {
-        const option = document.createElement("option");
-        option.value = game.game_id;
-        option.textContent = `${game.matchup} (${game.date})`;
-        dropdown.appendChild(option);
-      });
-    })
-    .catch(err => {
-      console.error("Error loading games:", err);
-      document.getElementById("output").innerHTML = `<p style="color:red;">Error loading game list.</p>`;
-    });
-});
+  const teamDropdown = document.getElementById("teamSelector");
+  const gameDropdown = document.getElementById("gameSelector");
 
-// Load outliers for selected game when button is clicked
-document.getElementById("loadBtn").addEventListener("click", () => {
-  const gameId = document.getElementById("gameDropdown").value;
-  if (!gameId) return;
-  loadGameOutliers(gameId);
+  teamDropdown.addEventListener("change", async () => {
+    const team = teamDropdown.value;
+    gameDropdown.innerHTML = `<option>Loading games...</option>`;
+    gameDropdown.disabled = true;
+
+    if (!team) return;
+
+    const res = await fetch(`/api/games/${team}`);
+    const games = await res.json();
+
+    if (games.error) {
+      gameDropdown.innerHTML = `<option>Error loading games</option>`;
+      return;
+    }
+
+    gameDropdown.innerHTML = `<option value="">Select a game</option>`;
+    games.forEach(game => {
+      const option = document.createElement("option");
+      option.value = game.game_id;
+      option.textContent = `${team} vs ${game.opponent} (${game.date})`;
+      gameDropdown.appendChild(option);
+    });
+
+    gameDropdown.disabled = false;
+  });
+
+  gameDropdown.addEventListener("change", () => {
+    const gameId = gameDropdown.value;
+    if (gameId) loadGameOutliers(gameId);
+  });
 });
 
 function loadGameOutliers(gameId) {
-  document.getElementById("output").innerHTML = `<p>Loading data for game ${gameId}...</p>`;
+  document.getElementById("output").innerHTML = `<p>Loading game...</p>`;
 
   fetch(`/api/outliers/${gameId}`)
     .then((response) => {
@@ -72,7 +81,27 @@ function renderOutliers(data) {
 function makeBar(outlier, isNegative, index) {
   const height = 500 - index * 100; // top bar tallest
   const bar = isNegative ? 'bar negative' : 'bar positive';
-  const label = `<b>${outlier.name}</b><br> ${outlier.stat.split(" - ")[1]} <br>Actual: ${outlier.actual} ${outlier.stat.split(" - ")[1]} <br> Average: ${outlier.avg} ${outlier.stat.split(" - ")[1]}`;
+  
+  // Generate player headshot URL if player_id exists
+  let imgTag = '';
+    if (outlier.type === 'player' && outlier.player_id){
+      const imgUrl = `https://cdn.nba.com/headshots/nba/latest/1040x760/${outlier.player_id}.png`;
+      imgTag = `<img src="${imgUrl}" class="player-headshot" alt="${outlier.name}" />`;
+     } else if (outlier.type === 'team' && outlier.team_abbr) {
+      const teamLogoUrl = `logos/${outlier.team_abbr}.svg`; 
+      imgTag = `<img src="${teamLogoUrl}" class="team-logo-mini" alt="${outlier.name} logo" />`;
+    }
+
+    
+    const label = `
+      ${imgTag}
+      <b>${outlier.name}</b><br>
+      ${outlier.stat.split(" - ")[1]}<br>
+      Actual: ${outlier.actual} ${outlier.stat.split(" - ")[1]}<br>
+      Average: ${outlier.avg} ${outlier.stat.split(" - ")[1]}<br>
+      Score: ${outlier.score}
+    `;
+
 
   return `
     <div class="${bar}" style="height:${height}px;">

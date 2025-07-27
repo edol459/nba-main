@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400064",
+  "teams": [
+    "ATL",
+    "BKN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jalen Wilson",
+          "stat": "Jalen Wilson - FTM",
+          "score": 1.471,
+          "actual": 8,
+          "avg": 1.71
+        },
+        {
+          "type": "player",
+          "name": "Cam Thomas",
+          "stat": "Cam Thomas - FG3M",
+          "score": 1.416,
+          "actual": 7,
+          "avg": 2.72
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - FGM",
+          "score": 1.099,
+          "actual": 11,
+          "avg": 5.24
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - PTS",
+          "score": 1.097,
+          "actual": 28,
+          "avg": 13.35
+        },
+        {
+          "type": "player",
+          "name": "Cam Thomas",
+          "stat": "Cam Thomas - FGM",
+          "score": 0.759,
+          "actual": 14,
+          "avg": 7.96
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "V\u00edt Krej\u010d\u00ed",
+          "stat": "V\u00edt Krej\u010d\u00ed - PTS",
+          "score": -0.585,
+          "actual": 3,
+          "avg": 7.23
+        },
+        {
+          "type": "player",
+          "name": "Zaccharie Risacher",
+          "stat": "Zaccharie Risacher - PTS",
+          "score": -0.443,
+          "actual": 7,
+          "avg": 12.56
+        },
+        {
+          "type": "player",
+          "name": "Jalen Johnson",
+          "stat": "Jalen Johnson - PTS",
+          "score": -0.418,
+          "actual": 11,
+          "avg": 18.89
+        },
+        {
+          "type": "player",
+          "name": "Ben Simmons",
+          "stat": "Ben Simmons - TOV",
+          "score": -0.4,
+          "actual": 6,
+          "avg": 2.0
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FG3M",
+          "score": -0.3,
+          "actual": 9,
+          "avg": 13.5
+        }
+      ]
+    }
+  ]
+}

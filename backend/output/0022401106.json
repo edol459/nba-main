@@ -1,0 +1,112 @@
+{
+  "game_id": "0022401106",
+  "teams": [
+    "BOS",
+    "MIA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Pelle Larsson",
+          "stat": "Pelle Larsson - PTS",
+          "score": 4.732,
+          "actual": 16,
+          "avg": 4.56,
+          "player_id": 1641796,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Kyle Anderson",
+          "stat": "Kyle Anderson - PTS",
+          "score": 4.707,
+          "actual": 19,
+          "avg": 5.85,
+          "player_id": 203937,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Pelle Larsson",
+          "stat": "Pelle Larsson - FTM",
+          "score": 4.63,
+          "actual": 6,
+          "avg": 0.75,
+          "player_id": 1641796,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Davion Mitchell",
+          "stat": "Davion Mitchell - AST/TOV",
+          "score": 3.447,
+          "actual": 7.0,
+          "avg": 2.838,
+          "player_id": 1630558,
+          "team_abbr": null
+        },
+        {
+          "type": "player",
+          "name": "Luke Kornet",
+          "stat": "Luke Kornet - PTS",
+          "score": 2.797,
+          "actual": 14,
+          "avg": 6.04,
+          "player_id": 1628436,
+          "team_abbr": null
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jayson Tatum",
+          "stat": "Jayson Tatum - PTS",
+          "score": -1.704,
+          "actual": 16,
+          "avg": 26.83,
+          "player_id": 1628369,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - STL",
+          "score": -1.665,
+          "actual": 3,
+          "avg": 7.18,
+          "team_abbr": "BOS"
+        },
+        {
+          "type": "player",
+          "name": "Jayson Tatum",
+          "stat": "Jayson Tatum - DREB",
+          "score": -1.124,
+          "actual": 3,
+          "avg": 7.99,
+          "player_id": 1628369,
+          "team_abbr": null
+        },
+        {
+          "type": "team",
+          "name": "Miami Heat",
+          "stat": "Miami Heat - DREB",
+          "score": -1.119,
+          "actual": 23,
+          "avg": 33.66,
+          "team_abbr": "MIA"
+        },
+        {
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - DREB",
+          "score": -1.039,
+          "actual": 24,
+          "avg": 33.94,
+          "team_abbr": "BOS"
+        }
+      ]
+    }
+  ]
+}

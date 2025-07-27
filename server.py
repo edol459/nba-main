@@ -34,6 +34,29 @@ def get_available_games():
 
     return jsonify(games)
 
+
+@app.route('/api/games/<team_abbr>')
+def get_games_for_team(team_abbr):
+    game_logs = pd.read_csv("data/team_game_logs.csv")
+    game_logs["GAME_ID"] = game_logs["GAME_ID"].astype(str).str.zfill(10)
+    team_games = game_logs[game_logs["TEAM_ABBREVIATION"] == team_abbr]
+
+    if team_games.empty:
+        return jsonify({"error": "No games found for team"}), 404
+
+    results = []
+    for _, row in team_games.iterrows():
+        opponent = row["MATCHUP"].replace(team_abbr + " vs. ", "").replace(team_abbr + " @ ", "")
+        results.append({
+            "game_id": row["GAME_ID"],
+            "date": row["GAME_DATE"],
+            "opponent": opponent
+        })
+
+    return jsonify(results)
+
+
+
 @app.route("/api/outliers/<game_id>")
 def outliers(game_id):
     try:

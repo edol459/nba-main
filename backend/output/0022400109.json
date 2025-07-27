@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400109",
+  "teams": [
+    "SAS",
+    "HOU"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Malaki Branham",
+          "stat": "Malaki Branham - PTS",
+          "score": 2.0,
+          "actual": 15,
+          "avg": 5.0
+        },
+        {
+          "type": "player",
+          "name": "Jalen Green",
+          "stat": "Jalen Green - FG3M",
+          "score": 1.311,
+          "actual": 7,
+          "avg": 2.85
+        },
+        {
+          "type": "player",
+          "name": "Jeremy Sochan",
+          "stat": "Jeremy Sochan - FGM",
+          "score": 0.935,
+          "actual": 9,
+          "avg": 4.65
+        },
+        {
+          "type": "player",
+          "name": "Jeremy Sochan",
+          "stat": "Jeremy Sochan - PTS",
+          "score": 0.925,
+          "actual": 22,
+          "avg": 11.43
+        },
+        {
+          "type": "player",
+          "name": "Chris Paul",
+          "stat": "Chris Paul - PTS",
+          "score": 0.814,
+          "actual": 16,
+          "avg": 8.82
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Stephon Castle",
+          "stat": "Stephon Castle - PTS",
+          "score": -0.728,
+          "actual": 4,
+          "avg": 14.69
+        },
+        {
+          "type": "player",
+          "name": "Cam Whitmore",
+          "stat": "Cam Whitmore - PTS",
+          "score": -0.572,
+          "actual": 4,
+          "avg": 9.35
+        },
+        {
+          "type": "player",
+          "name": "Keldon Johnson",
+          "stat": "Keldon Johnson - PTS",
+          "score": -0.528,
+          "actual": 6,
+          "avg": 12.71
+        },
+        {
+          "type": "player",
+          "name": "Amen Thompson",
+          "stat": "Amen Thompson - PTS",
+          "score": -0.502,
+          "actual": 7,
+          "avg": 14.06
+        },
+        {
+          "type": "player",
+          "name": "Tari Eason",
+          "stat": "Tari Eason - PTS",
+          "score": -0.502,
+          "actual": 6,
+          "avg": 12.04
+        }
+      ]
+    }
+  ]
+}
