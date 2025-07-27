@@ -11,40 +11,25 @@
           "type": "player",
           "name": "Jarace Walker",
           "stat": "Jarace Walker - PTS",
-          "score": 1.526,
+          "score": 2.035,
           "actual": 12,
-          "avg": 6.15,
-          "player_id": 1641716,
-          "team_abbr": null
+          "avg": 6.15
         },
         {
           "type": "player",
           "name": "Josh Hart",
           "stat": "Josh Hart - PTS",
-          "score": 1.068,
+          "score": 1.424,
           "actual": 20,
-          "avg": 13.65,
-          "player_id": 1628404,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Karl-Anthony Towns",
-          "stat": "Karl-Anthony Towns - FTM",
-          "score": 0.871,
-          "actual": 9,
-          "avg": 4.71,
-          "player_id": 1626157,
-          "team_abbr": null
+          "avg": 13.65
         },
         {
           "type": "team",
           "name": "New York Knicks",
           "stat": "New York Knicks - FTM",
-          "score": 0.653,
+          "score": 0.816,
           "actual": 23,
-          "avg": 16.55,
-          "team_abbr": "NYK"
+          "avg": 16.55
         },
         {
           "type": "team",
@@ -52,19 +37,25 @@
           "stat": "New York Knicks - PFD",
           "score": 0.595,
           "actual": 24,
-          "avg": 18.95,
-          "team_abbr": "NYK"
+          "avg": 18.95
+        },
+        {
+          "type": "team_vs_team",
+          "name": "New York Knicks",
+          "stat": "FG3_PCT differential",
+          "score": 0.51,
+          "actual": 0.344,
+          "avg": 0.089
         }
       ],
       "negative": [
         {
-          "type": "team",
-          "name": "Indiana Pacers",
-          "stat": "Indiana Pacers - FG3M",
-          "score": -2.618,
-          "actual": 3,
-          "avg": 13.18,
-          "team_abbr": "IND"
+          "type": "player",
+          "name": "Aaron Nesmith",
+          "stat": "Aaron Nesmith - PTS",
+          "score": -1.926,
+          "actual": 4,
+          "avg": 12.02
         },
         {
           "type": "team",
@@ -72,38 +63,31 @@
           "stat": "New York Knicks - AST",
           "score": -1.648,
           "actual": 19,
-          "avg": 27.49,
-          "team_abbr": "NYK"
+          "avg": 27.49
         },
         {
           "type": "player",
-          "name": "Tyrese Haliburton",
-          "stat": "Tyrese Haliburton - AST",
-          "score": -1.463,
-          "actual": 5,
-          "avg": 9.22,
-          "player_id": 1630169,
-          "team_abbr": null
+          "name": "Pascal Siakam",
+          "stat": "Pascal Siakam - PTS",
+          "score": -1.5,
+          "actual": 12,
+          "avg": 20.23
         },
         {
-          "type": "player",
-          "name": "Aaron Nesmith",
-          "stat": "Aaron Nesmith - PTS",
-          "score": -1.445,
-          "actual": 4,
-          "avg": 12.02,
-          "player_id": 1630174,
-          "team_abbr": null
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - FG3M",
+          "score": -1.454,
+          "actual": 3,
+          "avg": 13.18
         },
         {
-          "type": "player",
-          "name": "Tyrese Haliburton",
-          "stat": "Tyrese Haliburton - TS%",
-          "score": -1.273,
-          "actual": 0.0,
-          "avg": 0.62,
-          "player_id": 1630169,
-          "team_abbr": null
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - DREB",
+          "score": -0.923,
+          "actual": 24,
+          "avg": 32.66
         }
       ]
     }

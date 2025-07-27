@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401090",
+  "teams": [
+    "SAC",
+    "IND"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Aaron Nesmith",
+          "stat": "Aaron Nesmith - FTM",
+          "score": 3.687,
+          "actual": 9,
+          "avg": 1.62
+        },
+        {
+          "type": "player",
+          "name": "Jarace Walker",
+          "stat": "Jarace Walker - PTS",
+          "score": 3.078,
+          "actual": 15,
+          "avg": 6.15
+        },
+        {
+          "type": "player",
+          "name": "Aaron Nesmith",
+          "stat": "Aaron Nesmith - PTS",
+          "score": 2.877,
+          "actual": 24,
+          "avg": 12.02
+        },
+        {
+          "type": "player",
+          "name": "Obi Toppin",
+          "stat": "Obi Toppin - PTS",
+          "score": 2.181,
+          "actual": 19,
+          "avg": 10.54
+        },
+        {
+          "type": "player",
+          "name": "DeMar DeRozan",
+          "stat": "DeMar DeRozan - PTS",
+          "score": 1.525,
+          "actual": 31,
+          "avg": 22.21
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Domantas Sabonis",
+          "stat": "Domantas Sabonis - AST",
+          "score": -2.653,
+          "actual": 0,
+          "avg": 6.04
+        },
+        {
+          "type": "player",
+          "name": "Malik Monk",
+          "stat": "Malik Monk - PTS",
+          "score": -2.418,
+          "actual": 5,
+          "avg": 17.18
+        },
+        {
+          "type": "player",
+          "name": "Pascal Siakam",
+          "stat": "Pascal Siakam - PTS",
+          "score": -1.682,
+          "actual": 11,
+          "avg": 20.23
+        },
+        {
+          "type": "player",
+          "name": "Andrew Nembhard",
+          "stat": "Andrew Nembhard - PTS",
+          "score": -1.336,
+          "actual": 5,
+          "avg": 10.05
+        },
+        {
+          "type": "team",
+          "name": "Sacramento Kings",
+          "stat": "Sacramento Kings - FTM",
+          "score": -0.756,
+          "actual": 11,
+          "avg": 17.07
+        }
+      ]
+    }
+  ]
+}

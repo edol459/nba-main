@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400102",
+  "teams": [
+    "IND",
+    "ORL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Paolo Banchero",
+          "stat": "Paolo Banchero - PTS",
+          "score": 3.863,
+          "actual": 50,
+          "avg": 25.89
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - OREB",
+          "score": 2.027,
+          "actual": 15,
+          "avg": 9.17
+        },
+        {
+          "type": "player",
+          "name": "Paolo Banchero",
+          "stat": "Paolo Banchero - FTM",
+          "score": 1.948,
+          "actual": 15,
+          "avg": 6.09
+        },
+        {
+          "type": "player",
+          "name": "Jalen Suggs",
+          "stat": "Jalen Suggs - PTS",
+          "score": 1.802,
+          "actual": 25,
+          "avg": 16.2
+        },
+        {
+          "type": "player",
+          "name": "Paolo Banchero",
+          "stat": "Paolo Banchero - PFD",
+          "score": 1.634,
+          "actual": 13,
+          "avg": 5.76
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Franz Wagner",
+          "stat": "Franz Wagner - PTS",
+          "score": -2.849,
+          "actual": 7,
+          "avg": 24.15
+        },
+        {
+          "type": "player",
+          "name": "Bennedict Mathurin",
+          "stat": "Bennedict Mathurin - PTS",
+          "score": -2.276,
+          "actual": 5,
+          "avg": 16.06
+        },
+        {
+          "type": "player",
+          "name": "Gary Harris",
+          "stat": "Gary Harris - TS%",
+          "score": -0.616,
+          "actual": 0.0,
+          "avg": 0.52
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - PF",
+          "score": -0.441,
+          "actual": 28,
+          "avg": 18.7
+        },
+        {
+          "type": "player",
+          "name": "Isaiah Jackson",
+          "stat": "Isaiah Jackson - TS%",
+          "score": -0.285,
+          "actual": 0.33,
+          "avg": 0.6
+        }
+      ]
+    }
+  ]
+}

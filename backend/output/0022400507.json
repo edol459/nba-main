@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400507",
+  "teams": [
+    "BOS",
+    "DEN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Russell Westbrook",
+          "stat": "Russell Westbrook - PTS",
+          "score": 2.906,
+          "actual": 26,
+          "avg": 13.25
+        },
+        {
+          "type": "player",
+          "name": "Julian Strawther",
+          "stat": "Julian Strawther - PTS",
+          "score": 2.788,
+          "actual": 19,
+          "avg": 9.05
+        },
+        {
+          "type": "player",
+          "name": "Jrue Holiday",
+          "stat": "Jrue Holiday - PTS",
+          "score": 1.994,
+          "actual": 19,
+          "avg": 11.06
+        },
+        {
+          "type": "player",
+          "name": "Peyton Watson",
+          "stat": "Peyton Watson - PTS",
+          "score": 1.758,
+          "actual": 14,
+          "avg": 8.1
+        },
+        {
+          "type": "player",
+          "name": "Kristaps Porzi\u0146\u0123is",
+          "stat": "Kristaps Porzi\u0146\u0123is - PTS",
+          "score": 1.026,
+          "actual": 25,
+          "avg": 19.48
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "stat": "Payton Pritchard - PTS",
+          "score": -2.473,
+          "actual": 3,
+          "avg": 14.3
+        },
+        {
+          "type": "team",
+          "name": "Denver Nuggets",
+          "stat": "Denver Nuggets - AST",
+          "score": -1.642,
+          "actual": 22,
+          "avg": 31.0
+        },
+        {
+          "type": "player",
+          "name": "Jaylen Brown",
+          "stat": "Jaylen Brown - PTS",
+          "score": -1.422,
+          "actual": 14,
+          "avg": 22.19
+        },
+        {
+          "type": "team",
+          "name": "Denver Nuggets",
+          "stat": "Denver Nuggets - DREB",
+          "score": -0.884,
+          "actual": 26,
+          "avg": 34.54
+        },
+        {
+          "type": "team",
+          "name": "Denver Nuggets",
+          "stat": "Denver Nuggets - FTM",
+          "score": -0.719,
+          "actual": 12,
+          "avg": 17.93
+        }
+      ]
+    }
+  ]
+}

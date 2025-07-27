@@ -13,9 +13,7 @@
           "stat": "Seth Curry - PTS",
           "score": 3.52,
           "actual": 17,
-          "avg": 6.53,
-          "player_id": 203552,
-          "team_abbr": null
+          "avg": 6.53
         },
         {
           "type": "player",
@@ -23,91 +21,73 @@
           "stat": "Sam Hauser - PTS",
           "score": 3.326,
           "actual": 20,
-          "avg": 8.52,
-          "player_id": 1630573,
-          "team_abbr": null
+          "avg": 8.52
         },
         {
-          "type": "player",
-          "name": "Seth Curry",
-          "stat": "Seth Curry - TS%",
-          "score": 0.452,
-          "actual": 1.06,
-          "avg": 0.62,
-          "player_id": 203552,
-          "team_abbr": null
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - AST",
+          "score": 1.763,
+          "actual": 35,
+          "avg": 26.15
         },
         {
           "type": "player",
           "name": "Payton Pritchard",
-          "stat": "Payton Pritchard - TS%",
-          "score": 0.375,
-          "actual": 1.0,
-          "avg": 0.63,
-          "player_id": 1630202,
-          "team_abbr": null
+          "stat": "Payton Pritchard - PTS",
+          "score": 1.685,
+          "actual": 22,
+          "avg": 14.3
         },
         {
           "type": "player",
-          "name": "Sam Hauser",
-          "stat": "Sam Hauser - TS%",
-          "score": 0.203,
-          "actual": 0.83,
-          "avg": 0.63,
-          "player_id": 1630573,
-          "team_abbr": null
+          "name": "Al Horford",
+          "stat": "Al Horford - DREB",
+          "score": 1.551,
+          "actual": 10,
+          "avg": 4.83
         }
       ],
       "negative": [
+        {
+          "type": "player",
+          "name": "Jrue Holiday",
+          "stat": "Jrue Holiday - PTS",
+          "score": -2.276,
+          "actual": 2,
+          "avg": 11.06
+        },
         {
           "type": "player",
           "name": "Jayson Tatum",
           "stat": "Jayson Tatum - PTS",
           "score": -1.704,
           "actual": 16,
-          "avg": 26.83,
-          "player_id": 1628369,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Jrue Holiday",
-          "stat": "Jrue Holiday - TS%",
-          "score": -0.44,
-          "actual": 0.17,
-          "avg": 0.57,
-          "player_id": 201950,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Mark Williams",
-          "stat": "Mark Williams - TS%",
-          "score": -0.227,
-          "actual": 0.42,
-          "avg": 0.65,
-          "player_id": 1631109,
-          "team_abbr": null
+          "avg": 26.83
         },
         {
           "type": "player",
           "name": "Kristaps Porzi\u0146\u0123is",
-          "stat": "Kristaps Porzi\u0146\u0123is - TS%",
-          "score": -0.226,
-          "actual": 0.4,
-          "avg": 0.62,
-          "player_id": 204001,
-          "team_abbr": null
+          "stat": "Kristaps Porzi\u0146\u0123is - PTS",
+          "score": -1.576,
+          "actual": 11,
+          "avg": 19.48
+        },
+        {
+          "type": "team",
+          "name": "Charlotte Hornets",
+          "stat": "Charlotte Hornets - FTM",
+          "score": -1.112,
+          "actual": 7,
+          "avg": 15.48
         },
         {
           "type": "player",
-          "name": "Josh Okogie",
-          "stat": "Josh Okogie - TS%",
-          "score": -0.154,
-          "actual": 0.43,
-          "avg": 0.57,
-          "player_id": 1629006,
-          "team_abbr": null
+          "name": "Mark Williams",
+          "stat": "Mark Williams - PTS",
+          "score": -1.11,
+          "actual": 10,
+          "avg": 15.25
         }
       ]
     }

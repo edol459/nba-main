@@ -10,104 +10,84 @@
         {
           "type": "player",
           "name": "Dariq Whitehead",
-          "stat": "Dariq Whitehead - FT_PCT",
-          "score": 10,
-          "actual": 1.0,
-          "avg": 0.07,
-          "player_id": 1641727,
-          "team_abbr": null
+          "stat": "Dariq Whitehead - PTS",
+          "score": 4.105,
+          "actual": 17,
+          "avg": 5.7
         },
         {
           "type": "player",
-          "name": "Nickeil Alexander-Walker",
-          "stat": "Nickeil Alexander-Walker - BLK",
-          "score": 6.317,
-          "actual": 3,
-          "avg": 0.41,
-          "player_id": 1629638,
-          "team_abbr": null
+          "name": "Maxwell Lewis",
+          "stat": "Maxwell Lewis - PTS",
+          "score": 2.567,
+          "actual": 10,
+          "avg": 4.14
+        },
+        {
+          "type": "team",
+          "name": "Minnesota Timberwolves",
+          "stat": "Minnesota Timberwolves - BLK",
+          "score": 2.489,
+          "actual": 10,
+          "avg": 4.95
         },
         {
           "type": "player",
-          "name": "Drew Timme",
-          "stat": "Drew Timme - STL",
-          "score": 5.818,
-          "actual": 3,
-          "avg": 0.44,
-          "player_id": 1631166,
-          "team_abbr": null
+          "name": "Rudy Gobert",
+          "stat": "Rudy Gobert - PTS",
+          "score": 2.153,
+          "actual": 21,
+          "avg": 12.03
         },
         {
           "type": "player",
-          "name": "Dariq Whitehead",
-          "stat": "Dariq Whitehead - FTM",
-          "score": 5.0,
-          "actual": 2,
-          "avg": 0.15,
-          "player_id": 1641727,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Dariq Whitehead",
-          "stat": "Dariq Whitehead - OREB",
-          "score": 4.0,
-          "actual": 1,
-          "avg": 0.2,
-          "player_id": 1641727,
-          "team_abbr": null
+          "name": "Nic Claxton",
+          "stat": "Nic Claxton - PTS",
+          "score": 1.996,
+          "actual": 18,
+          "avg": 10.34
         }
       ],
       "negative": [
         {
           "type": "player",
           "name": "D'Angelo Russell",
-          "stat": "D'Angelo Russell - TS%",
-          "score": -1.5,
-          "actual": 0.0,
-          "avg": 0.52,
-          "player_id": 1626156,
-          "team_abbr": null
+          "stat": "D'Angelo Russell - PTS",
+          "score": -2.952,
+          "actual": 0,
+          "avg": 12.62
         },
         {
           "type": "player",
           "name": "Donte DiVincenzo",
-          "stat": "Donte DiVincenzo - TS%",
-          "score": -1.216,
-          "actual": 0.11,
-          "avg": 0.58,
-          "player_id": 1628978,
-          "team_abbr": null
+          "stat": "Donte DiVincenzo - PTS",
+          "score": -2.358,
+          "actual": 2,
+          "avg": 11.66
+        },
+        {
+          "type": "team",
+          "name": "Brooklyn Nets",
+          "stat": "Brooklyn Nets - FTM",
+          "score": -1.695,
+          "actual": 3,
+          "avg": 16.27
         },
         {
           "type": "player",
-          "name": "Rudy Gobert",
-          "stat": "Rudy Gobert - AST/TOV",
-          "score": -1.2,
-          "actual": 0.0,
-          "avg": 1.419,
-          "player_id": 203497,
-          "team_abbr": null
+          "name": "Drew Timme",
+          "stat": "Drew Timme - PTS",
+          "score": -1.461,
+          "actual": 6,
+          "avg": 12.11
         },
         {
           "type": "player",
-          "name": "Dariq Whitehead",
-          "stat": "Dariq Whitehead - AST/TOV",
-          "score": -1.2,
-          "actual": 0.0,
-          "avg": 0.8,
-          "player_id": 1641727,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Tyson Etienne",
-          "stat": "Tyson Etienne - AST/TOV",
-          "score": -1.2,
-          "actual": 0.0,
-          "avg": 1.5,
-          "player_id": 1630623,
-          "team_abbr": null
+          "name": "Julius Randle",
+          "stat": "Julius Randle - PTS",
+          "score": -1.458,
+          "actual": 11,
+          "avg": 18.67
         }
       ]
     }

@@ -11,7 +11,7 @@
           "type": "player",
           "name": "Justin Champagnie",
           "stat": "Justin Champagnie - PTS",
-          "score": 1.281,
+          "score": 3.202,
           "actual": 20,
           "avg": 8.77
         },
@@ -19,75 +19,75 @@
           "type": "player",
           "name": "Tyrese Haliburton",
           "stat": "Tyrese Haliburton - FTM",
-          "score": 0.99,
+          "score": 2.345,
           "actual": 9,
           "avg": 2.59
         },
         {
           "type": "player",
-          "name": "Alex Sarr",
-          "stat": "Alex Sarr - PTS",
-          "score": 0.542,
-          "actual": 20,
-          "avg": 12.97
+          "name": "Justin Champagnie",
+          "stat": "Justin Champagnie - DREB",
+          "score": 1.768,
+          "actual": 9,
+          "avg": 3.85
         },
         {
           "type": "player",
-          "name": "Justin Champagnie",
-          "stat": "Justin Champagnie - DREB",
-          "score": 0.401,
-          "actual": 9,
-          "avg": 3.85
+          "name": "Alex Sarr",
+          "stat": "Alex Sarr - PTS",
+          "score": 1.621,
+          "actual": 20,
+          "avg": 12.97
         },
         {
           "type": "team",
           "name": "Indiana Pacers",
           "stat": "Indiana Pacers - FTM",
-          "score": 0.282,
+          "score": 1.496,
           "actual": 29,
           "avg": 17.01
         }
       ],
       "negative": [
         {
+          "type": "team",
+          "name": "Washington Wizards",
+          "stat": "Washington Wizards - STL",
+          "score": -2.161,
+          "actual": 2,
+          "avg": 7.6
+        },
+        {
+          "type": "player",
+          "name": "T.J. McConnell",
+          "stat": "T.J. McConnell - PTS",
+          "score": -1.985,
+          "actual": 2,
+          "avg": 9.11
+        },
+        {
           "type": "player",
           "name": "Andrew Nembhard",
           "stat": "Andrew Nembhard - PTS",
-          "score": -0.602,
+          "score": -1.601,
           "actual": 4,
           "avg": 10.05
-        },
-        {
-          "type": "player",
-          "name": "Aaron Nesmith",
-          "stat": "Aaron Nesmith - PTS",
-          "score": -0.418,
-          "actual": 7,
-          "avg": 12.02
-        },
-        {
-          "type": "team",
-          "name": "Indiana Pacers",
-          "stat": "Indiana Pacers - FG3M",
-          "score": -0.285,
-          "actual": 9,
-          "avg": 13.18
-        },
-        {
-          "type": "team",
-          "name": "Washington Wizards",
-          "stat": "Washington Wizards - AST",
-          "score": -0.226,
-          "actual": 18,
-          "avg": 25.1
         },
         {
           "type": "team",
           "name": "Indiana Pacers",
           "stat": "Indiana Pacers - AST",
-          "score": -0.225,
+          "score": -1.55,
           "actual": 21,
           "avg": 29.24
+        },
+        {
+          "type": "team",
+          "name": "Washington Wizards",
+          "stat": "Washington Wizards - AST",
+          "score": -1.445,
+          "actual": 18,
+          "avg": 25.1
         }
       ]
     }

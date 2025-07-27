@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400929",
+  "teams": [
+    "UTA",
+    "BOS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Sam Hauser",
+          "stat": "Sam Hauser - PTS",
+          "score": 7.092,
+          "actual": 33,
+          "avg": 8.52
+        },
+        {
+          "type": "player",
+          "name": "Derrick White",
+          "stat": "Derrick White - AST/TOV",
+          "score": 6.1,
+          "actual": 10.0,
+          "avg": 2.762
+        },
+        {
+          "type": "player",
+          "name": "Collin Sexton",
+          "stat": "Collin Sexton - AST",
+          "score": 4.79,
+          "actual": 13,
+          "avg": 4.19
+        },
+        {
+          "type": "player",
+          "name": "Brice Sensabaugh",
+          "stat": "Brice Sensabaugh - PTS",
+          "score": 2.822,
+          "actual": 22,
+          "avg": 10.87
+        },
+        {
+          "type": "player",
+          "name": "Derrick White",
+          "stat": "Derrick White - AST",
+          "score": 2.65,
+          "actual": 10,
+          "avg": 4.75
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "stat": "Payton Pritchard - PTS",
+          "score": -1.379,
+          "actual": 8,
+          "avg": 14.3
+        },
+        {
+          "type": "team",
+          "name": "Utah Jazz",
+          "stat": "Utah Jazz - FTM",
+          "score": -1.029,
+          "actual": 9,
+          "avg": 17.33
+        },
+        {
+          "type": "team",
+          "name": "Utah Jazz",
+          "stat": "Utah Jazz - PFD",
+          "score": -0.849,
+          "actual": 12,
+          "avg": 19.27
+        },
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "stat": "Payton Pritchard - TS%",
+          "score": -0.274,
+          "actual": 0.36,
+          "avg": 0.63
+        },
+        {
+          "type": "player",
+          "name": "Kyle Filipowski",
+          "stat": "Kyle Filipowski - TS%",
+          "score": -0.224,
+          "actual": 0.38,
+          "avg": 0.59
+        }
+      ]
+    }
+  ]
+}

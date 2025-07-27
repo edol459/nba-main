@@ -73,6 +73,12 @@ body {
   transition: height 0.3s ease;
 }
 
+
+.bar.tean-diff {
+  background-color: gold;
+  border: 2px dashed black;
+}
+
 .bar:hover{
   transform: scale(1.05);
 }

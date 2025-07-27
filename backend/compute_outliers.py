@@ -1,19 +1,24 @@
 import sys
+import pandas as pd
 from backend.advanced_stats import add_all_adv
 from pathlib import Path
 from backend.config import OUT_DIR, N_BARS
 from backend.utils import load_csv, save_json
-from backend.scoring import compute_scores, rank_scores
+from backend.scoring import compute_scores, rank_scores, compute_team_diff_scores
 
 def compute_outliers(game_id: str):
     team_logs   = load_csv("team_game_logs.csv")
     player_logs = load_csv("player_game_logs.csv")
     team_avg    = load_csv("team_averages.csv").set_index("TEAM_NAME")
     player_avg  = load_csv("player_averages.csv").set_index("PLAYER_ID")
+    league_diffs = load_csv("league_differentials.csv").set_index("STAT")
 
 
+
+    #Advanced Stats
     player_logs = add_all_adv(player_logs)
     player_avg = add_all_adv(player_avg)
+
 
     team_logs["GAME_ID"] = team_logs["GAME_ID"].astype(str).str.zfill(10)
     teams_in_game = team_logs[team_logs["GAME_ID"] == str(game_id)]
@@ -26,7 +31,7 @@ def compute_outliers(game_id: str):
     print("🧪 Sample GAME_IDs from CSV:", team_logs["GAME_ID"].unique()[:5])
 
 
-
+    #TEAM STAT OUTLIERS
     team_scores={}
 
     for _, team_row in teams_in_game.iterrows():
@@ -47,7 +52,9 @@ def compute_outliers(game_id: str):
                 "avg": team_avg_row[stat],
                 "team_abbr": team_abbr
             }
-        
+    
+
+    #PLAYER STAT OUTLIERS
     player_logs["GAME_ID"] = player_logs["GAME_ID"].astype(str).str.zfill(10)
     players_in_game = player_logs[player_logs["GAME_ID"] == str(game_id)]
     player_scores = {}
@@ -72,43 +79,42 @@ def compute_outliers(game_id: str):
             }
 
 
+    # TEAM DIFF SCORES
 
-    merged_scores = team_scores | player_scores
+    diff_scores = {}
+    if len(teams_in_game) == 2:
+        team1, team2 = teams_in_game.iloc[0], teams_in_game.iloc[1]
+        diff_scores = compute_team_diff_scores(team1, team2, league_diffs)
 
-    pos, neg = rank_scores(merged_scores, N_BARS)
+    # COMBINE & RANK
+    merged = {**team_scores, **player_scores, **diff_scores}
+    pos, neg = rank_scores(merged, N_BARS)
 
     payload = {
-        "positive": [
-                {
-                    "type": info["type"],
-                    "name": info["id"],
-                    "stat": stat,
-                    "score": round(info["score"], 3),
-                    "actual": info["actual"],
-                    "avg": round(info["avg"], 3),
-                    **({"player_id": info["player_id"]} if info["type"] == "player" else {}),
-                    "team_abbr": info.get("team_abbr") 
-                }
-                for stat,info in pos
+                "positive": [
+            {
+                "type": info["type"],
+                "name": info["id"],
+                "stat": stat,
+                "score": round(info["score"], 3),
+                "actual": info["actual"],
+                "avg": round(info["avg"], 3),
+            } for stat, info in pos
         ],
         "negative": [
-                {
-                    "type": info["type"],
-                    "name": info["id"],
-                    "stat": stat,
-                    "score": round(info["score"], 3),
-                    "actual": info["actual"],
-                    "avg": round(info["avg"], 3),
-                    **({"player_id": info["player_id"]} if info["type"] == "player" else {}),
-                    "team_abbr": info.get("team_abbr") 
-                }
-                for stat,info in neg
-        ],
+            {
+                "type": info["type"],
+                "name": info["id"],
+                "stat": stat,
+                "score": round(info["score"], 3),
+                "actual": info["actual"],
+                "avg": round(info["avg"], 3),
+            } for stat, info in neg
+        ]
     }
 
 
-    
-    
+    print(payload)
     game_out["outliers"].append(payload)
 
 

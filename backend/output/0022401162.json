@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401162",
+  "teams": [
+    "POR",
+    "UTA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Rayan Rupert",
+          "stat": "Rayan Rupert - PTS",
+          "score": 8.58,
+          "actual": 19,
+          "avg": 2.98
+        },
+        {
+          "type": "player",
+          "name": "Kyle Filipowski",
+          "stat": "Kyle Filipowski - PTS",
+          "score": 5.547,
+          "actual": 30,
+          "avg": 9.58
+        },
+        {
+          "type": "player",
+          "name": "Jabari Walker",
+          "stat": "Jabari Walker - PTS",
+          "score": 3.738,
+          "actual": 15,
+          "avg": 5.22
+        },
+        {
+          "type": "player",
+          "name": "Shaedon Sharpe",
+          "stat": "Shaedon Sharpe - PTS",
+          "score": 3.521,
+          "actual": 37,
+          "avg": 18.54
+        },
+        {
+          "type": "team",
+          "name": "Utah Jazz",
+          "stat": "Utah Jazz - STL",
+          "score": 2.977,
+          "actual": 14,
+          "avg": 6.77
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Utah Jazz",
+          "stat": "Utah Jazz - TOV",
+          "score": -0.84,
+          "actual": 24.0,
+          "avg": 17.22
+        },
+        {
+          "type": "team",
+          "name": "Utah Jazz",
+          "stat": "Utah Jazz - PF",
+          "score": -0.336,
+          "actual": 26,
+          "avg": 18.89
+        },
+        {
+          "type": "player",
+          "name": "Dalano Banton",
+          "stat": "Dalano Banton - TS%",
+          "score": -0.233,
+          "actual": 0.31,
+          "avg": 0.5
+        },
+        {
+          "type": "player",
+          "name": "Jaden Springer",
+          "stat": "Jaden Springer - TS%",
+          "score": -0.205,
+          "actual": 0.34,
+          "avg": 0.51
+        },
+        {
+          "type": "player",
+          "name": "Toumani Camara",
+          "stat": "Toumani Camara - TS%",
+          "score": -0.165,
+          "actual": 0.42,
+          "avg": 0.57
+        }
+      ]
+    }
+  ]
+}

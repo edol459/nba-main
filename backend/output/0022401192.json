@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401192",
+  "teams": [
+    "DET",
+    "MIL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Pat Connaughton",
+          "stat": "Pat Connaughton - PTS",
+          "score": 14.342,
+          "actual": 43,
+          "avg": 5.27
+        },
+        {
+          "type": "player",
+          "name": "Bobi Klintman",
+          "stat": "Bobi Klintman - PTS",
+          "score": 9.475,
+          "actual": 15,
+          "avg": 1.88
+        },
+        {
+          "type": "player",
+          "name": "Tyler Smith",
+          "stat": "Tyler Smith - PTS",
+          "score": 9.29,
+          "actual": 20,
+          "avg": 2.91
+        },
+        {
+          "type": "player",
+          "name": "Pete Nance",
+          "stat": "Pete Nance - PTS",
+          "score": 8.722,
+          "actual": 19,
+          "avg": 2.92
+        },
+        {
+          "type": "player",
+          "name": "Bobi Klintman",
+          "stat": "Bobi Klintman - AST",
+          "score": 7.977,
+          "actual": 6,
+          "avg": 0.88
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Bobi Klintman",
+          "stat": "Bobi Klintman - AST/TOV",
+          "score": -3.464,
+          "actual": 0.0,
+          "avg": 7.333
+        },
+        {
+          "type": "player",
+          "name": "Bobi Klintman",
+          "stat": "Bobi Klintman - PF",
+          "score": -1.414,
+          "actual": 6,
+          "avg": 1.0
+        },
+        {
+          "type": "team",
+          "name": "Milwaukee Bucks",
+          "stat": "Milwaukee Bucks - TOV",
+          "score": -1.08,
+          "actual": 21.0,
+          "avg": 13.38
+        },
+        {
+          "type": "team",
+          "name": "Detroit Pistons",
+          "stat": "Detroit Pistons - FTM",
+          "score": -1.021,
+          "actual": 9,
+          "avg": 17.24
+        },
+        {
+          "type": "player",
+          "name": "Marcus Sasser",
+          "stat": "Marcus Sasser - TS%",
+          "score": -0.16,
+          "actual": 0.44,
+          "avg": 0.59
+        }
+      ]
+    }
+  ]
+}

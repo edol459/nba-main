@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401134",
+  "teams": [
+    "BKN",
+    "TOR"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - PTS",
+          "score": 6.7,
+          "actual": 14,
+          "avg": 2.58
+        },
+        {
+          "type": "player",
+          "name": "Jamal Shead",
+          "stat": "Jamal Shead - AST",
+          "score": 4.224,
+          "actual": 12,
+          "avg": 4.21
+        },
+        {
+          "type": "player",
+          "name": "Maxwell Lewis",
+          "stat": "Maxwell Lewis - PTS",
+          "score": 3.882,
+          "actual": 13,
+          "avg": 4.14
+        },
+        {
+          "type": "player",
+          "name": "Jonathan Mogbo",
+          "stat": "Jonathan Mogbo - PTS",
+          "score": 3.76,
+          "actual": 17,
+          "avg": 6.17
+        },
+        {
+          "type": "player",
+          "name": "Jonathan Mogbo",
+          "stat": "Jonathan Mogbo - DREB",
+          "score": 2.988,
+          "actual": 11,
+          "avg": 3.21
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "RJ Barrett",
+          "stat": "RJ Barrett - PTS",
+          "score": -1.442,
+          "actual": 13,
+          "avg": 21.09
+        },
+        {
+          "type": "team",
+          "name": "Brooklyn Nets",
+          "stat": "Brooklyn Nets - TOV",
+          "score": -1.17,
+          "actual": 24.0,
+          "avg": 15.17
+        },
+        {
+          "type": "player",
+          "name": "RJ Barrett",
+          "stat": "RJ Barrett - TS%",
+          "score": -0.272,
+          "actual": 0.31,
+          "avg": 0.55
+        },
+        {
+          "type": "player",
+          "name": "Jamal Shead",
+          "stat": "Jamal Shead - TS%",
+          "score": -0.147,
+          "actual": 0.38,
+          "avg": 0.5
+        },
+        {
+          "type": "player",
+          "name": "Tyson Etienne",
+          "stat": "Tyson Etienne - TS%",
+          "score": -0.112,
+          "actual": 0.4,
+          "avg": 0.49
+        }
+      ]
+    }
+  ]
+}

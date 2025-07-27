@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400230",
+  "teams": [
+    "TOR",
+    "BOS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "RJ Barrett",
+          "stat": "RJ Barrett - AST/TOV",
+          "score": 14.06,
+          "actual": 15.0,
+          "avg": 1.905
+        },
+        {
+          "type": "player",
+          "name": "RJ Barrett",
+          "stat": "RJ Barrett - AST",
+          "score": 4.488,
+          "actual": 15,
+          "avg": 5.41
+        },
+        {
+          "type": "player",
+          "name": "Jakob Poeltl",
+          "stat": "Jakob Poeltl - PTS",
+          "score": 4.468,
+          "actual": 35,
+          "avg": 14.46
+        },
+        {
+          "type": "player",
+          "name": "Neemias Queta",
+          "stat": "Neemias Queta - PTS",
+          "score": 2.743,
+          "actual": 12,
+          "avg": 5.0
+        },
+        {
+          "type": "player",
+          "name": "Al Horford",
+          "stat": "Al Horford - PTS",
+          "score": 2.543,
+          "actual": 18,
+          "avg": 8.97
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - STL",
+          "score": -2.063,
+          "actual": 2,
+          "avg": 7.18
+        },
+        {
+          "type": "team",
+          "name": "Toronto Raptors",
+          "stat": "Toronto Raptors - STL",
+          "score": -1.899,
+          "actual": 3,
+          "avg": 8.1
+        },
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "stat": "Payton Pritchard - PTS",
+          "score": -1.816,
+          "actual": 6,
+          "avg": 14.3
+        },
+        {
+          "type": "player",
+          "name": "Gradey Dick",
+          "stat": "Gradey Dick - PTS",
+          "score": -1.176,
+          "actual": 9,
+          "avg": 14.39
+        },
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "stat": "Payton Pritchard - TS%",
+          "score": -0.253,
+          "actual": 0.38,
+          "avg": 0.63
+        }
+      ]
+    }
+  ]
+}

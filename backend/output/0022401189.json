@@ -11,103 +11,83 @@
           "type": "player",
           "name": "Jaylon Tyson",
           "stat": "Jaylon Tyson - PTS",
-          "score": 6.186,
+          "score": 13.195,
           "actual": 31,
-          "avg": 3.55,
-          "player_id": 1642281,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Johnny Furphy",
-          "stat": "Johnny Furphy - PTS",
-          "score": 5.025,
-          "actual": 15,
-          "avg": 2.06,
-          "player_id": 1642277,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Emoni Bates",
-          "stat": "Emoni Bates - FG3M",
-          "score": 4.827,
-          "actual": 7,
-          "avg": 1.1,
-          "player_id": 1641734,
-          "team_abbr": null
+          "avg": 3.55
         },
         {
           "type": "player",
           "name": "Emoni Bates",
           "stat": "Emoni Bates - PTS",
-          "score": 4.605,
+          "score": 9.984,
           "actual": 25,
-          "avg": 3.7,
-          "player_id": 1641734,
-          "team_abbr": null
+          "avg": 3.7
         },
         {
           "type": "player",
-          "name": "RayJ Dennis",
-          "stat": "RayJ Dennis - AST",
-          "score": 3.724,
-          "actual": 6,
-          "avg": 1.27,
-          "player_id": 1642484,
-          "team_abbr": null
+          "name": "Johnny Furphy",
+          "stat": "Johnny Furphy - PTS",
+          "score": 8.791,
+          "actual": 15,
+          "avg": 2.06
+        },
+        {
+          "type": "player",
+          "name": "Craig Porter Jr.",
+          "stat": "Craig Porter Jr. - PTS",
+          "score": 7.658,
+          "actual": 20,
+          "avg": 3.69
+        },
+        {
+          "type": "player",
+          "name": "Tristan Thompson",
+          "stat": "Tristan Thompson - DREB",
+          "score": 6.849,
+          "actual": 18,
+          "avg": 2.55
         }
       ],
       "negative": [
         {
           "type": "player",
           "name": "Andrew Nembhard",
-          "stat": "Andrew Nembhard - TS%",
-          "score": -0.655,
-          "actual": 0.19,
-          "avg": 0.55,
-          "player_id": 1629614,
-          "team_abbr": null
+          "stat": "Andrew Nembhard - PTS",
+          "score": -1.865,
+          "actual": 3,
+          "avg": 10.05
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - PTS",
+          "score": -1.373,
+          "actual": 9,
+          "avg": 15.56
+        },
+        {
+          "type": "team",
+          "name": "Cleveland Cavaliers",
+          "stat": "Cleveland Cavaliers - AST",
+          "score": -1.363,
+          "actual": 21,
+          "avg": 28.1
+        },
+        {
+          "type": "team",
+          "name": "Cleveland Cavaliers",
+          "stat": "Cleveland Cavaliers - TOV",
+          "score": -1.256,
+          "actual": 22.0,
+          "avg": 13.2
         },
         {
           "type": "player",
           "name": "Andrew Nembhard",
-          "stat": "Andrew Nembhard - PTS",
-          "score": -0.561,
-          "actual": 3,
-          "avg": 10.05,
-          "player_id": 1629614,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Chuma Okeke",
-          "stat": "Chuma Okeke - TS%",
-          "score": -0.531,
-          "actual": 0.3,
-          "avg": 0.64,
-          "player_id": 1629643,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Nae'Qwan Tomlin",
-          "stat": "Nae'Qwan Tomlin - PF",
-          "score": -0.467,
-          "actual": 6,
-          "avg": 1.8,
-          "player_id": 1641772,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Javonte Green",
-          "stat": "Javonte Green - TS%",
-          "score": -0.389,
-          "actual": 0.33,
-          "avg": 0.54,
-          "player_id": 1629750,
-          "team_abbr": null
+          "stat": "Andrew Nembhard - TS%",
+          "score": -0.407,
+          "actual": 0.19,
+          "avg": 0.55
         }
       ]
     }

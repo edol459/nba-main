@@ -13,9 +13,7 @@
           "stat": "Craig Porter Jr. - PTS",
           "score": 5.78,
           "actual": 16,
-          "avg": 3.69,
-          "player_id": 1641854,
-          "team_abbr": null
+          "avg": 3.69
         },
         {
           "type": "player",
@@ -23,9 +21,7 @@
           "stat": "Tristan Thompson - PTS",
           "score": 4.05,
           "actual": 7,
-          "avg": 1.72,
-          "player_id": 202684,
-          "team_abbr": null
+          "avg": 1.72
         },
         {
           "type": "player",
@@ -33,9 +29,7 @@
           "stat": "Jarace Walker - PTS",
           "score": 3.078,
           "actual": 15,
-          "avg": 6.15,
-          "player_id": 1641716,
-          "team_abbr": null
+          "avg": 6.15
         },
         {
           "type": "player",
@@ -43,9 +37,7 @@
           "stat": "Ty Jerome - PTS",
           "score": 2.69,
           "actual": 24,
-          "avg": 12.54,
-          "player_id": 1629660,
-          "team_abbr": null
+          "avg": 12.54
         },
         {
           "type": "team",
@@ -53,20 +45,17 @@
           "stat": "Indiana Pacers - BLK",
           "score": 2.579,
           "actual": 11,
-          "avg": 5.46,
-          "team_abbr": "IND"
+          "avg": 5.46
         }
       ],
       "negative": [
         {
           "type": "player",
-          "name": "Andrew Nembhard",
-          "stat": "Andrew Nembhard - PTS",
-          "score": -2.13,
-          "actual": 2,
-          "avg": 10.05,
-          "player_id": 1629614,
-          "team_abbr": null
+          "name": "Jarrett Allen",
+          "stat": "Jarrett Allen - PTS",
+          "score": -2.363,
+          "actual": 3,
+          "avg": 13.45
         },
         {
           "type": "team",
@@ -74,8 +63,7 @@
           "stat": "Indiana Pacers - STL",
           "score": -1.985,
           "actual": 3,
-          "avg": 8.46,
-          "team_abbr": "IND"
+          "avg": 8.46
         },
         {
           "type": "player",
@@ -83,19 +71,7 @@
           "stat": "Pascal Siakam - PTS",
           "score": -1.864,
           "actual": 10,
-          "avg": 20.23,
-          "player_id": 1627783,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Andrew Nembhard",
-          "stat": "Andrew Nembhard - TS%",
-          "score": -1.46,
-          "actual": 0.12,
-          "avg": 0.55,
-          "player_id": 1629614,
-          "team_abbr": null
+          "avg": 20.23
         },
         {
           "type": "team",
@@ -103,8 +79,15 @@
           "stat": "Cleveland Cavaliers - FTM",
           "score": -0.996,
           "actual": 9,
-          "avg": 16.98,
-          "team_abbr": "CLE"
+          "avg": 16.98
+        },
+        {
+          "type": "player",
+          "name": "Andrew Nembhard",
+          "stat": "Andrew Nembhard - TS%",
+          "score": -0.487,
+          "actual": 0.12,
+          "avg": 0.55
         }
       ]
     }

@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400716",
+  "teams": [
+    "POR",
+    "IND"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Andrew Nembhard",
+          "stat": "Andrew Nembhard - PTS",
+          "score": 1.839,
+          "actual": 17,
+          "avg": 10.05
+        },
+        {
+          "type": "player",
+          "name": "Jerami Grant",
+          "stat": "Jerami Grant - PTS",
+          "score": 1.221,
+          "actual": 20,
+          "avg": 14.4
+        },
+        {
+          "type": "player",
+          "name": "Toumani Camara",
+          "stat": "Toumani Camara - TS%",
+          "score": 0.275,
+          "actual": 0.82,
+          "avg": 0.57
+        },
+        {
+          "type": "player",
+          "name": "Andrew Nembhard",
+          "stat": "Andrew Nembhard - TS%",
+          "score": 0.136,
+          "actual": 0.67,
+          "avg": 0.55
+        },
+        {
+          "type": "player",
+          "name": "Scoot Henderson",
+          "stat": "Scoot Henderson - TS%",
+          "score": 0.126,
+          "actual": 0.65,
+          "avg": 0.54
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Deni Avdija",
+          "stat": "Deni Avdija - PTS",
+          "score": -2.187,
+          "actual": 6,
+          "avg": 16.93
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - PTS",
+          "score": -2.104,
+          "actual": 89,
+          "avg": 117.37
+        },
+        {
+          "type": "player",
+          "name": "Aaron Nesmith",
+          "stat": "Aaron Nesmith - PTS",
+          "score": -1.686,
+          "actual": 5,
+          "avg": 12.02
+        },
+        {
+          "type": "player",
+          "name": "Deandre Ayton",
+          "stat": "Deandre Ayton - PTS",
+          "score": -1.395,
+          "actual": 8,
+          "avg": 14.4
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - PTS",
+          "score": -1.373,
+          "actual": 9,
+          "avg": 15.56
+        }
+      ]
+    }
+  ]
+}

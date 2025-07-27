@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400073",
+  "teams": [
+    "BOS",
+    "WAS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Neemias Queta",
+          "stat": "Neemias Queta - PTS",
+          "score": 2.743,
+          "actual": 12,
+          "avg": 5.0
+        },
+        {
+          "type": "player",
+          "name": "Jonas Valan\u010di\u016bnas",
+          "stat": "Jonas Valan\u010di\u016bnas - PTS",
+          "score": 1.97,
+          "actual": 18,
+          "avg": 10.41
+        },
+        {
+          "type": "player",
+          "name": "Jordan Poole",
+          "stat": "Jordan Poole - PTS",
+          "score": 1.003,
+          "actual": 26,
+          "avg": 20.46
+        },
+        {
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - FTM",
+          "score": 0.758,
+          "actual": 21,
+          "avg": 15.26
+        },
+        {
+          "type": "player",
+          "name": "Jordan Poole",
+          "stat": "Jordan Poole - TS%",
+          "score": 0.15,
+          "actual": 0.73,
+          "avg": 0.59
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Alex Sarr",
+          "stat": "Alex Sarr - PTS",
+          "score": -2.529,
+          "actual": 2,
+          "avg": 12.97
+        },
+        {
+          "type": "player",
+          "name": "Bub Carrington",
+          "stat": "Bub Carrington - PTS",
+          "score": -1.831,
+          "actual": 3,
+          "avg": 9.84
+        },
+        {
+          "type": "player",
+          "name": "Corey Kispert",
+          "stat": "Corey Kispert - PTS",
+          "score": -1.364,
+          "actual": 6,
+          "avg": 11.56
+        },
+        {
+          "type": "team",
+          "name": "Washington Wizards",
+          "stat": "Washington Wizards - FG3M",
+          "score": -0.875,
+          "actual": 7,
+          "avg": 13.11
+        },
+        {
+          "type": "player",
+          "name": "Alex Sarr",
+          "stat": "Alex Sarr - TS%",
+          "score": -0.431,
+          "actual": 0.14,
+          "avg": 0.48
+        }
+      ]
+    }
+  ]
+}

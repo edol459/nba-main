@@ -81,30 +81,39 @@ function renderOutliers(data) {
 function makeBar(outlier, isNegative, index) {
   const height = 500 - index * 100; // top bar tallest
   const bar = isNegative ? 'bar negative' : 'bar positive';
+
+  const isDiff = outlier.type === "team_vs_team";
   
   // Generate player headshot URL if player_id exists
   let imgTag = '';
-    if (outlier.type === 'player' && outlier.player_id){
-      const imgUrl = `https://cdn.nba.com/headshots/nba/latest/1040x760/${outlier.player_id}.png`;
-      imgTag = `<img src="${imgUrl}" class="player-headshot" alt="${outlier.name}" />`;
-     } else if (outlier.type === 'team' && outlier.team_abbr) {
-      const teamLogoUrl = `logos/${outlier.team_abbr}.svg`; 
-      imgTag = `<img src="${teamLogoUrl}" class="team-logo-mini" alt="${outlier.name} logo" />`;
-    }
+  if (outlier.type === 'player' && outlier.player_id){
+    const imgUrl = `https://cdn.nba.com/headshots/nba/latest/1040x760/${outlier.player_id}.png`;
+    imgTag = `<img src="${imgUrl}" class="player-headshot" alt="${outlier.name}" />`;
+  } else if (outlier.type === 'team' && outlier.team_abbr) {
+    const teamLogoUrl = `logos/${outlier.team_abbr}.svg`; 
+    imgTag = `<img src="${teamLogoUrl}" class="team-logo-mini" alt="${outlier.name} logo" />`;
+  }
 
     
-    const label = `
-      ${imgTag}
-      <b>${outlier.name}</b><br>
-      ${outlier.stat.split(" - ")[1]}<br>
-      Actual: ${outlier.actual} ${outlier.stat.split(" - ")[1]}<br>
-      Average: ${outlier.avg} ${outlier.stat.split(" - ")[1]}<br>
-      Score: ${outlier.score}
-    `;
+  const statLabel = isDiff
+    ? `${outlier.stat} (vs avg diff)`
+    : outlier.stat.split(" - ")[1];
+
+
+  const label = `
+    ${imgTag}
+    <b>${outlier.name}</b><br>
+    ${statLabel}<br>
+    Actual: ${outlier.actual} <br>
+    Average: ${outlier.avg} <br>
+    Score: ${outlier.score}
+  `;
+
+  const barType = isDiff ? 'bar team-diff' : bar;
 
 
   return `
-    <div class="${bar}" style="height:${height}px;">
+    <div class="${barType}" style="height:${height}px;">
       <span class="bar-label">${label}</span>
     </div>
   `;

@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401172",
+  "teams": [
+    "IND",
+    "ORL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Johnny Furphy",
+          "stat": "Johnny Furphy - PTS",
+          "score": 10.149,
+          "actual": 17,
+          "avg": 2.06
+        },
+        {
+          "type": "player",
+          "name": "Trevelin Queen",
+          "stat": "Trevelin Queen - PTS",
+          "score": 7.971,
+          "actual": 25,
+          "avg": 4.9
+        },
+        {
+          "type": "player",
+          "name": "Jett Howard",
+          "stat": "Jett Howard - PTS",
+          "score": 5.267,
+          "actual": 17,
+          "avg": 4.45
+        },
+        {
+          "type": "player",
+          "name": "RayJ Dennis",
+          "stat": "RayJ Dennis - PTS",
+          "score": 4.114,
+          "actual": 10,
+          "avg": 2.73
+        },
+        {
+          "type": "player",
+          "name": "Gary Harris",
+          "stat": "Gary Harris - PTS",
+          "score": 3.707,
+          "actual": 10,
+          "avg": 3.02
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Obi Toppin",
+          "stat": "Obi Toppin - PTS",
+          "score": -1.686,
+          "actual": 4,
+          "avg": 10.54
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - TOV",
+          "score": -0.971,
+          "actual": 20.0,
+          "avg": 13.2
+        },
+        {
+          "type": "team",
+          "name": "Orlando Magic",
+          "stat": "Orlando Magic - TOV",
+          "score": -0.795,
+          "actual": 20.0,
+          "avg": 14.21
+        },
+        {
+          "type": "player",
+          "name": "Obi Toppin",
+          "stat": "Obi Toppin - TS%",
+          "score": -0.39,
+          "actual": 0.25,
+          "avg": 0.64
+        },
+        {
+          "type": "team",
+          "name": "Orlando Magic",
+          "stat": "Orlando Magic - PF",
+          "score": -0.361,
+          "actual": 28,
+          "avg": 20.1
+        }
+      ]
+    }
+  ]
+}

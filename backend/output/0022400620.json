@@ -1,0 +1,57 @@
+{
+  "game_id": "0022400620",
+  "teams": [
+    "BOS",
+    "LAC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Derrick Jones Jr.",
+          "stat": "Derrick Jones Jr. - PTS",
+          "score": 4.966,
+          "actual": 29,
+          "avg": 10.14
+        },
+        {
+          "type": "player",
+          "name": "Terance Mann",
+          "stat": "Terance Mann - AST",
+          "score": 4.807,
+          "actual": 7,
+          "avg": 1.81
+        },
+        {
+          "type": "player",
+          "name": "Kobe Brown",
+          "stat": "Kobe Brown - DREB",
+          "score": 4.475,
+          "actual": 7,
+          "avg": 1.15
+        },
+        {
+          "type": "player",
+          "name": "Kevin Porter Jr.",
+          "stat": "Kevin Porter Jr. - PTS",
+          "score": 4.109,
+          "actual": 26,
+          "avg": 10.28
+        },
+        {
+          "type": "player",
+          "name": "Amir Coffey",
+          "stat": "Amir Coffey - PTS",
+          "score": 3.873,
+          "actual": 24,
+          "avg": 9.67
+        }
+      ],
+      "negative": [
+        {
+          "type": "team_vs_team",
+          "name": "LA Clippers",
+          "stat": "AST differential",
+          "score": -5.652,
+          "actual": 

@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400471",
+  "teams": [
+    "HOU",
+    "BOS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "team_vs_team",
+          "name": "Boston Celtics",
+          "stat": "AST differential",
+          "score": 5.348,
+          "actual": 11.0,
+          "avg": 5.652
+        },
+        {
+          "type": "player",
+          "name": "Derrick White",
+          "stat": "Derrick White - PTS",
+          "score": 1.338,
+          "actual": 23,
+          "avg": 16.42
+        },
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "stat": "Payton Pritchard - PTS",
+          "score": 1.247,
+          "actual": 20,
+          "avg": 14.3
+        },
+        {
+          "type": "player",
+          "name": "Jalen Green",
+          "stat": "Jalen Green - PTS",
+          "score": 1.07,
+          "actual": 27,
+          "avg": 21.01
+        },
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "stat": "Payton Pritchard - TS%",
+          "score": 0.375,
+          "actual": 1.0,
+          "avg": 0.63
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Houston Rockets",
+          "stat": "Houston Rockets - AST",
+          "score": -3.031,
+          "actual": 9,
+          "avg": 23.34
+        },
+        {
+          "type": "team",
+          "name": "Houston Rockets",
+          "stat": "Houston Rockets - PTS",
+          "score": -2.126,
+          "actual": 86,
+          "avg": 114.29
+        },
+        {
+          "type": "player",
+          "name": "Kristaps Porzi\u0146\u0123is",
+          "stat": "Kristaps Porzi\u0146\u0123is - PTS",
+          "score": -1.576,
+          "actual": 11,
+          "avg": 19.48
+        },
+        {
+          "type": "player",
+          "name": "Fred VanVleet",
+          "stat": "Fred VanVleet - PTS",
+          "score": -1.34,
+          "actual": 8,
+          "avg": 14.07
+        },
+        {
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - AST",
+          "score": -1.225,
+          "actual": 20,
+          "avg": 26.15
+        }
+      ]
+    }
+  ]
+}

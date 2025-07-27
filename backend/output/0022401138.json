@@ -11,51 +11,41 @@
           "type": "player",
           "name": "Zach LaVine",
           "stat": "Zach LaVine - PTS",
-          "score": 1.739,
+          "score": 2.319,
           "actual": 37,
-          "avg": 23.3,
-          "player_id": 203897,
-          "team_abbr": null
+          "avg": 23.3
         },
         {
           "type": "player",
           "name": "Ty Jerome",
           "stat": "Ty Jerome - PTS",
-          "score": 1.313,
+          "score": 1.751,
           "actual": 20,
-          "avg": 12.54,
-          "player_id": 1629660,
-          "team_abbr": null
+          "avg": 12.54
         },
         {
           "type": "player",
           "name": "Domantas Sabonis",
           "stat": "Domantas Sabonis - PTS",
-          "score": 1.113,
+          "score": 1.483,
           "actual": 27,
-          "avg": 19.1,
-          "player_id": 1627734,
-          "team_abbr": null
+          "avg": 19.1
         },
         {
           "type": "player",
           "name": "DeMar DeRozan",
           "stat": "DeMar DeRozan - PTS",
-          "score": 0.754,
+          "score": 1.005,
           "actual": 28,
-          "avg": 22.21,
-          "player_id": 201942,
-          "team_abbr": null
+          "avg": 22.21
         },
         {
           "type": "player",
           "name": "Zach LaVine",
           "stat": "Zach LaVine - TS%",
-          "score": 0.48,
+          "score": 0.24,
           "actual": 0.88,
-          "avg": 0.64,
-          "player_id": 203897,
-          "team_abbr": null
+          "avg": 0.64
         }
       ],
       "negative": [
@@ -63,50 +53,41 @@
           "type": "player",
           "name": "Darius Garland",
           "stat": "Darius Garland - PTS",
-          "score": -1.569,
+          "score": -2.092,
           "actual": 9,
-          "avg": 20.59,
-          "player_id": 1629636,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Domantas Sabonis",
-          "stat": "Domantas Sabonis - TOV",
-          "score": -1.402,
-          "actual": 7,
-          "avg": 2.89,
-          "player_id": 1627734,
-          "team_abbr": null
-        },
-        {
-          "type": "team",
-          "name": "Cleveland Cavaliers",
-          "stat": "Cleveland Cavaliers - FG3M",
-          "score": -1.371,
-          "actual": 10,
-          "avg": 15.89,
-          "team_abbr": "CLE"
+          "avg": 20.59
         },
         {
           "type": "player",
           "name": "Malik Monk",
           "stat": "Malik Monk - PTS",
-          "score": -1.367,
+          "score": -1.823,
           "actual": 8,
-          "avg": 17.18,
-          "player_id": 1628370,
-          "team_abbr": null
+          "avg": 17.18
         },
         {
           "type": "player",
-          "name": "Jarrett Allen",
-          "stat": "Jarrett Allen - DREB",
-          "score": -1.315,
-          "actual": 3,
-          "avg": 7.1,
-          "player_id": 1628386,
-          "team_abbr": null
+          "name": "De'Andre Hunter",
+          "stat": "De'Andre Hunter - PTS",
+          "score": -1.198,
+          "actual": 11,
+          "avg": 17.0
+        },
+        {
+          "type": "team",
+          "name": "Cleveland Cavaliers",
+          "stat": "Cleveland Cavaliers - DREB",
+          "score": -0.855,
+          "actual": 26,
+          "avg": 34.22
+        },
+        {
+          "type": "team",
+          "name": "Cleveland Cavaliers",
+          "stat": "Cleveland Cavaliers - FG3M",
+          "score": -0.762,
+          "actual": 10,
+          "avg": 15.89
         }
       ]
     }

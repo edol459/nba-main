@@ -44,6 +44,15 @@ WEIGHTS = {
             "AST/TOV": 1.2,
 }
 
+TEAM_DIFF_STATS_TO_TRACK = {
+    "AST":      {"threshold": 5,  "weight": 1.0},
+    "OREB":     {"threshold": 8,  "weight": 1.0},
+    "DREB":     {"threshold": 8,  "weight": 1.0},
+    "FG_PCT":   {"threshold": 0.10, "weight": 2.0},
+    "FG3_PCT":  {"threshold": 0.10, "weight": 2.0},
+    "FG3M":     {"threshold": 10,  "weight": 1.0}
+}
+
 N_BARS   = 5
 DATA_DIR = Path("data")
 OUT_DIR  = Path("backend/output")
