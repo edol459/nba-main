@@ -10,104 +10,94 @@
         {
           "type": "player",
           "name": "Zaccharie Risacher",
-          "stat": "Zaccharie Risacher - FG_PCT",
-          "score": 0.705,
-          "actual": 0.75,
-          "avg": 0.44,
-          "player_id": 1642258,
-          "team_abbr": null
+          "stat": "Zaccharie Risacher - PTS",
+          "score": 5.967,
+          "actual": 38,
+          "avg": 12.56,
+          "player_id": 1642258
         },
         {
           "type": "player",
           "name": "Jalen Wilson",
-          "stat": "Jalen Wilson - FG3_PCT",
-          "score": 0.409,
-          "actual": 0.6,
-          "avg": 0.33,
-          "player_id": 1630592,
-          "team_abbr": null
+          "stat": "Jalen Wilson - PTS",
+          "score": 2.874,
+          "actual": 20,
+          "avg": 9.48,
+          "player_id": 1630592
         },
         {
           "type": "player",
-          "name": "Zaccharie Risacher",
-          "stat": "Zaccharie Risacher - FG3_PCT",
-          "score": 0.352,
-          "actual": 0.545,
-          "avg": 0.32,
-          "player_id": 1642258,
-          "team_abbr": null
+          "name": "Mouhamed Gueye",
+          "stat": "Mouhamed Gueye - DREB",
+          "score": 2.511,
+          "actual": 9,
+          "avg": 2.88,
+          "player_id": 1631243
         },
         {
           "type": "player",
-          "name": "Jalen Wilson",
-          "stat": "Jalen Wilson - TS%",
-          "score": 0.287,
-          "actual": 0.85,
-          "avg": 0.54,
-          "player_id": 1630592,
-          "team_abbr": null
+          "name": "Tyson Etienne",
+          "stat": "Tyson Etienne - PTS",
+          "score": 2.466,
+          "actual": 16,
+          "avg": 7.86,
+          "player_id": 1630623
         },
         {
           "type": "player",
-          "name": "Zaccharie Risacher",
-          "stat": "Zaccharie Risacher - TS%",
-          "score": 0.268,
-          "actual": 0.86,
-          "avg": 0.56,
-          "player_id": 1642258,
-          "team_abbr": null
+          "name": "Tosan Evbuomwan",
+          "stat": "Tosan Evbuomwan - PTS",
+          "score": 2.303,
+          "actual": 18,
+          "avg": 9.54,
+          "player_id": 1641787
         }
       ],
       "negative": [
         {
           "type": "player",
-          "name": "Keon Johnson",
-          "stat": "Keon Johnson - TOV",
-          "score": -1.541,
-          "actual": 6,
-          "avg": 1.47,
-          "player_id": 1630553,
-          "team_abbr": null
+          "name": "Caris LeVert",
+          "stat": "Caris LeVert - PTS",
+          "score": -1.941,
+          "actual": 4,
+          "avg": 12.12,
+          "player_id": 1627747
         },
         {
           "type": "player",
-          "name": "Zaccharie Risacher",
-          "stat": "Zaccharie Risacher - TS%",
-          "score": 0.268,
-          "actual": 0.86,
+          "name": "Caris LeVert",
+          "stat": "Caris LeVert - TS%",
+          "score": -0.379,
+          "actual": 0.23,
+          "avg": 0.58,
+          "player_id": 1627747
+        },
+        {
+          "type": "team",
+          "name": "Brooklyn Nets",
+          "stat": "Brooklyn Nets - PF",
+          "score": -0.238,
+          "actual": 26,
+          "avg": 20.71,
+          "team_abbr": "BKN"
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Martin",
+          "stat": "Tyrese Martin - TS%",
+          "score": -0.198,
+          "actual": 0.36,
+          "avg": 0.53,
+          "player_id": 1631213
+        },
+        {
+          "type": "player",
+          "name": "Trendon Watford",
+          "stat": "Trendon Watford - TS%",
+          "score": -0.112,
+          "actual": 0.46,
           "avg": 0.56,
-          "player_id": 1642258,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Jalen Wilson",
-          "stat": "Jalen Wilson - TS%",
-          "score": 0.287,
-          "actual": 0.85,
-          "avg": 0.54,
-          "player_id": 1630592,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Zaccharie Risacher",
-          "stat": "Zaccharie Risacher - FG3_PCT",
-          "score": 0.352,
-          "actual": 0.545,
-          "avg": 0.32,
-          "player_id": 1642258,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Jalen Wilson",
-          "stat": "Jalen Wilson - FG3_PCT",
-          "score": 0.409,
-          "actual": 0.6,
-          "avg": 0.33,
-          "player_id": 1630592,
-          "team_abbr": null
+          "player_id": 1630570
         }
       ]
     }

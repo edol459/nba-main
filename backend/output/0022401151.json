@@ -10,42 +10,20 @@
         {
           "type": "player",
           "name": "Kristaps Porzi\u0146\u0123is",
-          "stat": "Kristaps Porzi\u0146\u0123is - FG3M",
-          "score": 4.208,
-          "actual": 8,
-          "avg": 2.45,
-          "player_id": 204001,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Josh Hart",
-          "stat": "Josh Hart - AST/TOV",
-          "score": 3.4,
-          "actual": 7.0,
-          "avg": 2.868,
-          "player_id": 1628404,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Kristaps Porzi\u0146\u0123is",
           "stat": "Kristaps Porzi\u0146\u0123is - PTS",
           "score": 2.699,
           "actual": 34,
           "avg": 19.48,
-          "player_id": 204001,
-          "team_abbr": null
+          "player_id": 204001
         },
         {
           "type": "player",
-          "name": "Derrick White",
-          "stat": "Derrick White - AST",
-          "score": 2.146,
-          "actual": 9,
-          "avg": 4.75,
-          "player_id": 1628401,
-          "team_abbr": null
+          "name": "Kristaps Porzi\u0146\u0123is",
+          "stat": "Kristaps Porzi\u0146\u0123is - FG3M",
+          "score": 2.104,
+          "actual": 8,
+          "avg": 2.45,
+          "player_id": 204001
         },
         {
           "type": "team",
@@ -55,19 +33,27 @@
           "actual": 17,
           "avg": 10.85,
           "team_abbr": "NYK"
+        },
+        {
+          "type": "player",
+          "name": "Karl-Anthony Towns",
+          "stat": "Karl-Anthony Towns - PTS",
+          "score": 1.58,
+          "actual": 34,
+          "avg": 24.43,
+          "player_id": 1626157
+        },
+        {
+          "type": "player",
+          "name": "Kristaps Porzi\u0146\u0123is",
+          "stat": "Kristaps Porzi\u0146\u0123is - TS%",
+          "score": 0.174,
+          "actual": 0.79,
+          "avg": 0.62,
+          "player_id": 204001
         }
       ],
       "negative": [
-        {
-          "type": "player",
-          "name": "Miles McBride",
-          "stat": "Miles McBride - AST/TOV",
-          "score": -2.83,
-          "actual": 0.0,
-          "avg": 4.562,
-          "player_id": 1630540,
-          "team_abbr": null
-        },
         {
           "type": "player",
           "name": "Jaylen Brown",
@@ -75,8 +61,7 @@
           "score": -2.811,
           "actual": 6,
           "avg": 22.19,
-          "player_id": 1627759,
-          "team_abbr": null
+          "player_id": 1627759
         },
         {
           "type": "player",
@@ -85,28 +70,34 @@
           "score": -1.379,
           "actual": 8,
           "avg": 14.3,
-          "player_id": 1630202,
-          "team_abbr": null
+          "player_id": 1630202
         },
         {
           "type": "player",
-          "name": "Miles McBride",
-          "stat": "Miles McBride - PTS",
-          "score": -1.238,
-          "actual": 5,
-          "avg": 9.55,
-          "player_id": 1630540,
-          "team_abbr": null
+          "name": "OG Anunoby",
+          "stat": "OG Anunoby - PTS",
+          "score": -0.969,
+          "actual": 13,
+          "avg": 18.0,
+          "player_id": 1628384
+        },
+        {
+          "type": "team",
+          "name": "New York Knicks",
+          "stat": "New York Knicks - FTM",
+          "score": -0.829,
+          "actual": 10,
+          "avg": 16.55,
+          "team_abbr": "NYK"
         },
         {
           "type": "player",
-          "name": "Jalen Brunson",
-          "stat": "Jalen Brunson - PFD",
-          "score": -1.138,
-          "actual": 1,
-          "avg": 6.31,
-          "player_id": 1628973,
-          "team_abbr": null
+          "name": "Josh Hart",
+          "stat": "Josh Hart - TS%",
+          "score": -0.27,
+          "actual": 0.35,
+          "avg": 0.61,
+          "player_id": 1628404
         }
       ]
     }

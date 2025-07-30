@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401137",
+  "teams": [
+    "BOS",
+    "WAS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "team_vs_team",
+          "name": "Boston Celtics",
+          "stat": "DREB differential",
+          "score": 10.22,
+          "actual": 16.0,
+          "avg": 5.78,
+          "team_abbr": "BOS"
+        },
+        {
+          "type": "team_vs_team",
+          "name": "Boston Celtics",
+          "stat": "OREB differential",
+          "score": 9.537,
+          "actual": 14.0,
+          "avg": 4.463,
+          "team_abbr": "BOS"
+        },
+        {
+          "type": "team_vs_team",
+          "name": "Boston Celtics",
+          "stat": "AST differential",
+          "score": 6.348,
+          "actual": 12.0,
+          "avg": 5.652,
+          "team_abbr": "BOS"
+        },
+        {
+          "type": "player",
+          "name": "Luke Kornet",
+          "stat": "Luke Kornet - OREB",
+          "score": 4.67,
+          "actual": 9,
+          "avg": 2.6,
+          "player_id": 1628436
+        },
+        {
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - OREB",
+          "score": 4.211,
+          "actual": 25,
+          "avg": 11.38,
+          "team_abbr": "BOS"
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - FTM",
+          "score": -1.488,
+          "actual": 4,
+          "avg": 15.26,
+          "team_abbr": "BOS"
+        },
+        {
+          "type": "team",
+          "name": "Washington Wizards",
+          "stat": "Washington Wizards - DREB",
+          "score": -1.283,
+          "actual": 21,
+          "avg": 33.12,
+          "team_abbr": "WAS"
+        },
+        {
+          "type": "player",
+          "name": "Jaylen Brown",
+          "stat": "Jaylen Brown - PTS",
+          "score": -1.248,
+          "actual": 15,
+          "avg": 22.19,
+          "player_id": 1627759
+        },
+        {
+          "type": "team",
+          "name": "Washington Wizards",
+          "stat": "Washington Wizards - PFD",
+          "score": -1.105,
+          "actual": 9,
+          "avg": 18.17,
+          "team_abbr": "WAS"
+        },
+        {
+          "type": "team",
+          "name": "Washington Wizards",
+          "stat": "Washington Wizards - FTM",
+          "score": -1.035,
+          "actual": 8,
+          "avg": 16.04,
+          "team_abbr": "WAS"
+        }
+      ]
+    }
+  ]
+}

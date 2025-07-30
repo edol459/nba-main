@@ -8,106 +8,96 @@
     {
       "positive": [
         {
+          "type": "team_vs_team",
+          "name": "Minnesota Timberwolves",
+          "stat": "DREB differential",
+          "score": 9.22,
+          "actual": 15.0,
+          "avg": 5.78,
+          "team_abbr": "MIN"
+        },
+        {
           "type": "player",
-          "name": "Jalen Wilson",
-          "stat": "Jalen Wilson - BLK",
-          "score": 10.0,
-          "actual": 1,
-          "avg": 0.06,
-          "player_id": 1630592,
-          "team_abbr": null
+          "name": "Rudy Gobert",
+          "stat": "Rudy Gobert - PTS",
+          "score": 5.514,
+          "actual": 35,
+          "avg": 12.03,
+          "player_id": 203497
         },
         {
           "type": "player",
           "name": "Reece Beekman",
-          "stat": "Reece Beekman - FT_PCT",
-          "score": 4.556,
-          "actual": 1.0,
-          "avg": 0.18,
-          "player_id": 1641736,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Reece Beekman",
-          "stat": "Reece Beekman - FG3M",
-          "score": 4.263,
-          "actual": 1,
-          "avg": 0.19,
-          "player_id": 1641736,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Reece Beekman",
-          "stat": "Reece Beekman - FG3_PCT",
-          "score": 3.545,
-          "actual": 0.5,
-          "avg": 0.11,
-          "player_id": 1641736,
-          "team_abbr": null
+          "stat": "Reece Beekman - PTS",
+          "score": 4.94,
+          "actual": 11,
+          "avg": 2.58,
+          "player_id": 1641736
         },
         {
           "type": "player",
           "name": "Keon Johnson",
           "stat": "Keon Johnson - FTM",
-          "score": 2.463,
+          "score": 3.776,
           "actual": 8,
           "avg": 1.35,
-          "player_id": 1630553,
-          "team_abbr": null
+          "player_id": 1630553
+        },
+        {
+          "type": "player",
+          "name": "Rudy Gobert",
+          "stat": "Rudy Gobert - PFD",
+          "score": 2.495,
+          "actual": 12,
+          "avg": 3.61,
+          "player_id": 203497
         }
       ],
       "negative": [
         {
           "type": "player",
           "name": "Anthony Edwards",
-          "stat": "Anthony Edwards - FT_PCT",
-          "score": -1.0,
-          "actual": 0.0,
-          "avg": 0.78,
-          "player_id": 1630162,
-          "team_abbr": null
+          "stat": "Anthony Edwards - PTS",
+          "score": -2.879,
+          "actual": 9,
+          "avg": 27.56,
+          "player_id": 1630162
         },
         {
           "type": "player",
-          "name": "Jaden McDaniels",
-          "stat": "Jaden McDaniels - FG3_PCT",
-          "score": -1.0,
-          "actual": 0.0,
-          "avg": 0.34,
-          "player_id": 1630183,
-          "team_abbr": null
+          "name": "Naz Reid",
+          "stat": "Naz Reid - PTS",
+          "score": -1.585,
+          "actual": 7,
+          "avg": 14.22,
+          "player_id": 1629675
         },
         {
           "type": "player",
-          "name": "Donte DiVincenzo",
-          "stat": "Donte DiVincenzo - FT_PCT",
-          "score": -1.0,
-          "actual": 0.0,
-          "avg": 0.33,
-          "player_id": 1628978,
-          "team_abbr": null
+          "name": "Tyrese Martin",
+          "stat": "Tyrese Martin - TS%",
+          "score": -0.327,
+          "actual": 0.25,
+          "avg": 0.53,
+          "player_id": 1631213
         },
         {
           "type": "player",
           "name": "Tosan Evbuomwan",
-          "stat": "Tosan Evbuomwan - FG3_PCT",
-          "score": -1.0,
-          "actual": 0.0,
-          "avg": 0.29,
-          "player_id": 1641787,
-          "team_abbr": null
+          "stat": "Tosan Evbuomwan - TS%",
+          "score": -0.315,
+          "actual": 0.26,
+          "avg": 0.53,
+          "player_id": 1641787
         },
         {
           "type": "player",
-          "name": "Dariq Whitehead",
-          "stat": "Dariq Whitehead - FT_PCT",
-          "score": -1.0,
-          "actual": 0.0,
-          "avg": 0.07,
-          "player_id": 1641727,
-          "team_abbr": null
+          "name": "Drew Timme",
+          "stat": "Drew Timme - TS%",
+          "score": -0.294,
+          "actual": 0.26,
+          "avg": 0.5,
+          "player_id": 1631166
         }
       ]
     }

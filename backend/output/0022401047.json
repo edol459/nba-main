@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401047",
+  "teams": [
+    "GSW",
+    "MIA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Gui Santos",
+          "stat": "Gui Santos - PTS",
+          "score": 3.973,
+          "actual": 13,
+          "avg": 4.05,
+          "player_id": 1630611
+        },
+        {
+          "type": "player",
+          "name": "Alec Burks",
+          "stat": "Alec Burks - PTS",
+          "score": 3.079,
+          "actual": 17,
+          "avg": 7.27,
+          "player_id": 202692
+        },
+        {
+          "type": "player",
+          "name": "Bam Adebayo",
+          "stat": "Bam Adebayo - PTS",
+          "score": 1.724,
+          "actual": 27,
+          "avg": 18.08,
+          "player_id": 1628389
+        },
+        {
+          "type": "player",
+          "name": "Bam Adebayo",
+          "stat": "Bam Adebayo - PFD",
+          "score": 1.698,
+          "actual": 10,
+          "avg": 3.96,
+          "player_id": 1628389
+        },
+        {
+          "type": "team_vs_team",
+          "name": "Miami Heat",
+          "stat": "FG3_PCT differential",
+          "score": 0.708,
+          "actual": 0.443,
+          "avg": 0.089,
+          "team_abbr": "MIA"
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Golden State Warriors",
+          "stat": "Golden State Warriors - PTS",
+          "score": -2.093,
+          "actual": 86,
+          "avg": 113.79,
+          "team_abbr": "GSW"
+        },
+        {
+          "type": "team",
+          "name": "Golden State Warriors",
+          "stat": "Golden State Warriors - AST",
+          "score": -1.716,
+          "actual": 20,
+          "avg": 29.1,
+          "team_abbr": "GSW"
+        },
+        {
+          "type": "player",
+          "name": "Andrew Wiggins",
+          "stat": "Andrew Wiggins - PTS",
+          "score": -1.545,
+          "actual": 10,
+          "avg": 17.97,
+          "player_id": 203952
+        },
+        {
+          "type": "player",
+          "name": "Quinten Post",
+          "stat": "Quinten Post - PTS",
+          "score": -1.519,
+          "actual": 3,
+          "avg": 8.1,
+          "player_id": 1642366
+        },
+        {
+          "type": "player",
+          "name": "Jimmy Butler III",
+          "stat": "Jimmy Butler III - PTS",
+          "score": -1.283,
+          "actual": 11,
+          "avg": 17.53,
+          "player_id": 202710
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401060",
+  "teams": [
+    "DAL",
+    "ORL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jaden Hardy",
+          "stat": "Jaden Hardy - PTS",
+          "score": 3.809,
+          "actual": 22,
+          "avg": 8.7,
+          "player_id": 1630702
+        },
+        {
+          "type": "player",
+          "name": "Brandon Williams",
+          "stat": "Brandon Williams - PTS",
+          "score": 1.663,
+          "actual": 14,
+          "avg": 8.33,
+          "player_id": 1630314
+        },
+        {
+          "type": "player",
+          "name": "Paolo Banchero",
+          "stat": "Paolo Banchero - PTS",
+          "score": 1.46,
+          "actual": 35,
+          "avg": 25.89,
+          "player_id": 1631094
+        },
+        {
+          "type": "team_vs_team",
+          "name": "Dallas Mavericks",
+          "stat": "FG3_PCT differential",
+          "score": 0.488,
+          "actual": 0.333,
+          "avg": 0.089,
+          "team_abbr": "DAL"
+        },
+        {
+          "type": "player",
+          "name": "Jaden Hardy",
+          "stat": "Jaden Hardy - TS%",
+          "score": 0.283,
+          "actual": 0.8,
+          "avg": 0.55,
+          "player_id": 1630702
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Orlando Magic",
+          "stat": "Orlando Magic - AST",
+          "score": -1.919,
+          "actual": 14,
+          "avg": 23.01,
+          "team_abbr": "ORL"
+        },
+        {
+          "type": "team",
+          "name": "Dallas Mavericks",
+          "stat": "Dallas Mavericks - OREB",
+          "score": -1.682,
+          "actual": 5,
+          "avg": 10.1,
+          "team_abbr": "DAL"
+        },
+        {
+          "type": "player",
+          "name": "Naji Marshall",
+          "stat": "Naji Marshall - PTS",
+          "score": -1.652,
+          "actual": 6,
+          "avg": 13.25,
+          "player_id": 1630230
+        },
+        {
+          "type": "player",
+          "name": "Anthony Davis",
+          "stat": "Anthony Davis - PTS",
+          "score": -1.597,
+          "actual": 15,
+          "avg": 24.73,
+          "player_id": 203076
+        },
+        {
+          "type": "team",
+          "name": "Orlando Magic",
+          "stat": "Orlando Magic - FG3M",
+          "score": -0.97,
+          "actual": 5,
+          "avg": 11.23,
+          "team_abbr": "ORL"
+        }
+      ]
+    }
+  ]
+}

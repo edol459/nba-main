@@ -99,6 +99,8 @@ def compute_outliers(game_id: str):
                 "score": round(info["score"], 3),
                 "actual": info["actual"],
                 "avg": round(info["avg"], 3),
+                **({"player_id": info["player_id"]} if "player_id" in info else {}),
+                **({"team_abbr": info["team_abbr"]} if "team_abbr" in info else {}),
             } for stat, info in pos
         ],
         "negative": [
@@ -109,6 +111,8 @@ def compute_outliers(game_id: str):
                 "score": round(info["score"], 3),
                 "actual": info["actual"],
                 "avg": round(info["avg"], 3),
+                **({"player_id": info["player_id"]} if "player_id" in info else {}),
+                **({"team_abbr": info["team_abbr"]} if "team_abbr" in info else {}),
             } for stat, info in neg
         ]
     }

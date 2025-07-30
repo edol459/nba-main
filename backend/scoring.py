@@ -69,11 +69,13 @@ def compute_team_diff_scores(team1: pd.Series, team2: pd.Series, league_diffs: p
 
         if abs(diff_from_avg) >= threshold:
             outlier_team = team1["TEAM_NAME"] if val1 > val2 else team2["TEAM_NAME"]
+            team_abbr = team1["TEAM_ABBREVIATION"] if val1 > val2 else team2["TEAM_ABBREVIATION"]
             key = f"{stat} differential"
 
             diff_scores[key] = {
                 "type": "team_vs_team",
                 "id": outlier_team,
+                "team_abbr": team_abbr,
                 "score": round(score, 3),
                 "actual": round(actual_diff, 3),
                 "avg": round(league_avg_diff, 3),

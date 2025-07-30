@@ -1,0 +1,95 @@
+{
+  "game_id": "0022401188",
+  "teams": [
+    "NYK",
+    "BKN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Landry Shamet",
+          "stat": "Landry Shamet - PTS",
+          "score": 8.44,
+          "actual": 29,
+          "avg": 5.72
+        },
+        {
+          "type": "player",
+          "name": "Cameron Payne",
+          "stat": "Cameron Payne - PTS",
+          "score": 4.567,
+          "actual": 21,
+          "avg": 6.94
+        },
+        {
+          "type": "player",
+          "name": "Precious Achiuwa",
+          "stat": "Precious Achiuwa - PTS",
+          "score": 3.777,
+          "actual": 18,
+          "avg": 6.65
+        },
+        {
+          "type": "player",
+          "name": "Landry Shamet",
+          "stat": "Landry Shamet - FG3M",
+          "score": 3.476,
+          "actual": 7,
+          "avg": 1.24
+        },
+        {
+          "type": "player",
+          "name": "Miles McBride",
+          "stat": "Miles McBride - AST",
+          "score": 3.444,
+          "actual": 8,
+          "avg": 2.92
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "New York Knicks",
+          "stat": "New York Knicks - PF",
+          "score": -0.389,
+          "actual": 25,
+          "avg": 17.16
+        },
+        {
+          "type": "player",
+          "name": "Drew Timme",
+          "stat": "Drew Timme - TS%",
+          "score": -0.086,
+          "actual": 0.43,
+          "avg": 0.5
+        },
+        {
+          "type": "player",
+          "name": "Precious Achiuwa",
+          "stat": "Precious Achiuwa - TS%",
+          "score": -0.082,
+          "actual": 0.46,
+          "avg": 0.53
+        },
+        {
+          "type": "player",
+          "name": "Delon Wright",
+          "stat": "Delon Wright - TS%",
+          "score": -0.068,
+          "actual": 0.39,
+          "avg": 0.44
+        },
+        {
+          "type": "player",
+          "name": "P.J. Tucker",
+          "stat": "P.J. Tucker - TS%",
+          "score": -0.04,
+          "actual": 0.6,
+          "avg": 0.64
+        }
+      ]
+    }
+  ]
+}

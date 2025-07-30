@@ -1,12 +1,11 @@
 header{
-  display: flex;
-  flex-wrap: nowrap;
   position: absolute;
   top: 0px; 
   width: 100%;
   margin-bottom: 50px;
   text-align: center;
   justify-content: center;
+  background-color: darkgrey;
 }
 
 body {
@@ -19,8 +18,11 @@ body {
   background: whitesmoke;
 }
 
-
-
+.search-container{
+  position: absolute;
+  top: 100px;
+  margin-bottom: 50px;
+}
 
 .team-header {
   background-color: lightgrey;
@@ -74,8 +76,7 @@ body {
 }
 
 
-.bar.tean-diff {
-  background-color: gold;
+.bar.team-diff {
   border: 2px dashed black;
 }
 

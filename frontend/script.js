@@ -92,6 +92,9 @@ function makeBar(outlier, isNegative, index) {
   } else if (outlier.type === 'team' && outlier.team_abbr) {
     const teamLogoUrl = `logos/${outlier.team_abbr}.svg`; 
     imgTag = `<img src="${teamLogoUrl}" class="team-logo-mini" alt="${outlier.name} logo" />`;
+  } else {
+    const teamLogoUrl = `logos/${outlier.team_abbr}.svg`; 
+    imgTag = `<img src="${teamLogoUrl}" class="team-logo-mini" alt="${outlier.name} logo" />`;
   }
 
     

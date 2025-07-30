@@ -14,18 +14,7 @@
           "score": 8.803,
           "actual": 9,
           "avg": 1.33,
-          "player_id": 1631243,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Marcus Bagley",
-          "stat": "Marcus Bagley - AST",
-          "score": 5.657,
-          "actual": 5,
-          "avg": 1.0,
-          "player_id": 1630542,
-          "team_abbr": null
+          "player_id": 1631243
         },
         {
           "type": "player",
@@ -34,8 +23,7 @@
           "score": 4.563,
           "actual": 16,
           "avg": 4.73,
-          "player_id": 1630658,
-          "team_abbr": null
+          "player_id": 1630658
         },
         {
           "type": "player",
@@ -44,8 +32,7 @@
           "score": 4.514,
           "actual": 31,
           "avg": 12.12,
-          "player_id": 1627747,
-          "team_abbr": null
+          "player_id": 1627747
         },
         {
           "type": "player",
@@ -54,21 +41,19 @@
           "score": 4.486,
           "actual": 25,
           "avg": 9.02,
-          "player_id": 1630215,
-          "team_abbr": null
+          "player_id": 1630215
+        },
+        {
+          "type": "player",
+          "name": "Marcus Bagley",
+          "stat": "Marcus Bagley - PTS",
+          "score": 4.407,
+          "actual": 20,
+          "avg": 6.7,
+          "player_id": 1630542
         }
       ],
       "negative": [
-        {
-          "type": "player",
-          "name": "Jeff Dowtin Jr.",
-          "stat": "Jeff Dowtin Jr. - AST/TOV",
-          "score": -2.972,
-          "actual": 0.0,
-          "avg": 5.135,
-          "player_id": 1630288,
-          "team_abbr": null
-        },
         {
           "type": "player",
           "name": "Onyeka Okongwu",
@@ -76,28 +61,7 @@
           "score": -2.122,
           "actual": 4,
           "avg": 13.35,
-          "player_id": 1630168,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Jeff Dowtin Jr.",
-          "stat": "Jeff Dowtin Jr. - PTS",
-          "score": -1.607,
-          "actual": 2,
-          "avg": 6.95,
-          "player_id": 1630288,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Jeff Dowtin Jr.",
-          "stat": "Jeff Dowtin Jr. - TS%",
-          "score": -1.583,
-          "actual": 0.09,
-          "avg": 0.57,
-          "player_id": 1630288,
-          "team_abbr": null
+          "player_id": 1630168
         },
         {
           "type": "player",
@@ -106,8 +70,34 @@
           "score": -1.348,
           "actual": 8,
           "avg": 14.12,
-          "player_id": 1630700,
-          "team_abbr": null
+          "player_id": 1630700
+        },
+        {
+          "type": "team",
+          "name": "Philadelphia 76ers",
+          "stat": "Philadelphia 76ers - FTM",
+          "score": -0.681,
+          "actual": 12,
+          "avg": 17.55,
+          "team_abbr": "PHI"
+        },
+        {
+          "type": "player",
+          "name": "Jeff Dowtin Jr.",
+          "stat": "Jeff Dowtin Jr. - TS%",
+          "score": -0.528,
+          "actual": 0.09,
+          "avg": 0.57,
+          "player_id": 1630288
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - TS%",
+          "score": -0.345,
+          "actual": 0.29,
+          "avg": 0.63,
+          "player_id": 1630168
         }
       ]
     }

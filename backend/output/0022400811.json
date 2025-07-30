@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400811",
+  "teams": [
+    "BOS",
+    "NYK"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Josh Hart",
+          "stat": "Josh Hart - PTS",
+          "score": 1.424,
+          "actual": 20,
+          "avg": 13.65
+        },
+        {
+          "type": "player",
+          "name": "Derrick White",
+          "stat": "Derrick White - TS%",
+          "score": 0.354,
+          "actual": 0.95,
+          "avg": 0.61
+        },
+        {
+          "type": "player",
+          "name": "Jrue Holiday",
+          "stat": "Jrue Holiday - TS%",
+          "score": 0.231,
+          "actual": 0.78,
+          "avg": 0.57
+        },
+        {
+          "type": "player",
+          "name": "Cameron Payne",
+          "stat": "Cameron Payne - TS%",
+          "score": 0.058,
+          "actual": 0.58,
+          "avg": 0.53
+        },
+        {
+          "type": "player",
+          "name": "Miles McBride",
+          "stat": "Miles McBride - FG3_PCT",
+          "score": 0.0,
+          "actual": 0.0,
+          "avg": 0.35
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "stat": "Payton Pritchard - PTS",
+          "score": -2.473,
+          "actual": 3,
+          "avg": 14.3
+        },
+        {
+          "type": "player",
+          "name": "OG Anunoby",
+          "stat": "OG Anunoby - PTS",
+          "score": -1.55,
+          "actual": 10,
+          "avg": 18.0
+        },
+        {
+          "type": "team",
+          "name": "New York Knicks",
+          "stat": "New York Knicks - AST",
+          "score": -1.26,
+          "actual": 21,
+          "avg": 27.49
+        },
+        {
+          "type": "team",
+          "name": "New York Knicks",
+          "stat": "New York Knicks - FTM",
+          "score": -0.702,
+          "actual": 11,
+          "avg": 16.55
+        },
+        {
+          "type": "player",
+          "name": "Miles McBride",
+          "stat": "Miles McBride - TS%",
+          "score": -0.455,
+          "actual": 0.14,
+          "avg": 0.53
+        }
+      ]
+    }
+  ]
+}

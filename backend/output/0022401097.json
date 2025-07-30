@@ -1,0 +1,105 @@
+{
+  "game_id": "0022401097",
+  "teams": [
+    "POR",
+    "ATL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Deni Avdija",
+          "stat": "Deni Avdija - AST",
+          "score": 3.462,
+          "actual": 10,
+          "avg": 3.9,
+          "player_id": 1630166
+        },
+        {
+          "type": "player",
+          "name": "Deni Avdija",
+          "stat": "Deni Avdija - PTS",
+          "score": 3.015,
+          "actual": 32,
+          "avg": 16.93,
+          "player_id": 1630166
+        },
+        {
+          "type": "player",
+          "name": "Shaedon Sharpe",
+          "stat": "Shaedon Sharpe - PTS",
+          "score": 2.758,
+          "actual": 33,
+          "avg": 18.54,
+          "player_id": 1631101
+        },
+        {
+          "type": "player",
+          "name": "Shaedon Sharpe",
+          "stat": "Shaedon Sharpe - DREB",
+          "score": 1.958,
+          "actual": 9,
+          "avg": 3.56,
+          "player_id": 1631101
+        },
+        {
+          "type": "player",
+          "name": "Shaedon Sharpe",
+          "stat": "Shaedon Sharpe - FTM",
+          "score": 1.937,
+          "actual": 8,
+          "avg": 2.64,
+          "player_id": 1631101
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - PTS",
+          "score": -1.844,
+          "actual": 3,
+          "avg": 9.92,
+          "player_id": 1627777
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FG3M",
+          "score": -0.917,
+          "actual": 7,
+          "avg": 13.5,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - TS%",
+          "score": -0.374,
+          "actual": 0.25,
+          "avg": 0.61,
+          "player_id": 1627777
+        },
+        {
+          "type": "player",
+          "name": "Zaccharie Risacher",
+          "stat": "Zaccharie Risacher - TS%",
+          "score": -0.279,
+          "actual": 0.31,
+          "avg": 0.56,
+          "player_id": 1642258
+        },
+        {
+          "type": "player",
+          "name": "Duop Reath",
+          "stat": "Duop Reath - TS%",
+          "score": -0.272,
+          "actual": 0.31,
+          "avg": 0.55,
+          "player_id": 1641871
+        }
+      ]
+    }
+  ]
+}

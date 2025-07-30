@@ -1,0 +1,95 @@
+{
+  "game_id": "0022400946",
+  "teams": [
+    "OKC",
+    "BOS"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Al Horford",
+          "stat": "Al Horford - PTS",
+          "score": 2.543,
+          "actual": 18,
+          "avg": 8.97
+        },
+        {
+          "type": "player",
+          "name": "Chet Holmgren",
+          "stat": "Chet Holmgren - PTS",
+          "score": 1.715,
+          "actual": 23,
+          "avg": 14.97
+        },
+        {
+          "type": "player",
+          "name": "Cason Wallace",
+          "stat": "Cason Wallace - PTS",
+          "score": 1.655,
+          "actual": 14,
+          "avg": 8.35
+        },
+        {
+          "type": "player",
+          "name": "Derrick White",
+          "stat": "Derrick White - PTS",
+          "score": 1.135,
+          "actual": 22,
+          "avg": 16.42
+        },
+        {
+          "type": "team",
+          "name": "Oklahoma City Thunder",
+          "stat": "Oklahoma City Thunder - FTM",
+          "score": 1.045,
+          "actual": 25,
+          "avg": 16.7
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jaylen Brown",
+          "stat": "Jaylen Brown - PTS",
+          "score": -2.116,
+          "actual": 10,
+          "avg": 22.19
+        },
+        {
+          "type": "player",
+          "name": "Sam Hauser",
+          "stat": "Sam Hauser - PTS",
+          "score": -1.599,
+          "actual": 3,
+          "avg": 8.52
+        },
+        {
+          "type": "team",
+          "name": "Oklahoma City Thunder",
+          "stat": "Oklahoma City Thunder - AST",
+          "score": -1.543,
+          "actual": 19,
+          "avg": 26.85
+        },
+        {
+          "type": "player",
+          "name": "Payton Pritchard",
+          "stat": "Payton Pritchard - PTS",
+          "score": -1.379,
+          "actual": 8,
+          "avg": 14.3
+        },
+        {
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - DREB",
+          "score": -0.83,
+          "actual": 26,
+          "avg": 33.94
+        }
+      ]
+    }
+  ]
+}

@@ -50,22 +50,6 @@
       ],
       "negative": [
         {
-          "type": "player",
-          "name": "D'Angelo Russell",
-          "stat": "D'Angelo Russell - PTS",
-          "score": -2.952,
-          "actual": 0,
-          "avg": 12.62
-        },
-        {
-          "type": "player",
-          "name": "Donte DiVincenzo",
-          "stat": "Donte DiVincenzo - PTS",
-          "score": -2.358,
-          "actual": 2,
-          "avg": 11.66
-        },
-        {
           "type": "team",
           "name": "Brooklyn Nets",
           "stat": "Brooklyn Nets - FTM",
@@ -88,6 +72,22 @@
           "score": -1.458,
           "actual": 11,
           "avg": 18.67
+        },
+        {
+          "type": "team",
+          "name": "Brooklyn Nets",
+          "stat": "Brooklyn Nets - PFD",
+          "score": -0.696,
+          "actual": 13,
+          "avg": 18.9
+        },
+        {
+          "type": "player",
+          "name": "D'Angelo Russell",
+          "stat": "D'Angelo Russell - TS%",
+          "score": -0.616,
+          "actual": 0.0,
+          "avg": 0.52
         }
       ]
     }
