@@ -9,87 +9,102 @@
       "positive": [
         {
           "type": "player",
-          "name": "Moses Moody",
-          "stat": "Moses Moody - PFD",
-          "score": 1.628,
-          "actual": 6,
-          "avg": 1.41
-        },
-        {
-          "type": "player",
           "name": "Georges Niang",
           "stat": "Georges Niang - PTS",
-          "score": 1.319,
+          "score": 3.486,
           "actual": 23,
-          "avg": 9.92
-        },
-        {
-          "type": "player",
-          "name": "Georges Niang",
-          "stat": "Georges Niang - FGM",
-          "score": 1.21,
-          "actual": 8,
-          "avg": 3.62
+          "avg": 9.92,
+          "player_id": 1627777
         },
         {
           "type": "player",
           "name": "Moses Moody",
           "stat": "Moses Moody - PTS",
-          "score": 1.045,
+          "score": 2.745,
           "actual": 20,
-          "avg": 9.78
+          "avg": 9.78,
+          "player_id": 1630541
         },
         {
           "type": "player",
-          "name": "Onyeka Okongwu",
-          "stat": "Onyeka Okongwu - FGM",
-          "score": 0.908,
-          "actual": 10,
-          "avg": 5.24
+          "name": "Jimmy Butler III",
+          "stat": "Jimmy Butler III - AST/TOV",
+          "score": 2.667,
+          "actual": 8.0,
+          "avg": 4.015,
+          "player_id": 202710
+        },
+        {
+          "type": "player",
+          "name": "Caris LeVert",
+          "stat": "Caris LeVert - AST/TOV",
+          "score": 2.64,
+          "actual": 6.0,
+          "avg": 2.824,
+          "player_id": 1627747
+        },
+        {
+          "type": "player",
+          "name": "Moses Moody",
+          "stat": "Moses Moody - PFD",
+          "score": 2.527,
+          "actual": 6,
+          "avg": 1.41,
+          "player_id": 1630541
         }
       ],
       "negative": [
         {
-          "type": "player",
-          "name": "V\u00edt Krej\u010d\u00ed",
-          "stat": "V\u00edt Krej\u010d\u00ed - PTS",
-          "score": -0.585,
-          "actual": 3,
-          "avg": 7.23
+          "type": "team",
+          "name": "Golden State Warriors",
+          "stat": "Golden State Warriors - OREB",
+          "score": -1.921,
+          "actual": 6,
+          "avg": 12.55,
+          "team_abbr": "GSW"
         },
         {
           "type": "team",
           "name": "Atlanta Hawks",
           "stat": "Atlanta Hawks - STL",
-          "score": -0.583,
+          "score": -1.592,
           "actual": 5,
-          "avg": 9.73
+          "avg": 9.73,
+          "team_abbr": "ATL"
         },
         {
           "type": "player",
-          "name": "Buddy Hield",
-          "stat": "Buddy Hield - PTS",
-          "score": -0.55,
-          "actual": 5,
-          "avg": 11.12
-        },
-        {
-          "type": "player",
-          "name": "Draymond Green",
-          "stat": "Draymond Green - PTS",
-          "score": -0.445,
-          "actual": 5,
-          "avg": 9.01
+          "name": "Mouhamed Gueye",
+          "stat": "Mouhamed Gueye - FG3_PCT",
+          "score": -1.122,
+          "actual": 0.0,
+          "avg": 0.26,
+          "player_id": 1631243
         },
         {
           "type": "team",
-          "name": "Golden State Warriors",
-          "stat": "Golden State Warriors - OREB",
-          "score": -0.261,
-          "actual": 6,
-          "avg": 12.55
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - BLK",
+          "score": -1.021,
+          "actual": 3,
+          "avg": 5.11,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FTM",
+          "score": -0.843,
+          "actual": 11,
+          "avg": 17.95,
+          "team_abbr": "ATL"
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "GSW": 115,
+    "ATL": 124
+  },
+  "winner": "ATL"
 }

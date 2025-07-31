@@ -18,6 +18,24 @@
         },
         {
           "type": "player",
+          "name": "Marcus Bagley",
+          "stat": "Marcus Bagley - FG3_PCT",
+          "score": 6.354,
+          "actual": 0.5,
+          "avg": 0.07,
+          "player_id": 1630542
+        },
+        {
+          "type": "player",
+          "name": "Marcus Bagley",
+          "stat": "Marcus Bagley - AST/TOV",
+          "score": 4.675,
+          "actual": 5.0,
+          "avg": 1.429,
+          "player_id": 1630542
+        },
+        {
+          "type": "player",
           "name": "Colin Castleton",
           "stat": "Colin Castleton - PTS",
           "score": 4.563,
@@ -33,73 +51,60 @@
           "actual": 31,
           "avg": 12.12,
           "player_id": 1627747
-        },
-        {
-          "type": "player",
-          "name": "Jared Butler",
-          "stat": "Jared Butler - PTS",
-          "score": 4.486,
-          "actual": 25,
-          "avg": 9.02,
-          "player_id": 1630215
-        },
-        {
-          "type": "player",
-          "name": "Marcus Bagley",
-          "stat": "Marcus Bagley - PTS",
-          "score": 4.407,
-          "actual": 20,
-          "avg": 6.7,
-          "player_id": 1630542
         }
       ],
       "negative": [
         {
           "type": "player",
-          "name": "Onyeka Okongwu",
-          "stat": "Onyeka Okongwu - PTS",
-          "score": -2.122,
-          "actual": 4,
-          "avg": 13.35,
-          "player_id": 1630168
-        },
-        {
-          "type": "player",
           "name": "Dyson Daniels",
-          "stat": "Dyson Daniels - PTS",
-          "score": -1.348,
-          "actual": 8,
-          "avg": 14.12,
+          "stat": "Dyson Daniels - FG3_PCT",
+          "score": -1.162,
+          "actual": 0.0,
+          "avg": 0.35,
           "player_id": 1630700
         },
         {
-          "type": "team",
-          "name": "Philadelphia 76ers",
-          "stat": "Philadelphia 76ers - FTM",
-          "score": -0.681,
-          "actual": 12,
-          "avg": 17.55,
-          "team_abbr": "PHI"
+          "type": "player",
+          "name": "Zaccharie Risacher",
+          "stat": "Zaccharie Risacher - FG3_PCT",
+          "score": -1.149,
+          "actual": 0.0,
+          "avg": 0.32,
+          "player_id": 1642258
         },
         {
           "type": "player",
           "name": "Jeff Dowtin Jr.",
-          "stat": "Jeff Dowtin Jr. - TS%",
-          "score": -0.528,
-          "actual": 0.09,
-          "avg": 0.57,
+          "stat": "Jeff Dowtin Jr. - FG3_PCT",
+          "score": -1.114,
+          "actual": 0.0,
+          "avg": 0.24,
           "player_id": 1630288
         },
         {
           "type": "player",
           "name": "Onyeka Okongwu",
-          "stat": "Onyeka Okongwu - TS%",
-          "score": -0.345,
-          "actual": 0.29,
-          "avg": 0.63,
+          "stat": "Onyeka Okongwu - FG3_PCT",
+          "score": -1.114,
+          "actual": 0.0,
+          "avg": 0.24,
           "player_id": 1630168
+        },
+        {
+          "type": "player",
+          "name": "Jeff Dowtin Jr.",
+          "stat": "Jeff Dowtin Jr. - TS%",
+          "score": -0.95,
+          "actual": 0.09,
+          "avg": 0.57,
+          "player_id": 1630288
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "ATL": 124,
+    "PHI": 110
+  },
+  "winner": "ATL"
 }

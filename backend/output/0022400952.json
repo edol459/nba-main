@@ -9,104 +9,102 @@
       "positive": [
         {
           "type": "player",
-          "name": "Julius Randle",
-          "stat": "Julius Randle - PTS",
-          "score": 3.798,
-          "actual": 25,
-          "avg": 18.67,
-          "player_id": 203944,
-          "team_abbr": null
+          "name": "Luka Garza",
+          "stat": "Luka Garza - FG3_PCT",
+          "score": 2.289,
+          "actual": 0.5,
+          "avg": 0.16,
+          "player_id": 1630568
         },
         {
           "type": "player",
-          "name": "Russell Westbrook",
-          "stat": "Russell Westbrook - PTS",
-          "score": 3.45,
-          "actual": 19,
-          "avg": 13.25,
-          "player_id": 201566,
-          "team_abbr": null
+          "name": "Julius Randle",
+          "stat": "Julius Randle - FG3_PCT",
+          "score": 1.14,
+          "actual": 0.6,
+          "avg": 0.3,
+          "player_id": 203944
         },
         {
           "type": "player",
           "name": "Hunter Tyson",
-          "stat": "Hunter Tyson - PTS",
-          "score": 3.222,
-          "actual": 8,
-          "avg": 2.63,
-          "player_id": 1641816,
-          "team_abbr": null
-        },
-        {
-          "type": "team",
-          "name": "Denver Nuggets",
-          "stat": "Denver Nuggets - TOV",
-          "score": 0.852,
-          "actual": 10.0,
-          "avg": 14.26,
-          "team_abbr": "DEN"
+          "stat": "Hunter Tyson - FG3_PCT",
+          "score": 1.118,
+          "actual": 0.5,
+          "avg": 0.25,
+          "player_id": 1641816
         },
         {
           "type": "player",
           "name": "Hunter Tyson",
           "stat": "Hunter Tyson - TS%",
-          "score": 0.29,
+          "score": 0.629,
           "actual": 0.8,
           "avg": 0.51,
-          "player_id": 1641816,
-          "team_abbr": null
+          "player_id": 1641816
+        },
+        {
+          "type": "player",
+          "name": "Jaden McDaniels",
+          "stat": "Jaden McDaniels - FG3_PCT",
+          "score": 0.545,
+          "actual": 0.5,
+          "avg": 0.34,
+          "player_id": 1630183
         }
       ],
       "negative": [
         {
-          "type": "team",
-          "name": "Denver Nuggets",
-          "stat": "Denver Nuggets - PTS",
-          "score": -15.456,
-          "actual": 95,
-          "avg": 120.76,
-          "team_abbr": "DEN"
+          "type": "player",
+          "name": "Nikola Joki\u0107",
+          "stat": "Nikola Joki\u0107 - AST",
+          "score": -2.041,
+          "actual": 4,
+          "avg": 10.23,
+          "player_id": 203999
         },
         {
           "type": "team",
           "name": "Denver Nuggets",
           "stat": "Denver Nuggets - AST",
-          "score": -11.0,
+          "score": -2.007,
           "actual": 20,
           "avg": 31.0,
           "team_abbr": "DEN"
         },
         {
           "type": "player",
-          "name": "Nikola Joki\u0107",
-          "stat": "Nikola Joki\u0107 - AST",
-          "score": -6.23,
-          "actual": 4,
-          "avg": 10.23,
-          "player_id": 203999,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Jamal Murray",
-          "stat": "Jamal Murray - PTS",
-          "score": -5.658,
-          "actual": 12,
-          "avg": 21.43,
-          "player_id": 1627750,
-          "team_abbr": null
+          "name": "Michael Porter Jr.",
+          "stat": "Michael Porter Jr. - FG3_PCT",
+          "score": -1.179,
+          "actual": 0.0,
+          "avg": 0.39,
+          "player_id": 1629008
         },
         {
           "type": "player",
           "name": "Christian Braun",
-          "stat": "Christian Braun - PTS",
-          "score": -5.652,
-          "actual": 6,
-          "avg": 15.42,
-          "player_id": 1631128,
-          "team_abbr": null
+          "stat": "Christian Braun - FG3_PCT",
+          "score": -1.158,
+          "actual": 0.0,
+          "avg": 0.34,
+          "player_id": 1631128
+        },
+        {
+          "type": "player",
+          "name": "Nikola Joki\u0107",
+          "stat": "Nikola Joki\u0107 - DREB",
+          "score": -0.979,
+          "actual": 5,
+          "avg": 9.89,
+          "player_id": 203999
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "DEN": 95,
+    "MIN": 115
+  },
+  "winner": "MIN"
 }

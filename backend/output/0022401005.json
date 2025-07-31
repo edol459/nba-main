@@ -1,0 +1,110 @@
+{
+  "game_id": "0022401005",
+  "teams": [
+    "TOR",
+    "GSW"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Draymond Green",
+          "stat": "Draymond Green - PTS",
+          "score": 3.368,
+          "actual": 21,
+          "avg": 9.01,
+          "player_id": 203110
+        },
+        {
+          "type": "player",
+          "name": "Jimmy Butler III",
+          "stat": "Jimmy Butler III - AST",
+          "score": 3.076,
+          "actual": 12,
+          "avg": 5.42,
+          "player_id": 202710
+        },
+        {
+          "type": "player",
+          "name": "Draymond Green",
+          "stat": "Draymond Green - STL",
+          "score": 2.729,
+          "actual": 4,
+          "avg": 1.46,
+          "player_id": 203110
+        },
+        {
+          "type": "player",
+          "name": "Draymond Green",
+          "stat": "Draymond Green - FG3M",
+          "score": 2.39,
+          "actual": 5,
+          "avg": 1.18,
+          "player_id": 203110
+        },
+        {
+          "type": "player",
+          "name": "Quinten Post",
+          "stat": "Quinten Post - FG3M",
+          "score": 2.026,
+          "actual": 6,
+          "avg": 1.74,
+          "player_id": 1642366
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jamal Shead",
+          "stat": "Jamal Shead - TOV",
+          "score": -1.764,
+          "actual": 5,
+          "avg": 1.56,
+          "player_id": 1642347
+        },
+        {
+          "type": "team",
+          "name": "Toronto Raptors",
+          "stat": "Toronto Raptors - OREB",
+          "score": -1.641,
+          "actual": 7,
+          "avg": 12.61,
+          "team_abbr": "TOR"
+        },
+        {
+          "type": "player",
+          "name": "Immanuel Quickley",
+          "stat": "Immanuel Quickley - TOV",
+          "score": -1.529,
+          "actual": 5,
+          "avg": 1.76,
+          "player_id": 1630193
+        },
+        {
+          "type": "player",
+          "name": "Moses Moody",
+          "stat": "Moses Moody - FG3_PCT",
+          "score": -1.166,
+          "actual": 0.0,
+          "avg": 0.36,
+          "player_id": 1630541
+        },
+        {
+          "type": "team",
+          "name": "Toronto Raptors",
+          "stat": "Toronto Raptors - TOV",
+          "score": -1.011,
+          "actual": 23.0,
+          "avg": 15.33,
+          "team_abbr": "TOR"
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "TOR": 114,
+    "GSW": 117
+  },
+  "winner": "GSW"
+}

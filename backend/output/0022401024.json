@@ -13,65 +13,73 @@
           "stat": "Trendon Watford - PTS",
           "score": 4.133,
           "actual": 26,
-          "avg": 10.23
+          "avg": 10.23,
+          "player_id": 1630570
         },
         {
           "type": "player",
-          "name": "Keon Johnson",
-          "stat": "Keon Johnson - PTS",
-          "score": 1.638,
-          "actual": 17,
-          "avg": 10.62
+          "name": "Tyrese Martin",
+          "stat": "Tyrese Martin - AST/TOV",
+          "score": 3.965,
+          "actual": 5.0,
+          "avg": 1.65,
+          "player_id": 1631213
         },
         {
           "type": "player",
-          "name": "Myles Turner",
-          "stat": "Myles Turner - PTS",
-          "score": 1.347,
-          "actual": 22,
-          "avg": 15.56
+          "name": "Cameron Johnson",
+          "stat": "Cameron Johnson - DREB",
+          "score": 1.71,
+          "actual": 8,
+          "avg": 3.39,
+          "player_id": 1629661
         },
         {
           "type": "player",
-          "name": "Pascal Siakam",
-          "stat": "Pascal Siakam - PTS",
-          "score": 1.051,
-          "actual": 26,
-          "avg": 20.23
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - DREB",
+          "score": 1.63,
+          "actual": 7,
+          "avg": 2.96,
+          "player_id": 1630169
         },
         {
-          "type": "team",
-          "name": "Brooklyn Nets",
-          "stat": "Brooklyn Nets - DREB",
-          "score": 0.73,
-          "actual": 37,
-          "avg": 30.4
+          "type": "player",
+          "name": "Trendon Watford",
+          "stat": "Trendon Watford - FG3_PCT",
+          "score": 0.96,
+          "actual": 0.5,
+          "avg": 0.27,
+          "player_id": 1630570
         }
       ],
       "negative": [
         {
-          "type": "player",
-          "name": "Aaron Nesmith",
-          "stat": "Aaron Nesmith - PTS",
-          "score": -1.446,
-          "actual": 6,
-          "avg": 12.02
-        },
-        {
-          "type": "player",
-          "name": "Andrew Nembhard",
-          "stat": "Andrew Nembhard - PTS",
-          "score": -1.336,
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - STL",
+          "score": -1.258,
           "actual": 5,
-          "avg": 10.05
+          "avg": 8.46,
+          "team_abbr": "IND"
         },
         {
           "type": "team",
-          "name": "Brooklyn Nets",
-          "stat": "Brooklyn Nets - AST",
-          "score": -1.049,
-          "actual": 20,
-          "avg": 25.16
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - OREB",
+          "score": -1.102,
+          "actual": 6,
+          "avg": 9.17,
+          "team_abbr": "IND"
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Martin",
+          "stat": "Tyrese Martin - PF",
+          "score": -0.878,
+          "actual": 5,
+          "avg": 1.28,
+          "player_id": 1631213
         },
         {
           "type": "team",
@@ -79,17 +87,24 @@
           "stat": "Brooklyn Nets - FTM",
           "score": -0.801,
           "actual": 10,
-          "avg": 16.27
+          "avg": 16.27,
+          "team_abbr": "BKN"
         },
         {
           "type": "player",
-          "name": "Noah Clowney",
-          "stat": "Noah Clowney - TS%",
-          "score": -0.32,
-          "actual": 0.25,
-          "avg": 0.52
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - PF",
+          "score": -0.654,
+          "actual": 4,
+          "avg": 1.26,
+          "player_id": 1630169
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "BKN": 103,
+    "IND": 108
+  },
+  "winner": "IND"
 }

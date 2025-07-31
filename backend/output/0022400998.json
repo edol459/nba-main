@@ -1,0 +1,110 @@
+{
+  "game_id": "0022400998",
+  "teams": [
+    "DAL",
+    "IND"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Spencer Dinwiddie",
+          "stat": "Spencer Dinwiddie - AST/TOV",
+          "score": 6.317,
+          "actual": 12.0,
+          "avg": 3.426,
+          "player_id": 203915
+        },
+        {
+          "type": "player",
+          "name": "Kai Jones",
+          "stat": "Kai Jones - PTS",
+          "score": 5.145,
+          "actual": 18,
+          "avg": 4.95,
+          "player_id": 1630539
+        },
+        {
+          "type": "player",
+          "name": "Jaden Hardy",
+          "stat": "Jaden Hardy - PTS",
+          "score": 4.382,
+          "actual": 24,
+          "avg": 8.7,
+          "player_id": 1630702
+        },
+        {
+          "type": "player",
+          "name": "Kai Jones",
+          "stat": "Kai Jones - OREB",
+          "score": 4.243,
+          "actual": 4,
+          "avg": 1.0,
+          "player_id": 1630539
+        },
+        {
+          "type": "player",
+          "name": "Spencer Dinwiddie",
+          "stat": "Spencer Dinwiddie - AST",
+          "score": 3.993,
+          "actual": 12,
+          "avg": 4.42,
+          "player_id": 203915
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - STL",
+          "score": -1.621,
+          "actual": 4,
+          "avg": 8.46,
+          "team_abbr": "IND"
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - FG3_PCT",
+          "score": -1.17,
+          "actual": 0.0,
+          "avg": 0.37,
+          "player_id": 1626167
+        },
+        {
+          "type": "player",
+          "name": "Ben Sheppard",
+          "stat": "Ben Sheppard - FG3_PCT",
+          "score": -1.136,
+          "actual": 0.0,
+          "avg": 0.29,
+          "player_id": 1641767
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - OREB",
+          "score": -1.102,
+          "actual": 6,
+          "avg": 9.17,
+          "team_abbr": "IND"
+        },
+        {
+          "type": "team",
+          "name": "Dallas Mavericks",
+          "stat": "Dallas Mavericks - OREB",
+          "score": -1.023,
+          "actual": 7,
+          "avg": 10.1,
+          "team_abbr": "DAL"
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "DAL": 131,
+    "IND": 135
+  },
+  "winner": "IND"
+}

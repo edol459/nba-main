@@ -1,6 +1,10 @@
 window.addEventListener("DOMContentLoaded", () => {
+
   const teamDropdown = document.getElementById("teamSelector");
   const gameDropdown = document.getElementById("gameSelector");
+
+  const homeButton = document.getElementById("homeButton");
+  const instructions = document.getElementById('instructions');
 
   teamDropdown.addEventListener("change", async () => {
     const team = teamDropdown.value;
@@ -19,9 +23,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
     gameDropdown.innerHTML = `<option value="">Select a game</option>`;
     games.forEach(game => {
+
+      const dateOnly = game.date.split('T')[0];
       const option = document.createElement("option");
       option.value = game.game_id;
-      option.textContent = `${team} vs ${game.opponent} (${game.date})`;
+      option.textContent = `${team} vs ${game.opponent} (${dateOnly})`;
       gameDropdown.appendChild(option);
     });
 
@@ -30,7 +36,18 @@ window.addEventListener("DOMContentLoaded", () => {
 
   gameDropdown.addEventListener("change", () => {
     const gameId = gameDropdown.value;
-    if (gameId) loadGameOutliers(gameId);
+    if (gameId) {
+      instructions.style.display = "none";  // Hides instructions
+      loadGameOutliers(gameId);
+    }
+  });
+
+  homeButton.addEventListener("click", () => {
+    teamDropdown.selectedIndex = 0;
+    gameDropdown.innerHTML = `<option value="">Select a game</option>`;
+    gameDropdown.disabled = true;
+    instructions.style.display = "block";
+    document.getElementById('results').innerHTML = '';
   });
 });
 
@@ -56,11 +73,16 @@ function renderOutliers(data) {
   const outliers = data.outliers[0]; // assumes one payload per game
   const teamA = data.teams[0];
   const teamB = data.teams[1];
+  const scores = data.final_score || {};
+
+
+  const scoreA = scores[teamA];
+  const scoreB = scores[teamB];
 
   const headerHTML = `
     <h2 class="team-header">
       <img class="team-logo" src="logos/${teamA}.svg" alt="${teamA} logo">
-      ${teamA} vs ${teamB}
+      ${teamA} ${scoreA} - ${scoreB} ${teamB}
       <img class="team-logo" src="logos/${teamB}.svg" alt="${teamB} logo">
     </h2>
   `;
@@ -79,7 +101,7 @@ function renderOutliers(data) {
 }
 
 function makeBar(outlier, isNegative, index) {
-  const height = 500 - index * 100; // top bar tallest
+  const height = 350 - index * 75; // top bar tallest
   const bar = isNegative ? 'bar negative' : 'bar positive';
 
   const isDiff = outlier.type === "team_vs_team";
@@ -112,11 +134,8 @@ function makeBar(outlier, isNegative, index) {
     Score: ${outlier.score}
   `;
 
-  const barType = isDiff ? 'bar team-diff' : bar;
-
-
   return `
-    <div class="${barType}" style="height:${height}px;">
+    <div class="${bar}" style="height:${height}px;">
       <span class="bar-label">${label}</span>
     </div>
   `;

@@ -1,0 +1,110 @@
+{
+  "game_id": "0022400984",
+  "teams": [
+    "NYK",
+    "MIA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Duncan Robinson",
+          "stat": "Duncan Robinson - PTS",
+          "score": 2.756,
+          "actual": 22,
+          "avg": 11.04,
+          "player_id": 1629130
+        },
+        {
+          "type": "player",
+          "name": "Josh Hart",
+          "stat": "Josh Hart - STL",
+          "score": 2.524,
+          "actual": 4,
+          "avg": 1.55,
+          "player_id": 1628404
+        },
+        {
+          "type": "player",
+          "name": "Jaime Jaquez Jr.",
+          "stat": "Jaime Jaquez Jr. - DREB",
+          "score": 2.295,
+          "actual": 9,
+          "avg": 3.12,
+          "player_id": 1631170
+        },
+        {
+          "type": "player",
+          "name": "Josh Hart",
+          "stat": "Josh Hart - AST",
+          "score": 2.284,
+          "actual": 11,
+          "avg": 5.88,
+          "player_id": 1628404
+        },
+        {
+          "type": "player",
+          "name": "Josh Hart",
+          "stat": "Josh Hart - AST/TOV",
+          "score": 2.165,
+          "actual": 5.5,
+          "avg": 2.868,
+          "player_id": 1628404
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "New York Knicks",
+          "stat": "New York Knicks - FTM",
+          "score": -1.335,
+          "actual": 6,
+          "avg": 16.55,
+          "team_abbr": "NYK"
+        },
+        {
+          "type": "player",
+          "name": "Davion Mitchell",
+          "stat": "Davion Mitchell - FG3_PCT",
+          "score": -1.183,
+          "actual": 0.0,
+          "avg": 0.4,
+          "player_id": 1630558
+        },
+        {
+          "type": "player",
+          "name": "Karl-Anthony Towns",
+          "stat": "Karl-Anthony Towns - DREB",
+          "score": -1.171,
+          "actual": 4,
+          "avg": 9.83,
+          "player_id": 1626157
+        },
+        {
+          "type": "player",
+          "name": "Tyler Herro",
+          "stat": "Tyler Herro - FG3_PCT",
+          "score": -1.17,
+          "actual": 0.0,
+          "avg": 0.37,
+          "player_id": 1629639
+        },
+        {
+          "type": "player",
+          "name": "Haywood Highsmith",
+          "stat": "Haywood Highsmith - FG3_PCT",
+          "score": -1.149,
+          "actual": 0.0,
+          "avg": 0.32,
+          "player_id": 1629312
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "NYK": 116,
+    "MIA": 95
+  },
+  "winner": "NYK"
+}

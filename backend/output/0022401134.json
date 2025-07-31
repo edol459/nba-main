@@ -13,7 +13,8 @@
           "stat": "Reece Beekman - PTS",
           "score": 6.7,
           "actual": 14,
-          "avg": 2.58
+          "avg": 2.58,
+          "player_id": 1641736
         },
         {
           "type": "player",
@@ -21,15 +22,8 @@
           "stat": "Jamal Shead - AST",
           "score": 4.224,
           "actual": 12,
-          "avg": 4.21
-        },
-        {
-          "type": "player",
-          "name": "Maxwell Lewis",
-          "stat": "Maxwell Lewis - PTS",
-          "score": 3.882,
-          "actual": 13,
-          "avg": 4.14
+          "avg": 4.21,
+          "player_id": 1642347
         },
         {
           "type": "player",
@@ -37,59 +31,80 @@
           "stat": "Jonathan Mogbo - PTS",
           "score": 3.76,
           "actual": 17,
-          "avg": 6.17
+          "avg": 6.17,
+          "player_id": 1642367
         },
         {
           "type": "player",
-          "name": "Jonathan Mogbo",
-          "stat": "Jonathan Mogbo - DREB",
-          "score": 2.988,
-          "actual": 11,
-          "avg": 3.21
+          "name": "Trendon Watford",
+          "stat": "Trendon Watford - AST/TOV",
+          "score": 3.512,
+          "actual": 4.0,
+          "avg": 1.381,
+          "player_id": 1630570
+        },
+        {
+          "type": "player",
+          "name": "Orlando Robinson",
+          "stat": "Orlando Robinson - OREB",
+          "score": 3.424,
+          "actual": 6,
+          "avg": 2.02,
+          "player_id": 1631115
         }
       ],
       "negative": [
-        {
-          "type": "player",
-          "name": "RJ Barrett",
-          "stat": "RJ Barrett - PTS",
-          "score": -1.442,
-          "actual": 13,
-          "avg": 21.09
-        },
         {
           "type": "team",
           "name": "Brooklyn Nets",
           "stat": "Brooklyn Nets - TOV",
           "score": -1.17,
           "actual": 24.0,
-          "avg": 15.17
+          "avg": 15.17,
+          "team_abbr": "BKN"
         },
         {
           "type": "player",
           "name": "RJ Barrett",
-          "stat": "RJ Barrett - TS%",
-          "score": -0.272,
-          "actual": 0.31,
-          "avg": 0.55
+          "stat": "RJ Barrett - FG3_PCT",
+          "score": -1.166,
+          "actual": 0.0,
+          "avg": 0.36,
+          "player_id": 1629628
         },
         {
           "type": "player",
-          "name": "Jamal Shead",
-          "stat": "Jamal Shead - TS%",
-          "score": -0.147,
-          "actual": 0.38,
-          "avg": 0.5
+          "name": "Jared Rhoden",
+          "stat": "Jared Rhoden - FG3_PCT",
+          "score": -1.091,
+          "actual": 0.0,
+          "avg": 0.19,
+          "player_id": 1631197
         },
         {
           "type": "player",
-          "name": "Tyson Etienne",
-          "stat": "Tyson Etienne - TS%",
-          "score": -0.112,
-          "actual": 0.4,
-          "avg": 0.49
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - FG3_PCT",
+          "score": -1.054,
+          "actual": 0.0,
+          "avg": 0.11,
+          "player_id": 1641736
+        },
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - PF",
+          "score": -0.566,
+          "actual": 3,
+          "avg": 1.0,
+          "player_id": 1641736
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "BKN": 109,
+    "TOR": 120
+  },
+  "winner": "TOR"
 }

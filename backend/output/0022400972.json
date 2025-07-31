@@ -1,0 +1,110 @@
+{
+  "game_id": "0022400972",
+  "teams": [
+    "MIL",
+    "IND"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "team_vs_team",
+          "name": "Milwaukee Bucks",
+          "stat": "DREB differential",
+          "score": 10.22,
+          "actual": 16.0,
+          "avg": 5.78,
+          "team_abbr": "MIL"
+        },
+        {
+          "type": "player",
+          "name": "Aaron Nesmith",
+          "stat": "Aaron Nesmith - PTS",
+          "score": 4.318,
+          "actual": 30,
+          "avg": 12.02,
+          "player_id": 1630174
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - STL",
+          "score": 3.862,
+          "actual": 5,
+          "avg": 1.44,
+          "player_id": 1630169
+        },
+        {
+          "type": "player",
+          "name": "Kevin Porter Jr.",
+          "stat": "Kevin Porter Jr. - FTM",
+          "score": 3.472,
+          "actual": 9,
+          "avg": 1.73,
+          "player_id": 1629645
+        },
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - AST",
+          "score": 2.004,
+          "actual": 15,
+          "avg": 9.22,
+          "player_id": 1630169
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Bennedict Mathurin",
+          "stat": "Bennedict Mathurin - PTS",
+          "score": -2.07,
+          "actual": 6,
+          "avg": 16.06,
+          "player_id": 1631097
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - DREB",
+          "score": -1.136,
+          "actual": 22,
+          "avg": 32.66,
+          "team_abbr": "IND"
+        },
+        {
+          "type": "player",
+          "name": "Kyle Kuzma",
+          "stat": "Kyle Kuzma - FG3_PCT",
+          "score": -1.118,
+          "actual": 0.0,
+          "avg": 0.25,
+          "player_id": 1628398
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - FTM",
+          "score": -0.874,
+          "actual": 10,
+          "avg": 17.01,
+          "team_abbr": "IND"
+        },
+        {
+          "type": "player",
+          "name": "T.J. McConnell",
+          "stat": "T.J. McConnell - TS%",
+          "score": -0.611,
+          "actual": 0.25,
+          "avg": 0.55,
+          "player_id": 204456
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "MIL": 126,
+    "IND": 119
+  },
+  "winner": "MIL"
+}

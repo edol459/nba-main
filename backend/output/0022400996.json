@@ -1,0 +1,110 @@
+{
+  "game_id": "0022400996",
+  "teams": [
+    "MIL",
+    "LAL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Alex Len",
+          "stat": "Alex Len - FG3_PCT",
+          "score": 10.149,
+          "actual": 0.5,
+          "avg": 0.03,
+          "player_id": 203458
+        },
+        {
+          "type": "player",
+          "name": "Bronny James",
+          "stat": "Bronny James - PTS",
+          "score": 9.288,
+          "actual": 17,
+          "avg": 2.3,
+          "player_id": 1642355
+        },
+        {
+          "type": "player",
+          "name": "Gary Trent Jr.",
+          "stat": "Gary Trent Jr. - PTS",
+          "score": 2.968,
+          "actual": 23,
+          "avg": 11.14,
+          "player_id": 1629018
+        },
+        {
+          "type": "player",
+          "name": "Jaxson Hayes",
+          "stat": "Jaxson Hayes - AST/TOV",
+          "score": 2.247,
+          "actual": 3.0,
+          "avg": 1.351,
+          "player_id": 1629637
+        },
+        {
+          "type": "player",
+          "name": "Ryan Rollins",
+          "stat": "Ryan Rollins - AST/TOV",
+          "score": 2.153,
+          "actual": 4.0,
+          "avg": 1.958,
+          "player_id": 1631157
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Shake Milton",
+          "stat": "Shake Milton - PF",
+          "score": -1.206,
+          "actual": 6,
+          "avg": 1.18,
+          "player_id": 1629003
+        },
+        {
+          "type": "player",
+          "name": "Taurean Prince",
+          "stat": "Taurean Prince - FG3_PCT",
+          "score": -1.196,
+          "actual": 0.0,
+          "avg": 0.43,
+          "player_id": 1627752
+        },
+        {
+          "type": "player",
+          "name": "Kyle Kuzma",
+          "stat": "Kyle Kuzma - FG3_PCT",
+          "score": -1.118,
+          "actual": 0.0,
+          "avg": 0.25,
+          "player_id": 1628398
+        },
+        {
+          "type": "team",
+          "name": "Los Angeles Lakers",
+          "stat": "Los Angeles Lakers - TOV",
+          "score": -1.114,
+          "actual": 22.0,
+          "avg": 13.96,
+          "team_abbr": "LAL"
+        },
+        {
+          "type": "team",
+          "name": "Los Angeles Lakers",
+          "stat": "Los Angeles Lakers - FTM",
+          "score": -0.989,
+          "actual": 10,
+          "avg": 18.22,
+          "team_abbr": "LAL"
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "MIL": 118,
+    "LAL": 89
+  },
+  "winner": "MIL"
+}

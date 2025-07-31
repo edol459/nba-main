@@ -1,0 +1,110 @@
+{
+  "game_id": "0022400159",
+  "teams": [
+    "MIA",
+    "SAC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "DeMar DeRozan",
+          "stat": "DeMar DeRozan - AST/TOV",
+          "score": 2.076,
+          "actual": 6.0,
+          "avg": 3.265,
+          "player_id": 201942
+        },
+        {
+          "type": "player",
+          "name": "Duncan Robinson",
+          "stat": "Duncan Robinson - FG3_PCT",
+          "score": 1.917,
+          "actual": 1.0,
+          "avg": 0.38,
+          "player_id": 1629130
+        },
+        {
+          "type": "team",
+          "name": "Miami Heat",
+          "stat": "Miami Heat - PFD",
+          "score": 1.381,
+          "actual": 28,
+          "avg": 16.95,
+          "team_abbr": "MIA"
+        },
+        {
+          "type": "player",
+          "name": "Pelle Larsson",
+          "stat": "Pelle Larsson - FG3_PCT",
+          "score": 1.377,
+          "actual": 0.6,
+          "avg": 0.27,
+          "player_id": 1641796
+        },
+        {
+          "type": "team",
+          "name": "Miami Heat",
+          "stat": "Miami Heat - BLK",
+          "score": 1.245,
+          "actual": 6,
+          "avg": 3.83,
+          "team_abbr": "MIA"
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Malik Monk",
+          "stat": "Malik Monk - FG3_PCT",
+          "score": -1.136,
+          "actual": 0.0,
+          "avg": 0.29,
+          "player_id": 1628370
+        },
+        {
+          "type": "player",
+          "name": "DeMar DeRozan",
+          "stat": "DeMar DeRozan - PF",
+          "score": -0.361,
+          "actual": 4,
+          "avg": 1.95,
+          "player_id": 201942
+        },
+        {
+          "type": "player",
+          "name": "Keegan Murray",
+          "stat": "Keegan Murray - FG3_PCT",
+          "score": -0.251,
+          "actual": 0.25,
+          "avg": 0.32,
+          "player_id": 1631099
+        },
+        {
+          "type": "player",
+          "name": "Keon Ellis",
+          "stat": "Keon Ellis - TS%",
+          "score": -0.211,
+          "actual": 0.54,
+          "avg": 0.66,
+          "player_id": 1631165
+        },
+        {
+          "type": "player",
+          "name": "Bam Adebayo",
+          "stat": "Bam Adebayo - TS%",
+          "score": -0.181,
+          "actual": 0.47,
+          "avg": 0.56,
+          "player_id": 1628389
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "MIA": 110,
+    "SAC": 111
+  },
+  "winner": "SAC"
+}

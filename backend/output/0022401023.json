@@ -1,0 +1,110 @@
+{
+  "game_id": "0022401023",
+  "teams": [
+    "MEM",
+    "LAC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Santi Aldama",
+          "stat": "Santi Aldama - AST/TOV",
+          "score": 3.761,
+          "actual": 7.0,
+          "avg": 2.651,
+          "player_id": 1630583
+        },
+        {
+          "type": "player",
+          "name": "Kawhi Leonard",
+          "stat": "Kawhi Leonard - AST/TOV",
+          "score": 2.877,
+          "actual": 4.0,
+          "avg": 1.61,
+          "player_id": 202695
+        },
+        {
+          "type": "player",
+          "name": "Norman Powell",
+          "stat": "Norman Powell - AST/TOV",
+          "score": 2.812,
+          "actual": 3.0,
+          "avg": 1.156,
+          "player_id": 1626181
+        },
+        {
+          "type": "team",
+          "name": "LA Clippers",
+          "stat": "LA Clippers - BLK",
+          "score": 2.337,
+          "actual": 9,
+          "avg": 4.51,
+          "team_abbr": "LAC"
+        },
+        {
+          "type": "player",
+          "name": "Scotty Pippen Jr.",
+          "stat": "Scotty Pippen Jr. - FG3_PCT",
+          "score": 1.625,
+          "actual": 0.75,
+          "avg": 0.31,
+          "player_id": 1630590
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Memphis Grizzlies",
+          "stat": "Memphis Grizzlies - BLK",
+          "score": -1.203,
+          "actual": 3,
+          "avg": 5.63,
+          "team_abbr": "MEM"
+        },
+        {
+          "type": "team",
+          "name": "Memphis Grizzlies",
+          "stat": "Memphis Grizzlies - FTM",
+          "score": -1.115,
+          "actual": 9,
+          "avg": 18.28,
+          "team_abbr": "MEM"
+        },
+        {
+          "type": "team",
+          "name": "Memphis Grizzlies",
+          "stat": "Memphis Grizzlies - PFD",
+          "score": -0.703,
+          "actual": 14,
+          "avg": 20.16,
+          "team_abbr": "MEM"
+        },
+        {
+          "type": "player",
+          "name": "Jay Huff",
+          "stat": "Jay Huff - PF",
+          "score": -0.679,
+          "actual": 4,
+          "avg": 1.22,
+          "player_id": 1630643
+        },
+        {
+          "type": "player",
+          "name": "Vince Williams Jr.",
+          "stat": "Vince Williams Jr. - TS%",
+          "score": -0.595,
+          "actual": 0.23,
+          "avg": 0.5,
+          "player_id": 1631246
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "MEM": 108,
+    "LAC": 128
+  },
+  "winner": "LAC"
+}

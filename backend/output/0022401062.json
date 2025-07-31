@@ -9,85 +9,95 @@
       "positive": [
         {
           "type": "player",
+          "name": "Tyler Herro",
+          "stat": "Tyler Herro - PTS",
+          "score": 2.021,
+          "actual": 36,
+          "avg": 23.9,
+          "player_id": 1629639
+        },
+        {
+          "type": "player",
+          "name": "Trae Young",
+          "stat": "Trae Young - FG3M",
+          "score": 1.073,
+          "actual": 6,
+          "avg": 2.87,
+          "player_id": 1629027
+        },
+        {
+          "type": "player",
           "name": "Davion Mitchell",
-          "stat": "Davion Mitchell - PTS",
-          "score": 1.013,
-          "actual": 16,
-          "avg": 7.95
-        },
-        {
-          "type": "player",
-          "name": "V\u00edt Krej\u010d\u00ed",
-          "stat": "V\u00edt Krej\u010d\u00ed - PTS",
-          "score": 0.936,
-          "actual": 14,
-          "avg": 7.23
-        },
-        {
-          "type": "player",
-          "name": "Terance Mann",
-          "stat": "Terance Mann - PTS",
-          "score": 0.813,
-          "actual": 14,
-          "avg": 7.72
-        },
-        {
-          "type": "player",
-          "name": "Kyle Anderson",
-          "stat": "Kyle Anderson - PTS",
-          "score": 0.709,
-          "actual": 10,
-          "avg": 5.85
+          "stat": "Davion Mitchell - FG3_PCT",
+          "score": 0.947,
+          "actual": 0.8,
+          "avg": 0.4,
+          "player_id": 1630558
         },
         {
           "type": "player",
           "name": "Haywood Highsmith",
-          "stat": "Haywood Highsmith - PTS",
-          "score": 0.703,
-          "actual": 11,
-          "avg": 6.46
+          "stat": "Haywood Highsmith - FG3_PCT",
+          "score": 0.804,
+          "actual": 0.6,
+          "avg": 0.32,
+          "player_id": 1629312
+        },
+        {
+          "type": "player",
+          "name": "Tyler Herro",
+          "stat": "Tyler Herro - FG3_PCT",
+          "score": 0.752,
+          "actual": 0.667,
+          "avg": 0.37,
+          "player_id": 1629639
         }
       ],
       "negative": [
         {
-          "type": "player",
-          "name": "Zaccharie Risacher",
-          "stat": "Zaccharie Risacher - PTS",
-          "score": -0.602,
-          "actual": 5,
-          "avg": 12.56
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - OREB",
+          "score": -1.776,
+          "actual": 6,
+          "avg": 11.88,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FTM",
+          "score": -1.207,
+          "actual": 8,
+          "avg": 17.95,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - PFD",
+          "score": -1.064,
+          "actual": 10,
+          "avg": 19.06,
+          "team_abbr": "ATL"
         },
         {
           "type": "player",
-          "name": "Georges Niang",
-          "stat": "Georges Niang - PTS",
-          "score": -0.496,
-          "actual": 5,
-          "avg": 9.92
-        },
-        {
-          "type": "player",
-          "name": "Dyson Daniels",
-          "stat": "Dyson Daniels - PTS",
-          "score": -0.363,
-          "actual": 9,
-          "avg": 14.12
-        },
-        {
-          "type": "player",
-          "name": "Bam Adebayo",
-          "stat": "Bam Adebayo - PTS",
-          "score": -0.336,
-          "actual": 12,
-          "avg": 18.08
+          "name": "Kyle Anderson",
+          "stat": "Kyle Anderson - FG3_PCT",
+          "score": -0.884,
+          "actual": 0.0,
+          "avg": 0.22,
+          "player_id": 203937
         },
         {
           "type": "player",
           "name": "Kel'el Ware",
-          "stat": "Kel'el Ware - TS%",
-          "score": -0.267,
-          "actual": 0.44,
-          "avg": 0.6
+          "stat": "Kel'el Ware - FG3_PCT",
+          "score": -0.876,
+          "actual": 0.0,
+          "avg": 0.2,
+          "player_id": 1642276
         }
       ]
     }

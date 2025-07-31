@@ -9,85 +9,95 @@
       "positive": [
         {
           "type": "player",
-          "name": "Pelle Larsson",
-          "stat": "Pelle Larsson - PTS",
-          "score": 4.732,
-          "actual": 16,
-          "avg": 4.56
-        },
-        {
-          "type": "player",
           "name": "Kyle Anderson",
           "stat": "Kyle Anderson - PTS",
-          "score": 4.707,
+          "score": 7.794,
           "actual": 19,
-          "avg": 5.85
+          "avg": 5.85,
+          "player_id": 203937
         },
         {
           "type": "player",
           "name": "Pelle Larsson",
-          "stat": "Pelle Larsson - FTM",
-          "score": 4.63,
-          "actual": 6,
-          "avg": 0.75
-        },
-        {
-          "type": "player",
-          "name": "Luke Kornet",
-          "stat": "Luke Kornet - PTS",
-          "score": 2.797,
-          "actual": 14,
-          "avg": 6.04
+          "stat": "Pelle Larsson - PTS",
+          "score": 7.001,
+          "actual": 16,
+          "avg": 4.56,
+          "player_id": 1641796
         },
         {
           "type": "team",
           "name": "Boston Celtics",
           "stat": "Boston Celtics - OREB",
-          "score": 2.356,
+          "score": 5.267,
           "actual": 19,
-          "avg": 11.38
-        }
-      ],
-      "negative": [
+          "avg": 11.38,
+          "team_abbr": "BOS"
+        },
         {
           "type": "player",
           "name": "Jayson Tatum",
           "stat": "Jayson Tatum - PTS",
-          "score": -1.704,
+          "score": 4.764,
           "actual": 16,
-          "avg": 26.83
+          "avg": 26.83,
+          "player_id": 1628369
         },
+        {
+          "type": "player",
+          "name": "Luke Kornet",
+          "stat": "Luke Kornet - PTS",
+          "score": 4.7,
+          "actual": 14,
+          "avg": 6.04,
+          "player_id": 1628436
+        }
+      ],
+      "negative": [
         {
           "type": "team",
           "name": "Miami Heat",
-          "stat": "Miami Heat - DREB",
-          "score": -1.119,
-          "actual": 23,
-          "avg": 33.66
+          "stat": "Miami Heat - TOV",
+          "score": -2.23,
+          "actual": 5.0,
+          "avg": 13.59,
+          "team_abbr": "MIA"
         },
         {
-          "type": "team",
-          "name": "Boston Celtics",
-          "stat": "Boston Celtics - DREB",
-          "score": -1.039,
-          "actual": 24,
-          "avg": 33.94
+          "type": "player",
+          "name": "Sam Hauser",
+          "stat": "Sam Hauser - PF",
+          "score": -0.544,
+          "actual": 4,
+          "avg": 1.23,
+          "player_id": 1630573
         },
         {
-          "type": "team",
-          "name": "Boston Celtics",
-          "stat": "Boston Celtics - FG3M",
-          "score": -0.703,
-          "actual": 12,
-          "avg": 17.77
+          "type": "player",
+          "name": "Kel'el Ware",
+          "stat": "Kel'el Ware - FG3_PCT",
+          "score": -0.156,
+          "actual": 0.0,
+          "avg": 0.2,
+          "player_id": 1642276
         },
         {
           "type": "player",
           "name": "Torrey Craig",
-          "stat": "Torrey Craig - TS%",
-          "score": -0.407,
-          "actual": 0.2,
-          "avg": 0.57
+          "stat": "Torrey Craig - FG3_PCT",
+          "score": -0.133,
+          "actual": 0.0,
+          "avg": 0.27,
+          "player_id": 1628470
+        },
+        {
+          "type": "player",
+          "name": "Jayson Tatum",
+          "stat": "Jayson Tatum - FG3_PCT",
+          "score": -0.038,
+          "actual": 0.222,
+          "avg": 0.34,
+          "player_id": 1628369
         }
       ]
     }

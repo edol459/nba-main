@@ -1,0 +1,110 @@
+{
+  "game_id": "0022401150",
+  "teams": [
+    "NOP",
+    "BKN"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - AST",
+          "score": 7.818,
+          "actual": 10,
+          "avg": 1.75,
+          "player_id": 1641736
+        },
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - AST/TOV",
+          "score": 5.566,
+          "actual": 10.0,
+          "avg": 3.017,
+          "player_id": 1641736
+        },
+        {
+          "type": "player",
+          "name": "Antonio Reeves",
+          "stat": "Antonio Reeves - PTS",
+          "score": 3.274,
+          "actual": 17,
+          "avg": 6.93,
+          "player_id": 1641810
+        },
+        {
+          "type": "player",
+          "name": "Trendon Watford",
+          "stat": "Trendon Watford - PTS",
+          "score": 3.084,
+          "actual": 22,
+          "avg": 10.23,
+          "player_id": 1630570
+        },
+        {
+          "type": "player",
+          "name": "Trendon Watford",
+          "stat": "Trendon Watford - FG3_PCT",
+          "score": 1.657,
+          "actual": 0.667,
+          "avg": 0.27,
+          "player_id": 1630570
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Brooklyn Nets",
+          "stat": "Brooklyn Nets - OREB",
+          "score": -1.234,
+          "actual": 7,
+          "avg": 10.9,
+          "team_abbr": "BKN"
+        },
+        {
+          "type": "player",
+          "name": "Maxwell Lewis",
+          "stat": "Maxwell Lewis - FG3_PCT",
+          "score": -1.127,
+          "actual": 0.0,
+          "avg": 0.27,
+          "player_id": 1641721
+        },
+        {
+          "type": "player",
+          "name": "Karlo Matkovi\u0107",
+          "stat": "Karlo Matkovi\u0107 - FG3_PCT",
+          "score": -1.091,
+          "actual": 0.0,
+          "avg": 0.19,
+          "player_id": 1631255
+        },
+        {
+          "type": "player",
+          "name": "Maxwell Lewis",
+          "stat": "Maxwell Lewis - PF",
+          "score": -0.813,
+          "actual": 4,
+          "avg": 1.04,
+          "player_id": 1641721
+        },
+        {
+          "type": "player",
+          "name": "Reece Beekman",
+          "stat": "Reece Beekman - PF",
+          "score": -0.566,
+          "actual": 3,
+          "avg": 1.0,
+          "player_id": 1641736
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "NOP": 114,
+    "BKN": 119
+  },
+  "winner": "BKN"
+}

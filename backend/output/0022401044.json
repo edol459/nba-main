@@ -1,0 +1,110 @@
+{
+  "game_id": "0022401044",
+  "teams": [
+    "BOS",
+    "SAC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "DeMar DeRozan",
+          "stat": "DeMar DeRozan - AST/TOV",
+          "score": 5.113,
+          "actual": 10.0,
+          "avg": 3.265,
+          "player_id": 201942
+        },
+        {
+          "type": "player",
+          "name": "Derrick White",
+          "stat": "Derrick White - AST/TOV",
+          "score": 4.415,
+          "actual": 8.0,
+          "avg": 2.762,
+          "player_id": 1628401
+        },
+        {
+          "type": "player",
+          "name": "DeMar DeRozan",
+          "stat": "DeMar DeRozan - AST",
+          "score": 2.921,
+          "actual": 10,
+          "avg": 4.44,
+          "player_id": 201942
+        },
+        {
+          "type": "player",
+          "name": "Baylor Scheierman",
+          "stat": "Baylor Scheierman - FG3_PCT",
+          "score": 1.931,
+          "actual": 0.5,
+          "avg": 0.18,
+          "player_id": 1631248
+        },
+        {
+          "type": "player",
+          "name": "Keegan Murray",
+          "stat": "Keegan Murray - FG3_PCT",
+          "score": 1.005,
+          "actual": 0.6,
+          "avg": 0.32,
+          "player_id": 1631099
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Jaylen Brown",
+          "stat": "Jaylen Brown - PTS",
+          "score": -2.29,
+          "actual": 9,
+          "avg": 22.19,
+          "player_id": 1627759
+        },
+        {
+          "type": "player",
+          "name": "Domantas Sabonis",
+          "stat": "Domantas Sabonis - FG3_PCT",
+          "score": -1.166,
+          "actual": 0.0,
+          "avg": 0.36,
+          "player_id": 1627734
+        },
+        {
+          "type": "player",
+          "name": "DeMar DeRozan",
+          "stat": "DeMar DeRozan - FG3_PCT",
+          "score": -1.14,
+          "actual": 0.0,
+          "avg": 0.3,
+          "player_id": 201942
+        },
+        {
+          "type": "team",
+          "name": "Sacramento Kings",
+          "stat": "Sacramento Kings - FTM",
+          "score": -1.005,
+          "actual": 9,
+          "avg": 17.07,
+          "team_abbr": "SAC"
+        },
+        {
+          "type": "player",
+          "name": "Jrue Holiday",
+          "stat": "Jrue Holiday - TS%",
+          "score": -0.673,
+          "actual": 0.23,
+          "avg": 0.57,
+          "player_id": 201950
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "BOS": 113,
+    "SAC": 95
+  },
+  "winner": "BOS"
+}

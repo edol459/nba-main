@@ -13,7 +13,8 @@
           "stat": "Jarace Walker - PTS",
           "score": 2.035,
           "actual": 12,
-          "avg": 6.15
+          "avg": 6.15,
+          "player_id": 1641716
         },
         {
           "type": "player",
@@ -21,7 +22,8 @@
           "stat": "Josh Hart - PTS",
           "score": 1.424,
           "actual": 20,
-          "avg": 13.65
+          "avg": 13.65,
+          "player_id": 1628404
         },
         {
           "type": "team",
@@ -29,7 +31,8 @@
           "stat": "New York Knicks - FTM",
           "score": 0.816,
           "actual": 23,
-          "avg": 16.55
+          "avg": 16.55,
+          "team_abbr": "NYK"
         },
         {
           "type": "team",
@@ -37,7 +40,8 @@
           "stat": "New York Knicks - PFD",
           "score": 0.595,
           "actual": 24,
-          "avg": 18.95
+          "avg": 18.95,
+          "team_abbr": "NYK"
         },
         {
           "type": "team_vs_team",
@@ -45,7 +49,8 @@
           "stat": "FG3_PCT differential",
           "score": 0.51,
           "actual": 0.344,
-          "avg": 0.089
+          "avg": 0.089,
+          "team_abbr": "NYK"
         }
       ],
       "negative": [
@@ -55,7 +60,8 @@
           "stat": "Aaron Nesmith - PTS",
           "score": -1.926,
           "actual": 4,
-          "avg": 12.02
+          "avg": 12.02,
+          "player_id": 1630174
         },
         {
           "type": "team",
@@ -63,7 +69,8 @@
           "stat": "New York Knicks - AST",
           "score": -1.648,
           "actual": 19,
-          "avg": 27.49
+          "avg": 27.49,
+          "team_abbr": "NYK"
         },
         {
           "type": "player",
@@ -71,7 +78,8 @@
           "stat": "Pascal Siakam - PTS",
           "score": -1.5,
           "actual": 12,
-          "avg": 20.23
+          "avg": 20.23,
+          "player_id": 1627783
         },
         {
           "type": "team",
@@ -79,7 +87,8 @@
           "stat": "Indiana Pacers - FG3M",
           "score": -1.454,
           "actual": 3,
-          "avg": 13.18
+          "avg": 13.18,
+          "team_abbr": "IND"
         },
         {
           "type": "team",
@@ -87,7 +96,8 @@
           "stat": "Indiana Pacers - DREB",
           "score": -0.923,
           "actual": 24,
-          "avg": 32.66
+          "avg": 32.66,
+          "team_abbr": "IND"
         }
       ]
     }

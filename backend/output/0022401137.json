@@ -26,15 +26,6 @@
           "team_abbr": "BOS"
         },
         {
-          "type": "team_vs_team",
-          "name": "Boston Celtics",
-          "stat": "AST differential",
-          "score": 6.348,
-          "actual": 12.0,
-          "avg": 5.652,
-          "team_abbr": "BOS"
-        },
-        {
           "type": "player",
           "name": "Luke Kornet",
           "stat": "Luke Kornet - OREB",
@@ -44,13 +35,22 @@
           "player_id": 1628436
         },
         {
-          "type": "team",
-          "name": "Boston Celtics",
-          "stat": "Boston Celtics - OREB",
-          "score": 4.211,
-          "actual": 25,
-          "avg": 11.38,
-          "team_abbr": "BOS"
+          "type": "player",
+          "name": "Jrue Holiday",
+          "stat": "Jrue Holiday - OREB",
+          "score": 4.577,
+          "actual": 5,
+          "avg": 1.23,
+          "player_id": 201950
+        },
+        {
+          "type": "player",
+          "name": "Jordan Poole",
+          "stat": "Jordan Poole - AST/TOV",
+          "score": 4.472,
+          "actual": 5.0,
+          "avg": 1.487,
+          "player_id": 1629673
         }
       ],
       "negative": [
@@ -73,15 +73,6 @@
           "team_abbr": "WAS"
         },
         {
-          "type": "player",
-          "name": "Jaylen Brown",
-          "stat": "Jaylen Brown - PTS",
-          "score": -1.248,
-          "actual": 15,
-          "avg": 22.19,
-          "player_id": 1627759
-        },
-        {
           "type": "team",
           "name": "Washington Wizards",
           "stat": "Washington Wizards - PFD",
@@ -89,6 +80,15 @@
           "actual": 9,
           "avg": 18.17,
           "team_abbr": "WAS"
+        },
+        {
+          "type": "player",
+          "name": "Anthony Gill",
+          "stat": "Anthony Gill - FG3_PCT",
+          "score": -1.068,
+          "actual": 0.0,
+          "avg": 0.14,
+          "player_id": 1630264
         },
         {
           "type": "team",
@@ -101,5 +101,10 @@
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "BOS": 124,
+    "WAS": 90
+  },
+  "winner": "BOS"
 }

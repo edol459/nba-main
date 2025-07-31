@@ -1,0 +1,110 @@
+{
+  "game_id": "0022400997",
+  "teams": [
+    "CLE",
+    "LAC"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "team_vs_team",
+          "name": "LA Clippers",
+          "stat": "DREB differential",
+          "score": 10.22,
+          "actual": 16.0,
+          "avg": 5.78,
+          "team_abbr": "LAC"
+        },
+        {
+          "type": "player",
+          "name": "Max Strus",
+          "stat": "Max Strus - PTS",
+          "score": 3.997,
+          "actual": 24,
+          "avg": 9.42,
+          "player_id": 1629622
+        },
+        {
+          "type": "player",
+          "name": "Donovan Mitchell",
+          "stat": "Donovan Mitchell - AST",
+          "score": 2.948,
+          "actual": 11,
+          "avg": 4.99,
+          "player_id": 1628378
+        },
+        {
+          "type": "player",
+          "name": "Donovan Mitchell",
+          "stat": "Donovan Mitchell - AST/TOV",
+          "score": 2.899,
+          "actual": 5.5,
+          "avg": 2.376,
+          "player_id": 1628378
+        },
+        {
+          "type": "player",
+          "name": "Ivica Zubac",
+          "stat": "Ivica Zubac - OREB",
+          "score": 2.47,
+          "actual": 8,
+          "avg": 3.75,
+          "player_id": 1627826
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Norman Powell",
+          "stat": "Norman Powell - PTS",
+          "score": -1.889,
+          "actual": 11,
+          "avg": 21.77,
+          "player_id": 1626181
+        },
+        {
+          "type": "team",
+          "name": "Cleveland Cavaliers",
+          "stat": "Cleveland Cavaliers - DREB",
+          "score": -1.584,
+          "actual": 19,
+          "avg": 34.22,
+          "team_abbr": "CLE"
+        },
+        {
+          "type": "player",
+          "name": "Ty Jerome",
+          "stat": "Ty Jerome - FG3_PCT",
+          "score": -1.175,
+          "actual": 0.0,
+          "avg": 0.38,
+          "player_id": 1629660
+        },
+        {
+          "type": "player",
+          "name": "Evan Mobley",
+          "stat": "Evan Mobley - FG3_PCT",
+          "score": -1.149,
+          "actual": 0.0,
+          "avg": 0.32,
+          "player_id": 1630596
+        },
+        {
+          "type": "player",
+          "name": "James Harden",
+          "stat": "James Harden - FG3_PCT",
+          "score": -0.558,
+          "actual": 0.182,
+          "avg": 0.35,
+          "player_id": 201935
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "CLE": 119,
+    "LAC": 132
+  },
+  "winner": "LAC"
+}

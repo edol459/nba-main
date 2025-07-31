@@ -1,0 +1,110 @@
+{
+  "game_id": "0022400907",
+  "teams": [
+    "MIN",
+    "MIA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Davion Mitchell",
+          "stat": "Davion Mitchell - AST/TOV",
+          "score": 5.932,
+          "actual": 10.0,
+          "avg": 2.838,
+          "player_id": 1630558
+        },
+        {
+          "type": "player",
+          "name": "Davion Mitchell",
+          "stat": "Davion Mitchell - AST",
+          "score": 2.52,
+          "actual": 10,
+          "avg": 4.91,
+          "player_id": 1630558
+        },
+        {
+          "type": "player",
+          "name": "Bam Adebayo",
+          "stat": "Bam Adebayo - PTS",
+          "score": 2.111,
+          "actual": 29,
+          "avg": 18.08,
+          "player_id": 1628389
+        },
+        {
+          "type": "player",
+          "name": "Anthony Edwards",
+          "stat": "Anthony Edwards - DREB",
+          "score": 2.101,
+          "actual": 12,
+          "avg": 4.92,
+          "player_id": 1630162
+        },
+        {
+          "type": "player",
+          "name": "Anthony Edwards",
+          "stat": "Anthony Edwards - AST/TOV",
+          "score": 2.028,
+          "actual": 3.0,
+          "avg": 1.441,
+          "player_id": 1630162
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Anthony Edwards",
+          "stat": "Anthony Edwards - PTS",
+          "score": -2.259,
+          "actual": 13,
+          "avg": 27.56,
+          "player_id": 1630162
+        },
+        {
+          "type": "team",
+          "name": "Minnesota Timberwolves",
+          "stat": "Minnesota Timberwolves - OREB",
+          "score": -1.277,
+          "actual": 7,
+          "avg": 11.07,
+          "team_abbr": "MIN"
+        },
+        {
+          "type": "team",
+          "name": "Minnesota Timberwolves",
+          "stat": "Minnesota Timberwolves - FTM",
+          "score": -1.142,
+          "actual": 8,
+          "avg": 17.21,
+          "team_abbr": "MIN"
+        },
+        {
+          "type": "player",
+          "name": "Pelle Larsson",
+          "stat": "Pelle Larsson - FG3_PCT",
+          "score": -1.127,
+          "actual": 0.0,
+          "avg": 0.27,
+          "player_id": 1641796
+        },
+        {
+          "type": "team",
+          "name": "Miami Heat",
+          "stat": "Miami Heat - FTM",
+          "score": -1.027,
+          "actual": 8,
+          "avg": 15.96,
+          "team_abbr": "MIA"
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "MIN": 106,
+    "MIA": 104
+  },
+  "winner": "MIN"
+}

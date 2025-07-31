@@ -14,18 +14,16 @@
           "score": 12.264,
           "actual": 17,
           "avg": 1.35,
-          "player_id": 1631210,
-          "team_abbr": null
+          "player_id": 1631210
         },
         {
           "type": "player",
           "name": "Jacob Toppin",
-          "stat": "Jacob Toppin - FG3M",
-          "score": 11.358,
-          "actual": 5,
-          "avg": 0.29,
-          "player_id": 1631210,
-          "team_abbr": null
+          "stat": "Jacob Toppin - FG3_PCT",
+          "score": 10.198,
+          "actual": 0.625,
+          "avg": 0.04,
+          "player_id": 1631210
         },
         {
           "type": "player",
@@ -34,8 +32,7 @@
           "score": 9.02,
           "actual": 15,
           "avg": 2.61,
-          "player_id": 1630811,
-          "team_abbr": null
+          "player_id": 1630811
         },
         {
           "type": "player",
@@ -44,41 +41,19 @@
           "score": 6.413,
           "actual": 11,
           "avg": 1.39,
-          "player_id": 1630811,
-          "team_abbr": null
+          "player_id": 1630811
         },
-        {
-          "type": "player",
-          "name": "Keaton Wallace",
-          "stat": "Keaton Wallace - STL",
-          "score": 6.279,
-          "actual": 5,
-          "avg": 0.9,
-          "player_id": 1630811,
-          "team_abbr": null
-        }
-      ],
-      "negative": [
         {
           "type": "player",
           "name": "Jett Howard",
-          "stat": "Jett Howard - TOV",
-          "score": -5.692,
-          "actual": 6,
-          "avg": 0.6,
-          "player_id": 1641724,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Zaccharie Risacher",
-          "stat": "Zaccharie Risacher - PTS",
-          "score": -1.539,
-          "actual": 6,
-          "avg": 12.56,
-          "player_id": 1642258,
-          "team_abbr": null
-        },
+          "stat": "Jett Howard - PTS",
+          "score": 4.847,
+          "actual": 16,
+          "avg": 4.45,
+          "player_id": 1641724
+        }
+      ],
+      "negative": [
         {
           "type": "team",
           "name": "Atlanta Hawks",
@@ -89,16 +64,6 @@
           "team_abbr": "ATL"
         },
         {
-          "type": "player",
-          "name": "Wendell Carter Jr.",
-          "stat": "Wendell Carter Jr. - PTS",
-          "score": -1.423,
-          "actual": 4,
-          "avg": 9.09,
-          "player_id": 1628976,
-          "team_abbr": null
-        },
-        {
           "type": "team",
           "name": "Atlanta Hawks",
           "stat": "Atlanta Hawks - PFD",
@@ -106,8 +71,40 @@
           "actual": 8,
           "avg": 19.06,
           "team_abbr": "ATL"
+        },
+        {
+          "type": "player",
+          "name": "Terance Mann",
+          "stat": "Terance Mann - FG3_PCT",
+          "score": -1.158,
+          "actual": 0.0,
+          "avg": 0.34,
+          "player_id": 1629611
+        },
+        {
+          "type": "player",
+          "name": "Wendell Carter Jr.",
+          "stat": "Wendell Carter Jr. - FG3_PCT",
+          "score": -1.109,
+          "actual": 0.0,
+          "avg": 0.23,
+          "player_id": 1628976
+        },
+        {
+          "type": "player",
+          "name": "Jonathan Isaac",
+          "stat": "Jonathan Isaac - FG3_PCT",
+          "score": -1.095,
+          "actual": 0.0,
+          "avg": 0.2,
+          "player_id": 1628371
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "ATL": 117,
+    "ORL": 105
+  },
+  "winner": "ATL"
 }

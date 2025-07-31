@@ -9,61 +9,68 @@
       "positive": [
         {
           "type": "player",
-          "name": "Jordan Walsh",
-          "stat": "Jordan Walsh - PTS",
-          "score": 6.848,
-          "actual": 10,
-          "avg": 1.58
-        },
-        {
-          "type": "player",
-          "name": "Jordan Walsh",
-          "stat": "Jordan Walsh - DREB",
-          "score": 4.786,
-          "actual": 6,
-          "avg": 0.88
-        },
-        {
-          "type": "player",
-          "name": "JD Davison",
-          "stat": "JD Davison - PTS",
-          "score": 4.715,
-          "actual": 9,
-          "avg": 2.06
-        },
-        {
-          "type": "player",
           "name": "Payton Pritchard",
           "stat": "Payton Pritchard - PTS",
           "score": 4.311,
           "actual": 34,
-          "avg": 14.3
+          "avg": 14.3,
+          "player_id": 1630202
         },
         {
           "type": "player",
-          "name": "Josh Okogie",
-          "stat": "Josh Okogie - PTS",
-          "score": 2.223,
-          "actual": 14,
-          "avg": 7.08
+          "name": "Jordan Walsh",
+          "stat": "Jordan Walsh - FG3_PCT",
+          "score": 2.502,
+          "actual": 0.5,
+          "avg": 0.15,
+          "player_id": 1641775
+        },
+        {
+          "type": "player",
+          "name": "Wendell Moore Jr.",
+          "stat": "Wendell Moore Jr. - FG3_PCT",
+          "score": 2.244,
+          "actual": 0.667,
+          "avg": 0.22,
+          "player_id": 1631111
+        },
+        {
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - STL",
+          "score": 1.92,
+          "actual": 12,
+          "avg": 7.18,
+          "team_abbr": "BOS"
+        },
+        {
+          "type": "team",
+          "name": "Charlotte Hornets",
+          "stat": "Charlotte Hornets - OREB",
+          "score": 1.716,
+          "actual": 18,
+          "avg": 12.23,
+          "team_abbr": "CHA"
         }
       ],
       "negative": [
         {
           "type": "player",
           "name": "KJ Simpson",
-          "stat": "KJ Simpson - PTS",
-          "score": -1.77,
-          "actual": 2,
-          "avg": 7.83
+          "stat": "KJ Simpson - FG3_PCT",
+          "score": -1.1,
+          "actual": 0.0,
+          "avg": 0.21,
+          "player_id": 1642354
         },
         {
-          "type": "team",
-          "name": "Boston Celtics",
-          "stat": "Boston Celtics - PTS",
-          "score": -1.734,
-          "actual": 93,
-          "avg": 116.27
+          "type": "player",
+          "name": "Damion Baugh",
+          "stat": "Damion Baugh - FG3_PCT",
+          "score": -1.091,
+          "actual": 0.0,
+          "avg": 0.19,
+          "player_id": 1641878
         },
         {
           "type": "team",
@@ -71,25 +78,33 @@
           "stat": "Boston Celtics - FTM",
           "score": -0.827,
           "actual": 9,
-          "avg": 15.26
+          "avg": 15.26,
+          "team_abbr": "BOS"
         },
         {
           "type": "player",
           "name": "Neemias Queta",
           "stat": "Neemias Queta - TS%",
-          "score": -0.457,
+          "score": -0.823,
           "actual": 0.2,
-          "avg": 0.68
+          "avg": 0.68,
+          "player_id": 1629674
         },
         {
           "type": "player",
           "name": "KJ Simpson",
           "stat": "KJ Simpson - TS%",
-          "score": -0.368,
+          "score": -0.663,
           "actual": 0.17,
-          "avg": 0.44
+          "avg": 0.44,
+          "player_id": 1642354
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "CHA": 86,
+    "BOS": 93
+  },
+  "winner": "BOS"
 }

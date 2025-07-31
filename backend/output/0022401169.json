@@ -18,6 +18,15 @@
         },
         {
           "type": "player",
+          "name": "Tyrese Martin",
+          "stat": "Tyrese Martin - AST/TOV",
+          "score": 3.965,
+          "actual": 5.0,
+          "avg": 1.65,
+          "player_id": 1631213
+        },
+        {
+          "type": "player",
           "name": "Jalen Wilson",
           "stat": "Jalen Wilson - PTS",
           "score": 2.874,
@@ -36,70 +45,66 @@
         },
         {
           "type": "player",
-          "name": "Tyson Etienne",
-          "stat": "Tyson Etienne - PTS",
-          "score": 2.466,
-          "actual": 16,
-          "avg": 7.86,
-          "player_id": 1630623
-        },
-        {
-          "type": "player",
-          "name": "Tosan Evbuomwan",
-          "stat": "Tosan Evbuomwan - PTS",
-          "score": 2.303,
-          "actual": 18,
-          "avg": 9.54,
-          "player_id": 1641787
+          "name": "Jalen Wilson",
+          "stat": "Jalen Wilson - FG3M",
+          "score": 2.308,
+          "actual": 6,
+          "avg": 1.54,
+          "player_id": 1630592
         }
       ],
       "negative": [
         {
           "type": "player",
+          "name": "Keon Johnson",
+          "stat": "Keon Johnson - TOV",
+          "score": -2.422,
+          "actual": 6,
+          "avg": 1.47,
+          "player_id": 1630553
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - OREB",
+          "score": -1.474,
+          "actual": 7,
+          "avg": 11.88,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "player",
           "name": "Caris LeVert",
-          "stat": "Caris LeVert - PTS",
-          "score": -1.941,
-          "actual": 4,
-          "avg": 12.12,
+          "stat": "Caris LeVert - FG3_PCT",
+          "score": -1.162,
+          "actual": 0.0,
+          "avg": 0.35,
           "player_id": 1627747
         },
         {
           "type": "player",
           "name": "Caris LeVert",
           "stat": "Caris LeVert - TS%",
-          "score": -0.379,
+          "score": -0.683,
           "actual": 0.23,
           "avg": 0.58,
           "player_id": 1627747
         },
         {
-          "type": "team",
-          "name": "Brooklyn Nets",
-          "stat": "Brooklyn Nets - PF",
-          "score": -0.238,
-          "actual": 26,
-          "avg": 20.71,
-          "team_abbr": "BKN"
-        },
-        {
           "type": "player",
           "name": "Tyrese Martin",
-          "stat": "Tyrese Martin - TS%",
-          "score": -0.198,
-          "actual": 0.36,
-          "avg": 0.53,
+          "stat": "Tyrese Martin - FG3_PCT",
+          "score": -0.528,
+          "actual": 0.167,
+          "avg": 0.31,
           "player_id": 1631213
-        },
-        {
-          "type": "player",
-          "name": "Trendon Watford",
-          "stat": "Trendon Watford - TS%",
-          "score": -0.112,
-          "actual": 0.46,
-          "avg": 0.56,
-          "player_id": 1630570
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "ATL": 133,
+    "BKN": 109
+  },
+  "winner": "ATL"
 }

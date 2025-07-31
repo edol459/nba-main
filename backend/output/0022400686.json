@@ -1,0 +1,110 @@
+{
+  "game_id": "0022400686",
+  "teams": [
+    "ATL",
+    "IND"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - AST/TOV",
+          "score": 1.855,
+          "actual": 9.0,
+          "avg": 5.622,
+          "player_id": 1630169
+        },
+        {
+          "type": "player",
+          "name": "Trae Young",
+          "stat": "Trae Young - AST",
+          "score": 1.66,
+          "actual": 17,
+          "avg": 11.58,
+          "player_id": 1629027
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - DREB",
+          "score": 1.077,
+          "actual": 10,
+          "avg": 5.95,
+          "player_id": 1630168
+        },
+        {
+          "type": "player",
+          "name": "Dyson Daniels",
+          "stat": "Dyson Daniels - FG3_PCT",
+          "score": 1.052,
+          "actual": 0.667,
+          "avg": 0.35,
+          "player_id": 1630700
+        },
+        {
+          "type": "player",
+          "name": "Zaccharie Risacher",
+          "stat": "Zaccharie Risacher - FG3_PCT",
+          "score": 1.005,
+          "actual": 0.6,
+          "avg": 0.32,
+          "player_id": 1642258
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "De'Andre Hunter",
+          "stat": "De'Andre Hunter - PTS",
+          "score": -2.595,
+          "actual": 4,
+          "avg": 17.0,
+          "player_id": 1629631
+        },
+        {
+          "type": "player",
+          "name": "De'Andre Hunter",
+          "stat": "De'Andre Hunter - FG3_PCT",
+          "score": -1.183,
+          "actual": 0.0,
+          "avg": 0.4,
+          "player_id": 1629631
+        },
+        {
+          "type": "player",
+          "name": "Bennedict Mathurin",
+          "stat": "Bennedict Mathurin - FG3_PCT",
+          "score": -1.158,
+          "actual": 0.0,
+          "avg": 0.34,
+          "player_id": 1631097
+        },
+        {
+          "type": "player",
+          "name": "Dominick Barlow",
+          "stat": "Dominick Barlow - FG3_PCT",
+          "score": -1.082,
+          "actual": 0.0,
+          "avg": 0.17,
+          "player_id": 1631230
+        },
+        {
+          "type": "player",
+          "name": "T.J. McConnell",
+          "stat": "T.J. McConnell - PF",
+          "score": -0.849,
+          "actual": 4,
+          "avg": 1.0,
+          "player_id": 204456
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "ATL": 127,
+    "IND": 132
+  },
+  "winner": "IND"
+}

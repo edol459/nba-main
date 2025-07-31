@@ -9,6 +9,15 @@
       "positive": [
         {
           "type": "player",
+          "name": "Josh Hart",
+          "stat": "Josh Hart - AST/TOV",
+          "score": 3.4,
+          "actual": 7.0,
+          "avg": 2.868,
+          "player_id": 1628404
+        },
+        {
+          "type": "player",
           "name": "Kristaps Porzi\u0146\u0123is",
           "stat": "Kristaps Porzi\u0146\u0123is - PTS",
           "score": 2.699,
@@ -36,21 +45,12 @@
         },
         {
           "type": "player",
-          "name": "Karl-Anthony Towns",
-          "stat": "Karl-Anthony Towns - PTS",
-          "score": 1.58,
-          "actual": 34,
-          "avg": 24.43,
-          "player_id": 1626157
-        },
-        {
-          "type": "player",
-          "name": "Kristaps Porzi\u0146\u0123is",
-          "stat": "Kristaps Porzi\u0146\u0123is - TS%",
-          "score": 0.174,
-          "actual": 0.79,
-          "avg": 0.62,
-          "player_id": 204001
+          "name": "Jalen Brunson",
+          "stat": "Jalen Brunson - AST/TOV",
+          "score": 1.715,
+          "actual": 5.0,
+          "avg": 2.901,
+          "player_id": 1628973
         }
       ],
       "negative": [
@@ -66,40 +66,45 @@
         {
           "type": "player",
           "name": "Payton Pritchard",
-          "stat": "Payton Pritchard - PTS",
-          "score": -1.379,
-          "actual": 8,
-          "avg": 14.3,
+          "stat": "Payton Pritchard - FG3_PCT",
+          "score": -1.179,
+          "actual": 0.0,
+          "avg": 0.39,
           "player_id": 1630202
         },
         {
           "type": "player",
           "name": "OG Anunoby",
-          "stat": "OG Anunoby - PTS",
-          "score": -0.969,
-          "actual": 13,
-          "avg": 18.0,
+          "stat": "OG Anunoby - FG3_PCT",
+          "score": -1.166,
+          "actual": 0.0,
+          "avg": 0.36,
           "player_id": 1628384
         },
         {
-          "type": "team",
-          "name": "New York Knicks",
-          "stat": "New York Knicks - FTM",
-          "score": -0.829,
-          "actual": 10,
-          "avg": 16.55,
-          "team_abbr": "NYK"
+          "type": "player",
+          "name": "Jaylen Brown",
+          "stat": "Jaylen Brown - FG3_PCT",
+          "score": -1.149,
+          "actual": 0.0,
+          "avg": 0.32,
+          "player_id": 1627759
         },
         {
           "type": "player",
           "name": "Josh Hart",
-          "stat": "Josh Hart - TS%",
-          "score": -0.27,
-          "actual": 0.35,
-          "avg": 0.61,
+          "stat": "Josh Hart - FG3_PCT",
+          "score": -1.145,
+          "actual": 0.0,
+          "avg": 0.31,
           "player_id": 1628404
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "NYK": 117,
+    "BOS": 119
+  },
+  "winner": "BOS"
 }

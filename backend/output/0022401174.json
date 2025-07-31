@@ -9,6 +9,15 @@
       "positive": [
         {
           "type": "player",
+          "name": "Derrick White",
+          "stat": "Derrick White - BLK",
+          "score": 4.023,
+          "actual": 4,
+          "avg": 1.05,
+          "player_id": 1628401
+        },
+        {
+          "type": "player",
           "name": "Seth Curry",
           "stat": "Seth Curry - PTS",
           "score": 3.52,
@@ -26,31 +35,22 @@
           "player_id": 1630573
         },
         {
-          "type": "team",
-          "name": "Boston Celtics",
-          "stat": "Boston Celtics - AST",
-          "score": 1.763,
-          "actual": 35,
-          "avg": 26.15,
-          "team_abbr": "BOS"
+          "type": "player",
+          "name": "Seth Curry",
+          "stat": "Seth Curry - FG3M",
+          "score": 2.308,
+          "actual": 5,
+          "avg": 1.22,
+          "player_id": 203552
         },
         {
           "type": "player",
-          "name": "Payton Pritchard",
-          "stat": "Payton Pritchard - PTS",
-          "score": 1.685,
-          "actual": 22,
-          "avg": 14.3,
-          "player_id": 1630202
-        },
-        {
-          "type": "player",
-          "name": "Al Horford",
-          "stat": "Al Horford - DREB",
-          "score": 1.551,
-          "actual": 10,
-          "avg": 4.83,
-          "player_id": 201143
+          "name": "KJ Simpson",
+          "stat": "KJ Simpson - DREB",
+          "score": 2.153,
+          "actual": 6,
+          "avg": 1.94,
+          "player_id": 1642354
         }
       ],
       "negative": [
@@ -65,12 +65,12 @@
         },
         {
           "type": "player",
-          "name": "Kristaps Porzi\u0146\u0123is",
-          "stat": "Kristaps Porzi\u0146\u0123is - PTS",
-          "score": -1.576,
-          "actual": 11,
-          "avg": 19.48,
-          "player_id": 204001
+          "name": "Jrue Holiday",
+          "stat": "Jrue Holiday - FG3_PCT",
+          "score": -1.149,
+          "actual": 0.0,
+          "avg": 0.32,
+          "player_id": 201950
         },
         {
           "type": "team",
@@ -82,15 +82,6 @@
           "team_abbr": "CHA"
         },
         {
-          "type": "player",
-          "name": "Mark Williams",
-          "stat": "Mark Williams - PTS",
-          "score": -1.11,
-          "actual": 10,
-          "avg": 15.25,
-          "player_id": 1631109
-        },
-        {
           "type": "team",
           "name": "Charlotte Hornets",
           "stat": "Charlotte Hornets - PFD",
@@ -98,8 +89,22 @@
           "actual": 11,
           "avg": 18.15,
           "team_abbr": "CHA"
+        },
+        {
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - FTM",
+          "score": -0.827,
+          "actual": 9,
+          "avg": 15.26,
+          "team_abbr": "BOS"
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "BOS": 130,
+    "CHA": 94
+  },
+  "winner": "BOS"
 }

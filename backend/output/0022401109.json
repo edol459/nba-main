@@ -9,53 +9,48 @@
       "positive": [
         {
           "type": "player",
-          "name": "Naji Marshall",
-          "stat": "Naji Marshall - AST",
-          "score": 3.32,
-          "actual": 8,
-          "avg": 3.01,
-          "player_id": 1630230,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
           "name": "Spencer Dinwiddie",
           "stat": "Spencer Dinwiddie - AST",
           "score": 2.939,
           "actual": 10,
           "avg": 4.42,
-          "player_id": 203915,
-          "team_abbr": null
+          "player_id": 203915
+        },
+        {
+          "type": "player",
+          "name": "Anthony Davis",
+          "stat": "Anthony Davis - BLK",
+          "score": 2.337,
+          "actual": 5,
+          "avg": 2.16,
+          "player_id": 203076
+        },
+        {
+          "type": "player",
+          "name": "Jaden Hardy",
+          "stat": "Jaden Hardy - FG3_PCT",
+          "score": 1.71,
+          "actual": 0.75,
+          "avg": 0.3,
+          "player_id": 1630702
         },
         {
           "type": "player",
           "name": "Onyeka Okongwu",
           "stat": "Onyeka Okongwu - DREB",
-          "score": 1.566,
+          "score": 1.343,
           "actual": 11,
           "avg": 5.95,
-          "player_id": 1630168,
-          "team_abbr": null
+          "player_id": 1630168
         },
         {
           "type": "player",
-          "name": "Mouhamed Gueye",
-          "stat": "Mouhamed Gueye - PTS",
-          "score": 1.335,
-          "actual": 11,
-          "avg": 5.97,
-          "player_id": 1631243,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Anthony Davis",
-          "stat": "Anthony Davis - PTS",
-          "score": 1.141,
-          "actual": 34,
-          "avg": 24.73,
-          "player_id": 203076,
-          "team_abbr": null
+          "name": "Dyson Daniels",
+          "stat": "Dyson Daniels - FG3_PCT",
+          "score": 1.328,
+          "actual": 0.75,
+          "avg": 0.35,
+          "player_id": 1630700
         }
       ],
       "negative": [
@@ -71,44 +66,45 @@
         {
           "type": "player",
           "name": "Naji Marshall",
-          "stat": "Naji Marshall - PTS",
-          "score": -1.239,
-          "actual": 6,
-          "avg": 13.25,
-          "player_id": 1630230,
-          "team_abbr": null
+          "stat": "Naji Marshall - FG3_PCT",
+          "score": -1.109,
+          "actual": 0.0,
+          "avg": 0.23,
+          "player_id": 1630230
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - BLK",
+          "score": -1.021,
+          "actual": 3,
+          "avg": 5.11,
+          "team_abbr": "ATL"
         },
         {
           "type": "player",
-          "name": "Zaccharie Risacher",
-          "stat": "Zaccharie Risacher - TS%",
-          "score": -0.401,
-          "actual": 0.41,
-          "avg": 0.56,
-          "player_id": 1642258,
-          "team_abbr": null
+          "name": "Trae Young",
+          "stat": "Trae Young - FG3_PCT",
+          "score": -0.377,
+          "actual": 0.222,
+          "avg": 0.33,
+          "player_id": 1629027
         },
         {
           "type": "player",
-          "name": "Naji Marshall",
-          "stat": "Naji Marshall - TS%",
-          "score": -0.364,
-          "actual": 0.44,
-          "avg": 0.58,
-          "player_id": 1630230,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Mouhamed Gueye",
-          "stat": "Mouhamed Gueye - TS%",
-          "score": -0.285,
-          "actual": 0.42,
-          "avg": 0.52,
-          "player_id": 1631243,
-          "team_abbr": null
+          "name": "Daniel Gafford",
+          "stat": "Daniel Gafford - PF",
+          "score": -0.334,
+          "actual": 5,
+          "avg": 2.67,
+          "player_id": 1629655
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "ATL": 118,
+    "DAL": 120
+  },
+  "winner": "DAL"
 }

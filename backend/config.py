@@ -8,50 +8,109 @@ STATS_TO_TRACK = [
 ]
 
 
-THRESHOLDS = {
-    "PTS": 7,
-    "AST": 3,
-    "OREB": 3,
-    "DREB": 4,
-    "FG_PCT": 0.50,
-    "FG3_PCT": 0.50,
-    "FT_PCT": 0.3,
-    "TS%": 0.50,
-    "PF": 2,
-    "BLK": 2,
-    'FG3M': 3,
-    'TOV': 3,
-    'STL': 3,
-    'AST/TOV': 3,
-    'FTM': 5,
-    "PFD": 4
+STAT_RULES = {
+    "PTS": {
+        "player_threshold": 0.25,  # 25% change
+        "team_threshold": 0.10,
+        "min_diff": 10,
+        "weight": 0.8
+    },
+    "AST": {
+        "player_threshold": 0.25,
+        "team_threshold": 0.15,
+        "min_diff": 5,
+        "weight": 1.0
+    },
+    "OREB": {
+        "player_threshold": 0.3,
+        "team_threshold": 0.2,
+        "team_diff_threshold": 8,
+        "team_diff_weight": 1.0,
+        "min_diff": 3,
+        "weight": 1.0
+    },
+    "DREB": {
+        "player_threshold": 0.3,
+        "team_threshold": 0.2,
+        "team_diff_threshold": 8,
+        "team_diff_weight": 1.0,
+        "min_diff": 4,
+        "weight": 0.6
+    },
+    "FG_PCT": {
+        "player_threshold": 0.15,
+        "team_threshold": 0.10,
+        "team_diff_threshold": 0.10,
+        "team_diff_weight": 2.0,
+        "min_diff": 0.1,
+        "weight": 1.0
+    },
+    "FG3_PCT": {
+        "player_threshold": 0.20,
+        "team_threshold": 0.10,
+        "team_diff_threshold": 0.10,
+        "team_diff_weight": 2.0,
+        "min_diff": 0.05,
+        "weight": 1.0
+    },
+    "TS%": {
+        "player_threshold": 0.15,
+        "team_threshold": 0.10,
+        "min_diff": 0.05,
+        "weight": 0.9
+    },
+    "PF": {
+        "player_threshold": 0.7,
+        "team_threshold": 0.3,
+        "min_diff": 2,
+        "weight": -0.2
+    },
+    "TOV": {
+        "player_threshold": 0.3,
+        "team_threshold": 0.2,
+        "min_diff": 3,
+        "weight": -0.5
+    },
+    "STL": {
+        "player_threshold": 0.4,
+        "team_threshold": 0.25,
+        "min_diff": 2,
+        "weight": 1.0
+    },
+    "BLK": {
+        "player_threshold": 0.4,
+        "team_threshold": 0.25,
+        "min_diff": 2,
+        "weight": 1.0
+    },
+    "AST/TOV": {
+        "player_threshold": 0.5,
+        "team_threshold": 0.3,
+        "min_diff": 1.5,
+        "weight": 1.2
+    },
+    "FTM": {
+        "player_threshold": 0.25,
+        "team_threshold": 0.15,
+        "min_diff": 5,
+        "weight": 0.5
+    },
+    "FG3M": {
+        "player_threshold": 0.3,
+        "team_threshold": 0.2,
+        "team_diff_threshold": 10,
+        "team_diff_weight": 1.0,
+        "min_diff": 3,
+        "weight": 0.5
+    },
+    "PFD": {
+        "player_threshold": 0.3,
+        "team_threshold": 0.2,
+        "min_diff": 4,
+        "weight": 0.5
+    }
 }
 
-WEIGHTS = {
-            "TS%": 0.5,
-            "PTS": 0.8,
-            "AST": 1.0,
-            "OREB": 1.0,
-            "DREB": 0.6,
-            "FG3M": 0.5,
-            "FG3_PCT": 0.5,
-            "FTM": 0.5,
-            "STL": 1.0,
-            "BLK": 1.0,
-            "TOV": -0.5,
-            "PF": -0.2,
-            "PFD": 0.5,
-            "AST/TOV": 1.2,
-}
-
-TEAM_DIFF_STATS_TO_TRACK = {
-    "AST":      {"threshold": 5,  "weight": 1.0},
-    "OREB":     {"threshold": 8,  "weight": 1.0},
-    "DREB":     {"threshold": 8,  "weight": 1.0},
-    "FG_PCT":   {"threshold": 0.10, "weight": 2.0},
-    "FG3_PCT":  {"threshold": 0.10, "weight": 2.0},
-    "FG3M":     {"threshold": 10,  "weight": 1.0}
-}
 
 N_BARS   = 5
 DATA_DIR = Path("data")

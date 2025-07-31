@@ -4,15 +4,27 @@
   <meta charset="UTF-8">
   <title>The Outlier</title>
   <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 
+<header>
+  <h1><a id="homeButton" href="/">The Outlier</a></h1>
+  <p class="social"><a href="https://x.com/hali_muse" target="_blank" rel="noopener noreferrer">By HaliMuse</a></p>
+</header>
 
-
+<nav>
+  <a href="about.html"><b>ABOUT</b></a>
+  <a href="glossary.html"><b>GLOSSARY</b></a>
+</nav>
 
 <body>
-  <header>
-    <h1>The Outlier</h1>
-  </header>
+  
+  <div id="instructions" class="instructions">
+    <p>Select a game from the dropdown below to view outlier performances and stats.</p>
+    <p>First select a team, then you can choose any game they played in the 2024-25 season.</p>
+  </div>
 
   <div class="search-container">
     <select id="teamSelector">
@@ -53,7 +65,14 @@
       <option value="">Select a game</option>
     </select>
   </div>
-  <div id="output"></div>
+  
+  <main>
+    <div id="output"> 
+    <div id="game-meta">
+      <h2 id="scoreline"></h2>
+    </div>
+    </div>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>

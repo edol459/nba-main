@@ -11,85 +11,100 @@
           "type": "player",
           "name": "Tyrese Haliburton",
           "stat": "Tyrese Haliburton - AST/TOV",
-          "score": 2.642,
+          "score": 6.799,
           "actual": 18.0,
-          "avg": 5.622
+          "avg": 5.622,
+          "player_id": 1630169
         },
         {
           "type": "player",
           "name": "LeBron James",
           "stat": "LeBron James - AST/TOV",
-          "score": 2.596,
+          "score": 4.653,
           "actual": 7.0,
-          "avg": 2.213
+          "avg": 2.213,
+          "player_id": 2544
         },
         {
           "type": "player",
-          "name": "Jarred Vanderbilt",
-          "stat": "Jarred Vanderbilt - AST",
-          "score": 1.305,
-          "actual": 3,
-          "avg": 1.14
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - AST",
+          "score": 3.044,
+          "actual": 18,
+          "avg": 9.22,
+          "player_id": 1630169
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - DREB",
+          "score": 1.909,
+          "actual": 12,
+          "avg": 5.29,
+          "player_id": 1626167
         },
         {
           "type": "player",
           "name": "Rui Hachimura",
-          "stat": "Rui Hachimura - FG3M",
-          "score": 1.181,
-          "actual": 4,
-          "avg": 1.73
-        },
-        {
-          "type": "player",
-          "name": "Jaxson Hayes",
-          "stat": "Jaxson Hayes - FGM",
-          "score": 1.083,
-          "actual": 6,
-          "avg": 2.88
+          "stat": "Rui Hachimura - FG3_PCT",
+          "score": 1.844,
+          "actual": 1.0,
+          "avg": 0.39,
+          "player_id": 1629060
         }
       ],
       "negative": [
         {
           "type": "player",
-          "name": "Dalton Knecht",
-          "stat": "Dalton Knecht - PTS",
-          "score": -0.669,
-          "actual": 3,
-          "avg": 9.05
-        },
-        {
-          "type": "player",
-          "name": "LeBron James",
-          "stat": "LeBron James - FGM",
-          "score": -0.57,
-          "actual": 4,
-          "avg": 9.3
-        },
-        {
-          "type": "player",
           "name": "LeBron James",
           "stat": "LeBron James - PTS",
-          "score": -0.468,
+          "score": -1.887,
           "actual": 13,
-          "avg": 24.43
+          "avg": 24.43,
+          "player_id": 2544
         },
         {
           "type": "player",
-          "name": "T.J. McConnell",
-          "stat": "T.J. McConnell - PTS",
-          "score": -0.451,
-          "actual": 5,
-          "avg": 9.11
+          "name": "LeBron James",
+          "stat": "LeBron James - FG3_PCT",
+          "score": -1.162,
+          "actual": 0.0,
+          "avg": 0.35,
+          "player_id": 2544
         },
         {
-          "type": "team",
-          "name": "Los Angeles Lakers",
-          "stat": "Los Angeles Lakers - STL",
-          "score": -0.423,
-          "actual": 5,
-          "avg": 7.72
+          "type": "player",
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - FG3_PCT",
+          "score": -0.819,
+          "actual": 0.111,
+          "avg": 0.37,
+          "player_id": 1630169
+        },
+        {
+          "type": "player",
+          "name": "Austin Reaves",
+          "stat": "Austin Reaves - FG3_PCT",
+          "score": -0.775,
+          "actual": 0.125,
+          "avg": 0.37,
+          "player_id": 1630559
+        },
+        {
+          "type": "player",
+          "name": "Jarred Vanderbilt",
+          "stat": "Jarred Vanderbilt - PF",
+          "score": -0.389,
+          "actual": 4,
+          "avg": 1.86,
+          "player_id": 1629020
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "IND": 119,
+    "LAL": 120
+  },
+  "winner": "LAL"
 }

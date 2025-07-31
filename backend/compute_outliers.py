@@ -22,13 +22,31 @@ def compute_outliers(game_id: str):
 
     team_logs["GAME_ID"] = team_logs["GAME_ID"].astype(str).str.zfill(10)
     teams_in_game = team_logs[team_logs["GAME_ID"] == str(game_id)]
-    print("Sample GAME_IDs in team logs:", team_logs["GAME_ID"].unique()[:5])
-    print("Requested GAME_ID:", game_id)
 
     game_out = {"game_id": game_id, "teams": teams_in_game["TEAM_ABBREVIATION"].tolist(), "outliers": []}
 
-    print(f"🧪 Found {len(teams_in_game)} teams for GAME_ID {game_id}")
-    print("🧪 Sample GAME_IDs from CSV:", team_logs["GAME_ID"].unique()[:5])
+    # Compute winner and final score
+    if len(teams_in_game) == 2:
+        team1 = teams_in_game.iloc[0]
+        team2 = teams_in_game.iloc[1]
+        
+        team1_score = int(team1["PTS"])
+        team2_score = int(team2["PTS"])
+
+        final_score = {
+            team1["TEAM_ABBREVIATION"]: team1_score,
+            team2["TEAM_ABBREVIATION"]: team2_score
+        }
+
+        if team1_score > team2_score:
+            winner = team1["TEAM_ABBREVIATION"]
+        elif team2_score > team1_score:
+            winner = team2["TEAM_ABBREVIATION"]
+        else:
+            winner = "TIE"
+
+        game_out["final_score"] = final_score
+        game_out["winner"] = winner
 
 
     #TEAM STAT OUTLIERS
@@ -116,7 +134,6 @@ def compute_outliers(game_id: str):
             } for stat, info in neg
         ]
     }
-
 
     print(payload)
     game_out["outliers"].append(payload)

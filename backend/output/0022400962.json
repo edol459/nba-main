@@ -1,0 +1,110 @@
+{
+  "game_id": "0022400962",
+  "teams": [
+    "CLE",
+    "MEM"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Ja Morant",
+          "stat": "Ja Morant - PTS",
+          "score": 3.533,
+          "actual": 44,
+          "avg": 23.18,
+          "player_id": 1629630
+        },
+        {
+          "type": "player",
+          "name": "Darius Garland",
+          "stat": "Darius Garland - STL",
+          "score": 3.428,
+          "actual": 4,
+          "avg": 1.21,
+          "player_id": 1629636
+        },
+        {
+          "type": "player",
+          "name": "Jaren Jackson Jr.",
+          "stat": "Jaren Jackson Jr. - STL",
+          "score": 3.331,
+          "actual": 4,
+          "avg": 1.24,
+          "player_id": 1628991
+        },
+        {
+          "type": "player",
+          "name": "Ja Morant",
+          "stat": "Ja Morant - DREB",
+          "score": 1.689,
+          "actual": 8,
+          "avg": 3.42,
+          "player_id": 1629630
+        },
+        {
+          "type": "player",
+          "name": "Ja Morant",
+          "stat": "Ja Morant - AST/TOV",
+          "score": 1.61,
+          "actual": 3.5,
+          "avg": 1.968,
+          "player_id": 1629630
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "Memphis Grizzlies",
+          "stat": "Memphis Grizzlies - BLK",
+          "score": -1.203,
+          "actual": 3,
+          "avg": 5.63,
+          "team_abbr": "MEM"
+        },
+        {
+          "type": "player",
+          "name": "Luke Kennard",
+          "stat": "Luke Kennard - FG3_PCT",
+          "score": -1.166,
+          "actual": 0.0,
+          "avg": 0.36,
+          "player_id": 1628379
+        },
+        {
+          "type": "player",
+          "name": "Luke Kennard",
+          "stat": "Luke Kennard - TS%",
+          "score": -1.149,
+          "actual": 0.0,
+          "avg": 0.63,
+          "player_id": 1628379
+        },
+        {
+          "type": "player",
+          "name": "GG Jackson",
+          "stat": "GG Jackson - FG3_PCT",
+          "score": -1.149,
+          "actual": 0.0,
+          "avg": 0.32,
+          "player_id": 1641713
+        },
+        {
+          "type": "player",
+          "name": "GG Jackson",
+          "stat": "GG Jackson - TS%",
+          "score": -0.593,
+          "actual": 0.22,
+          "avg": 0.48,
+          "player_id": 1641713
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "CLE": 133,
+    "MEM": 124
+  },
+  "winner": "CLE"
+}
