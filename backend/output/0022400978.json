@@ -9,23 +9,12 @@
       "positive": [
         {
           "type": "player",
-          "name": "Jalen Wilson",
-          "stat": "Jalen Wilson - AST",
-          "score": 3.81,
-          "actual": 6,
-          "avg": 1.84,
-          "player_id": 1630592,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
           "name": "Keon Johnson",
           "stat": "Keon Johnson - PTS",
           "score": 2.922,
           "actual": 22,
           "avg": 10.62,
-          "player_id": 1630553,
-          "team_abbr": null
+          "player_id": 1630553
         },
         {
           "type": "team",
@@ -38,75 +27,84 @@
         },
         {
           "type": "player",
-          "name": "Maxwell Lewis",
-          "stat": "Maxwell Lewis - PTS",
-          "score": 2.567,
-          "actual": 10,
-          "avg": 4.14,
-          "player_id": 1641721,
-          "team_abbr": null
+          "name": "Mouhamed Gueye",
+          "stat": "Mouhamed Gueye - BLK",
+          "score": 2.828,
+          "actual": 3,
+          "avg": 1.0,
+          "player_id": 1631243
         },
         {
           "type": "player",
-          "name": "Tyrese Martin",
-          "stat": "Tyrese Martin - PTS",
-          "score": 2.082,
-          "actual": 16,
-          "avg": 8.72,
-          "player_id": 1631213,
-          "team_abbr": null
+          "name": "Cameron Johnson",
+          "stat": "Cameron Johnson - FTM",
+          "score": 1.951,
+          "actual": 10,
+          "avg": 3.53,
+          "player_id": 1629661
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - DREB",
+          "score": 1.874,
+          "actual": 13,
+          "avg": 5.95,
+          "player_id": 1630168
         }
       ],
       "negative": [
         {
           "type": "player",
+          "name": "Terance Mann",
+          "stat": "Terance Mann - FG3_PCT",
+          "score": -1.158,
+          "actual": 0.0,
+          "avg": 0.34,
+          "player_id": 1629611
+        },
+        {
+          "type": "player",
+          "name": "Georges Niang",
+          "stat": "Georges Niang - FG3_PCT",
+          "score": -0.527,
+          "actual": 0.222,
+          "avg": 0.4,
+          "player_id": 1627777
+        },
+        {
+          "type": "player",
           "name": "Georges Niang",
           "stat": "Georges Niang - TS%",
-          "score": -0.655,
+          "score": -0.393,
           "actual": 0.4,
           "avg": 0.61,
-          "player_id": 1627777,
-          "team_abbr": null
+          "player_id": 1627777
+        },
+        {
+          "type": "player",
+          "name": "Zaccharie Risacher",
+          "stat": "Zaccharie Risacher - FG3_PCT",
+          "score": -0.251,
+          "actual": 0.25,
+          "avg": 0.32,
+          "player_id": 1642258
         },
         {
           "type": "player",
           "name": "Nic Claxton",
           "stat": "Nic Claxton - TS%",
-          "score": -0.396,
+          "score": -0.237,
           "actual": 0.45,
           "avg": 0.57,
-          "player_id": 1629651,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Terance Mann",
-          "stat": "Terance Mann - TS%",
-          "score": -0.293,
-          "actual": 0.49,
-          "avg": 0.58,
-          "player_id": 1629611,
-          "team_abbr": null
-        },
-        {
-          "type": "team",
-          "name": "Atlanta Hawks",
-          "stat": "Atlanta Hawks - FG_PCT",
-          "score": 0.0,
-          "actual": 0.467,
-          "avg": 0.47,
-          "team_abbr": "ATL"
-        },
-        {
-          "type": "team",
-          "name": "Atlanta Hawks",
-          "stat": "Atlanta Hawks - FG3M",
-          "score": 0.0,
-          "actual": 11,
-          "avg": 13.5,
-          "team_abbr": "ATL"
+          "player_id": 1629651
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "ATL": 114,
+    "BKN": 122
+  },
+  "winner": "BKN"
 }

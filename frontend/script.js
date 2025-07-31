@@ -101,7 +101,7 @@ function renderOutliers(data) {
 }
 
 function makeBar(outlier, isNegative, index) {
-  const height = 350 - index * 75; // top bar tallest
+  const height = 325 - index * 70; // top bar tallest
   const bar = isNegative ? 'bar negative' : 'bar positive';
 
   const isDiff = outlier.type === "team_vs_team";

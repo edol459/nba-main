@@ -19,15 +19,49 @@
         <a href="about.html"><b>ABOUT</b></a>
         <a href="glossary.html"><b>GLOSSARY</b></a>
     </nav>
-    
-    <main>
+
     <h2>Glossary</h2>
-    <ul>
-        <li><strong>Outlier:</strong> A value significantly different from the norm.</li>
-        <li><strong>FG_PCT:</strong> Field Goal Percentage — the ratio of made shots to attempts.</li>
-        <li><strong>AST:</strong> Assists — passes that directly lead to a score.</li>
-        <!-- Add more terms as needed -->
-    </ul>
+
+    <main style= "display: flex; justify-content: space-evenly; line-height: 1.8; flex-wrap: wrap;">
+        
+        
+        <section>
+            <h3>🧍 Player Stats</h3>
+            <ul style="list-style: none;">
+                <li><strong>PTS</strong> – Points scored by the player.</li>
+                <li><strong>AST</strong> – Assists (passes leading directly to a made basket).</li>
+                <li><strong>REB</strong> – Total rebounds (offensive + defensive).</li>
+                <li><strong>OREB</strong> – Offensive rebounds (gaining possession after a missed shot).</li>
+                <li><strong>DREB</strong> – Defensive rebounds (recovering the ball after an opponent’s missed shot).</li>
+                <li><strong>STL</strong> – Steals (legally taking the ball away from an opponent).</li>
+                <li><strong>BLK</strong> – Blocks (deflecting an opponent’s shot attempt).</li>
+                <li><strong>TOV</strong> – Turnovers (losing possession without a shot attempt).</li>
+                <li><strong>FG_PCT</strong> – Field Goal Percentage (FGM ÷ FGA).</li>
+                <li><strong>FG3_PCT</strong> – Three-Point Field Goal Percentage (FG3M ÷ FG3A).</li>
+                <li><strong>FG3M</strong> – Made 3-point field goals.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>🏀 Team Stats</h3>
+            <ul style="list-style: none;">
+                <li><strong>PTS_DIFF</strong> – Point differential (team points – opponent points).</li>
+                <li><strong>AST_DIFF</strong> – Assist differential compared to opponent.</li>
+                <li><strong>OREB_DIFF</strong> – Offensive rebound differential vs. opponent.</li>
+                <li><strong>DREB_DIFF</strong> – Defensive rebound differential vs. opponent.</li>
+                <li><strong>FG_PCT_DIFF</strong> – Difference in Field Goal % vs. opponent.</li>
+                <li><strong>FG3_PCT_DIFF</strong> – Difference in 3PT % vs. opponent.</li>
+                <li><strong>FG3M_DIFF</strong> – Difference in made 3PT shots vs. opponent.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>📊 Outlier Definitions</h3>
+            <ul style="list-style: none;">
+                <li><strong>Outlier</strong> – A game performance that deviates significantly from season average using a combination of percent difference and absolute difference thresholds.</li>
+                <li><strong>Blended Scoring</strong> – A scoring model that weights both the percent increase and the raw increase in performance volume (e.g., scoring 36 vs. averaging 23).</li>
+            </ul>
+        </section>
     </main>
 </body>
 </html>

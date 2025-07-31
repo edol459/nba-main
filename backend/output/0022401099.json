@@ -1,0 +1,110 @@
+{
+  "game_id": "0022401099",
+  "teams": [
+    "CHI",
+    "TOR"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Talen Horton-Tucker",
+          "stat": "Talen Horton-Tucker - PTS",
+          "score": 6.882,
+          "actual": 27,
+          "avg": 6.53,
+          "player_id": 1629659
+        },
+        {
+          "type": "player",
+          "name": "Nikola Vu\u010devi\u0107",
+          "stat": "Nikola Vu\u010devi\u0107 - AST/TOV",
+          "score": 4.796,
+          "actual": 7.0,
+          "avg": 2.153,
+          "player_id": 202696
+        },
+        {
+          "type": "player",
+          "name": "Immanuel Quickley",
+          "stat": "Immanuel Quickley - AST/TOV",
+          "score": 4.314,
+          "actual": 9.0,
+          "avg": 3.29,
+          "player_id": 1630193
+        },
+        {
+          "type": "player",
+          "name": "Talen Horton-Tucker",
+          "stat": "Talen Horton-Tucker - FTM",
+          "score": 4.08,
+          "actual": 8,
+          "avg": 1.24,
+          "player_id": 1629659
+        },
+        {
+          "type": "player",
+          "name": "Zach Collins",
+          "stat": "Zach Collins - DREB",
+          "score": 3.298,
+          "actual": 11,
+          "avg": 2.91,
+          "player_id": 1628380
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Scottie Barnes",
+          "stat": "Scottie Barnes - PTS",
+          "score": -1.918,
+          "actual": 9,
+          "avg": 19.26,
+          "player_id": 1630567
+        },
+        {
+          "type": "team",
+          "name": "Toronto Raptors",
+          "stat": "Toronto Raptors - PFD",
+          "score": -1.099,
+          "actual": 9,
+          "avg": 18.1,
+          "team_abbr": "TOR"
+        },
+        {
+          "type": "team",
+          "name": "Toronto Raptors",
+          "stat": "Toronto Raptors - FTM",
+          "score": -0.75,
+          "actual": 10,
+          "avg": 15.78,
+          "team_abbr": "TOR"
+        },
+        {
+          "type": "player",
+          "name": "Orlando Robinson",
+          "stat": "Orlando Robinson - PF",
+          "score": -0.435,
+          "actual": 5,
+          "avg": 2.27,
+          "player_id": 1631115
+        },
+        {
+          "type": "player",
+          "name": "Jamal Shead",
+          "stat": "Jamal Shead - FG3_PCT",
+          "score": -0.431,
+          "actual": 0.2,
+          "avg": 0.32,
+          "player_id": 1642347
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "CHI": 137,
+    "TOR": 118
+  },
+  "winner": "CHI"
+}

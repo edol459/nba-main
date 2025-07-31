@@ -20,10 +20,37 @@
 </nav>
 
 <body>
-  <main>
+  <main style="padding: 50px 30px 30px 30px; line-height: 1.8;">
+
     <h2>About This Project</h2>
-    <p>This tool identifies statistical outliers in NBA games to highlight unusually good or bad performances by players and teams.</p>
-    <p>Built by HaliMuse using Python, JavaScript, and the NBA API.</p>
+
+    <p>
+      <strong>The Outlier</strong> is an open-source NBA analytics tool designed to spotlight the most unexpected and statistically significant game performances.
+      Unlike typical stat summaries or highlight reels, this project uses a custom scoring system to identify which players and teams most deviated—positively or negatively—from their season averages.
+    </p>
+
+    <h3>🎯 Purpose</h3>
+    <ul style="list-style: none;">
+      <li>Provide fans and analysts with deeper insight into standout performances.</li>
+      <li>Use data-driven logic to highlight both underrated contributions and shocking underperformances.</li>
+      <li>Serve as a transparent, educational alternative to proprietary tools like Cleaning the Glass or BBall Index.</li>
+    </ul>
+
+    <h3>⚙️ How It Works</h3>
+    <p>
+      Game data is collected using the <code>nba_api</code> Python package. Each stat is compared to season-long averages at the player and team levels.
+      A blended outlier score is calculated using both percent difference and raw volume increase, ensuring that context matters (e.g., scoring 36 when you average 23 is more impressive than scoring 16 when you average 8).
+    </p>
+
+    <h3>📚 More Info</h3>
+    <p>
+      Curious about how each stat is defined or what qualifies as an outlier? Check out the <a href="glossary.html">Glossary</a> for a full breakdown.
+    </p>
+
+    <h3>🧠 Developer Notes</h3>
+    <p>
+      This is a work-in-progress portfolio project focused on transparency and educational value over commercial polish. All logic, thresholds, and definitions are visible in the codebase and can be adjusted as needed.
+    </p>
   </main>
 </body>
 </html>

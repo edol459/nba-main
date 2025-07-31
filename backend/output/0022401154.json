@@ -9,87 +9,102 @@
       "positive": [
         {
           "type": "player",
-          "name": "Brandin Podziemski",
-          "stat": "Brandin Podziemski - FG3_PCT",
-          "score": 0.962,
+          "name": "Pat Spencer",
+          "stat": "Pat Spencer - FG3_PCT",
+          "score": 10.247,
           "actual": 0.667,
-          "avg": 0.34,
-          "player_id": 1641764,
-          "team_abbr": null
+          "avg": 0.05,
+          "player_id": 1630311
         },
         {
           "type": "player",
           "name": "Brandin Podziemski",
-          "stat": "Brandin Podziemski - TS%",
-          "score": 0.429,
-          "actual": 0.8,
-          "avg": 0.56,
-          "player_id": 1641764,
-          "team_abbr": null
+          "stat": "Brandin Podziemski - PTS",
+          "score": 2.521,
+          "actual": 22,
+          "avg": 11.67,
+          "player_id": 1641764
+        },
+        {
+          "type": "team",
+          "name": "Phoenix Suns",
+          "stat": "Phoenix Suns - STL",
+          "score": 1.893,
+          "actual": 12,
+          "avg": 7.23,
+          "team_abbr": "PHX"
+        },
+        {
+          "type": "team",
+          "name": "Golden State Warriors",
+          "stat": "Golden State Warriors - OREB",
+          "score": 1.892,
+          "actual": 19,
+          "avg": 12.55,
+          "team_abbr": "GSW"
         },
         {
           "type": "player",
-          "name": "Brandin Podziemski",
-          "stat": "Brandin Podziemski - FG_PCT",
-          "score": 0.422,
-          "actual": 0.583,
-          "avg": 0.41,
-          "player_id": 1641764,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Devin Booker",
-          "stat": "Devin Booker - FG3_PCT",
-          "score": -1.0,
-          "actual": 0.0,
-          "avg": 0.3,
-          "player_id": 1626164,
-          "team_abbr": null
+          "name": "Kevin Knox II",
+          "stat": "Kevin Knox II - FG3_PCT",
+          "score": 1.66,
+          "actual": 0.333,
+          "avg": 0.13,
+          "player_id": 1628995
         }
       ],
       "negative": [
         {
           "type": "player",
+          "name": "Bradley Beal",
+          "stat": "Bradley Beal - PTS",
+          "score": -1.999,
+          "actual": 7,
+          "avg": 17.02,
+          "player_id": 203078
+        },
+        {
+          "type": "player",
+          "name": "Tyus Jones",
+          "stat": "Tyus Jones - FG3_PCT",
+          "score": -1.179,
+          "actual": 0.0,
+          "avg": 0.39,
+          "player_id": 1626145
+        },
+        {
+          "type": "player",
           "name": "Devin Booker",
           "stat": "Devin Booker - FG3_PCT",
-          "score": -1.0,
+          "score": -1.14,
           "actual": 0.0,
           "avg": 0.3,
-          "player_id": 1626164,
-          "team_abbr": null
+          "player_id": 1626164
         },
         {
           "type": "player",
-          "name": "Brandin Podziemski",
-          "stat": "Brandin Podziemski - FG_PCT",
-          "score": 0.422,
-          "actual": 0.583,
-          "avg": 0.41,
-          "player_id": 1641764,
-          "team_abbr": null
+          "name": "Jonathan Kuminga",
+          "stat": "Jonathan Kuminga - FG3_PCT",
+          "score": -1.118,
+          "actual": 0.0,
+          "avg": 0.25,
+          "player_id": 1630228
         },
         {
-          "type": "player",
-          "name": "Brandin Podziemski",
-          "stat": "Brandin Podziemski - TS%",
-          "score": 0.429,
-          "actual": 0.8,
-          "avg": 0.56,
-          "player_id": 1641764,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Brandin Podziemski",
-          "stat": "Brandin Podziemski - FG3_PCT",
-          "score": 0.962,
-          "actual": 0.667,
-          "avg": 0.34,
-          "player_id": 1641764,
-          "team_abbr": null
+          "type": "team",
+          "name": "Phoenix Suns",
+          "stat": "Phoenix Suns - PFD",
+          "score": -1.005,
+          "actual": 10,
+          "avg": 18.4,
+          "team_abbr": "PHX"
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "GSW": 133,
+    "PHX": 95
+  },
+  "winner": "GSW"
 }
