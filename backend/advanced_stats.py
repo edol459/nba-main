@@ -7,7 +7,7 @@ def add_all_adv(df):
     return df
 
 def add_ts(df):
-    df["TS%"] = df.apply(
+    df["TS_PCT"] = df.apply(
         lambda row: round(row["PTS"] / (2 * (row["FGA"] + 0.44 * row["FTA"])), 2)
                          if (row["FGA"] + 0.44 * row["FTA"]) > 0 else 0, axis=1)
     return df

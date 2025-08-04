@@ -18,6 +18,24 @@
         },
         {
           "type": "player",
+          "name": "Keaton Wallace",
+          "stat": "Keaton Wallace - AST",
+          "score": 10.823,
+          "actual": 15,
+          "avg": 2.61,
+          "player_id": 1630811
+        },
+        {
+          "type": "player",
+          "name": "Keaton Wallace",
+          "stat": "Keaton Wallace - DREB",
+          "score": 10.688,
+          "actual": 11,
+          "avg": 1.39,
+          "player_id": 1630811
+        },
+        {
+          "type": "player",
           "name": "Jacob Toppin",
           "stat": "Jacob Toppin - FG3_PCT",
           "score": 10.198,
@@ -27,30 +45,12 @@
         },
         {
           "type": "player",
-          "name": "Keaton Wallace",
-          "stat": "Keaton Wallace - AST",
-          "score": 9.02,
-          "actual": 15,
-          "avg": 2.61,
-          "player_id": 1630811
-        },
-        {
-          "type": "player",
-          "name": "Keaton Wallace",
-          "stat": "Keaton Wallace - DREB",
-          "score": 6.413,
-          "actual": 11,
-          "avg": 1.39,
-          "player_id": 1630811
-        },
-        {
-          "type": "player",
-          "name": "Jett Howard",
-          "stat": "Jett Howard - PTS",
-          "score": 4.847,
-          "actual": 16,
-          "avg": 4.45,
-          "player_id": 1641724
+          "name": "Tristan da Silva",
+          "stat": "Tristan da Silva - AST",
+          "score": 5.576,
+          "actual": 6,
+          "avg": 1.53,
+          "player_id": 1641783
         }
       ],
       "negative": [
@@ -73,31 +73,31 @@
           "team_abbr": "ATL"
         },
         {
-          "type": "player",
-          "name": "Terance Mann",
-          "stat": "Terance Mann - FG3_PCT",
-          "score": -1.158,
-          "actual": 0.0,
-          "avg": 0.34,
-          "player_id": 1629611
+          "type": "team",
+          "name": "Orlando Magic",
+          "stat": "Orlando Magic - FTM",
+          "score": -0.955,
+          "actual": 10,
+          "avg": 17.85,
+          "team_abbr": "ORL"
         },
         {
           "type": "player",
           "name": "Wendell Carter Jr.",
-          "stat": "Wendell Carter Jr. - FG3_PCT",
-          "score": -1.109,
-          "actual": 0.0,
-          "avg": 0.23,
+          "stat": "Wendell Carter Jr. - TS%",
+          "score": -0.689,
+          "actual": 0.24,
+          "avg": 0.54,
           "player_id": 1628976
         },
         {
           "type": "player",
-          "name": "Jonathan Isaac",
-          "stat": "Jonathan Isaac - FG3_PCT",
-          "score": -1.095,
-          "actual": 0.0,
-          "avg": 0.2,
-          "player_id": 1628371
+          "name": "Goga Bitadze",
+          "stat": "Goga Bitadze - TS%",
+          "score": -0.345,
+          "actual": 0.46,
+          "avg": 0.63,
+          "player_id": 1629048
         }
       ]
     }

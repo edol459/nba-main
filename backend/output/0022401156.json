@@ -9,6 +9,15 @@
       "positive": [
         {
           "type": "player",
+          "name": "Cole Anthony",
+          "stat": "Cole Anthony - FG3M",
+          "score": 5.4,
+          "actual": 5,
+          "avg": 1.15,
+          "player_id": 1630175
+        },
+        {
+          "type": "player",
           "name": "Baylor Scheierman",
           "stat": "Baylor Scheierman - PTS",
           "score": 5.364,
@@ -18,9 +27,18 @@
         },
         {
           "type": "player",
+          "name": "Torrey Craig",
+          "stat": "Torrey Craig - DREB",
+          "score": 4.918,
+          "actual": 7,
+          "avg": 1.77,
+          "player_id": 1628470
+        },
+        {
+          "type": "player",
           "name": "Paolo Banchero",
           "stat": "Paolo Banchero - AST/TOV",
-          "score": 5.293,
+          "score": 4.852,
           "actual": 6.0,
           "avg": 1.608,
           "player_id": 1631094
@@ -29,28 +47,10 @@
           "type": "player",
           "name": "Payton Pritchard",
           "stat": "Payton Pritchard - AST",
-          "score": 3.953,
+          "score": 4.743,
           "actual": 10,
           "avg": 3.49,
           "player_id": 1630202
-        },
-        {
-          "type": "player",
-          "name": "Torrey Craig",
-          "stat": "Torrey Craig - DREB",
-          "score": 2.951,
-          "actual": 7,
-          "avg": 1.77,
-          "player_id": 1628470
-        },
-        {
-          "type": "player",
-          "name": "Cole Anthony",
-          "stat": "Cole Anthony - FG3M",
-          "score": 2.454,
-          "actual": 5,
-          "avg": 1.15,
-          "player_id": 1630175
         }
       ],
       "negative": [
@@ -61,6 +61,15 @@
           "score": -3.001,
           "actual": 76,
           "avg": 116.27,
+          "team_abbr": "BOS"
+        },
+        {
+          "type": "team",
+          "name": "Boston Celtics",
+          "stat": "Boston Celtics - FG3M",
+          "score": -2.888,
+          "actual": 7,
+          "avg": 17.77,
           "team_abbr": "BOS"
         },
         {
@@ -89,15 +98,6 @@
           "actual": 5,
           "avg": 8.89,
           "team_abbr": "ORL"
-        },
-        {
-          "type": "team",
-          "name": "Boston Celtics",
-          "stat": "Boston Celtics - FTM",
-          "score": -1.356,
-          "actual": 5,
-          "avg": 15.26,
-          "team_abbr": "BOS"
         }
       ]
     }

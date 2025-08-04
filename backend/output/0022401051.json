@@ -14,8 +14,7 @@
           "score": 5.262,
           "actual": 8.0,
           "avg": 2.358,
-          "player_id": 1629014,
-          "team_abbr": null
+          "player_id": 1629014
         },
         {
           "type": "player",
@@ -24,8 +23,16 @@
           "score": 3.869,
           "actual": 18,
           "avg": 6.51,
-          "player_id": 1642270,
-          "team_abbr": null
+          "player_id": 1642270
+        },
+        {
+          "type": "player",
+          "name": "Donovan Clingan",
+          "stat": "Donovan Clingan - FG3_PCT",
+          "score": 3.696,
+          "actual": 0.667,
+          "avg": 0.15,
+          "player_id": 1642270
         },
         {
           "type": "player",
@@ -34,8 +41,7 @@
           "score": 3.025,
           "actual": 8,
           "avg": 3.24,
-          "player_id": 1642270,
-          "team_abbr": null
+          "player_id": 1642270
         },
         {
           "type": "player",
@@ -44,18 +50,7 @@
           "score": 2.925,
           "actual": 25,
           "avg": 12.54,
-          "player_id": 1629660,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Matisse Thybulle",
-          "stat": "Matisse Thybulle - PTS",
-          "score": 2.347,
-          "actual": 15,
-          "avg": 7.47,
-          "player_id": 1629680,
-          "team_abbr": null
+          "player_id": 1629660
         }
       ],
       "negative": [
@@ -66,18 +61,7 @@
           "score": -2.292,
           "actual": 7,
           "avg": 19.26,
-          "player_id": 1629014,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Dalano Banton",
-          "stat": "Dalano Banton - PTS",
-          "score": -1.565,
-          "actual": 3,
-          "avg": 8.34,
-          "player_id": 1630625,
-          "team_abbr": null
+          "player_id": 1629014
         },
         {
           "type": "team",
@@ -90,25 +74,37 @@
         },
         {
           "type": "player",
-          "name": "Max Strus",
-          "stat": "Max Strus - PTS",
-          "score": -1.212,
-          "actual": 5,
-          "avg": 9.42,
-          "player_id": 1629622,
-          "team_abbr": null
+          "name": "Evan Mobley",
+          "stat": "Evan Mobley - FG3_PCT",
+          "score": -1.149,
+          "actual": 0.0,
+          "avg": 0.32,
+          "player_id": 1630596
+        },
+        {
+          "type": "team",
+          "name": "Portland Trail Blazers",
+          "stat": "Portland Trail Blazers - BLK",
+          "score": -1.082,
+          "actual": 3,
+          "avg": 5.28,
+          "team_abbr": "POR"
         },
         {
           "type": "player",
-          "name": "De'Andre Hunter",
-          "stat": "De'Andre Hunter - PTS",
-          "score": -1.198,
-          "actual": 11,
-          "avg": 17.0,
-          "player_id": 1629631,
-          "team_abbr": null
+          "name": "Anfernee Simons",
+          "stat": "Anfernee Simons - FG3_PCT",
+          "score": -0.817,
+          "actual": 0.1,
+          "avg": 0.34,
+          "player_id": 1629014
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "POR": 111,
+    "CLE": 122
+  },
+  "winner": "CLE"
 }

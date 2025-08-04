@@ -11,41 +11,46 @@
           "type": "player",
           "name": "Craig Porter Jr.",
           "stat": "Craig Porter Jr. - PTS",
-          "score": 5.78,
+          "score": 4.046,
           "actual": 16,
-          "avg": 3.69
+          "avg": 3.69,
+          "player_id": 1641854
+        },
+        {
+          "type": "player",
+          "name": "De'Andre Hunter",
+          "stat": "De'Andre Hunter - DREB",
+          "score": 2.326,
+          "actual": 10,
+          "avg": 3.34,
+          "player_id": 1629631
         },
         {
           "type": "player",
           "name": "Tristan Thompson",
-          "stat": "Tristan Thompson - PTS",
-          "score": 4.05,
-          "actual": 7,
-          "avg": 1.72
+          "stat": "Tristan Thompson - DREB",
+          "score": 2.255,
+          "actual": 8,
+          "avg": 2.55,
+          "player_id": 202684
         },
         {
           "type": "player",
           "name": "Jarace Walker",
           "stat": "Jarace Walker - PTS",
-          "score": 3.078,
+          "score": 2.155,
           "actual": 15,
-          "avg": 6.15
+          "avg": 6.15,
+          "player_id": 1641716
         },
         {
           "type": "player",
-          "name": "Ty Jerome",
-          "stat": "Ty Jerome - PTS",
-          "score": 2.69,
-          "actual": 24,
-          "avg": 12.54
-        },
-        {
-          "type": "team",
-          "name": "Indiana Pacers",
-          "stat": "Indiana Pacers - BLK",
-          "score": 2.579,
-          "actual": 11,
-          "avg": 5.46
+          "name": "Sam Merrill",
+          "stat": "Sam Merrill - FG3M",
+          "score": 1.906,
+          "actual": 5,
+          "avg": 1.93,
+          "player_id": 1630241
         }
       ],
       "negative": [
@@ -53,43 +58,53 @@
           "type": "player",
           "name": "Jarrett Allen",
           "stat": "Jarrett Allen - PTS",
-          "score": -2.363,
+          "score": -1.654,
           "actual": 3,
-          "avg": 13.45
+          "avg": 13.45,
+          "player_id": 1628386
         },
         {
           "type": "team",
           "name": "Indiana Pacers",
           "stat": "Indiana Pacers - STL",
-          "score": -1.985,
+          "score": -1.39,
           "actual": 3,
-          "avg": 8.46
+          "avg": 8.46,
+          "team_abbr": "IND"
         },
         {
           "type": "player",
           "name": "Pascal Siakam",
           "stat": "Pascal Siakam - PTS",
-          "score": -1.864,
+          "score": -1.305,
           "actual": 10,
-          "avg": 20.23
+          "avg": 20.23,
+          "player_id": 1627783
         },
         {
           "type": "team",
           "name": "Cleveland Cavaliers",
           "stat": "Cleveland Cavaliers - FTM",
-          "score": -0.996,
+          "score": -0.697,
           "actual": 9,
-          "avg": 16.98
+          "avg": 16.98,
+          "team_abbr": "CLE"
         },
         {
           "type": "player",
           "name": "Andrew Nembhard",
           "stat": "Andrew Nembhard - TS%",
-          "score": -0.487,
+          "score": -0.681,
           "actual": 0.12,
-          "avg": 0.55
+          "avg": 0.55,
+          "player_id": 1629614
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "IND": 114,
+    "CLE": 112
+  },
+  "winner": "IND"
 }

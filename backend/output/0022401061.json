@@ -8,88 +8,103 @@
     {
       "positive": [
         {
+          "type": "team_vs_team",
+          "name": "Indiana Pacers",
+          "stat": "DREB differential",
+          "score": 12.22,
+          "actual": 18.0,
+          "avg": 5.78,
+          "team_abbr": "IND"
+        },
+        {
+          "type": "team_vs_team",
+          "name": "Indiana Pacers",
+          "stat": "FG3M differential",
+          "score": 11.593,
+          "actual": 16.0,
+          "avg": 4.406,
+          "team_abbr": "IND"
+        },
+        {
           "type": "player",
           "name": "Quenton Jackson",
           "stat": "Quenton Jackson - AST",
-          "score": 2.704,
+          "score": 5.516,
           "actual": 7,
-          "avg": 1.89
-        },
-        {
-          "type": "player",
-          "name": "Andrew Nembhard",
-          "stat": "Andrew Nembhard - AST/TOV",
-          "score": 2.089,
-          "actual": 8.0,
-          "avg": 2.919
-        },
-        {
-          "type": "player",
-          "name": "T.J. McConnell",
-          "stat": "T.J. McConnell - AST/TOV",
-          "score": 1.784,
-          "actual": 8.0,
-          "avg": 3.217
-        },
-        {
-          "type": "player",
-          "name": "Colby Jones",
-          "stat": "Colby Jones - PTS",
-          "score": 1.582,
-          "actual": 12,
-          "avg": 4.03
+          "avg": 1.89,
+          "player_id": 1631245
         },
         {
           "type": "player",
           "name": "Jarace Walker",
-          "stat": "Jarace Walker - PTS",
-          "score": 1.281,
-          "actual": 16,
-          "avg": 6.15
+          "stat": "Jarace Walker - FG3M",
+          "score": 4.667,
+          "actual": 4,
+          "avg": 1.0,
+          "player_id": 1641716
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - FG3M",
+          "score": 4.343,
+          "actual": 27,
+          "avg": 13.18,
+          "team_abbr": "IND"
         }
       ],
       "negative": [
         {
+          "type": "team",
+          "name": "Washington Wizards",
+          "stat": "Washington Wizards - DREB",
+          "score": -2.49,
+          "actual": 19,
+          "avg": 33.12,
+          "team_abbr": "WAS"
+        },
+        {
+          "type": "player",
+          "name": "Bennedict Mathurin",
+          "stat": "Bennedict Mathurin - FG3_PCT",
+          "score": -1.158,
+          "actual": 0.0,
+          "avg": 0.34,
+          "player_id": 1631097
+        },
+        {
           "type": "player",
           "name": "AJ Johnson",
           "stat": "AJ Johnson - TS%",
-          "score": -0.708,
+          "score": -0.862,
           "actual": 0.14,
-          "avg": 0.48
+          "avg": 0.48,
+          "player_id": 1642358
         },
         {
           "type": "player",
           "name": "Tristan Vukcevic",
           "stat": "Tristan Vukcevic - TS%",
-          "score": -0.525,
+          "score": -0.666,
           "actual": 0.29,
-          "avg": 0.61
+          "avg": 0.61,
+          "player_id": 1641774
         },
         {
-          "type": "player",
-          "name": "Tristan Vukcevic",
-          "stat": "Tristan Vukcevic - PTS",
-          "score": -0.461,
-          "actual": 4,
-          "avg": 9.43
-        },
-        {
-          "type": "player",
-          "name": "Bennedict Mathurin",
-          "stat": "Bennedict Mathurin - PTS",
-          "score": -0.302,
-          "actual": 10,
-          "avg": 16.06
-        },
-        {
-          "type": "player",
-          "name": "Pascal Siakam",
-          "stat": "Pascal Siakam - PTS",
-          "score": -0.286,
-          "actual": 13,
-          "avg": 20.23
+          "type": "team",
+          "name": "Washington Wizards",
+          "stat": "Washington Wizards - FG3M",
+          "score": 0.0,
+          "actual": 11,
+          "avg": 13.11,
+          "team_abbr": "WAS"
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "WAS": 109,
+    "IND": 162
+  },
+  "winner": "IND"
 }

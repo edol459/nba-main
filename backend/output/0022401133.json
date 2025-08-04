@@ -9,13 +9,21 @@
       "positive": [
         {
           "type": "player",
+          "name": "Coby White",
+          "stat": "Coby White - AST/TOV",
+          "score": 3.412,
+          "actual": 5.0,
+          "avg": 1.866,
+          "player_id": 1629632
+        },
+        {
+          "type": "player",
           "name": "KJ Simpson",
           "stat": "KJ Simpson - PTS",
           "score": 3.088,
           "actual": 18,
           "avg": 7.83,
-          "player_id": 1642354,
-          "team_abbr": null
+          "player_id": 1642354
         },
         {
           "type": "player",
@@ -24,38 +32,25 @@
           "score": 3.014,
           "actual": 37,
           "avg": 20.39,
-          "player_id": 1629632,
-          "team_abbr": null
+          "player_id": 1629632
         },
         {
           "type": "player",
-          "name": "Jusuf Nurki\u0107",
-          "stat": "Jusuf Nurki\u0107 - PTS",
-          "score": 2.583,
-          "actual": 18,
-          "avg": 8.88,
-          "player_id": 203994,
-          "team_abbr": null
+          "name": "Josh Okogie",
+          "stat": "Josh Okogie - FTM",
+          "score": 2.755,
+          "actual": 7,
+          "avg": 1.58,
+          "player_id": 1629006
         },
         {
           "type": "player",
-          "name": "Josh Giddey",
-          "stat": "Josh Giddey - PTS",
-          "score": 1.818,
-          "actual": 23,
-          "avg": 14.6,
-          "player_id": 1630581,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Patrick Williams",
-          "stat": "Patrick Williams - PTS",
-          "score": 1.694,
-          "actual": 15,
-          "avg": 8.98,
-          "player_id": 1630172,
-          "team_abbr": null
+          "name": "Tidjane Sala\u00fcn",
+          "stat": "Tidjane Sala\u00fcn - AST/TOV",
+          "score": 2.468,
+          "actual": 3.0,
+          "avg": 1.268,
+          "player_id": 1642275
         }
       ],
       "negative": [
@@ -66,49 +61,50 @@
           "score": -2.238,
           "actual": 8,
           "avg": 20.31,
-          "player_id": 1628970,
-          "team_abbr": null
-        },
-        {
-          "type": "team",
-          "name": "Charlotte Hornets",
-          "stat": "Charlotte Hornets - FG3M",
-          "score": -1.437,
-          "actual": 8,
-          "avg": 12.99,
-          "team_abbr": "CHA"
+          "player_id": 1628970
         },
         {
           "type": "player",
-          "name": "Dalen Terry",
-          "stat": "Dalen Terry - TS%",
-          "score": -1.188,
-          "actual": 0.2,
-          "avg": 0.55,
-          "player_id": 1631207,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Jusuf Nurki\u0107",
-          "stat": "Jusuf Nurki\u0107 - DREB",
-          "score": -1.081,
-          "actual": 2,
-          "avg": 6.14,
-          "player_id": 203994,
-          "team_abbr": null
+          "name": "Nick Smith Jr.",
+          "stat": "Nick Smith Jr. - FG3_PCT",
+          "score": -1.149,
+          "actual": 0.0,
+          "avg": 0.32,
+          "player_id": 1641733
         },
         {
           "type": "player",
           "name": "Miles Bridges",
-          "stat": "Miles Bridges - TS%",
-          "score": -0.862,
-          "actual": 0.29,
-          "avg": 0.54,
-          "player_id": 1628970,
-          "team_abbr": null
+          "stat": "Miles Bridges - FG3_PCT",
+          "score": -1.145,
+          "actual": 0.0,
+          "avg": 0.31,
+          "player_id": 1628970
+        },
+        {
+          "type": "player",
+          "name": "Tidjane Sala\u00fcn",
+          "stat": "Tidjane Sala\u00fcn - FG3_PCT",
+          "score": -1.131,
+          "actual": 0.0,
+          "avg": 0.28,
+          "player_id": 1642275
+        },
+        {
+          "type": "player",
+          "name": "Zach Collins",
+          "stat": "Zach Collins - FG3_PCT",
+          "score": -1.118,
+          "actual": 0.0,
+          "avg": 0.25,
+          "player_id": 1628380
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "CHI": 131,
+    "CHA": 117
+  },
+  "winner": "CHI"
 }

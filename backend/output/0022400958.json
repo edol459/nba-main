@@ -36,21 +36,21 @@
         },
         {
           "type": "player",
-          "name": "Jaime Jaquez Jr.",
-          "stat": "Jaime Jaquez Jr. - FG3_PCT",
-          "score": 2.107,
-          "actual": 0.667,
-          "avg": 0.23,
-          "player_id": 1631170
-        },
-        {
-          "type": "player",
           "name": "Al Horford",
           "stat": "Al Horford - AST/TOV",
-          "score": 1.881,
+          "score": 1.567,
           "actual": 5.0,
           "avg": 2.766,
           "player_id": 201143
+        },
+        {
+          "type": "player",
+          "name": "Jrue Holiday",
+          "stat": "Jrue Holiday - FG3M",
+          "score": 1.551,
+          "actual": 5,
+          "avg": 1.74,
+          "player_id": 201950
         }
       ],
       "negative": [

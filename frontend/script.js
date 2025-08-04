@@ -90,8 +90,16 @@ function renderOutliers(data) {
   const posBars = outliers.positive.map((out, i) => makeBar(out, false, i)).join('');
   const negBars = outliers.negative.map((out, i) => makeBar(out, true, i)).join('');
 
+  const showAllButton = `
+    <div class="showAllButton"> 
+      <button id="toggleLabelsButton" onclick="toggleAllLabels()"> Show All Outliers </button>
+    </div>
+    `;
+
+
   document.getElementById("output").innerHTML = `
     ${headerHTML}
+    ${showAllButton}
     <div class="timeline-container">
       <div class="outlier-column negative">${negBars}</div>
       <div class="timeline-center"></div>
@@ -119,9 +127,30 @@ function makeBar(outlier, isNegative, index) {
     imgTag = `<img src="${teamLogoUrl}" class="team-logo-mini" alt="${outlier.name} logo" />`;
   }
 
+
+  const statKey = outlier.stat;
+  const isPctStat = statKey.includes("PCT");
+  let formattedActual = outlier.actual;
+  let formattedAvg = outlier.avg;
+  let attemptInfo = "";
+
+  if (isPctStat){
+    formattedActual = `${Math.round(outlier.actual * 100)}%`;
+    formattedAvg = `${Math.round(outlier.avg * 100)}%`;
+
+
+    // Add shot context
+    if (statKey === "FG_PCT") {
+      attemptInfo = ` (${outlier.FGM} / ${outlier.FGA})`;
+    } else if (statKey === "FG3_PCT") {
+      attemptInfo = ` (${outlier.FG3M} / ${outlier.FG3A})`;
+    } else if (statKey === "FT_PCT") {
+      attemptInfo = ` (${outlier.FTM} / ${outlier.FTA})`;
+    }
+  }
     
   const statLabel = isDiff
-    ? `${outlier.stat} (vs avg diff)`
+    ? `${outlier.stat} `
     : outlier.stat.split(" - ")[1];
 
 
@@ -129,14 +158,42 @@ function makeBar(outlier, isNegative, index) {
     ${imgTag}
     <b>${outlier.name}</b><br>
     ${statLabel}<br>
-    Actual: ${outlier.actual} <br>
-    Average: ${outlier.avg} <br>
+    Actual: ${formattedActual} <br>
+    Average: ${formattedAvg} <br>
     Score: ${outlier.score}
   `;
 
+
+  const barId = `bar-${outlier.name.replace(/\s+/g, '-')}-${statLabel.replace(/\s+/g, '-')}`;
+  
   return `
-    <div class="${bar}" style="height:${height}px;">
+    <div id="${barId}" class="${bar}" style="height:${height}px;" onclick="toggleLabel('${barId}')">
       <span class="bar-label">${label}</span>
     </div>
   `;
+}
+
+function toggleLabel(barId) {
+  const bar = document.getElementById(barId);
+  const label = bar.querySelector('.bar-label');
+  label.classList.toggle('persistent');
+  bar.classList.toggle('clicked');
+}
+
+function toggleAllLabels() {
+  const labels = document.querySelectorAll('.bar-label');
+  const bars = document.querySelectorAll('.bar');
+  const allVisible = Array.from(labels).every(label => label.classList.contains('persistent'));
+  const button = document.getElementById('toggleLabelsButton');
+
+  labels.forEach(label => {
+    label.classList.toggle('persistent', !allVisible);
+  });
+
+  bars.forEach(bar => {
+    bar.classList.toggle('clicked', !allVisible);
+  });
+
+  button.textContent = allVisible ? 'Show All Outliers' : 'Hide All Outliers';
+
 }

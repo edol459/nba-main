@@ -9,6 +9,24 @@
       "positive": [
         {
           "type": "player",
+          "name": "Davion Mitchell",
+          "stat": "Davion Mitchell - PTS",
+          "score": 2.423,
+          "actual": 16,
+          "avg": 7.95,
+          "player_id": 1630558
+        },
+        {
+          "type": "player",
+          "name": "Trae Young",
+          "stat": "Trae Young - FG3M",
+          "score": 2.36,
+          "actual": 6,
+          "avg": 2.87,
+          "player_id": 1629027
+        },
+        {
+          "type": "player",
           "name": "Tyler Herro",
           "stat": "Tyler Herro - PTS",
           "score": 2.021,
@@ -17,40 +35,22 @@
           "player_id": 1629639
         },
         {
-          "type": "player",
-          "name": "Trae Young",
-          "stat": "Trae Young - FG3M",
-          "score": 1.073,
-          "actual": 6,
-          "avg": 2.87,
-          "player_id": 1629027
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FG3M",
+          "score": 1.396,
+          "actual": 18,
+          "avg": 13.5,
+          "team_abbr": "ATL"
         },
         {
-          "type": "player",
-          "name": "Davion Mitchell",
-          "stat": "Davion Mitchell - FG3_PCT",
-          "score": 0.947,
-          "actual": 0.8,
-          "avg": 0.4,
-          "player_id": 1630558
-        },
-        {
-          "type": "player",
-          "name": "Haywood Highsmith",
-          "stat": "Haywood Highsmith - FG3_PCT",
-          "score": 0.804,
-          "actual": 0.6,
-          "avg": 0.32,
-          "player_id": 1629312
-        },
-        {
-          "type": "player",
-          "name": "Tyler Herro",
-          "stat": "Tyler Herro - FG3_PCT",
-          "score": 0.752,
-          "actual": 0.667,
-          "avg": 0.37,
-          "player_id": 1629639
+          "type": "team",
+          "name": "Miami Heat",
+          "stat": "Miami Heat - FG3M",
+          "score": 1.32,
+          "actual": 18,
+          "avg": 13.71,
+          "team_abbr": "MIA"
         }
       ],
       "negative": [
@@ -58,7 +58,7 @@
           "type": "team",
           "name": "Atlanta Hawks",
           "stat": "Atlanta Hawks - OREB",
-          "score": -1.776,
+          "score": -2.132,
           "actual": 6,
           "avg": 11.88,
           "team_abbr": "ATL"
@@ -82,24 +82,29 @@
           "team_abbr": "ATL"
         },
         {
-          "type": "player",
-          "name": "Kyle Anderson",
-          "stat": "Kyle Anderson - FG3_PCT",
-          "score": -0.884,
-          "actual": 0.0,
-          "avg": 0.22,
-          "player_id": 203937
+          "type": "team",
+          "name": "Miami Heat",
+          "stat": "Miami Heat - PFD",
+          "score": -0.744,
+          "actual": 11,
+          "avg": 16.95,
+          "team_abbr": "MIA"
         },
         {
           "type": "player",
           "name": "Kel'el Ware",
-          "stat": "Kel'el Ware - FG3_PCT",
-          "score": -0.876,
-          "actual": 0.0,
-          "avg": 0.2,
+          "stat": "Kel'el Ware - TS%",
+          "score": -0.337,
+          "actual": 0.44,
+          "avg": 0.6,
           "player_id": 1642276
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "ATL": 112,
+    "MIA": 122
+  },
+  "winner": "MIA"
 }

@@ -11,10 +11,19 @@
           "type": "player",
           "name": "Mouhamed Gueye",
           "stat": "Mouhamed Gueye - OREB",
-          "score": 8.803,
+          "score": 10.563,
           "actual": 9,
           "avg": 1.33,
           "player_id": 1631243
+        },
+        {
+          "type": "player",
+          "name": "Marcus Bagley",
+          "stat": "Marcus Bagley - AST",
+          "score": 6.788,
+          "actual": 5,
+          "avg": 1.0,
+          "player_id": 1630542
         },
         {
           "type": "player",
@@ -27,12 +36,12 @@
         },
         {
           "type": "player",
-          "name": "Marcus Bagley",
-          "stat": "Marcus Bagley - AST/TOV",
-          "score": 4.675,
-          "actual": 5.0,
-          "avg": 1.429,
-          "player_id": 1630542
+          "name": "Jared Butler",
+          "stat": "Jared Butler - FG3M",
+          "score": 4.667,
+          "actual": 4,
+          "avg": 1.0,
+          "player_id": 1630215
         },
         {
           "type": "player",
@@ -42,62 +51,53 @@
           "actual": 16,
           "avg": 4.73,
           "player_id": 1630658
-        },
-        {
-          "type": "player",
-          "name": "Caris LeVert",
-          "stat": "Caris LeVert - PTS",
-          "score": 4.514,
-          "actual": 31,
-          "avg": 12.12,
-          "player_id": 1627747
         }
       ],
       "negative": [
         {
           "type": "player",
-          "name": "Dyson Daniels",
-          "stat": "Dyson Daniels - FG3_PCT",
-          "score": -1.162,
-          "actual": 0.0,
-          "avg": 0.35,
-          "player_id": 1630700
-        },
-        {
-          "type": "player",
-          "name": "Zaccharie Risacher",
-          "stat": "Zaccharie Risacher - FG3_PCT",
-          "score": -1.149,
-          "actual": 0.0,
-          "avg": 0.32,
-          "player_id": 1642258
-        },
-        {
-          "type": "player",
-          "name": "Jeff Dowtin Jr.",
-          "stat": "Jeff Dowtin Jr. - FG3_PCT",
-          "score": -1.114,
-          "actual": 0.0,
-          "avg": 0.24,
-          "player_id": 1630288
-        },
-        {
-          "type": "player",
           "name": "Onyeka Okongwu",
-          "stat": "Onyeka Okongwu - FG3_PCT",
-          "score": -1.114,
-          "actual": 0.0,
-          "avg": 0.24,
+          "stat": "Onyeka Okongwu - PTS",
+          "score": -2.122,
+          "actual": 4,
+          "avg": 13.35,
           "player_id": 1630168
         },
         {
           "type": "player",
           "name": "Jeff Dowtin Jr.",
           "stat": "Jeff Dowtin Jr. - TS%",
-          "score": -0.95,
+          "score": -1.055,
           "actual": 0.09,
           "avg": 0.57,
           "player_id": 1630288
+        },
+        {
+          "type": "player",
+          "name": "Lonnie Walker IV",
+          "stat": "Lonnie Walker IV - PF",
+          "score": -0.829,
+          "actual": 5,
+          "avg": 1.35,
+          "player_id": 1629022
+        },
+        {
+          "type": "player",
+          "name": "Onyeka Okongwu",
+          "stat": "Onyeka Okongwu - TS%",
+          "score": -0.689,
+          "actual": 0.29,
+          "avg": 0.63,
+          "player_id": 1630168
+        },
+        {
+          "type": "team",
+          "name": "Philadelphia 76ers",
+          "stat": "Philadelphia 76ers - FTM",
+          "score": -0.681,
+          "actual": 12,
+          "avg": 17.55,
+          "team_abbr": "PHI"
         }
       ]
     }

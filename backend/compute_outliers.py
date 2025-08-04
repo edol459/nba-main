@@ -6,6 +6,7 @@ from backend.config import OUT_DIR, N_BARS
 from backend.utils import load_csv, save_json
 from backend.scoring import compute_scores, rank_scores, compute_team_diff_scores
 
+
 def compute_outliers(game_id: str):
     team_logs   = load_csv("team_game_logs.csv")
     player_logs = load_csv("player_game_logs.csv")

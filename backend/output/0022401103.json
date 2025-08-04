@@ -9,107 +9,102 @@
       "positive": [
         {
           "type": "player",
-          "name": "Jarrett Allen",
-          "stat": "Jarrett Allen - TS%",
-          "score": 0.222,
-          "actual": 0.88,
-          "avg": 0.72,
-          "player_id": 1628386,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
-          "name": "Donovan Mitchell",
-          "stat": "Donovan Mitchell - TS%",
-          "score": 0.172,
-          "actual": 0.68,
-          "avg": 0.58,
-          "player_id": 1628378,
-          "team_abbr": null
-        },
-        {
-          "type": "player",
           "name": "OG Anunoby",
-          "stat": "OG Anunoby - TS%",
-          "score": 0.153,
-          "actual": 0.68,
-          "avg": 0.59,
-          "player_id": 1628384,
-          "team_abbr": null
+          "stat": "OG Anunoby - AST/TOV",
+          "score": 4.85,
+          "actual": 6.0,
+          "avg": 1.609,
+          "player_id": 1628384
         },
         {
           "type": "player",
-          "name": "Josh Hart",
-          "stat": "Josh Hart - TS%",
-          "score": -0.18,
-          "actual": 0.5,
-          "avg": 0.61,
-          "player_id": 1628404,
-          "team_abbr": null
+          "name": "Delon Wright",
+          "stat": "Delon Wright - AST",
+          "score": 4.357,
+          "actual": 6,
+          "avg": 1.92,
+          "player_id": 1626153
         },
         {
           "type": "player",
-          "name": "Evan Mobley",
-          "stat": "Evan Mobley - TS%",
-          "score": -0.19,
-          "actual": 0.51,
-          "avg": 0.63,
-          "player_id": 1630596,
-          "team_abbr": null
+          "name": "Darius Garland",
+          "stat": "Darius Garland - AST/TOV",
+          "score": 2.616,
+          "actual": 6.0,
+          "avg": 2.679,
+          "player_id": 1629636
+        },
+        {
+          "type": "team",
+          "name": "New York Knicks",
+          "stat": "New York Knicks - OREB",
+          "score": 1.58,
+          "actual": 15,
+          "avg": 10.85,
+          "team_abbr": "NYK"
+        },
+        {
+          "type": "team",
+          "name": "Cleveland Cavaliers",
+          "stat": "Cleveland Cavaliers - OREB",
+          "score": 1.431,
+          "actual": 15,
+          "avg": 11.18,
+          "team_abbr": "CLE"
         }
       ],
       "negative": [
         {
           "type": "player",
-          "name": "Evan Mobley",
-          "stat": "Evan Mobley - FG_PCT",
-          "score": -0.338,
-          "actual": 0.364,
-          "avg": 0.55,
-          "player_id": 1630596,
-          "team_abbr": null
+          "name": "Karl-Anthony Towns",
+          "stat": "Karl-Anthony Towns - TOV",
+          "score": -2.485,
+          "actual": 7,
+          "avg": 2.67,
+          "player_id": 1626157
         },
         {
           "type": "player",
-          "name": "Evan Mobley",
-          "stat": "Evan Mobley - TS%",
-          "score": -0.19,
-          "actual": 0.51,
-          "avg": 0.63,
-          "player_id": 1630596,
-          "team_abbr": null
+          "name": "Mikal Bridges",
+          "stat": "Mikal Bridges - PTS",
+          "score": -1.883,
+          "actual": 8,
+          "avg": 17.61,
+          "player_id": 1628969
         },
         {
           "type": "player",
           "name": "Josh Hart",
-          "stat": "Josh Hart - TS%",
-          "score": -0.18,
-          "actual": 0.5,
-          "avg": 0.61,
-          "player_id": 1628404,
-          "team_abbr": null
+          "stat": "Josh Hart - DREB",
+          "score": -1.744,
+          "actual": 3,
+          "avg": 7.48,
+          "player_id": 1628404
         },
         {
           "type": "player",
-          "name": "OG Anunoby",
-          "stat": "OG Anunoby - TS%",
-          "score": 0.153,
-          "actual": 0.68,
-          "avg": 0.59,
-          "player_id": 1628384,
-          "team_abbr": null
+          "name": "Landry Shamet",
+          "stat": "Landry Shamet - TS_PCT",
+          "score": -0.506,
+          "actual": 0.36,
+          "avg": 0.6,
+          "player_id": 1629013
         },
         {
-          "type": "player",
-          "name": "Donovan Mitchell",
-          "stat": "Donovan Mitchell - TS%",
-          "score": 0.172,
-          "actual": 0.68,
-          "avg": 0.58,
-          "player_id": 1628378,
-          "team_abbr": null
+          "type": "team",
+          "name": "Cleveland Cavaliers",
+          "stat": "Cleveland Cavaliers - FG3M",
+          "score": 0.0,
+          "actual": 12,
+          "avg": 15.89,
+          "team_abbr": "CLE"
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "CLE": 124,
+    "NYK": 105
+  },
+  "winner": "CLE"
 }

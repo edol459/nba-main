@@ -11,85 +11,100 @@
           "type": "player",
           "name": "Johnny Furphy",
           "stat": "Johnny Furphy - PTS",
-          "score": 10.149,
+          "score": 7.104,
           "actual": 17,
-          "avg": 2.06
+          "avg": 2.06,
+          "player_id": 1642277
         },
         {
           "type": "player",
           "name": "Trevelin Queen",
           "stat": "Trevelin Queen - PTS",
-          "score": 7.971,
+          "score": 5.58,
           "actual": 25,
-          "avg": 4.9
+          "avg": 4.9,
+          "player_id": 1630243
+        },
+        {
+          "type": "player",
+          "name": "Tony Bradley",
+          "stat": "Tony Bradley - OREB",
+          "score": 3.868,
+          "actual": 6,
+          "avg": 1.29,
+          "player_id": 1628396
         },
         {
           "type": "player",
           "name": "Jett Howard",
           "stat": "Jett Howard - PTS",
-          "score": 5.267,
+          "score": 3.687,
           "actual": 17,
-          "avg": 4.45
+          "avg": 4.45,
+          "player_id": 1641724
         },
         {
           "type": "player",
-          "name": "RayJ Dennis",
-          "stat": "RayJ Dennis - PTS",
-          "score": 4.114,
-          "actual": 10,
-          "avg": 2.73
-        },
-        {
-          "type": "player",
-          "name": "Gary Harris",
-          "stat": "Gary Harris - PTS",
-          "score": 3.707,
-          "actual": 10,
-          "avg": 3.02
+          "name": "Anthony Black",
+          "stat": "Anthony Black - PTS",
+          "score": 2.216,
+          "actual": 21,
+          "avg": 9.44,
+          "player_id": 1641710
         }
       ],
       "negative": [
         {
           "type": "player",
-          "name": "Obi Toppin",
-          "stat": "Obi Toppin - PTS",
-          "score": -1.686,
-          "actual": 4,
-          "avg": 10.54
+          "name": "Jarace Walker",
+          "stat": "Jarace Walker - TOV",
+          "score": -3.046,
+          "actual": 5,
+          "avg": 1.04,
+          "player_id": 1641716
+        },
+        {
+          "type": "player",
+          "name": "Anthony Black",
+          "stat": "Anthony Black - TOV",
+          "score": -1.689,
+          "actual": 5,
+          "avg": 1.78,
+          "player_id": 1641710
+        },
+        {
+          "type": "player",
+          "name": "Bennedict Mathurin",
+          "stat": "Bennedict Mathurin - TOV",
+          "score": -1.577,
+          "actual": 5,
+          "avg": 1.88,
+          "player_id": 1631097
         },
         {
           "type": "team",
           "name": "Indiana Pacers",
           "stat": "Indiana Pacers - TOV",
-          "score": -0.971,
+          "score": -1.087,
           "actual": 20.0,
-          "avg": 13.2
-        },
-        {
-          "type": "team",
-          "name": "Orlando Magic",
-          "stat": "Orlando Magic - TOV",
-          "score": -0.795,
-          "actual": 20.0,
-          "avg": 14.21
+          "avg": 13.2,
+          "team_abbr": "IND"
         },
         {
           "type": "player",
-          "name": "Obi Toppin",
-          "stat": "Obi Toppin - TS%",
-          "score": -0.39,
-          "actual": 0.25,
-          "avg": 0.64
-        },
-        {
-          "type": "team",
-          "name": "Orlando Magic",
-          "stat": "Orlando Magic - PF",
-          "score": -0.361,
-          "actual": 28,
-          "avg": 20.1
+          "name": "Jett Howard",
+          "stat": "Jett Howard - PF",
+          "score": -0.881,
+          "actual": 6,
+          "avg": 1.13,
+          "player_id": 1641724
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "IND": 115,
+    "ORL": 129
+  },
+  "winner": "ORL"
 }

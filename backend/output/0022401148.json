@@ -9,11 +9,39 @@
       "positive": [
         {
           "type": "player",
+          "name": "Pascal Siakam",
+          "stat": "Pascal Siakam - OREB",
+          "score": 3.801,
+          "actual": 5,
+          "avg": 1.71,
+          "player_id": 1627783
+        },
+        {
+          "type": "player",
           "name": "Justin Champagnie",
           "stat": "Justin Champagnie - PTS",
           "score": 3.202,
           "actual": 20,
-          "avg": 8.77
+          "avg": 8.77,
+          "player_id": 1630551
+        },
+        {
+          "type": "player",
+          "name": "Justin Champagnie",
+          "stat": "Justin Champagnie - DREB",
+          "score": 2.946,
+          "actual": 9,
+          "avg": 3.85,
+          "player_id": 1630551
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - BLK",
+          "score": 2.598,
+          "actual": 5,
+          "avg": 2.0,
+          "player_id": 1626167
         },
         {
           "type": "player",
@@ -21,75 +49,62 @@
           "stat": "Tyrese Haliburton - FTM",
           "score": 2.345,
           "actual": 9,
-          "avg": 2.59
-        },
-        {
-          "type": "player",
-          "name": "Justin Champagnie",
-          "stat": "Justin Champagnie - DREB",
-          "score": 1.768,
-          "actual": 9,
-          "avg": 3.85
-        },
-        {
-          "type": "player",
-          "name": "Alex Sarr",
-          "stat": "Alex Sarr - PTS",
-          "score": 1.621,
-          "actual": 20,
-          "avg": 12.97
-        },
-        {
-          "type": "team",
-          "name": "Indiana Pacers",
-          "stat": "Indiana Pacers - FTM",
-          "score": 1.496,
-          "actual": 29,
-          "avg": 17.01
+          "avg": 2.59,
+          "player_id": 1630169
         }
       ],
       "negative": [
         {
           "type": "team",
-          "name": "Washington Wizards",
-          "stat": "Washington Wizards - STL",
-          "score": -2.161,
-          "actual": 2,
-          "avg": 7.6
-        },
-        {
-          "type": "player",
-          "name": "T.J. McConnell",
-          "stat": "T.J. McConnell - PTS",
-          "score": -1.985,
-          "actual": 2,
-          "avg": 9.11
-        },
-        {
-          "type": "player",
-          "name": "Andrew Nembhard",
-          "stat": "Andrew Nembhard - PTS",
-          "score": -1.601,
-          "actual": 4,
-          "avg": 10.05
-        },
-        {
-          "type": "team",
           "name": "Indiana Pacers",
           "stat": "Indiana Pacers - AST",
-          "score": -1.55,
+          "score": -1.86,
           "actual": 21,
-          "avg": 29.24
+          "avg": 29.24,
+          "team_abbr": "IND"
         },
         {
           "type": "team",
           "name": "Washington Wizards",
           "stat": "Washington Wizards - AST",
-          "score": -1.445,
+          "score": -1.734,
           "actual": 18,
-          "avg": 25.1
+          "avg": 25.1,
+          "team_abbr": "WAS"
+        },
+        {
+          "type": "team",
+          "name": "Indiana Pacers",
+          "stat": "Indiana Pacers - FG3M",
+          "score": -1.314,
+          "actual": 9,
+          "avg": 13.18,
+          "team_abbr": "IND"
+        },
+        {
+          "type": "player",
+          "name": "T.J. McConnell",
+          "stat": "T.J. McConnell - TS%",
+          "score": -0.792,
+          "actual": 0.2,
+          "avg": 0.55,
+          "player_id": 204456
+        },
+        {
+          "type": "player",
+          "name": "Myles Turner",
+          "stat": "Myles Turner - FG3_PCT",
+          "score": -0.718,
+          "actual": 0.143,
+          "avg": 0.37,
+          "player_id": 1626167
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "IND": 104,
+    "WAS": 98
+  },
+  "winner": "IND"
 }

@@ -1,0 +1,110 @@
+{
+  "game_id": "0022400206",
+  "teams": [
+    "MIN",
+    "MIA"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Donte DiVincenzo",
+          "stat": "Donte DiVincenzo - STL",
+          "score": 2.47,
+          "actual": 4,
+          "avg": 1.18,
+          "player_id": 1628978
+        },
+        {
+          "type": "team",
+          "name": "Miami Heat",
+          "stat": "Miami Heat - BLK",
+          "score": 2.077,
+          "actual": 9,
+          "avg": 3.83,
+          "team_abbr": "MIA"
+        },
+        {
+          "type": "team",
+          "name": "Miami Heat",
+          "stat": "Miami Heat - STL",
+          "score": 1.52,
+          "actual": 14,
+          "avg": 8.15,
+          "team_abbr": "MIA"
+        },
+        {
+          "type": "team",
+          "name": "Minnesota Timberwolves",
+          "stat": "Minnesota Timberwolves - STL",
+          "score": 1.32,
+          "actual": 13,
+          "avg": 7.98,
+          "team_abbr": "MIN"
+        },
+        {
+          "type": "team",
+          "name": "Minnesota Timberwolves",
+          "stat": "Minnesota Timberwolves - OREB",
+          "score": 1.083,
+          "actual": 16,
+          "avg": 11.07,
+          "team_abbr": "MIN"
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Tyler Herro",
+          "stat": "Tyler Herro - TOV",
+          "score": -2.236,
+          "actual": 8,
+          "avg": 2.57,
+          "player_id": 1629639
+        },
+        {
+          "type": "team",
+          "name": "Miami Heat",
+          "stat": "Miami Heat - TOV",
+          "score": -1.481,
+          "actual": 23.0,
+          "avg": 13.59,
+          "team_abbr": "MIA"
+        },
+        {
+          "type": "player",
+          "name": "Bam Adebayo",
+          "stat": "Bam Adebayo - PTS",
+          "score": -1.228,
+          "actual": 9,
+          "avg": 18.08,
+          "player_id": 1628389
+        },
+        {
+          "type": "player",
+          "name": "Mike Conley",
+          "stat": "Mike Conley - FG3_PCT",
+          "score": -0.831,
+          "actual": 0.0,
+          "avg": 0.41,
+          "player_id": 201144
+        },
+        {
+          "type": "player",
+          "name": "Tyler Herro",
+          "stat": "Tyler Herro - PF",
+          "score": -0.719,
+          "actual": 5,
+          "avg": 1.1,
+          "player_id": 1629639
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "MIN": 94,
+    "MIA": 95
+  },
+  "winner": "MIA"
+}

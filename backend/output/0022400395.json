@@ -1,0 +1,110 @@
+{
+  "game_id": "0022400395",
+  "teams": [
+    "MIN",
+    "ATL"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Jalen Johnson",
+          "stat": "Jalen Johnson - AST/TOV",
+          "score": 5.599,
+          "actual": 7.0,
+          "avg": 1.711,
+          "player_id": 1630552
+        },
+        {
+          "type": "player",
+          "name": "Garrison Mathews",
+          "stat": "Garrison Mathews - PTS",
+          "score": 5.435,
+          "actual": 25,
+          "avg": 7.51,
+          "player_id": 1629726
+        },
+        {
+          "type": "player",
+          "name": "Garrison Mathews",
+          "stat": "Garrison Mathews - FG3M",
+          "score": 5.287,
+          "actual": 7,
+          "avg": 1.81,
+          "player_id": 1629726
+        },
+        {
+          "type": "player",
+          "name": "Julius Randle",
+          "stat": "Julius Randle - OREB",
+          "score": 3.946,
+          "actual": 6,
+          "avg": 2.09,
+          "player_id": 203944
+        },
+        {
+          "type": "player",
+          "name": "Dyson Daniels",
+          "stat": "Dyson Daniels - STL",
+          "score": 3.32,
+          "actual": 8,
+          "avg": 3.01,
+          "player_id": 1630700
+        }
+      ],
+      "negative": [
+        {
+          "type": "player",
+          "name": "Julius Randle",
+          "stat": "Julius Randle - TOV",
+          "score": -2.848,
+          "actual": 8,
+          "avg": 2.84,
+          "player_id": 203944
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - OREB",
+          "score": -2.132,
+          "actual": 6,
+          "avg": 11.88,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "player",
+          "name": "Anthony Edwards",
+          "stat": "Anthony Edwards - PTS",
+          "score": -1.793,
+          "actual": 16,
+          "avg": 27.56,
+          "player_id": 1630162
+        },
+        {
+          "type": "player",
+          "name": "Trae Young",
+          "stat": "Trae Young - AST",
+          "score": -1.683,
+          "actual": 7,
+          "avg": 11.58,
+          "player_id": 1629027
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - TOV",
+          "score": -1.567,
+          "actual": 23.0,
+          "avg": 15.52,
+          "team_abbr": "ATL"
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "MIN": 104,
+    "ATL": 117
+  },
+  "winner": "ATL"
+}

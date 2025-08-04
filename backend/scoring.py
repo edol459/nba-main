@@ -16,6 +16,7 @@ def percent_diff(actual, avg, stat_name, entity_type="player"):
         return 0
     
     diff_ratio = (actual - avg) / avg
+    #diff_ratio = (diff_ratio * 0.9) #water down ratio effect
     if abs(diff_ratio) < threshold:
         return 0
     
@@ -30,13 +31,13 @@ def compute_scores(row: pd.Series, avg_row: pd.Series) -> dict:
             continue
         
         if stat == "FG3_PCT":
-            if row.get("FG3A",0) < 2:
+            if row.get("FG3A",0) < 5:
                 continue
 
-        if stat == "TS%" or stat == "FG3_PCT":
+        if stat == "TS_PCT" or stat == "FG3_PCT":
             if row.get("FGA",0) < 5:            #minimum 5 FGA
                 continue
-        elif (stat != "TS%" and stat != "FG3_PCT") and (abs(x) < 3 or mu < 1):  # Ignore performances with too small actual value
+        elif (stat != "TS_PCT" and stat != "FG3_PCT") and (abs(x) < 3 or mu < 1):  # Ignore performances with too small actual value
             continue
         
         base_weight = STAT_RULES.get(stat, {}).get("weight", 1.0)

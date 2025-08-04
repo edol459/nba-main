@@ -127,11 +127,15 @@ body {
   width: 40px;
   position: relative;
   border-radius: 4px;
-  transition: height 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 
 .bar:hover{
+  transform: scale(1.05);
+}
+
+.bar.clicked {
   transform: scale(1.05);
 }
 
@@ -143,6 +147,10 @@ body {
   background-color: #009200;
 }
 
+.bar.positive.clicked {
+  background-color: #009200;
+}
+
 .bar.negative{
   background-color: #d9534f;
 }
@@ -151,6 +159,9 @@ body {
   background-color: #ce0902;
 }
 
+.bar.negative.clicked {
+  background-color: #ce0902;
+}
 
 .bar-label {
   display: none;
@@ -170,6 +181,14 @@ body {
   display: block;
 }
 
+.bar:hover .bar-label,
+.bar-label.persistent {
+  display: block;
+}
+
+.bar-label.persistent {
+  display: block;
+}
 
 .player-headshot {
   width: 60px;

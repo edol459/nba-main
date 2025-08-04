@@ -9,87 +9,102 @@
       "positive": [
         {
           "type": "player",
+          "name": "Obi Toppin",
+          "stat": "Obi Toppin - FG3M",
+          "score": 2.811,
+          "actual": 5,
+          "avg": 1.39,
+          "player_id": 1630167
+        },
+        {
+          "type": "player",
           "name": "Aaron Nesmith",
           "stat": "Aaron Nesmith - FTM",
-          "score": 3.687,
+          "score": 2.581,
           "actual": 9,
-          "avg": 1.62
+          "avg": 1.62,
+          "player_id": 1630174
         },
         {
           "type": "player",
           "name": "Jarace Walker",
           "stat": "Jarace Walker - PTS",
-          "score": 3.078,
+          "score": 2.155,
           "actual": 15,
-          "avg": 6.15
+          "avg": 6.15,
+          "player_id": 1641716
         },
         {
           "type": "player",
           "name": "Aaron Nesmith",
           "stat": "Aaron Nesmith - PTS",
-          "score": 2.877,
+          "score": 2.014,
           "actual": 24,
-          "avg": 12.02
+          "avg": 12.02,
+          "player_id": 1630174
         },
         {
           "type": "player",
-          "name": "Obi Toppin",
-          "stat": "Obi Toppin - PTS",
-          "score": 2.181,
-          "actual": 19,
-          "avg": 10.54
-        },
-        {
-          "type": "player",
-          "name": "DeMar DeRozan",
-          "stat": "DeMar DeRozan - PTS",
-          "score": 1.525,
-          "actual": 31,
-          "avg": 22.21
+          "name": "Pascal Siakam",
+          "stat": "Pascal Siakam - AST/TOV",
+          "score": 1.929,
+          "actual": 6.0,
+          "avg": 2.407,
+          "player_id": 1627783
         }
       ],
       "negative": [
         {
           "type": "player",
-          "name": "Domantas Sabonis",
-          "stat": "Domantas Sabonis - AST",
-          "score": -2.653,
-          "actual": 0,
-          "avg": 6.04
+          "name": "Tyrese Haliburton",
+          "stat": "Tyrese Haliburton - TOV",
+          "score": -1.864,
+          "actual": 5,
+          "avg": 1.64,
+          "player_id": 1630169
         },
         {
           "type": "player",
           "name": "Malik Monk",
           "stat": "Malik Monk - PTS",
-          "score": -2.418,
+          "score": -1.693,
           "actual": 5,
-          "avg": 17.18
+          "avg": 17.18,
+          "player_id": 1628370
         },
         {
           "type": "player",
           "name": "Pascal Siakam",
           "stat": "Pascal Siakam - PTS",
-          "score": -1.682,
+          "score": -1.177,
           "actual": 11,
-          "avg": 20.23
-        },
-        {
-          "type": "player",
-          "name": "Andrew Nembhard",
-          "stat": "Andrew Nembhard - PTS",
-          "score": -1.336,
-          "actual": 5,
-          "avg": 10.05
+          "avg": 20.23,
+          "player_id": 1627783
         },
         {
           "type": "team",
           "name": "Sacramento Kings",
-          "stat": "Sacramento Kings - FTM",
-          "score": -0.756,
-          "actual": 11,
-          "avg": 17.07
+          "stat": "Sacramento Kings - OREB",
+          "score": -1.101,
+          "actual": 6,
+          "avg": 10.99,
+          "team_abbr": "SAC"
+        },
+        {
+          "type": "player",
+          "name": "Aaron Nesmith",
+          "stat": "Aaron Nesmith - FG3_PCT",
+          "score": -0.594,
+          "actual": 0.125,
+          "avg": 0.43,
+          "player_id": 1630174
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "SAC": 109,
+    "IND": 111
+  },
+  "winner": "IND"
 }

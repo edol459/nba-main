@@ -9,29 +9,11 @@
       "positive": [
         {
           "type": "player",
-          "name": "Alperen Sengun",
-          "stat": "Alperen Sengun - AST/TOV",
-          "score": 3.295,
-          "actual": 5.0,
-          "avg": 1.918,
-          "player_id": 1630578
-        },
-        {
-          "type": "player",
           "name": "Dyson Daniels",
           "stat": "Dyson Daniels - AST",
           "score": 2.976,
           "actual": 10,
           "avg": 4.38,
-          "player_id": 1630700
-        },
-        {
-          "type": "player",
-          "name": "Dyson Daniels",
-          "stat": "Dyson Daniels - AST/TOV",
-          "score": 2.829,
-          "actual": 5.0,
-          "avg": 2.147,
           "player_id": 1630700
         },
         {
@@ -42,6 +24,24 @@
           "actual": 8,
           "avg": 1.85,
           "player_id": 1627832
+        },
+        {
+          "type": "player",
+          "name": "Alperen Sengun",
+          "stat": "Alperen Sengun - AST/TOV",
+          "score": 2.746,
+          "actual": 5.0,
+          "avg": 1.918,
+          "player_id": 1630578
+        },
+        {
+          "type": "player",
+          "name": "Dyson Daniels",
+          "stat": "Dyson Daniels - AST/TOV",
+          "score": 2.357,
+          "actual": 5.0,
+          "avg": 2.147,
+          "player_id": 1630700
         },
         {
           "type": "player",
@@ -73,24 +73,6 @@
           "player_id": 1642258
         },
         {
-          "type": "player",
-          "name": "Tari Eason",
-          "stat": "Tari Eason - FG3_PCT",
-          "score": -1.14,
-          "actual": 0.0,
-          "avg": 0.3,
-          "player_id": 1631106
-        },
-        {
-          "type": "player",
-          "name": "Alperen Sengun",
-          "stat": "Alperen Sengun - FG3_PCT",
-          "score": -1.082,
-          "actual": 0.0,
-          "avg": 0.17,
-          "player_id": 1630578
-        },
-        {
           "type": "team",
           "name": "Atlanta Hawks",
           "stat": "Atlanta Hawks - PFD",
@@ -98,6 +80,24 @@
           "actual": 12,
           "avg": 19.06,
           "team_abbr": "ATL"
+        },
+        {
+          "type": "player",
+          "name": "Caris LeVert",
+          "stat": "Caris LeVert - TS%",
+          "score": -0.65,
+          "actual": 0.28,
+          "avg": 0.58,
+          "player_id": 1627747
+        },
+        {
+          "type": "player",
+          "name": "Tari Eason",
+          "stat": "Tari Eason - TS%",
+          "score": -0.308,
+          "actual": 0.43,
+          "avg": 0.57,
+          "player_id": 1631106
         }
       ]
     }

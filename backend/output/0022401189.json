@@ -11,85 +11,100 @@
           "type": "player",
           "name": "Jaylon Tyson",
           "stat": "Jaylon Tyson - PTS",
-          "score": 13.195,
+          "score": 9.237,
           "actual": 31,
-          "avg": 3.55
+          "avg": 3.55,
+          "player_id": 1642281
         },
         {
           "type": "player",
           "name": "Emoni Bates",
           "stat": "Emoni Bates - PTS",
-          "score": 9.984,
+          "score": 6.989,
           "actual": 25,
-          "avg": 3.7
-        },
-        {
-          "type": "player",
-          "name": "Johnny Furphy",
-          "stat": "Johnny Furphy - PTS",
-          "score": 8.791,
-          "actual": 15,
-          "avg": 2.06
-        },
-        {
-          "type": "player",
-          "name": "Craig Porter Jr.",
-          "stat": "Craig Porter Jr. - PTS",
-          "score": 7.658,
-          "actual": 20,
-          "avg": 3.69
+          "avg": 3.7,
+          "player_id": 1641734
         },
         {
           "type": "player",
           "name": "Tristan Thompson",
           "stat": "Tristan Thompson - DREB",
-          "score": 6.849,
+          "score": 6.393,
           "actual": 18,
-          "avg": 2.55
+          "avg": 2.55,
+          "player_id": 202684
+        },
+        {
+          "type": "player",
+          "name": "Johnny Furphy",
+          "stat": "Johnny Furphy - PTS",
+          "score": 6.153,
+          "actual": 15,
+          "avg": 2.06,
+          "player_id": 1642277
+        },
+        {
+          "type": "player",
+          "name": "Emoni Bates",
+          "stat": "Emoni Bates - FG3M",
+          "score": 5.441,
+          "actual": 7,
+          "avg": 1.1,
+          "player_id": 1641734
         }
       ],
       "negative": [
         {
-          "type": "player",
-          "name": "Andrew Nembhard",
-          "stat": "Andrew Nembhard - PTS",
-          "score": -1.865,
-          "actual": 3,
-          "avg": 10.05
-        },
-        {
-          "type": "player",
-          "name": "Myles Turner",
-          "stat": "Myles Turner - PTS",
-          "score": -1.373,
-          "actual": 9,
-          "avg": 15.56
-        },
-        {
-          "type": "team",
-          "name": "Cleveland Cavaliers",
-          "stat": "Cleveland Cavaliers - AST",
-          "score": -1.363,
-          "actual": 21,
-          "avg": 28.1
-        },
-        {
           "type": "team",
           "name": "Cleveland Cavaliers",
           "stat": "Cleveland Cavaliers - TOV",
-          "score": -1.256,
+          "score": -1.407,
           "actual": 22.0,
-          "avg": 13.2
+          "avg": 13.2,
+          "team_abbr": "CLE"
+        },
+        {
+          "type": "player",
+          "name": "Javonte Green",
+          "stat": "Javonte Green - FG3_PCT",
+          "score": -0.795,
+          "actual": 0.0,
+          "avg": 0.29,
+          "player_id": 1629750
         },
         {
           "type": "player",
           "name": "Andrew Nembhard",
           "stat": "Andrew Nembhard - TS%",
-          "score": -0.407,
+          "score": -0.57,
           "actual": 0.19,
-          "avg": 0.55
+          "avg": 0.55,
+          "player_id": 1629614
+        },
+        {
+          "type": "player",
+          "name": "Nae'Qwan Tomlin",
+          "stat": "Nae'Qwan Tomlin - PF",
+          "score": -0.547,
+          "actual": 6,
+          "avg": 1.8,
+          "player_id": 1641772
+        },
+        {
+          "type": "player",
+          "name": "Javonte Green",
+          "stat": "Javonte Green - PF",
+          "score": -0.541,
+          "actual": 5,
+          "avg": 1.44,
+          "player_id": 1629750
         }
       ]
     }
-  ]
+  ],
+  "final_score": {
+    "CLE": 118,
+    "IND": 126
+  },
+  "winner": "IND"
 }
