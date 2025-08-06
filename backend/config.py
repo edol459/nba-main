@@ -38,25 +38,31 @@ STAT_RULES = {
         "weight": 1.0
     },
     "FG_PCT": {
-        "player_threshold": 0.15,
-        "team_threshold": 0.10,
-        "team_diff_threshold": 0.10,
-        "team_diff_weight": 2.0,
-        "min_diff": 0.1,
+        "player_threshold": 1.00,
+        "team_threshold": 0.2,
+        "team_diff_threshold": 0.01,
+        "team_diff_weight": 4.0,
+        "min_diff": 0.05,
         "weight": 1.0
     },
     "FG3_PCT": {
         "player_threshold": 0.30,
         "team_threshold": 0.15,
-        "team_diff_threshold": 0.10,
+        "team_diff_threshold": 0.05,
         "team_diff_weight": 2.0,
-        "min_diff": 0.20,
+        "min_diff": 0.10,
         "weight": 1.0
     },
     "TS_PCT": {
         "player_threshold": 0.25,
         "team_threshold": 0.10,
         "min_diff": 0.10,
+        "weight": 1.2
+    },
+    "FT_PCT": {
+        "player_threshold": .30,
+        "team_threshold": .20,
+        "min_diff": 0.20,
         "weight": 1.0
     },
     "PF": {
@@ -93,7 +99,7 @@ STAT_RULES = {
         "player_threshold": 0.25,
         "team_threshold": 0.15,
         "min_diff": 5,
-        "weight": 0.5
+        "weight": 0.8
     },
     "FG3M": {
         "player_threshold": 0.3,
@@ -106,7 +112,7 @@ STAT_RULES = {
     "PFD": {
         "player_threshold": 0.3,
         "team_threshold": 0.2,
-        "min_diff": 4,
+        "min_diff": 3,
         "weight": 0.5
     }
 }

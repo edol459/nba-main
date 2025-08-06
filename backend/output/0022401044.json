@@ -11,7 +11,7 @@
           "type": "player",
           "name": "DeMar DeRozan",
           "stat": "DeMar DeRozan - AST/TOV",
-          "score": 5.113,
+          "score": 4.687,
           "actual": 10.0,
           "avg": 3.265,
           "player_id": 201942
@@ -20,7 +20,7 @@
           "type": "player",
           "name": "Derrick White",
           "stat": "Derrick White - AST/TOV",
-          "score": 4.415,
+          "score": 4.047,
           "actual": 8.0,
           "avg": 2.762,
           "player_id": 1628401
@@ -29,7 +29,7 @@
           "type": "player",
           "name": "DeMar DeRozan",
           "stat": "DeMar DeRozan - AST",
-          "score": 2.921,
+          "score": 3.505,
           "actual": 10,
           "avg": 4.44,
           "player_id": 201942
@@ -45,12 +45,12 @@
         },
         {
           "type": "player",
-          "name": "Keegan Murray",
-          "stat": "Keegan Murray - FG3_PCT",
-          "score": 1.005,
-          "actual": 0.6,
-          "avg": 0.32,
-          "player_id": 1631099
+          "name": "Domantas Sabonis",
+          "stat": "Domantas Sabonis - DREB",
+          "score": 1.629,
+          "actual": 15,
+          "avg": 10.07,
+          "player_id": 1627734
         }
       ],
       "negative": [
@@ -64,37 +64,37 @@
           "player_id": 1627759
         },
         {
-          "type": "player",
-          "name": "Domantas Sabonis",
-          "stat": "Domantas Sabonis - FG3_PCT",
-          "score": -1.166,
-          "actual": 0.0,
-          "avg": 0.36,
-          "player_id": 1627734
-        },
-        {
-          "type": "player",
-          "name": "DeMar DeRozan",
-          "stat": "DeMar DeRozan - FG3_PCT",
-          "score": -1.14,
-          "actual": 0.0,
-          "avg": 0.3,
-          "player_id": 201942
-        },
-        {
           "type": "team",
           "name": "Sacramento Kings",
           "stat": "Sacramento Kings - FTM",
-          "score": -1.005,
+          "score": -1.608,
           "actual": 9,
           "avg": 17.07,
           "team_abbr": "SAC"
         },
         {
           "type": "player",
+          "name": "Zach LaVine",
+          "stat": "Zach LaVine - PTS",
+          "score": -1.574,
+          "actual": 14,
+          "avg": 23.3,
+          "player_id": 203897
+        },
+        {
+          "type": "team",
+          "name": "Sacramento Kings",
+          "stat": "Sacramento Kings - FG3M",
+          "score": -1.478,
+          "actual": 8,
+          "avg": 12.59,
+          "team_abbr": "SAC"
+        },
+        {
+          "type": "player",
           "name": "Jrue Holiday",
-          "stat": "Jrue Holiday - TS%",
-          "score": -0.673,
+          "stat": "Jrue Holiday - TS_PCT",
+          "score": -0.897,
           "actual": 0.23,
           "avg": 0.57,
           "player_id": 201950

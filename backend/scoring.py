@@ -34,10 +34,11 @@ def compute_scores(row: pd.Series, avg_row: pd.Series) -> dict:
             if row.get("FG3A",0) < 5:
                 continue
 
-        if stat == "TS_PCT" or stat == "FG3_PCT":
+        if stat in ["TS_PCT","FG3_PCT"]:
             if row.get("FGA",0) < 5:            #minimum 5 FGA
                 continue
-        elif (stat != "TS_PCT" and stat != "FG3_PCT") and (abs(x) < 3 or mu < 1):  # Ignore performances with too small actual value
+
+        elif (stat not in ["TS_PCT","FG3_PCT"]) and (abs(x) < 3 or mu < 1):  # Ignore performances with too small actual value
             continue
         
         base_weight = STAT_RULES.get(stat, {}).get("weight", 1.0)

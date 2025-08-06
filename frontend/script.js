@@ -160,7 +160,7 @@ function makeBar(outlier, isNegative, index) {
     ${statLabel}<br>
     Actual: ${formattedActual} <br>
     Average: ${formattedAvg} <br>
-    Score: ${outlier.score}
+    OutScore: ${outlier.score}
   `;
 
 
