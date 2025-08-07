@@ -1,0 +1,110 @@
+{
+  "game_id": "0022401128",
+  "teams": [
+    "ATL",
+    "NYK"
+  ],
+  "outliers": [
+    {
+      "positive": [
+        {
+          "type": "player",
+          "name": "Josh Hart",
+          "stat": "Josh Hart - AST",
+          "score": 2.741,
+          "actual": 11,
+          "avg": 5.88,
+          "player_id": 1628404
+        },
+        {
+          "type": "player",
+          "name": "Josh Hart",
+          "stat": "Josh Hart - STL",
+          "score": 2.524,
+          "actual": 4,
+          "avg": 1.55,
+          "player_id": 1628404
+        },
+        {
+          "type": "player",
+          "name": "Karl-Anthony Towns",
+          "stat": "Karl-Anthony Towns - PFD",
+          "score": 1.057,
+          "actual": 9,
+          "avg": 4.79,
+          "player_id": 1626157
+        },
+        {
+          "type": "player",
+          "name": "Delon Wright",
+          "stat": "Delon Wright - TS_PCT",
+          "score": 0.884,
+          "actual": 0.71,
+          "avg": 0.44,
+          "player_id": 1626153
+        },
+        {
+          "type": "player",
+          "name": "Terance Mann",
+          "stat": "Terance Mann - TS_PCT",
+          "score": 0.78,
+          "actual": 0.88,
+          "avg": 0.58,
+          "player_id": 1629611
+        }
+      ],
+      "negative": [
+        {
+          "type": "team",
+          "name": "New York Knicks",
+          "stat": "New York Knicks - OREB",
+          "score": -1.847,
+          "actual": 6,
+          "avg": 10.85,
+          "team_abbr": "NYK"
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - FTM",
+          "score": -1.736,
+          "actual": 9,
+          "avg": 17.95,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "player",
+          "name": "Trae Young",
+          "stat": "Trae Young - PTS",
+          "score": -1.364,
+          "actual": 16,
+          "avg": 24.22,
+          "player_id": 1629027
+        },
+        {
+          "type": "team",
+          "name": "Atlanta Hawks",
+          "stat": "Atlanta Hawks - PFD",
+          "score": -0.712,
+          "actual": 13,
+          "avg": 19.06,
+          "team_abbr": "ATL"
+        },
+        {
+          "type": "player",
+          "name": "Cameron Payne",
+          "stat": "Cameron Payne - TS_PCT",
+          "score": -0.644,
+          "actual": 0.3,
+          "avg": 0.53,
+          "player_id": 1626166
+        }
+      ]
+    }
+  ],
+  "final_score": {
+    "ATL": 105,
+    "NYK": 121
+  },
+  "winner": "NYK"
+}
