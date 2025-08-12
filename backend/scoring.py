@@ -27,6 +27,13 @@ def compute_scores(row: pd.Series, avg_row: pd.Series) -> dict:
     scores = {}
     for stat in STATS_TO_TRACK:
         x, mu = row.get(stat), avg_row.get(stat)
+
+        # ADD THIS SAFETY CHECK:
+        if pd.isna(x) or pd.isna(mu) or x is None or mu is None:
+            print(f"Skipping {stat}: x={x}, mu={mu}")
+            continue
+
+
         if pd.isna(x) or pd.isna(mu):
             continue
         

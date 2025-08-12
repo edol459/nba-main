@@ -24,10 +24,10 @@ window.addEventListener("DOMContentLoaded", () => {
     gameDropdown.innerHTML = `<option value="">Select a game</option>`;
     games.forEach(game => {
 
-      const dateOnly = game.date.split('T')[0];
+      const dateOnly = game.date;
       const option = document.createElement("option");
       option.value = game.game_id;
-      option.textContent = `${team} vs ${game.opponent} (${dateOnly})`;
+      option.textContent = `${game.opponent} (${dateOnly})`;
       gameDropdown.appendChild(option);
     });
 

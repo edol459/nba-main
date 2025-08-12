@@ -8,6 +8,11 @@ STATS_TO_TRACK = [
 ]
 
 
+TEAM_DIFF_STATS_TO_TRACK = [
+    'PTS', 'AST', 'OREB', 'DREB', 'FG_PCT', 'FG3_PCT', 'FG3M'
+]
+
+
 STAT_RULES = {
     "PTS": {
         "player_threshold": 0.25,  # 25% change
